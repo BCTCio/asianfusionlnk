@@ -1,0 +1,3755 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202311 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2542                
+POS_VISITOR 58889               
+POS_DAY 127437              
+POS_DOMAIN 3570                
+POS_LOGIN 3806                
+POS_ROBOT 3961                
+POS_WORMS 4935                
+POS_EMAILSENDER 5066                
+POS_EMAILRECEIVER 5209                
+POS_SESSION 128418              
+POS_SIDER 128633              
+POS_FILETYPES 5344                
+POS_OS 5580                
+POS_BROWSER 5833                
+POS_SCREENSIZE 6779                
+POS_UNKNOWNREFERER 6853                
+POS_UNKNOWNREFERERBROWSER 8968                
+POS_ORIGIN 9960                
+POS_SEREFERRALS 10113               
+POS_PAGEREFS 10297               
+POS_SEARCHWORDS 10749               
+POS_KEYWORDS 11089               
+POS_MISC 2206                
+POS_ERRORS 11321               
+POS_CLUSTER 3662                
+POS_SIDER_404 11459               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20231201012754 86310 21243588 32630815411
+FirstTime 0
+LastTime 20231130230443
+LastUpdate 20231202020811 86310 82758 3551 0 0
+TotalVisits 2037                
+TotalUnique 1530                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1745                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 104 649 84570500 295 445 15681250
+1 83 683 74162371 370 579 22132933
+2 79 743 72821587 283 613 18605380
+3 76 408 49094429 490 693 18196977
+4 64 290 30818284 399 591 17479276
+5 52 292 42510101 412 560 12867188
+6 136 328 35405214 399 659 14667203
+7 89 345 42885815 860 969 12828422
+8 60 641 55006152 765 937 14516729
+9 108 1501 185309588 196 411 11781958
+10 134 2394 296027115 430 649 19683343
+11 198 4121 491865162 186 424 9553793
+12 294 6782 717186913 928 1259 21581230
+13 222 4742 559570974 192 406 13063250
+14 138 2845 325363944 545 812 29697439
+15 166 3677 479067603 185 505 18555445
+16 252 5415 597678159 581 782 9830713
+17 381 8811 1015340058 302 664 26066666
+18 391 9342 1014721101 601 962 26805440
+19 295 6504 801750293 819 1027 9923270
+20 199 3754 413370321 347 527 8708673
+21 136 2191 314379235 242 453 15011317
+22 102 1231 133274871 323 555 16677084
+23 90 1179 135872529 795 1078 27904886
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 3849 68868 7968052319
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+bot[+:,\.\;\/\\-] 1312 50744519 20231130233612 114
+googlebot 1157 35831137 20231130212909 31
+robot 853 116987577 20231130222037 49
+spider 567 154217291 20231130180008 18
+cfnetwork 230 583648 20231130180907 0
+infobot 151 3029595 20231124024411 10
+no_user_agent 93 1192328 20231130222818 1
+custo 80 1196040 20231130213305 0
+[+:,\.\;\/\\-]bot 68 1393453 20231126162019 3
+baiduspider 67 22323437 20231117224040 0
+core 5 2720876 20231118153128 0
+mojeekbot 6 31812 20231130054817 4
+msnbot 1 15001 20231105170701 0
+mail\.ru 1 0 20231130101111 1
+slurp 1 15001 20231114160244 0
+unknown 43 0 20231130223034 43
+sift 28 4373598 20231130230353 5
+python 59 5357407 20231130133212 1
+java 64 900060 20231130223958 3
+yandex 30 273332 20231130105559 11
+netcraft 2 30002 20231107064104 0
+w3c_validator 1 15001 20231126182751 0
+crawl 29 552471 20231129200750 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 12098 547428283 0 0
+png 29350 1388576377 0 0
+pdf 20 2426753 0 0
+txt 4 0 0 0
+map 17 330869 0 0
+html 3678 91689300 0 0
+js 15860 265004729 0 0
+jpg 7711 5672144979 0 0
+scss 130 451029 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 19
+winlong 13
+winxp 39
+win2000 3
+symbian 2
+winvista 15
+os/2 2
+winunknown 1
+win2003 18
+linuxdebian 2
+bsdopenbsd 2
+unix 368
+winnt 11188
+linuxubuntu 16
+linux 12130
+macosx 44336
+bsdnetbsd 1
+beos 2
+Unknown 649
+win2008 81
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 65
+firefox66.0 1
+msie6.0 15
+chrome 25181
+sonyericsson 1
+firefox117.0 5
+firefox54.0 1
+firefox114.0 8
+curl 5
+firefox1.9.0.1 2
+firefox104.0 1
+firefox118. 1
+msie7.0 1
+firefox40.1 1
+firefox65.0 4
+firefox58.0.1 1
+firefox50.0 10
+firefox99.0 6
+firefox48.0 1
+firefox112.0 3
+firefox40.0 1
+firefox111.0 2
+lg\- 1
+firefox10.0.1 3
+firefox38.0 1
+firefox116.0 2
+firefox47.0 4
+firefox45.0 4
+firefox115.0 198
+konqueror 9
+firefox33.0 1
+firefox25.0 2
+mozilla 755
+firefox75.0 1
+netscape5.0 28
+firefox60.0 1
+firefox118.0 3
+firefox1.0.6 1
+wdg_validator 1
+safari 40716
+firefox4.0.1 2
+firefox52.0 2
+firefox63.0 2
+firefox62.0 3
+firefox16.0 4
+netpositive 1
+firefox108.0 1
+msie9.0 3
+Unknown 209
+firefox11.0 5
+firefox3.0.8 2
+firefox119.0 1320
+firefox82.0 1
+firefox3.5.6 1
+firefox84.0 6
+firefox120.0 292
+opera 16
+samsung 1
+firefox91.0 1
+msie5.5 2
+firefox83.0 5
+firefox61.0 1
+msie10.0 1
+firefox51.0 1
+firefox96.0 3
+firefox27.3 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 35
+curl/7.88.1 20231119035010
+udu/1.6.5 20231117232720
+cpp-httplib/0.10.9 20231122020531
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20231129232714
+My_User_Agent_1.0 20231104002258
+SAMSUNG-SGH-A867/A867UCHJ3_SHP/VPP/R5_NetFront/35_SMM-MMS/1.2.0_profile/MIDP-2.0_configuration/CLDC-1.1_UP.Link/6.3.0.0.0 20231102065646
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20231127145405
+DuckDuckGo/5_(com.duckduckgo.mobile.android;_Android_API_34) 20231126153527
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20231127012232
+Mozilla/5.0_(compatible;_Example3/1.0;__https://www.example3.com/domain/asianfusionlnk.com) 20231117092653
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Canva 20231127145405
+curl/7.54.0 20231112133241
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20231130175003
+WDG_Validator/1.6.2 20231102144440
+Go-http-client/1.1 20231130120550
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GoogleOther)_Chrome/119.0.6045.123_Safari/537.36 20231114063506
+Mozilla/5.0_(Android_13;_Mobile;_rv:120.0)_Gecko/120.0_Firefox/120.0 20231123155949
+\\\ 20231102060231
+SonyEricssonW995/R1EA_Profile/MIDP-2.1_Configuration/CLDC-1.1_UNTRUSTED/1.0 20231112212030
+Ruby 20231126140308
+panscient.com 20231113125928
+Mozilla/5.0_(Android_10;_Mobile;_rv:109.0)_Gecko/119.0_Firefox/119.0 20231103150658
+Mozilla/5.0_zgrab/0.x 20231129040523
+TheSafeInternetSearch 20231127090615
+Mozilla/5.0_(compatible;_Dataprovider.com) 20231125095451
+PHP_Script 20231114213726
+Mozilla/5.0_(Android_13;_Mobile;_rv:109.0)_Gecko/119.0_Firefox/119.0 20231110184059
+Your_User_Agent_String 20231121233228
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20231103182546
+ddg_win 20231111133308
+node-libcurl/3.0.0 20231115063242
+LG-GC900/V10a_Obigo/WAP2.0_Profile/MIDP-2.1_Configuration/CLDC-1.1 20231112155222
+colly_-_https://github.com/gocolly/colly/v2 20231127100756
+YelpBot_(https://www.yelp.com/) 20231110130636
+imgproxy/3.20.0 20231127113835
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 20
+\\\ 20231102060231
+udu/1.6.5 20231117232720
+cpp-httplib/0.10.9 20231122020531
+Ruby 20231126140308
+My_User_Agent_1.0 20231104002258
+panscient.com 20231113125928
+TheSafeInternetSearch 20231127090615
+Iframely/1.3.1_(_https://iframely.com/docs/about) 20231127145405
+Dalvik/2.1.0_(Linux;_U;_Android_9;_SM-S767VL_Build/PPR1.180610.011) 20231130122542
+DuckDuckGo/5_(com.duckduckgo.mobile.android;_Android_API_34) 20231126153527
+PHP_Script 20231114213726
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Canva 20231127145405
+Your_User_Agent_String 20231121233228
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20231103182546
+ddg_win 20231111133308
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20231130175003
+colly_-_https://github.com/gocolly/colly/v2 20231127100756
+YelpBot_(https://www.yelp.com/) 20231110130636
+Go-http-client/1.1 20231130120550
+imgproxy/3.20.0 20231127113835
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1651 2451
+From1 21 21
+From2 1052 1226
+From3 40 46
+From4 1085 65124
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 1024 1189
+search 3 3
+yahoo 25 34
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+https://duckduckgo.com 16 16
+https://www.yelp.com 10 10
+https://www.tripadvisor.com 5 5
+https://www.bing.com 3 6
+http://www.shuct.net 2 2
+https://duckduckgo.com 1 1
+https://www.ecosia.org 1 1
+https://dqu.lighthearteds.shop 1 1
+https://www.lincoln.org/listing/asian-fusion/592/ 1 1
+https://gamma.app 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+https+//asianfusionlnk.com/ 24
+https+//asianfusionlnk.com/ourmenu.html 20
+https+//asianfusionlnk.com/allyoucaneatmenu.html 6
+https+//asianfusionlnk.com/asianfusion-allyoucaneat-menu.pdf 3
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+https 53
+//asianfusionlnk.com/ 24
+//asianfusionlnk.com/ourmenu.html 20
+//asianfusionlnk.com/allyoucaneatmenu.html 6
+//asianfusionlnk.com/asianfusion-allyoucaneat-menu.pdf 3
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 29 6241
+206 1 28080
+409 3 249
+406 3 864
+404 11676 10000845
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1519
+/wp-content/plugins/wordpress-three/miin.php 1 -
+/wp-content/upload.php 3 -
+/xx.php 12 -
+/menus/miso-soup/ 1 -
+/media/filemanager/dialog.php 1 -
+/cp/.env 1 -
+/wp-content/xl2023.php 1 -
+/wp-admin/install.php 22 -
+/wp-includes/css/themes.php 1 -
+/settings.py 1 -
+/up/.well-known/ 12 -
+/rest/.env 1 -
+/public/javascript/filemanager/dialog.php 1 -
+/sites/default/files/ 48 binance.com
+/desserts/ 2 -
+/sendgrid.env.bak 1 -
+/test/wp-includes/wlwmanifest.xml 65 -
+/mt/ 12 -
+/cjfuns.php 26 -
+/st.php 17 -
+/wp-content/themes/ccx/index.php 5 -
+/menus/gyoza-6/ 1 -
+/wp-admin/maint/ms-db.php 3 -
+/doc.php 12 -
+/wp-content/themes/mataam/timthumb.php 16 -
+/menus/yellowtail-jalapeno-roll/ 2 -
+/wp-includes/admin-bar.php 3 -
+/system/sendgrid.env 1 -
+/class.api.php 20 -
+/assets/filemanager/dialog.php 4 -
+/application/sendgrid.env 1 -
+/wp-admin/css/colors/modern/ 12 -
+/style.php 17 -
+/wp-p.php7 27 -
+/laravel-artisan/.env 1 -
+/menus/avocado-roll/ 1 -
+/init.php 7 -
+/main 15 -
+/google.php 10 -
+/sitemap-index.xml 1 -
+/payload.php 7 -
+/wp-content/plugins/classic-editor/js/about.php 1 -
+/aboutg7.php 1 -
+/.ENV 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 8 -
+/wp-content/themes/sketch/ 12 -
+/wp-includes/install.php 14 -
+/wp-admin/images/codemirror_controls.php 1 -
+/backend/.env 3 -
+/utchiha.php 10 -
+/wp-content/plugins/ubh/ 12 -
+/wp-easy.php 3 -
+/logon/LogonPoint/tmindex.html 3 -
+/text/css 1 -
+/wp-content/plugins/wso112233.php 5 -
+/index1.php 1 -
+/assets/tinymce/plugins/filemanager/dialog.php 1 -
+/0x55.php 7 -
+/wp-content/themes/mataam/css/shortcodes.css 1 -
+/.well-known/acme-challenge/cloud.php 32 -
+/alfa-rex.php 8 -
+/wp-includes/sitemaps/providers/ 12 -
+/apps/api/sendgrid.env 1 -
+/wp-admin/x.php 2 -
+/include/vdimgck.php 1 -
+/wp-content/plugins/db/ 12 -
+/.well-known/pkivalidation/shell20211028.php 5 -
+/public/theme/layer/layer.js 1 http://asianfusionlnk.com/
+/gecko-new.php 1 -
+/wp-admin/wso.php 7 -
+/config/AspCms_Config.asp 1 http://asianfusionlnk.com//config/AspCms_Config.asp
+/wp-admin/includes/class-wp-media-list-data.php 3 -
+/wp-includes//theme-templates-private.php 3 -
+/atomlib.php 4 www.google.com
+/anon.php 7 -
+/docker/.env 1 -
+/blog/.env 1 -
+/login/.env 1 -
+/menus/5-steamed-chicken-shrimp-w-vegetable/ 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 6 -
+/wp-content/wp-conf.php 7 -
+/include/ 13 -
+/repeater.php7 1 -
+/site/wp-admin/includes/ 6 -
+/wp-content/plugins/yyobang/mar.php 1 -
+/cgi-bin/install.php 20 -
+/sendgrid.env 1 -
+/backup 15 -
+/menu-2/ 36 https://www.tripadvisor.com/
+/media-admin.php 10 -
+/888.php 8 -
+/wp-content/alfa.php 7 -
+/main.php 1 -
+/js/vendor/owl.carousel.js 1 -
+/wso112233.php 15 -
+/menus/tuna-avocado-roll/ 1 -
+/Admin/Public/webuploader/server/preview.php 1 -
+/wp-content/plugins/seoo/wsoyanz.php 28 -
+/wp-admin/ 13 -
+/wp-content/plugins/zaen/includes/ 12 -
+/wp-content/plugins/instabuilder2/cache/plugins/moon.php 7 -
+/wp-content/languages/about.php 1 -
+/wp-includes/Text/Diff/about.php 1 -
+/defaul1.php 1 -
+/wp_mna.php 1 -
+/403.php 16 -
+/resource/home/img/default-user-img.png 1 http://asianfusionlnk.com/
+/shellx.php 7 -
+/wp-admin/maint/upfile.php 1 -
+/redmine/config/environment.rb 1 -
+/tmps/ 12 -
+/dev/.env 3 -
+/ADMIN/sendgrid.env 1 -
+/wp-content/plugins/ 27 -
+/wp-content/themes/mataam/js/superfish.js 1 -
+/wp-content/themes/shell20211028.php 5 -
+/wp-includes/rest-api/about.php 21 -
+/admin-ajax.php 1 -
+/roll-or-hand-roll/ 1 -
+/wp-admin/css/colors/sunrise/admin.php 1 -
+/.vscode/sftp.json 4 -
+/active-config.js 1 http://asianfusionlnk.com/
+/private/sendgrid.env 1 -
+/admin/upload/ 12 -
+/wikindex.php 5 -
+/menus/crab-tempura-roll/ 1 -
+/wp-includes/ 13 -
+/include/ueditor/ueditor.config.js 1 http://asianfusionlnk.com/include/ueditor/ueditor.config.js
+/sushi-entree/ 1 -
+/images/iR7SzrsOUEP.php 6 -
+/wp-content/plugins/core-stab/ 12 -
+/wp-content/themes/pridmag/ 12 -
+/wp-content/upgrade/edit-links.php 1 -
+/modules/mod_simplefileuploadv1.3/elements/%C2%AE.php7 4 -
+/wp-admin/js/about.php 44 -
+/tnt.php 7 -
+/wp-includes/SimplePie/index.php 2 -
+/wp-includes/images/include.php 9 -
+/contact-us/ 11 -
+/uploads/up.php 10 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 7 -
+/xinimages/tl1.png 1 http://asianfusionlnk.com/
+/__1975.php 7 -
+/wp-admin/css/colors/cloud.php 21 -
+/.well-known/pki-validation/atomlib.php 1 -
+/wp-content/themes/include.php 9 www.google.com
+/adminfuns.php7 26 -
+/credentials/config.json 1 -
+/wp-content/plugins/wp-daft/miin.php 1 -
+/xxxxxminoksxxxx2021/xxxxxminoksxxxx2021.php 4 -
+/wp-admin/user/xmrlpc.php 33 -
+/themes.php 8 -
+/wp-load.php 4 https://asianfusionlnk.com/
+/vendor/jquery-1.11.3.min.js 104 -
+/2018/wp-includes/wlwmanifest.xml 44 -
+/alfanew.php7 36 -
+/wp-includes/bala.php 5 -
+/w3llstore.php 1 -
+/js/calendar/active-bg.gif 1 -
+/wp-includes/wp_filemanager.php 7 -
+/wp-content/themes/themes.php 3 -
+/wp-content/langar.php 1 -
+/.well-known/acme-challenge/install.php 15 -
+/mini.php 12 -
+/server/sendgrid.env 1 -
+/cdn.userway.org/widget.js 103 -
+/test 2 -
+/wordpress/wp-admin/includes 12 -
+/up-kon.php 3 -
+/wp-includes/css/ 12 -
+/wp-content/plugins/wp-freeform/ 12 -
+/protected/.env 1 -
+/tron.php 7 -
+/wp-content/plugins/seoo/wsoyanz1.php 27 -
+/.well-known/acme-challenge/output.php 1 -
+/sitemap_index.xml 7 -
+/wp-json/tdw/save_css 2 -
+/wp-god.php 3 -
+/wp 17 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 3 -
+/API/sendgrid.env 1 -
+/wp-content/plugins/WordPressCore-1/include.php 6 -
+/b.php 1 -
+/shell 1 asianfusionlnk.com
+/exit.php 7 -
+/wp-content/plugins/apikey/ 7 -
+/adm/index.php 1 -
+/locale.php 1 -
+/wp-content/plugins/home/ 12 -
+/.well-known/traffic-advice 126 -
+/cgi-bin/cgi-bin/about.php 14 -
+/wp-includes/sitemaps/random_bytes_dev_urandom.php 1 -
+/View/Wap/Trading/lib/sweet-alert.js 1 http://asianfusionlnk.com/
+/wp-content/uploads/typehub/custom/.RxR.php 7 -
+/wp-content/plugins/dzs-zoomsounds/1877.php 7 -
+/.well-known/apple-app-site-association 4 https://asianfusionlnk.com/
+/wp-content/themes/twentytwenty/content.php 1 -
+/wp-includes/js/tinymce/skins/lightgray/img/index.php 10 -
+/wp-includes/customize/ 12 -
+/wp-content/admin.php 7 -
+/ascss/img/trade1.png 1 http://asianfusionlnk.com/
+/static/vipweb/theme/element/index.css 1 http://asianfusionlnk.com/
+/admin/controller/extension/wpm.php 7 -
+/wp-content/wso.php 1 -
+/zkmtq.php 1 -
+/public/static/common/images/bag-imgB.jpg 1 -
+/mar.php 8 -
+/deployment/.env 1 -
+/static/css/app.ae00706378cca46d94601d46468cc039.css 1 http://asianfusionlnk.com/
+/src/img/favicon.267ace1.png 1 http://asianfusionlnk.com/
+/plug/comment/comment.html 1 http://asianfusionlnk.com/plug/comment/comment.html
+/wordpressdb.php 1 -
+/wp-content/style-css.php 1 -
+/wp-content/uploads/2013/04/Spicy-Tuna-Roll.jpg 1 -
+/wp-content/shell20211028.php 13 -
+/wp-admin/images/cloud.php 26 -
+/log.php 7 -
+/wp-admin/about.php 4 www.google.com
+/wp_logx.php 3 -
+/wp-content/languages/ 12 -
+/sushi-sashimi-a-la-carte/ 1 -
+/wp-content/themes/mataam/js/jquery.flexslider-min.js 1 -
+/wp-includes/block-patterns/themes.php 1 -
+/wp-includes//radio.php 3 -
+/misc/ajax.js 3 -
+/wp-includes//xmrlpc.php 3 -
+/css/install.php 14 -
+/static/js/vendor.85ba0b36fa6a1bbbd9e2.js 1 http://asianfusionlnk.com/
+/default.php 7 -
+/src/.env 1 -
+/.well-known/pki-validation/%20.php 3 -
+/wp-includes/1index.php 3 -
+/.well-known/acme-challenge/index.php 3 -
+/wp-content/plugins/real/v.php 7 -
+/upload.php 14 -
+/auth/sendgrid.env 1 -
+/wp-content/plugins/WordPressCore/include.php 10 -
+/database/.env 1 -
+/static/js/social-share.min.js 1 http://asianfusionlnk.com/
+/wp-admin/network/ 12 -
+/wp-content/themes/signify/firkon.php 3 -
+/ioxi01.php 1 -
+/assets/app.config.json 1 -
+/wp-admin/images/my1.php 1 -
+/images/61565f85b8243.png 1 http://asianfusionlnk.com/
+/docker/sendgrid.env 1 -
+/wp-includes/pomo/lufi.php 1 -
+/wp-admin/admin-ajax.php 17 -
+/menus/6-steamed-shrimp-w-mixed-vegetables/ 3 -
+/assets/admin/js/tinymce/plugins/filemanager/dialog.php 1 -
+/autoload_classmap.php 8 -
+/ALFA_DATA/ 13 -
+/test/bedesk1.1/.env 1 -
+/wp-content/themes/mataam/js/jquery.preloadify.min.js 1 -
+/wp-includes/SimplePie/themes.php 1 -
+/small.php 12 -
+/api/api.env 1 -
+/.Wp-back.phP 1 -
+/9837wes.php7 1 -
+/modules/mod_simplefileuploadv1.3/elements/ 13 -
+/wp-includes/pomo/themes.php 1 -
+/wp-content/uploads/xl2023.php 6 -
+/menus/four-seasons/ 1 -
+/fm.php 8 -
+/wp-content/plugins/owfsmac/ 12 -
+/a.php 1 -
+/cgi-bin/cloud.php 26 -
+/sito/wp-includes/wlwmanifest.xml 55 -
+/root.php 7 -
+/cgi-bin/iR7SzrsOUEP.php 6 -
+/wp-content/themes/gaukingo/db.php 7 -
+/laravel-artisan/sendgrid.env 1 -
+/a-blog-post-without-featured-image/ 1 -
+/wp-admin/css/colors/light/about.php 1 -
+/zeal.php 1 -
+/wp-admin/meta/ 12 -
+/wp-aespa.php 1 -
+/repeater.php 36 -
+/wp-admin/js/widgets/ 12 -
+/.well-known/pkivalidation/wso112233.php 6 -
+/site/wp-includes/ 13 -
+/wp-content/plugins/background-image-cropper/ups.php 6 -
+/stag/.env 1 -
+/sitemap.xml 12 -
+/wp-admin/images/xmrlpc.php 33 -
+/wso.php 11 -
+/menus/kung-po-chicken-beef-shrimp/ 1 -
+/skin/static/images/pic1.png 1 http://asianfusionlnk.com/
+/jindex.php 1 -
+/wp-content/uploads/indoex.php 3 -
+/srx.php 10 -
+/document/.env 1 -
+/accesson.php 1 -
+/fan.php 7 -
+/uploads/ 47 binance.com
+/wordpress/wp-content/uploads/ 12 -
+/1index.php 11 -
+/public/static/admin/lib/admin2/Widget/webuploader/0.1.5/server/preview.php 1 -
+/wp-content/plugins/column/miin.php 1 -
+/vue/.env 1 -
+/wp-content/upgrade-functions.php 6 -
+/wp-consar.php 27 -
+/.well-known/acme-challenge/wp-aespa.php 1 -
+/wp-content/ 14 -
+/wp-json/ 2 -
+/wp-admin/includes/wp-conflg.php 6 -
+/api/sendgrid.env 1 -
+/bs.php 1 -
+/manage/lib/webuploader/0.1.5/server/fileupload.php 1 -
+/static/image/desktop/sub-title.png 1 http://asianfusionlnk.com/
+/new-index.php 3 -
+/admin_server/statics/plugins/webuploader/server/preview.php 1 -
+/IndoXploit.php 7 -
+/views/mobileTemplate/38/home/home.js 1 http://asianfusionlnk.com/
+/.well-known/security.txt 8 https://asianfusionlnk.com/
+/content.php 1 -
+/mad.php 10 -
+/wp-content/themes/twenty/twenty.php 16 -
+/wp-includes/Requests/index.php 1 -
+/sym403.php 1 -
+/wp-includes/certificates/plugins.php 1 -
+/settings.php.bak 1 -
+/crm/.env 2 -
+/news/wp-includes/wlwmanifest.xml 55 -
+/hanna1337.php 7 -
+/page-sitemap.xml 1 -
+/wp-admin/xleet-shell.php 6 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 7 -
+/zh/Geetest/gee-test.js 1 http://asianfusionlnk.com/
+/wp-admin/includes/iR7SzrsOUEP.php 6 -
+/wp-config-sample.php 7 -
+/wp-admin/shell20211028.php 14 -
+/.well-known/acme-challenge/ 14 -
+/css/chunk-14aa3a96.8f056b17.css 1 http://asianfusionlnk.com/
+/zh/img/home/header/entrance-more-0.png 1 http://asianfusionlnk.com/
+/home 17 -
+/development/sendgrid.env 1 -
+/wordpress/wp-admin/setup-config.php 2 -
+/protected/sendgrid.env 1 -
+/wp-content/upgrade/utchiha505.php 3 -
+/yanz.php 28 -
+/private/.env 1 -
+/misc/drupal.js 2 -
+/wp-includes/pomo/css_.php 3 -
+/wp-admin/css/colors/xmrlpc.php 33 -
+/cp/sendgrid.env 1 -
+/ftl/resource/chess/public/game/game01/2x/zh_CN/game_fish_43_dsnh.png 1 http://asianfusionlnk.com/
+/b8d94e4fbbca.php 1 -
+/Common/Js.aspx 1 -
+/.well-known/assetlinks.json 4 https://asianfusionlnk.com/
+/wp-content/plugins/wp-hps/sh/ 12 -
+/libraries/phpmailer/updates.php 21 -
+/wp-content/themes/wp-pridmag/ 12 -
+/wp-2022.php 7 -
+/wp-content/plugins/evalphp/accesson.php 1 -
+/wp-content/themes/alera/alera/%23U00ae.php 4 -
+/2f40287333ec.php 1 -
+/modules/mod_simplefileuploadv1.3/elements//%C2%AE.php7 4 -
+/wp-content/plugins/background-image-cropper/accesson.php 1 -
+/alfarex.php 1 -
+/v3n0m.php 7 -
+/wp-content/mu-plugins/ 12 -
+/wp-content/plugins/anttt/simple.php 7 -
+/menus/4-steamed-sweet-pea/ 1 -
+/wp-admin/priv8.php 3 -
+/wp-content/plugins/about.php 4 -
+/admin/tmp/ 12 -
+/auth/.env 1 -
+/upload/image/ 13 -
+/batm.php 1 -
+/wp-content/j.php 1 -
+/.well-known/pki-validation/xmrlpc.php 32 -
+/wp/wp-includes/wlwmanifest.xml 65 -
+/wp-includes/fonts/ 12 -
+/wp-includes/js/tinymce/plugins/compat3x/css/index.php 20 -
+/cloud.php 26 -
+/config.json 3 -
+/frontend/sendgrid.env 1 -
+/_ignition/execute-solution 1 -
+/images/common/cqssc.png 1 http://asianfusionlnk.com/
+/wp-includes/blocks/calendar/updates.php 2 -
+/wp-content/bala.php 5 -
+/wp-content/themes/wp-classic/inc/index.php 1 www.google.com
+/wp-admin/css/colors/blue/cloud.php 26 -
+/vue/sendgrid.env 1 -
+/testing 2 -
+/wp-admin/wso112233.php 13 -
+/index.php 21 asianfusionlnk.com
+/wp-admin/fx.php 10 -
+/wp-includes/css/ty.php 3 -
+/files/ 47 binance.com
+/wp-includes//v22.php 3 -
+/wp-includes/sodium_compat/src/Core/Curve25519/Ge/wp_blog.php 7 -
+/update-core.php 7 -
+/Content/Images/Graph/logo_kugame.png 1 http://asianfusionlnk.com/
+/engine/.env 1 -
+/js/tinymce4/plugins/filemanager/dialog.php 1 -
+/Mshell.php 1 -
+/polyfills-es5.f6ba3e7ebee0efebe20d.js 1 http://asianfusionlnk.com/
+/menus/house-special-soup/ 1 -
+/site/wp-includes/wlwmanifest.xml 65 -
+/core/sendgrid.env 1 -
+/.well-known/wso112233.php 6 -
+/shared/sendgrid.env 1 -
+/comments/feed 1 -
+/tools.php 7 -
+/wp-content/themes/seotheme/mar.php 26 -
+/wp-admin/mari.php 1 -
+/R00T.php 10 -
+/wp-admin/css/colors/ectoplasm/about.php 1 -
+/dist/images/mask/guide/cn/step1.jpg 1 -
+/bc 15 -
+/nf_tracking.php 2 -
+/wp-includes/class-json-ajax-session.php 7 -
+/wp-includes/Requests/about.php 2 -
+/.index.php 1 http://asianfusionlnk.com/.index.php
+/static/js/manifest.ddd240918ffc18b3ce71.js 1 http://asianfusionlnk.com/
+/etc/apache2/sites-available/default 1 -
+/wp-admin/includes/cloud.php 21 -
+/wp-content/plugins/ccx/index.php 9 -
+/wp-admin/css/about.php 1 -
+/wp-admin/user/ 12 -
+/wp-content/themes/intense/block-css.php 1 www.google.com
+/old 17 -
+/editor/ueditor/ueditor.config.js 1 http://asianfusionlnk.com/editor/ueditor/ueditor.config.js
+/menus/sushi-sashimi-for-two/ 1 -
+/wp-content/updates.php 29 -
+/wp-config.php.bak 1 -
+/wp-includes/Text/themes.php 1 -
+/reset.php 1 -
+/dummy404file.html 1 -
+/alfaindex.php 7 -
+/wp-login.php 1 -
+/ayk.php 3 -
+/wp-admin/xleet.php 3 -
+/index.php/Admin/public/Login.html 1 -
+/alfa-rex.php7 29 -
+/.well-known/acme-challenge/atomlib.php 1 -
+/.well-known/ 49 binance.com
+/img/icons-bg.jpg 5 https://asianfusionlnk.com/ourmenu.html
+/wp-includes/mari.php 1 -
+/masss.php 1 -
+/versions.php 1 -
+/alfa-rex2.php7 27 -
+/wp-content/atomlib.php 1 -
+/chosen.php 13 www.google.com
+/soup/ 1 -
+/wp-includes/fonts/themes.php 1 -
+/about.html/ 1 -
+/wp-content/themes/twentytwentytwo/parts/about.php7 3 -
+/wp-content/uploads/bala.php 5 -
+/lunch-special/ 2 -
+/wp-content/uploads/elementor/about.php 3 -
+/Deadcode1975.php 7 -
+/staging/.env 1 -
+/wp-content/plugins/wordpresss3cll/up.php 7 -
+/license.php 9 -
+/new 17 -
+/lock0360.php 7 -
+/admin/uploads/ 13 -
+/libraries/vendor/updates.php 21 -
+/config.php.bak 1 -
+/h4xor.php 7 -
+/wp-content/themes/wp-pridmag/init.php 3 -
+/wp-content/404.php 1 -
+/admin/images/slider/ 13 -
+/lv.php 1 -
+/ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js 105 -
+/up.php 13 -
+/columns.php 7 -
+/wp-content//xl2023.php 6 -
+/customize.php 7 -
+/wp-admin/network/db.php 7 -
+/fonts/glyphicons-halflings-regular.svg 1 https://asianfusionlnk.com/css/vendor.css
+/wp-includes/widgets/index.php 1 asianfusionlnk.com
+/wp-admin/css/colors/coffee/mari.php 1 -
+/tydLK/Admin/Public/webuploader/server/preview.php 1 -
+/wp-admin/css/colors/blue/xmlrpcs.php 1 -
+/.well-knownold/shell20211028.php 5 -
+/vod_installer/sendgrid.env 1 -
+/wp-content/plugins/facebook-button-plugin/css/style.css 1 -
+/wp-info.php 12 -
+/fox.php 10 -
+/js/vendor/modernizr-2.8.3.js 1 -
+/wp-content/uploads/ 27 -
+/ini.php 10 -
+/static/home/global/cropper.min.js 1 http://asianfusionlnk.com/
+/Public/js.php 1 -
+/end.php 7 -
+/wp-2019.php 9 -
+/application/.env 3 -
+/minishell.php 7 -
+/edit-comments.php 7 -
+/xlettt.php 7 -
+/the-blog-post-with-featured-image/ 1 -
+/wp-content/plugins/wp-meta-and-date-remover/assets/js/inspector.js 1 -
+/gaza.php 7 -
+/wp-content/plugins/bala.php 5 -
+/feed/ 71 -
+/ALFA_DATA/alfacgiapi/ups.php 3 -
+/wp-includes/blocks/ 12 -
+/env/.env 1 -
+/fm1.php 4 -
+/wp-includes/pomo/alfa.php 3 -
+/wp-admin/rss.php 3 -
+/huiyuan/view_c_1437.html 1 http://asianfusionlnk.com/
+/src/sendgrid.env 1 -
+/wordpress 17 -
+/wpx.php 10 -
+/wp-2020.php 7 -
+/database.php 1 -
+/.well-known/pki-validation/upfile.php 2 -
+/Public/Home/images/sy.png 1 http://asianfusionlnk.com/
+/wp-admin/css/colors/blue/admin.php 1 -
+/menus/thunder-roll/ 1 -
+/wp-content/uploads/wso112233.php 5 -
+/wp-content/plugins/ango/sett.php 6 -
+/wp-includes/js/jquery/jquery.js 1 -
+/wp-content/plugins/core-plugin/include.php 6 -
+/wp-includes/sodium_compat/src/Core32/Curve25519/Ge/index.php 1 -
+/wp-includes/atom.php 7 -
+/wp-admin/css/colors/coffee/cloud.php 26 -
+/wp-includes//ms-pie.php 3 -
+/admin-post.php 27 -
+/wp-includes/PHPMailer/themes.php 1 -
+/wp-includes/Requests/Text/admin.php 27 -
+/Public/home/static/js/login.js 1 http://asianfusionlnk.com/
+/admin/uploads/images/ 13 -
+/vendor/phpunit/phpunit/phpunit.xml 1 -
+/wp-includes/Text/ 12 -
+/modules/mod_simplefileuploadv1.3/elements/i8HQoK6nR.php 1 -
+/xleet-shell.php 13 -
+/tag/chicken-pad-thai-noodle/ 1 -
+/wp-includes/html-api/about.php 1 -
+/wp-admin/includes/index.php 1 asianfusionlnk.com
+/x.php 11 -
+/home_slider-sitemap.xml 1 -
+/css/cloud.php 26 -
+/02.php 3 -
+/ms.php 4 www.google.com
+/xleetshell.php 6 -
+/wp-content/uploads/404.php 3 -
+/404.php 13 -
+/cgi-bin/cgi-bin/about.php7 14 -
+/menus/snow-mountain-roll/ 1 -
+/wp-admin/css/colors/blue/ 12 -
+/wp-admin/css/ 48 binance.com
+/UPdateUPgrade.php 1 -
+/byp.php 8 -
+/moon.php 7 -
+/million.php 2 -
+//modules/mod_simplefileuploadv1.3/elements/%C2%AE.php7 3 -
+/static/js/mobile_check.js 1 http://asianfusionlnk.com/
+/wp-content/themes/sketch/404.php 1 -
+/admin/plugins/plupload/examples/upload.php 1 -
+/wp-includes/pomo/ 12 -
+/wp-includes/js/wp-emoji-release.min.js 1 -
+/cache-compat.php 29 -
+/vendor/jquery.grid-a-licious.min.js 105 -
+/tag/teriyaki-w-chicken/feed/ 4 -
+/wp-admin/js/widgets/about.php7 28 -
+/wp-admin/maint/moon.php 14 -
+/wp-content/uploads/4O4.php 3 -
+/mfi.php 1 -
+/config/environment.rb 1 -
+/wp-admin/alfa.php 8 -
+/Utility/UEditor/net/controller.ashx 2 -
+/scripts/filemanager/dialog.php 1 -
+/django/settings.py 1 -
+/web/.env 3 -
+/wp-admin/cloud.php 26 -
+/wp-signup.php 1 -
+/wp-plugins.php 7 -
+/menus/tempura-banana/ 1 -
+/Public/home/js/check.js 2 -
+/personal/.env 1 -
+/dropdown.php 44 -
+/App_Handler/Uploadify.ashx 1 -
+/good.php 4 -
+/wp-content/plugins/hellopress/wp_mna.php 1 -
+/wp-includes//fresh1.php 1 -
+/ch.php 7 -
+/mall.php 1 -
+/common/modelCommon/layer/js/layer.min.js 1 http://asianfusionlnk.com/
+/wp-content/themes/thrive-theme/style.css 1 -
+/theme-insqbzk.php 1 -
+/tag/roe/ 1 -
+/site/sendgrid.env 1 -
+/wp-includes//uplaod.php 3 -
+/wp-includes/blocks/about.php 1 -
+/wp-content/uploads/shell20211028.php 5 -
+/menus/snow-pea-w-chicken-beef-shrimp/ 1 -
+/wp-content/about.php 3 -
+/static/css/chunk-libs.34f6e142.css 1 http://asianfusionlnk.com/
+/wp-includes/Requests/src/Auth/about.php 1 -
+/ALFA_DATA/alfacgiapi/ 12 -
+/13.php 1 -
+/wp-content/plugins/fighter/fk.php 3 -
+/WordPress/wp-admin/includes/ 6 -
+/menus/beef-negimaki-2/ 1 -
+/wp-content/themes/mataam/css/eislideshow.css 1 -
+/wp-includes/bookmarks.php 1 -
+/2019/wp-includes/wlwmanifest.xml 64 -
+/wp-admin/css/colors/blue/CasperExV1.php 7 -
+/template/027kanav/static/css/bootstrap.min.css 1 http://asianfusionlnk.com/
+/wp-admin/fw.php 7 -
+/menus/spicy-shrimp-roll/ 2 -
+/menus/spicy-twin-salmon-roll-2/ 1 -
+/blog 2 -
+/index2.php 8 http://asianfusionlnk.com/index2.php
+/wp-admin/xmrlpc.php 33 -
+/static/public/images/home/default.png 1 http://asianfusionlnk.com/
+/css/bootstrap.min.css.map 4 https://asianfusionlnk.com/
+/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js 2 -
+/wp-includes/fonts/css.php 6 -
+/b378.php 1 -
+/wp-atom.php 1 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg2.jpg 2 -
+/wp-content/themes/rishi/ 12 -
+/static/js/manifest.e450edfa15d9dd7ff30d.js 1 http://asianfusionlnk.com/
+/static/img/link07.png 1 http://asianfusionlnk.com/
+/wp-content/uploads/2013/05/Screen-shot-2014-09-16-at-5.29.09-PM.png 1 -
+/wp-content/plugins/core/include.php 3 asianfusionlnk.com
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1-sm.jpg 1 -
+/0z.php 10 -
+/wp-includes/js/wp-embed.min.js 1 -
+/menus/sushi-sashimi-combo/ 1 -
+/wp-content/plugins/Cache/dropdown.php 21 -
+/Xsam_Xadoo_00Bot.php 4 -
+/.well-known/pki-validation/shell.php 1 -
+/kids-menu__trashed/ 2 -
+/wp-admin/radio.php 2 -
+/cp.php 7 -
+/development/.env 2 -
+/new.php 2 -
+/.well-known/themes.php 1 -
+/wp-admin/images/install.php 20 -
+/wp-admin/wp_filemanager.php 7 -
+/prod/.env 2 -
+/.well-known/index.php 2 -
+/wp-admin/maint/maint/ajax-actions.php 26 -
+/sh.php 8 -
+/payout.php 3 -
+/tmp/ 12 -
+/filemanager/dialog.php 4 -
+/photo-gallery/ 1 -
+/zh/img/home/header/img-jiankang.png 1 http://asianfusionlnk.com/
+/wp-content/themes/finley/min.php 9 -
+/wp-includes/Requests/Response/license.php 4 -
+/wp-content/themes/classic/inc/casper.php 7 -
+/wp-includes/about.php 2 -
+/wp-admin/images/index.php 21 -
+/wp-includes/wso.php 1 -
+/DKIZ.php 10 -
+/1.php 17 -
+/menus/orange-chicken/ 1 -
+/wp-content/dropdown.php 20 -
+/xlt.php 9 -
+/ups.php 11 -
+/wp-includes/ID3/ 12 -
+/install.php 14 -
+/wp-content/uploads/2023/ 12 -
+/Public/Home/Moon/pc/script/jquery.js 1 http://asianfusionlnk.com/
+/mininew.php 3 -
+/view-source: 3 -
+/js/vendor/jquery.magnific-popup.js 1 -
+/app/sendgrid.env 1 -
+/wp-content/up.php 7 -
+/search/sendgrid.env 1 -
+/images/wp-2019.php 3 -
+/wp-admin/oyy8z.php 1 -
+/mt/pekok.php 1 -
+/temp/ 1 -
+/wp-content/uploads//wp-content/uploads/code-execution.php 3 -
+/images/F0x.php 7 -
+/wp.php 14 -
+/framework/.env 1 -
+/.env.save 1 -
+/0x.php 7 -
+/wp-includes/js/codemirror/ 12 -
+/mycommand.php 1 -
+/css/xmrlpc.php 33 -
+/wp-includes/sodium_compat/namespaced/Core/Curve25519/Ge/index.php 3 -
+/wp-admin/css/colors/coffee/xmrlpc.php 33 -
+/static/lib/layer/languageFix.js 1 http://asianfusionlnk.com/
+/wp-content/upgrade/iR7SzrsOUEP.php 6 -
+/sitemap.txt 6 -
+/tplug/WebUploader/preview.php 2 -
+/personal/sendgrid.env 1 -
+/lalala.php 7 -
+/wp-includes/rest-api/search/about.php 1 -
+/admin/index.php 2 -
+/wp-includes/IXR/ 12 -
+/wp-content/xleet.php 6 -
+/project/sendgrid.env 1 -
+/wp-includes/style-engine/index.php 1 -
+/old/ 1 -
+/wp-content/uploads/2013/05/chefs-special-Asian-Fusion-Restaurant-Lincoln-NE.jpg 1 http://go.mail.ru/search_images
+/xml.php 10 -
+/include/ckeditor/plugins/smiley/images/angel_smile.gif 3 http://www.asianfusionlnk.com/include/ckeditor/plugins/smiley/images/angel_smile.gif
+/wp-includes/IXR/class-IXR-update.php 1 -
+/.well-known/change-password 4 https://asianfusionlnk.com/
+/Deadcode1975xxxxxxxxxxxxxxxxxxxxxxxxxxxx.php 3 -
+/rest/sendgrid.env 1 -
+/search/.env 1 -
+/static/home/mobile/images/0022.png 1 http://asianfusionlnk.com/
+/apps/.env 1 -
+/.well-known/pki-validation/class_api.php 1 -
+/credits.php 7 -
+/menus/mongolian-chicken-beef-shrimp/ 1 -
+/menus/shrimp-avocado-roll/ 1 -
+/wp-content/plugins/caxton/inc/admin.php 1 asianfusionlnk.com
+/chefs-special-roll/ 1 -
+/classwithtostring.php 7 -
+/crypted.php 3 -
+/wp-includes/ID3/license.txt 10 -
+/public/.env 1 -
+/wp-content/plugins/aryabot/ 12 -
+/plus/dd.php 1 -
+/wp-content/plugins/TOPXOH/wDR.php 8 -
+/discount.php 1 -
+/blog/wp-admin/includes/ 6 -
+/wp-includes/sitemaps/about.php 1 -
+/wp-admin/network/upfile.php 7 -
+/F0x.php 7 -
+/author-sitemap.xml 1 -
+/api/index.php/v1/config/application 4 -
+/wp-content/plugins/hellopress/wp_filemanager.php 28 -
+/wp-content/themes/mataam/js/jquery.prettyPhoto.js 1 -
+/_all_dbs 2 -
+/engine/sendgrid.env 1 -
+/newsite 2 -
+/_next/static/css/a9bc756ef15eb74493ed.css 1 http://asianfusionlnk.com/
+/update.php 7 -
+/appetizers/ 3 -
+/wp-content/plugins/admin.php 3 -
+/fonts/glyphicons-halflings-regular.ttf 1 https://asianfusionlnk.com/css/vendor.css
+/wp-includes/Requests/Proxy/about.php 1 -
+/fonts/glyphicons-halflings-regular.eot 1 https://asianfusionlnk.com/css/vendor.css
+/wp-content/plugins/media-library-assistant/includes/mla-stream-image.php 1 -
+/wp-includes/SimplePie/Captions.php 1 -
+/uploads/wp-atom.php 1 -
+/local/sendgrid.env 1 -
+/c.php 5 -
+/vendor/circle-progress.js 104 -
+/ty.php 1 -
+/css/tips.css 1 -
+/mass.php 10 -
+/wp-content/plugins/Uwogh-Segs/ 12 -
+/wp-includes/images/wlw/ 12 -
+/.well-known/pki-validation/cloud.php 28 -
+/css/chunk-0aad065e.1bd31446.css 1 http://asianfusionlnk.com/
+/document/sendgrid.env 1 -
+/user.php 8 -
+/menus/hunan-w-chicken-beef-shrimp/ 1 -
+/main.js 104 -
+/wp-includes/Requests/Text/index.php 9 -
+/wp-admin/setup-config.php 9 -
+/wp-content/plugins/random/ 12 -
+/ws.php 8 -
+/wp-content/themes/zakra/ 12 -
+/2index.php 6 -
+/tag/chicken/ 1 -
+/phpinfo 2 -
+/blog/wp-includes/wlwmanifest.xml 68 -
+/Hhhknt-an9awlbkhhh.php 1 -
+/.well-known/acme-challenge/wso112233.php 6 -
+/conf.php 1 asianfusionlnk.com
+/.env.production 1 -
+/about-us 1 -
+/wp-includes/css/dist/ 12 -
+/css//4O4.php 3 -
+/menus/volcano-roll-6-pc/ 2 -
+/ueditor/controller.ashx 1 -
+/above.php 1 -
+/bala.php 13 -
+/wp-content/themes/mataam/js/jquery.tools.min.js 1 -
+/radio.php 15 -
+/yl10gohp.php 1 -
+/wp-admin/css/index.php 27 -
+/wp-admin/css/colors/ 12 -
+/4price.php 7 -
+/etc/apache2/mods-available/ 1 -
+/xmlrpc.php 1 -
+/vendor/owl.carousel.min.js 104 -
+/.well-known/dze.php 3 -
+/ALFA_DATA/alfacgiapi/index.php 1 -
+/wp-includes//wp-includes/admin-bar.php 3 -
+/xmlrqc.php 3 -
+/pcenter/captcha/loginTop.html 1 http://asianfusionlnk.com/
+/public/static/common/images/ui_icon.jpg 1 -
+/uploads/images/interim/o02501/907b81b6-d604-4bde-87cf-280bcadc2929.jpg 1 http://asianfusionlnk.com/
+/public/static/sy-admin/lib/webuploader/0.1.5/server/preview.php 1 -
+/wp-includes/ms-files.php 3 -
+/test/ 1 -
+/wp-includes/ID3/vp.php 1 -
+/shop/wp-includes/wlwmanifest.xml 64 -
+/wp-includes/themes.php 2 -
+/wp-admin/includes/users.php 7 -
+/wp-content/plugins/wp-automatic/changelog 1 -
+/wp-ruucha.php7 1 -
+/menus/happy-family/ 1 -
+/wp-includes/images/crystal/ 12 -
+/Public/Admin/Webuploader/server/preview.php 1 -
+/wp-includes//xx.php 3 -
+/wp-admin/xl2023.php 1 -
+/gecko.php 9 -
+/haxor.php 3 -
+/chinese-cuisine/ 2 -
+/category-sitemap.xml 1 -
+/menus/salmon-avocado-roll/ 1 -
+/vendor/jquery.magnific-popup.min.js 103 -
+/local/.env 4 -
+/full-menu/ 2 -
+/wp-content/plugins/wpeazvp/ 12 -
+/wp-2021.php 7 -
+/wp-includes/pomo/index.php 1 -
+/wp-content/plugins/BrutalShell/ 12 -
+/ioxi-aneh.php 1 -
+/admin/sendgrid.env 1 -
+/wp-includes//24.php 3 -
+/wp-admin/maint/sidwso.php 3 -
+/wp-admin/1975.php 7 -
+/wp-admin/css/mari.php 1 -
+/w.php 1 -
+/.well-known/acme-challenge/my1.php 1 -
+/js/vendor/text/css 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_12.jpg 1 -
+/static/skin/public/deal/pc/css/liMarquee.css 1 http://asianfusionlnk.com/
+/admin/filemanager/dialog.php 1 -
+/old-index.php 3 -
+/edit.php 1 -
+/menus/a-a-c-roll/ 2 -
+/utchiha505.php 7 -
+/wp-content/plugins/core-stab/casper.php 7 -
+/wp-includes/widgets/ 12 -
+/bedesk1.1/.env 1 -
+/plugin-install.php 7 -
+/wp-admin/user/cloud.php 26 -
+/wordpress/wp-includes/wlwmanifest.xml 66 -
+/adminfuns.php 1 -
+/wp-includes/blocks/table/int/tmpl/index.php 7 -
+/.well-known/class.api.php 2 -
+/static/css/app.a9993daf676fbc0a430012ea8d96d7a7.css 1 http://asianfusionlnk.com/
+/wp-content/themes/alera/alpha.php 4 -
+/wp-includes/PHPMailer/ 12 -
+/geju.php 3 -
+/wp-content/languages/wp-conflg.php 6 -
+/cli/.env 1 -
+/s.php 2 -
+/wp-hudbud.php 1 -
+/config/sendgrid.env 1 -
+/games/live.html 1 http://asianfusionlnk.com/
+/alfanew.php 28 -
+/wp-includes/ID3/wp-includes/IXR/ 12 -
+/environment.rb 1 -
+/tmpshell.php 7 -
+/wp-content/plugins/wp-file-manager/lib/files/ 1 -
+/wp-content/ty.php 1 -
+/wp-content/upgrade/about.php 1 -
+/wp-content/uploads/ao_ccss/ 12 -
+/wp-includes/images/smilies/ 12 -
+/new/ 1 -
+/media/system/js/core.js 1 -
+/dev/sendgrid.env 1 -
+/uph.php 7 -
+/Admin/uploads/ 13 -
+/public/static/hui/lib/webuploader/0.1.5/server/preview.php 1 -
+/Gecko.php 7 -
+/wp-admin/css/colors/ectoplasm/ 12 -
+/shell.php 11 -
+/marijuana.php 12 -
+/wp-content/plugins/augmented-reality/vendor/elfinder/php/connector.minimal.php 7 -
+/wordpress/wp-admin/includes/wp-admin/js/ 12 -
+/comments/feed/ 1 -
+/wordpress/wp-admin/includes/ 6 -
+/wp-content/themes/seotheme/db.php 23 -
+/wordpress/wp-includes/ 13 -
+/wp-content/wso112233.php 6 -
+/wp-includes/js/jcrop/themes.php 1 -
+/images/logo_dream.png 1 http://asianfusionlnk.com/
+/wp-content/plugins/elementor/includes/settings/index.php 7 -
+/wp-admin/css/colors/blue/wpconfig.php 1 -
+/about-us/ 2 -
+/wp-content/patior/ 14 -
+/.well-known/acme-challenge/bala.php 5 -
+/11index.php 1 -
+/wp-includes//indeh.php 3 -
+/modules/mod_simplefileuploadv1.3/elements//%C2%AE.php 4 -
+/images/cloud.php 26 -
+/tesla.php 7 -
+/wp-includes/assets/pi.php 3 -
+/an.php 7 -
+/wp-admin/network/xmrlpc.php 33 -
+/wp-includes/certificates/ 12 -
+/wp-includes/random_compat/random_bytes_cyclone.php 7 -
+/lyda.php 7 -
+/ipl/app/flash/publicbmw/EjpRemote.js 1 http://asianfusionlnk.com/
+/wp-includes/js/a.php 3 -
+/ioxi.php7 1 -
+/blog.php 1 -
+/wp-includes/Text/sqrt.php 1 -
+/back/sendgrid.env 1 -
+/e.php 1 -
+/xleet.php 23 -
+/wp-includes/random_compat/about.php 1 -
+/web/settings/settings.py 1 -
+/wp-content/wp_filemanager.php 7 -
+/sftp.json 1 -
+/wp-admin/includes/xleet-shell.php 6 -
+/menus/spicy-avocado-salad/ 1 -
+/tinyfilemanager.php 1 -
+/wp-content/uploads/ty.php 2 -
+/wp-content//autoload_classmap.php 1 -
+/wp-includes/pomo/newup.php 1 -
+/wp-includes/js/plupload/ 12 -
+/frontend/.env 1 -
+/wp-content/plugins/shell20211028.php 5 -
+/wp-includes/sitemaps/ 12 -
+/m.php 7 -
+/theme-install.php 7 -
+/wp_wrong_datlib.php 10 -
+/login/sendgrid.env 1 -
+/z.php 8 -
+/wp/ 6 -
+/wp-content/themes/mataam/framework/admin/css/datepicker.css 1 -
+/cms/wp-includes/wlwmanifest.xml 65 -
+/en/dafa/css/common.506d1bde43e929bf5568e246dddc3f6b.css 1 http://asianfusionlnk.com/
+/me.php 7 -
+/wp-includes/wp-class.php 9 -
+/wp-admin/dropdown.php 49 -
+/wp-content/plugins/elementor/ 12 -
+/menus/1-steamed-mixed-vegetables/ 1 -
+/images/ 48 binance.com
+/shells.php 7 -
+/wp-includes/widgets/about.php 1 -
+/hehe.php 10 -
+/Public/Argon/vendor/bootstrap/bootstrap.min.js 1 http://asianfusionlnk.com/
+/framework/sendgrid.env 1 -
+/wp-content/plugins/vs-admin-media/about.php 1 -
+/static/web/css/app.66aabe1ea9097c8d376df3dc12c9e2f5.css 1 http://asianfusionlnk.com/
+/Utility/UEditor/ 2 -
+/vod_installer/.env 1 -
+/wp-admin/images/module.php 3 -
+/wp-commentin.php 1 -
+/wp-includes//wp-site.php 3 -
+/2020/wp-includes/wlwmanifest.xml 20 -
+/wp-admin/maint/iR7SzrsOUEP.php 6 -
+/media/wp-includes/wlwmanifest.xml 44 -
+/wp-content/uploads/2023/07/xl2023.php 6 -
+/Alfa.php 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/.env.backup 1 -
+/wp-content/languages/wp-conflg.php.suspected 6 -
+/wp-admin/images/plugins.php 1 -
+/01.php 3 -
+/text.php 8 -
+/wp-content/plugins/TOPXOH/XleetSeller85.php 2 -
+/go.php 1 -
+/cms/manage/style/calendar.css 2 -
+/App2Img/ziliao_app.js 1 http://asianfusionlnk.com/
+/wp-content/uploads/options-writing.php 6 -
+/images/vuln.php 10 -
+/wp-admin/includes/ 6 -
+/phpformbuilder/plugins/filemanager/dialog.php 1 -
+/js/vendor/jquery.grid-a-licious.js 1 -
+/wp-content/plugins/seoplugins/db.php 23 -
+/wp-content/plugins/seoo/alfa-ioxi.php 7 -
+/contact 1 -
+/wp-content/plugins/userpro/skins/elegant/style.css 1 -
+/alfanew2.php7 26 -
+/wp-content/plugins/w0rdpr3ssnew/about.php 8 -
+/laravel/.env 5 -
+/wp-includes/home.php 13 -
+/1877.php 7 -
+/wp-content/plugins/wp-diambar/includes/ 12 -
+/kill.php 7 -
+/wp-includes/js/tinymce/skins/lightgray/fonts/index.php 1 -
+/210192abc6dd9b4f53d7ba4926461e86/web/css/chunk-elementUI.95b23c11.css 1 http://asianfusionlnk.com/
+/wp-includes/css/about.php 2 -
+/sendgrid.env.local 1 -
+/menus/momoya-spicy-tuna-roll/ 1 -
+/xzourt.php 7 -
+/wp-content/themes/alera/ 12 -
+/sendgrid.env.production 1 -
+/wp-includes/Text/Diff/ 12 -
+/apps/sendgrid.env 1 -
+/wp-content/themes/themify-ultra/style.css 1 -
+/leet.php 7 -
+/wp-includes/images/media/ 12 -
+/dependencies/.env 1 -
+/classsmtps.php 1 -
+/wp-content//wp-activate.php 3 -
+/wp-admin/css/colors/maro.php 1 -
+/solr/admin/cores 1 -
+/wp-admin/css/colors/ocean/ 12 -
+/wp-admin/js/widgets/iR7SzrsOUEP.php 6 -
+/worm.PhP7 1 -
+/alf.php 8 -
+/wp-includes/shell20211028.php 13 -
+/images/mar.php 1 -
+/etc/apache2/sites-available/default-ssl.conf 1 -
+/menus/sweet-potato-roll/ 1 -
+/b1a3k.php 7 -
+/wp-content/uploads/2013/05/artistic-flair-Asian-Fusion-Restaurant-Lincoln-NE.jpg 2 -
+/testimonials/ 2 -
+/cut.php 1 -
+/.env.bak 1 -
+/wp-content/plugins/index.php 8 -
+/js/vendor/bootstrap.js 1 -
+/components/ 13 -
+/wp-site.php 1 -
+/etc/apache2/ports.conf 1 -
+/ubh/ 12 -
+/images/ccx/ 1 -
+/wp-content/plugins/wordpresscore/include.php 6 -
+/access.php 7 -
+/images/Android_txt.png 1 http://asianfusionlnk.com/
+/wp-includes/Text/Diff/Renderer/ 12 -
+/core 2 -
+/wp-admin/css/colors/blue/uploader.php 9 -
+/wp-content/themes/mataam/js/jquery.eislideshow.js 1 -
+/wp-admin/home.php 13 -
+/.well-known/pki-validation/iR7SzrsOUEP.php 6 -
+/.well-known/pki-validation/ 14 -
+/app/.env 5 -
+/wp-admin/wp-22.php 7 -
+/sym.php 7 -
+/tag/appetizers/ 1 -
+/wp-admin/css/colors/index.php 21 -
+/games/poker.html 1 http://asianfusionlnk.com/
+/wp-includes/block-supports/generated-classname-cron.php 3 -
+/gank.php.PhP 1 -
+/minik.php 1 -
+/static/admin/javascript/hetong.js 2 -
+/wp-head.php 20 -
+/wp-admin/css/colors/coffee/index.php 10 -
+/wp-content/themes/twentyfive/ 12 -
+/img/cloud.php 26 -
+/.well-known/shell.php 1 -
+/common/member/notice/js/dialog-plus-min.js 1 http://asianfusionlnk.com/
+/C.php 3 -
+/demo.php 7 -
+/wp-admin/js/widgets/wp-contact.php 1 -
+/wp-content/plugins/wp-file-upload/ROOBOTS.php 7 -
+/menus/tempura-ice-cream/ 2 -
+/woh.php 3 www.google.com
+/wp-admin/includes/wp-conflg.php.suspected 6 -
+/menus/ice-cream/ 1 -
+/menus/wonton-soup/ 1 -
+/wp-content//hello.php 1 -
+/cli/sendgrid.env 1 -
+/thems.php 1 -
+/cong.php 9 -
+/ee.php 21 -
+/admin/controller/extension/extension/ 48 binance.com
+/dropdown.php7 1 -
+/menus/sweet-sour-delight/ 2 -
+/.well-known/acme-challenge/iR7SzrsOUEP.php 6 -
+/.DS_Store 2 -
+/rxr.php 14 -
+/.well-known/shell20211028.php 5 -
+/wp-admin/css/colors/blue/atomlib.php 2 -
+/.well-known/pki-validation/wp-hudbud.php 1 -
+/css/album.css 4 -
+/css/font/alfa-rex.php8 1 -
+/wp-includes/repeater.php 27 -
+/cakil/ 12 -
+/wp-apxupx.php 5 -
+/pi.php 3 -
+/menu-2 2 -
+/static/js/PvUvIpIndex.js 1 http://asianfusionlnk.com/
+/web/wp-includes/wlwmanifest.xml 67 -
+/wp-includes/fresh1.php 1 -
+/config/.env 1 -
+/wp-content/plugins/easybusy/wp-blog.php 3 -
+/project/.env 1 -
+/wp-class.php 8 -
+/wp-content/plugins/install.php 14 -
+/users.php 8 -
+/wp-content/wp.php 1 -
+/menus/sesame-chicken-beef-shrimp/ 1 -
+/wp-content/themes/mataam/css/prettyPhoto.css 1 -
+/indexs.php 7 -
+/xl2023x.php 6 -
+/about.php7 27 -
+/blog/wp-includes/ 12 -
+/wp-includes/css/css.php 6 -
+/wp-content/uploads/ac_assets/IndoSec.php 1 -
+/font-editor.php 7 -
+/core/code.php 1 -
+/wp-content/uploads/2021/ 12 -
+/app-ads.txt 4 https://asianfusionlnk.com/
+/portfolio-sitemap.xml 1 -
+/wp-content/css/thanks.php7 1 -
+/contact.html/ 1 -
+/admin-heade.php 7 -
+/humans.txt 6 -
+/menus/tuna-or-salmon-avocado-salad/ 1 -
+/ADMIN/.env 1 -
+/wp/wp-admin/includes/ 6 -
+/wp-admin/js/widgets/xmrlpc.php 33 -
+/wp-content/uploads/2022/ 12 -
+/admin/ueditor/net/controller.ashx 1 -
+/gelay.php 1 -
+/.env 59 -
+/wp-blog.php 11 -
+/sendgrid/.env 3 -
+/wp-content/36ros.php 1 -
+/wp-includes/ID3/index.php 2 asianfusionlnk.com
+/img/cta-splash.jpg 6 https://asianfusionlnk.com/ourmenu.html
+/info.php 3 -
+/images/xr_button.png 1 http://asianfusionlnk.com/
+/images/about.php 1 -
+/fx.php 7 -
+/503.php 7 -
+/wp-admin/css/colors/light/admin.php 2 -
+/CHANGELOG.txt 1 -
+/ebs.php7 26 -
+/.well-known/acme-challenge/license.php 9 -
+/tinymce/filemanager/dialog.php 1 -
+/xwirhnuz.php 1 -
+/templates/beez3/error.php 7 -
+/2.php 1 -
+/wp-admin/css/colors/midnight/ 12 -
+/images/sy_smwz.png 1 http://asianfusionlnk.com/
+/.env.local 1 -
+/wp-admin/css/colors/coffee/marijuana.php 1 -
+/menus/lo-mein-w-pork-chicken-beef-shrimp-house-special/ 2 -
+/static/images/tj3.png 1 http://asianfusionlnk.com/
+/wp-admin/images/about.php 1 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/css/dnd-upload-cf7.css 1 -
+/wp-admin/css/maro.php 1 -
+/wp-content/plugins/include.php 6 -
+/pass.php 1 -
+/public/scripts/filemanager/dialog.php 1 -
+/.well-known/pki-validation/dx.php 3 -
+/tmp/vuln.php 7 -
+/backend/sendgrid.env 1 -
+/alfa.php 13 -
+/.wp-back.phP 1 -
+/views/image/20210915/20210915221404517113login_ico_300_120.png 1 http://asianfusionlnk.com/
+/wp-admin/includes/xmrlpc.php 33 -
+/wp-json 7 -
+/plugins.php 7 -
+/.well-known/gpc.json 4 https://asianfusionlnk.com/
+/wordpress/ 25 -
+/api/.env 7 -
+/priv8.php 10 -
+/wp-content/upgrade/ 12 -
+/v2/_catalog 2 -
+/style/download.js 1 http://asianfusionlnk.com/
+/credits.php7 1 -
+/wp-admin/users.php 7 -
+/admin.php 41 -
+/img/xmrlpc.php 32 -
+/wp-content/alogova.php 1 -
+/wp-content/plugins/linkpreview/db.php 31 -
+/plus/flink_add.php 2 http://www.asianfusionlnk.com/plus/flink_add.php
+/indx.php 1 -
+/wp-admin/images/admin.php 1 -
+/406.php 8 -
+/tag/tempura/feed/ 4 -
+/sitemap_news.xml 1 -
+/olux.php 7 -
+/cgi-bin/xmrlpc.php 33 -
+/wp-content/themes/wso112233.php 5 -
+/wp_filemanager.php 9 -
+/server/.env 1 -
+/imgs/aq2.png 1 http://asianfusionlnk.com/
+/wp-includes/Requests/atomlib.php 1 -
+/tinymce/plugins/filemanager/dialog.php 1 -
+/static/mui.picker.css 1 http://asianfusionlnk.com/
+/.well-knownold/bala.php 5 -
+/wp-content/dark_shell.php 1 -
+/wp-crons.php 1 -
+/assets/plugins/filemanager/dialog.php 1 -
+/XxX.php 3 -
+/d7.php 7 -
+/config/config.json 1 -
+/kitchen-entree-special/ 3 -
+/ioxi-rex.php 2 -
+/moto.php 7 -
+/snd.php 7 -
+/emergency.php 9 -
+/vendor/phpunit/phpunit/src/Util/PHP/ 13 -
+/www.php 7 -
+/wp-admin/css/colors/light/index.php 1 -
+/wp-content/plugins/revslider/includes/external/page/index.php 14 -
+/cache-wordpress/ 12 -
+/wp-content/home.php 13 -
+/menus/sashimi-for-two/ 1 -
+/var/log/apache2/ 1 -
+/Public/mobile/mc/tabbar_my.png 1 http://asianfusionlnk.com/
+/assets/credentials.json 1 -
+/login.action 2 -
+/dependencies/sendgrid.env 1 -
+/credentials.json 1 -
+/upl.php 7 -
+/wp-content/plugins/cache-wordpress/ 12 -
+/wp-content/plugins/fix/up.php 20 -
+/user-new.php 7 -
+/ueditor/net/controller.ashx 1 -
+/xt/index.php 6 -
+/private.php 7 -
+/menus/kung-pao-chicken/ 1 -
+/wp-admin/css/colors/sunrise/ 12 -
+/.well-known/acme-challenge/class_api.php 2 -
+/deployment/sendgrid.env 1 -
+/plesk-stat/ 1 -
+/wp-includes/wso112233.php 5 -
+/laravel/sendgrid.env 1 -
+/wp-includes/rest-api/ 12 -
+/bak.php 1 -
+/class/phpformbuilder/plugins/filemanager/dialog.php 1 -
+/admin/plugins/blueimp/package.json 1 -
+/wsoyanz.php 28 -
+/vendor/modernizr-2.8.3.min.js 104 -
+/sitemaps.xml 8 -
+/_profiler/phpinfo.bak 1 -
+/apps/api/.env 1 -
+/SENDGRID.ENV 1 -
+/ads.txt 63 -
+/kids-menu/ 1 -
+/app/settings.py 1 -
+/css.php 9 -
+/bk 15 -
+/wp-admin/ajax-actions.php 28 -
+/web/sendgrid.env 1 -
+/wp-content/themes/bala.php 5 -
+/my1.php 23 -
+/wp-includes/ID3/about.php 1 -
+/ton.php 7 -
+/wp-content/plugins/prenota/ 12 -
+/about 2 -
+/xmlrpc2.php 7 -
+/wp-admin/js/widgets/about.php 1 -
+/Public/Home/images/ren.png 1 http://asianfusionlnk.com/
+/security.txt 1 -
+/u.php 3 -
+/wp-content/plugins/cekidot/ 12 -
+/filter.php 1 -
+/_.php 1 -
+/ioxi1.php 1 -
+/wp-includes//wp-2019.php 3 -
+/wp-includes/style-engine/themes.php 1 -
+/xxxxxminoksxxxx2021.php 4 -
+/1337.php 10 -
+/wp-admin.php 1 -
+/img/devices-bg.jpg 6 https://asianfusionlnk.com/ourmenu.html
+/wp-content/plugins/seoplugins/mar.php 24 -
+/.env.example 1 -
+/wp-content/plugins/Cache/Cache.php 37 -
+/static/js/vendor.1629967520031.js 1 http://asianfusionlnk.com/
+/wp-content/plugins/user-pro/css/userpro-editor.css 1 asianfusionlnk.com
+/static/css/app.a79586a5f84fd24f7ce05dab173f6569.css 2 http://asianfusionlnk.com/
+/wp-content/plugins/linkpreview/ 12 -
+/M1.php 2 -
+/xox.php 7 -
+/settings/settings.py 1 -
+/wsu.php 7 -
+/.git/config 14 -
+/back/.env 1 -
+/sitemap-news.xml 1 -
+/wp-includes/ID3/wp-conflg.php 6 -
+/symlink.php 7 -
+/.well-known/pkivalidation/bala.php 5 -
+/wp-admin/maint/ 12 -
+/about.php 40 -
+/modules/ 13 -
+/config.rb 1 -
+/wp-content/themes/mataam/js/hoverIntent.js 1 -
+/sendgrid.env.example 1 -
+/fonts/glyphicons-halflings-regular.woff2 1 https://asianfusionlnk.com/css/vendor.css
+/tinyfilemanager/tinyfilemanager.php 1 -
+/wp-content/hyper.php 1 -
+/wp-admin/user/iR7SzrsOUEP.php 6 -
+/wp-content/cugomade.php.suspected 1 -
+/css/index.php 2 -
+/wp-includes/images/ 12 -
+/wp-content/repeater.php 27 -
+/1h6j5.php 3 -
+/wp-22.php 11 -
+/baindex.php 3 -
+/core/.env 5 -
+/wp-content/themes/dropdown.php 1 www.google.com
+/data.php 1 -
+/wp-content/a.php 1 -
+/admin/ 16 -
+/use.php 1 -
+/post-sitemap.xml 1 -
+/sitemapindex.xml 1 -
+/uploads/xleet.php 3 -
+/1975.php 9 -
+/api.env 1 -
+/wp-admin/network/iR7SzrsOUEP.php 6 -
+/API/.env 2 -
+/admin/editor/ 13 -
+/static/picture/xz1.jpg 1 http://asianfusionlnk.com/
+/wp-includes/css/buttons.css 22 -
+/.well-known/pki-validation/themes.php 1 -
+/sad.php 1 -
+/assets/images/accesson.php 1 -
+/login.php 1 -
+/sitemap 1 -
+/blog/ 6 -
+/admin/.env 6 -
+/wp-pano.php 1 -
+/wp-content/plugins/xsid/marijuana.php 7 -
+/updates.php 21 -
+/wordpress-seo/vendor/xrstf/composer-php52/lib/xrstf/Composer52/wp-admin.php 1 -
+/www.google-analytics.com/analytics.js 105 -
+/images/lu-logo-w.png 1 http://asianfusionlnk.com/
+/wp-content/themes/welfare-charity/www.php 9 -
+/wp-content/themes/alera/%C2%AE.php 4 -
+/wp-includes/dropdown.php 7 -
+/wp-content/plugins/press/wp-class.php 11 www.google.com
+/wp-content/themes/mero-megazines/ws.php 3 -
+/shared/.env 1 -
+/assets/admin/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-admin/css/colors/light/ 12 -
+/ccx/index.php 7 -
+/backup/ 1 -
+/3index.php 3 -
+/inputs.php 5 asianfusionlnk.com
+/s/039313e2434313e26393e26363/_/ 2 -
+/assets/js/game/gameData.js 1 http://asianfusionlnk.com/
+/wp-includes/ID3/wp-conflg.php.suspected 6 -
+/rx.php 1 -
+/by.php 7 -
+/wp-includes/widgets/include.php 9 www.google.com
+/wp-admin/js/ 12 -
+/wp-includes/js/ 12 -
+/wp-content/plugins/woocommerce-payments/dist/blocks-checkout.css 1 -
+/.well-known/acme-challenge/xmrlpc.php 33 -
+/wp-x.php 3 -
+/cekidot/ 12 -
+/wp-includes/SimplePie/ 12 -
+/sftp-config.json 2 -
+/wp-content/uploads/2013/04/volcano_roll.jpg 1 -
+/1234.php 10 -
+/master/.env 1 -
+/2021/wp-includes/wlwmanifest.xml 10 -
+/config/default.json 1 -
+/screenshot_1.php 7 -
+/xl2023.php 14 -
+/inbox.php 7 -
+/tag/tempura/ 1 -
+/wp-admin/bala.php 5 -
+/xmrlpc.php 32 -
+/ok.php 6 -
+/wp-content/themes/ 14 -
+/wp-content/themes/twentytwenty/inc/index.php 1 -
+/fonts/glyphicons-halflings-regular.woff 1 https://asianfusionlnk.com/css/vendor.css
+/upload/ 13 -
+/sellers.json 4 https://asianfusionlnk.com/
+/wsoyanzorng.php 7 -
+/wp-includes/fw.php 7 -
+/wp-content/uploads/external_feed.php 3 -
+/wp-file.php 8 -
+/static/public/js/stomp.js 1 http://asianfusionlnk.com/
+/filemanager.php 1 -
+/ak.php 1 -
+/.well-known/bala.php 5 -
+/wp-content/plugins/xt/index.php 6 -
+/wp-admin/css/colors/blue/xmrlpc.php 32 -
+/dll/vendor_dll.js 1 http://asianfusionlnk.com/
+/menus/white-tiger-roll/ 1 -
+/term.php 7 -
+/wp-includes/Text/about.php 19 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1.jpg 2 -
+/_profiler/phpinfo 3 -
+/wp-content/advanced-cache.php 1 -
+/wp-content/mari.php 1 -
+/wp-content/plugins/super-forms/uploads/php/index.php 1 -
+/ZL/pc/login/domain/images/logo.png 1 http://asianfusionlnk.com/
+/ioxi02.php 1 -
+/ajax-actions.php 28 -
+/simple.php 21 -
+/plus/ad_js.php 2 http://www.asianfusionlnk.com/plus/ad_js.php
+/lock360.php 23 -
+/wp-content/cong.php 13 -
+/evil.php 7 -
+/system/.env 1 -
+/platform/.env 1 -
+/lock360.php.suspected 1 -
+/wp-admin/css/colors/midnight/wp-crons.php 1 -
+/wp-includes/Requests/ 12 -
+/phpinfo.php 3 -
+/etc/apache2/sites-available/000-default.conf 1 -
+/wp-admin/includes/themes.php 1 www.google.com
+/iR7SzrsOUEP.php 6 -
+/plugins/qqkf/qqkf2.js 1 -
+/salad/ 8 -
+/wp-diambar/includes/ 12 -
+/img/m2-li-bg.jpg 1 http://asianfusionlnk.com/
+/dd.php 3 -
+/wp-admin/maint/themes.php 1 -
+/wp-admin/images/iR7SzrsOUEP.php 6 -
+/123.php 1 -
+/lock.php 7 -
+/wp-admin/js/about.php7 14 -
+/shell20211028.php 18 -
+/menus/edamame/ 1 -
+/Public/Manage/plugins/webuploader-0.1.5/server/preview.php 2 -
+/wp-admin/network/cloud.php 26 -
+/xmlrpcs.php7 1 -
+/wxo.php 3 -
+/js/chunk-svgicon.7d24af4f.js 1 http://asianfusionlnk.com/
+/.well-known/utchiha505.php 3 -
+/wp-includes/wlwmanifest.xml 59 -
+/wp-content/themes/mataam/js/jquery.easing.1.3.js 1 -
+/resources/js/tinymce/plugins/filemanager/dialog.php 1 -
+/wp-includes/fonts/about.php 1 -
+/menus/fried-rice-w-pork-chicken-beef-shrimp-house-special/ 1 -
+/wp-fdd.php 1 -
+/telescope/requests 2 -
+/mari.php 2 -
+/wp-admin/maint/about.php 1 -
+/%C2%AE.php 4 -
+/images/xmrlpc.php 32 -
+/wp-content/plugins/wordpresss3cll/includes.php 1 -
+/xxl.php 13 -
+/sellex.php 6 -
+/utchiha_uploader.php 7 -
+/power.php 1 -
+/wp-admin/network/subjects.php 7 -
+/filemanager/filemanager/dialog.php 1 -
+/zz.php 7 -
+/china.php 3 -
+/menus/shrimp-tempura-roll/ 1 -
+/wp-admin/js/widgets/cloud.php 21 -
+/sitemap.xml.gz 8 -
+/home/ 13 -
+/menus/broccoli-w-chicken-beef-shrimp/ 1 -
+/wp-content/themes/twentyfive/include.php 1 -
+/home.php 13 -
+/wp-includes/js/tinymce/skins/wordpress/images/index.php 5 -
+/menus/unicorn-roll/ 2 -
+/wp-content/plugins/cakil/ 12 -
+/wp-includes/ID3 12 -
+/xt.php 6 -
+/common/fp.min.js 1 http://asianfusionlnk.com/
+/wp1/wp-includes/wlwmanifest.xml 65 -
+/wp-content/fw.php 10 -
+/xxxss 11 -
+/menus/asparagus-roll/ 1 -
+/menus/teriyaki-w-chicken-beef-salmon-shrimp/ 1 -
+/contents.php 7 -
+/wp-content/install.php 14 -
+/e/data/js/ajax.js 14 -
+/fw.php 11 -
+/xltavrat.php 1 -
+/wp-admin/includes/media.php 3 -
+/api/currency/quotation_new 2 -
+/.well-known/pki-validation/ssl.php 6 -
+/wp-content//license.php 1 -
+/feed 1 -
+/wp-content/plugins/revslider/includes/page/index.php 7 -
+/wp-admin/wp-trc.php 7 -
+/.well-known/acme-challenge/shell20211028.php 5 -
+/master/sendgrid.env 1 -
+/bossu.php 1 -
+/Marvins.php 7 -
+/static/js/vendor.36d8d30f4aacd032f983.js 2 http://asianfusionlnk.com/
+/wp-content/ALFA_DATA/alfacgiapi/ 12 -
+/wp-content/index.php 10 -
+/static/css/main.97d64be0.chunk.css 2 http://asianfusionlnk.com/
+/assets/scripts/filemanager/dialog.php 1 -
+/.well-known/pki-validation/404.php 4 -
+/wp-content/plugins/envato-market/inc/class-envato-market-api.php 9 -
+/wp-content/plugins/limit/ 12 -
+/site/.env 1 -
+/wp-config.php 8 -
+/e/css/submenu.css 1 -
+/xl.php 3 -
+/file.php 1 -
+/wp-2018.php 7 -
+/.env.production.local 1 -
+/etc/apache2/apache2.conf 1 -
+/rss.php 1 -
+/website/wp-includes/wlwmanifest.xml 56 -
+/assets/ 13 -
+/wp-content/themes/classic/inc/index.php 1 -
+/v.php 1 -
+/leaf.php 1 -
+/wp-admin/css/bak.php 1 -
+/xwxx.php 3 -
+/libraries/legacy/updates.php 21 -
+/3x.php 3 -
+/data/admin/allowurl.txt 6 -
+/ws.php7 27 -
+/vendor/bootstrap.min.js 104 -
+/lufix.php 10 -
+/assets/accesson.php 1 -
+/frontend_dev.php/$ 1 -
+/wp-content/themes/thuoc-nam/ 12 -
+/wp-includes/SimplePie/about.php 1 -
+/hello-world/ 1 -
+/wp-admin/repeater.php 28 -
+/ioxi-rex4.php7 7 -
+/wp-includes/PHPMailer/about.php 1 -
+/.well-known/resource-that-should-not-exist-whose-status-code-should-not-be-200/ 4 https://asianfusionlnk.com/
+/wp-admin/images/ 12 -
+/wp-content/uploads/simple-file-list/ 12 -
+/wp-includes/sitemaps/providers/about.php 1 -
+/reminder.php 3 -
+/wp-content/themes/pridmag/db.php 30 -
+/menus/dancing-eel-dragon-roll/ 1 -
+/plus/erraddsave.php 1 -
+/lufi.php 10 -
+/wp-admin/css/colors/coffee/ 12 -
+/data/cache/asd.php 1 http://asianfusionlnk.com//data/cache/asd.php
+/image/screenshot_1.php 3 -
+/menus/bomb-roll/ 1 -
+/wp-content/plugins//masterx/wpx.php 3 -
+/wp-includes/wp-includes/ 12 -
+/debug/default/view 2 -
+/wp2/wp-includes/wlwmanifest.xml 55 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1745
+193.186.4.206 72 72 1380903 20231130182539
+193.186.4.204 55 55 1108525 20231130165208
+193.186.4.205 54 54 975638 20231128195940
+193.186.4.207 53 53 1177683 20231128113431
+72.226.76.160 52 1401 216723898 20231113160309
+34.102.36.178 42 104 14672024 20231118002636
+35.197.125.209 42 104 14672024 20231124063341
+34.125.114.73 36 98 14654156 20231117070100
+34.139.247.57 32 94 14622066 20231117065344
+76.84.176.242 18 488 54909233 20231121205621
+108.167.22.91 3 97 9747008 20231129181745
+182.44.67.97 3 3 45003 20231128005939
+193.219.97.83 1 25 1281730 20231102053931
+185.223.152.64 1 1 16811 20231122225844
+40.131.160.68 4 122 22370112 20231124185559
+172.59.79.188 1 29 1358470 20231118150610
+167.127.218.142 1 27 6990787 20231125165946
+64.233.173.71 0 1 1333617 
+167.248.27.85 2 82 2795502 20231124111647
+35.203.246.30 1 1 15001 20231113145044
+35.202.205.224 1 1 15001 20231103223027
+192.63.171.5 5 117 23090011 20231115160846
+97.98.178.98 3 126 4212285 20231104083032
+107.77.236.185 0 40 1341354 
+103.191.241.254 1 1 15001 20231119191112
+20.218.146.187 2 2 30002 20231109220445
+114.80.36.40 1 1 15001 20231122021557
+5.104.80.240 6 6 90006 20231127023048
+174.215.246.149 5 172 19152777 20231121131913
+174.234.189.178 0 40 1341354 
+72.46.55.135 3 92 14392096 20231121012420
+107.173.35.7 1 1 15001 20231116034257
+174.198.66.206 2 27 4061487 20231112190029
+43.135.164.74 1 1 15001 20231128211401
+87.236.176.6 1 1 15001 20231127012228
+172.59.72.144 0 26 6975786 
+206.255.53.131 1 1 15001 20231126091601
+124.225.164.130 1 1 15001 20231122094947
+97.98.245.91 0 1 404916 
+54.190.181.150 2 2 15001 20231105012946
+172.59.185.123 1 30 1364814 20231103130350
+167.248.10.168 2 36 2117650 20231108165301
+44.236.133.248 0 1 6344 
+128.14.209.26 1 1 13991 20231102164322
+167.248.122.235 3 108 27954491 20231104213203
+152.39.189.133 0 1 21691 
+174.198.66.234 0 30 7061976 
+174.198.70.231 1 29 1358470 20231130175248
+174.228.39.18 5 31 7050791 20231127200755
+104.171.152.233 1 13 390915 20231111075439
+54.236.36.27 1 1 15001 20231107040157
+206.204.43.43 0 1 23910 
+44.234.59.52 2 2 15001 20231105012946
+75.91.245.231 3 97 9747008 20231107015829
+39.173.107.34 0 1 21237 
+104.28.104.128 0 1 168291 
+104.218.69.77 1 27 6990787 20231117180540
+97.98.243.191 1 41 1397751 20231121153012
+216.109.167.164 0 1 183136 
+174.228.34.232 4 111 9969581 20231114160654
+173.190.221.166 1 41 1397751 20231127120414
+223.244.35.77 1 1 15001 20231113124616
+76.84.164.81 4 87 9462364 20231104082116
+86.111.229.39 7 7 155965 20231122000447
+43.153.104.35 1 1 15001 20231104113632
+172.178.115.188 3 3 45003 20231128133702
+91.230.225.191 2 2 30002 20231118090034
+85.192.41.110 4 4 60004 20231107131909
+108.147.197.29 0 2 37154 
+71.28.134.236 2 42 1454148 20231124123010
+104.218.69.218 1 41 1397751 20231129192047
+174.198.73.219 2 69 8394882 20231125175230
+140.228.154.165 4 130 21610966 20231123171112
+24.72.215.34 1 27 6990787 20231122213706
+47.28.181.124 1 41 1397751 20231125020421
+108.167.5.125 7 291 20985489 20231108182732
+104.244.83.73 0 1 940992 
+76.79.6.76 1 28 6997131 20231130110211
+185.246.210.187 1 1 15001 20231127091828
+108.167.1.145 4 152 11314109 20231105170948
+172.59.79.142 1 41 1397751 20231123202648
+192.168.151.0 1 4 46702 20231121065244
+107.77.209.204 2 69 8394882 20231118112707
+185.150.87.153 1 1 15001 20231124221405
+35.147.174.142 8 250 27843273 20231118200608
+64.64.139.181 1 41 1397751 20231130141826
+209.99.148.240 1 1 28080 20231126025818
+154.12.128.41 2 2 31812 20231123141809
+174.215.241.255 1 42 1404095 20231117140526
+129.93.161.228 2 51 12992337 20231102103505
+174.235.214.92 2 70 8401226 20231128183228
+104.164.173.36 7 16 301093 20231123162334
+173.252.107.118 1 1 56397 20231108175943
+64.124.8.91 0 3 20950 
+108.160.51.22 1 1 15001 20231126145802
+174.228.33.180 1 2 183292 20231116140108
+140.228.155.133 2 56 8349257 20231121192703
+104.164.161.122 1 27 6990787 20231117111303
+157.245.67.150 1 1 28080 20231105235812
+163.116.147.31 1 41 1397751 20231110120352
+174.235.210.13 0 40 1341354 
+172.59.76.112 0 28 1330390 
+104.28.55.235 0 2 28269 
+24.144.94.163 1 1 56397 20231105211323
+104.28.103.131 0 14 3991105 
+174.215.249.177 1 41 1397751 20231129231238
+117.62.235.53 1 1 15001 20231128221718
+173.235.108.42 1 27 6990787 20231125123121
+166.181.87.52 2 68 8388538 20231109134528
+40.131.157.236 2 68 8388538 20231112171217
+199.45.154.16 1 2 21345 20231129232708
+20.229.51.198 1 1 15001 20231123200437
+183.136.225.5 4 4 60004 20231119010113
+165.225.56.121 1 41 1397751 20231103105249
+162.210.6.110 1 27 6990787 20231121135152
+172.104.179.166 3 3 45003 20231103160935
+170.64.67.57 2 57 8355601 20231108201707
+174.235.216.32 1 81 2739105 20231123171514
+162.127.23.197 1 38 799857 20231129130654
+100.24.35.208 1 1 56397 20231129111013
+167.248.73.202 1 54 13972917 20231129195658
+173.252.95.11 0 1 21691 
+104.218.69.6 12 418 26833962 20231107162243
+167.99.43.51 2 2 30002 20231121195548
+174.213.161.51 0 40 1341354 
+47.28.182.23 2 67 1936570 20231125005839
+165.22.230.212 2 2 30002 20231129202429
+104.28.50.114 1 23 2252530 20231123110906
+194.34.245.115 6 6 90006 20231117022204
+51.79.229.197 1 1 15001 20231114092118
+154.83.10.124 1 1 15001 20231111171515
+174.215.244.139 3 57 8364258 20231112182203
+174.198.69.240 1 41 8722009 20231115153722
+174.234.191.128 3 111 9798977 20231120181240
+120.92.72.72 1 1 15001 20231118204956
+64.64.144.137 2 68 8388538 20231104145024
+140.228.179.33 1 27 6990787 20231105115431
+91.132.187.122 1 1 15001 20231130171758
+174.215.246.134 2 58 2716940 20231111174348
+167.248.30.127 3 83 15340044 20231125154518
+204.137.100.18 1 46 5126774 20231117135159
+76.84.0.31 3 109 9786289 20231125185249
+167.248.86.16 1 30 1364814 20231120222104
+185.223.152.82 1 1 12146 20231122225844
+216.73.163.154 2 2 15001 20231111062638
+76.84.40.88 2 68 8388538 20231125192529
+107.77.89.121 2 28 7005788 20231111161315
+209.146.23.178 1 1 15001 20231108001333
+40.131.160.186 2 56 8349257 20231102190719
+93.158.90.68 1 1 15001 20231104074715
+167.248.26.200 2 69 8394882 20231130182751
+52.71.155.178 1 1 56397 20231126183855
+172.59.229.81 1 27 6990787 20231123194938
+104.218.69.179 3 83 15340044 20231111200306
+67.55.66.180 1 1 15001 20231104042130
+20.193.232.1 3 3 45003 20231121203403
+174.235.219.40 4 139 11151103 20231106121132
+164.119.5.20 5 161 17337119 20231125174024
+161.35.185.223 1 1 10719 20231105082414
+222.211.72.52 1 1 15001 20231128132038
+173.252.127.1 0 1 21691 
+188.166.146.61 1 1 10719 20231106043244
+204.137.100.7 1 27 6990787 20231106133613
+35.89.157.35 2 2 15001 20231105012946
+5.161.137.178 1 1 15001 20231117092653
+24.199.121.171 2 2 43081 20231106003540
+166.181.86.47 4 124 16737795 20231115195049
+64.227.134.248 2 2 30002 20231115003619
+34.84.82.128 5 5 60004 20231118192328
+40.77.12.255 2 2 30002 20231123022102
+194.26.192.122 3 3 45003 20231115102529
+106.254.252.139 2 2 30002 20231117215855
+167.248.77.64 6 202 18734870 20231108170308
+166.181.89.181 0 2 2667234 
+173.255.232.30 1 1 15001 20231111050901
+104.218.69.127 2 46 11436639 20231123044510
+194.26.192.215 1 1 15001 20231104083109
+221.204.227.2 1 1 15001 20231118041307
+174.213.160.136 3 97 9747008 20231126174047
+52.142.13.85 7 22 5108436 20231123111654
+174.228.37.102 0 28 1330390 
+121.62.22.138 1 1 15001 20231121215727
+76.84.34.86 10 313 36627955 20231102185039
+60.188.10.159 0 2 420430 
+97.119.194.147 0 13 397605 
+93.159.230.89 2 2 30002 20231122184618
+170.64.75.45 1 1 15001 20231112093217
+20.219.62.183 8 8 120008 20231122131518
+167.248.29.87 1 27 6990787 20231105124510
+34.203.222.235 1 1 13991 20231101061213
+35.151.207.129 1 29 1358470 20231103165815
+204.137.100.96 3 150 11133987 20231114190946
+4.197.202.44 2 2 30002 20231107073332
+166.181.87.81 1 27 6990787 20231127165940
+67.205.42.121 4 4 60004 20231113182813
+174.215.244.228 1 68 8379881 20231128200048
+24.41.34.30 1 27 6990787 20231116153038
+173.208.184.242 2 2 30002 20231116072733
+167.248.25.175 3 95 15379325 20231107191620
+91.201.115.52 1 1 15001 20231110052447
+209.50.18.36 5 197 18295434 20231103114605
+140.228.175.174 2 68 8388538 20231106220821
+198.23.196.55 1 1 15001 20231130175537
+35.163.48.216 1 1 15001 20231128084804
+134.209.88.28 2 2 30002 20231128223004
+72.46.56.181 1 42 1404095 20231130094205
+64.39.223.132 0 3 4000851 
+172.59.77.116 2 69 8392891 20231102173904
+97.98.224.44 1 41 1397751 20231112184722
+172.59.74.153 2 82 2795502 20231117182931
+72.46.55.21 1 1 15001 20231124000810
+68.183.117.66 2 2 30002 20231106231547
+71.228.124.128 0 1 1333617 
+108.147.94.48 2 2 30002 20231114203046
+199.47.67.36 2 2 56160 20231114160035
+174.234.161.154 2 68 8388538 20231117164605
+72.46.50.30 2 68 8388538 20231123125454
+167.248.13.119 0 40 1341360 
+35.147.171.8 7 176 17412746 20231111134632
+166.199.99.7 1 27 6990787 20231129194049
+77.174.134.232 1 29 1358470 20231126054551
+174.234.174.248 1 18 3715097 20231108105606
+4.199.3.203 3 3 45003 20231122033436
+185.223.152.73 1 1 15001 20231122225843
+167.248.84.106 1 1 15001 20231125061454
+207.154.236.52 1 1 56397 20231105035109
+146.59.52.85 1 1 15001 20231122020531
+67.245.113.134 3 69 14053170 20231128194819
+74.125.214.69 1 7 72470 20231107152929
+64.124.8.61 0 2 410624 
+176.125.235.116 1 1 15001 20231123162454
+71.29.67.2 1 41 1397751 20231118132004
+76.84.167.175 1 82 2745449 20231117183918
+217.165.123.102 0 3 4000851 
+174.235.218.118 2 28 7003774 20231102160922
+135.148.237.208 1 1 15001 20231124160953
+71.28.19.78 0 40 1341354 
+192.227.137.56 1 1 15001 20231129140656
+45.33.27.103 1 1 15001 20231103210749
+167.248.9.150 3 69 8403539 20231108200934
+174.235.208.116 0 25 497691 
+76.84.121.50 1 1 15001 20231105112657
+35.163.227.141 1 1 15001 20231124085835
+69.63.184.4 1 1 15001 20231112123103
+76.84.34.38 7 260 20976673 20231117171654
+124.237.181.76 1 1 15001 20231127121754
+52.35.117.102 14 14 308310 20231110130636
+174.215.240.66 2 84 9679647 20231120141911
+174.202.162.14 0 16 431238 
+128.90.43.127 2 2 0 20231124125121
+174.228.33.156 3 85 15352732 20231118190220
+174.198.69.39 1 56 8340600 20231119161123
+74.51.211.105 1 1 15001 20231119223156
+172.59.225.24 1 19 5664593 20231125150634
+174.215.249.138 1 44 1768017 20231130155152
+45.5.65.33 1 1 0 20231118192612
+128.90.43.194 4 4 0 20231126080821
+173.252.127.26 0 1 21691 
+174.235.210.101 1 41 1397751 20231124131450
+35.147.185.4 3 85 9707727 20231120133212
+166.181.81.116 1 41 1397751 20231118181424
+46.228.199.158 1 1 15001 20231103225547
+93.158.91.242 1 1 15001 20231117035235
+172.59.79.209 1 27 6990787 20231104161715
+142.132.250.173 3 24 404383 20231105103300
+51.83.238.159 1 1 13991 20231101114818
+167.248.14.2 2 42 1412752 20231125164806
+185.223.152.80 1 1 56397 20231122111142
+170.64.70.183 1 1 15001 20231105120914
+58.49.233.126 1 1 15001 20231120233911
+140.228.174.80 1 27 6990787 20231117192052
+101.67.49.163 0 1 7032 
+174.235.209.187 2 46 11436639 20231118210007
+173.252.95.21 0 1 21691 
+206.204.21.241 0 1 1333617 
+143.198.217.34 2 2 15001 20231109120346
+170.64.77.186 2 68 8388538 20231119143502
+162.127.23.199 3 97 9747008 20231128162532
+76.84.25.94 2 68 8388538 20231130165911
+76.84.136.144 3 69 8444935 20231117114928
+54.225.54.125 7 16 301093 20231124043952
+72.46.49.70 1 28 6997131 20231125152254
+172.59.72.159 2 54 13981574 20231118115912
+174.228.33.227 1 28 6997131 20231103091346
+104.218.71.30 4 138 11144759 20231104215450
+44.242.155.73 1 1 15001 20231117165229
+35.147.176.0 2 70 2756221 20231130193053
+119.12.202.170 1 1 15001 20231126221426
+213.188.68.164 1 1 15001 20231127171941
+72.15.169.61 5 199 31418072 20231118180326
+104.218.69.75 3 111 4153972 20231108083017
+160.32.104.2 2 56 8349257 20231121185459
+167.248.94.171 2 68 8388538 20231129200920
+216.251.130.74 4 108 27963148 20231122204619
+173.252.127.5 0 1 21691 
+174.198.69.192 0 5 837310 
+113.211.209.234 0 2 2667234 
+167.248.90.77 3 3 46813 20231111105158
+104.218.69.46 4 138 11144759 20231110180438
+60.188.11.84 0 1 23910 
+72.46.48.138 3 146 10140414 20231108125014
+168.151.198.74 1 1 15001 20231128221432
+68.99.4.244 0 28 1330390 
+172.233.186.109 3 3 45003 20231122062136
+154.91.138.12 1 1 15001 20231117035941
+185.196.8.187 1 1 15001 20231120031644
+172.200.254.229 1 1 13991 20231101205825
+102.88.35.116 1 25 342297 20231115014857
+174.198.66.170 1 4 60865 20231126054619
+143.244.54.149 1 1 28080 20231104200353
+173.252.95.119 0 1 21691 
+167.248.127.207 1 1 15001 20231120142157
+20.49.9.52 1 1 15001 20231124210538
+174.235.215.211 1 9 346390 20231125003211
+167.248.12.94 2 54 13981574 20231127110956
+51.158.202.242 1 1 15001 20231123091217
+173.252.79.118 0 1 21691 
+174.235.210.233 0 28 1330390 
+198.51.52.95 3 127 5445081 20231108145652
+198.46.233.18 1 1 13991 20231101224701
+104.232.39.201 8 8 169156 20231117173834
+172.59.76.181 1 27 6990787 20231113193125
+167.248.8.126 3 111 9798977 20231120184221
+66.252.127.42 2 2 56160 20231118220344
+20.5.217.204 4 4 60004 20231105014154
+108.147.176.8 1 27 6990787 20231119175412
+104.28.55.233 0 1 5335 
+35.147.160.131 4 107 16170593 20231110124454
+72.14.201.74 1 1 28080 20231105001052
+38.152.33.230 7 7 155965 20231124014831
+98.22.95.153 4 139 11151103 20231129190705
+38.154.165.22 0 4 2738510 
+20.16.55.28 4 4 60004 20231110000600
+167.248.7.187 2 83 2801846 20231120193437
+107.121.104.19 1 27 6990787 20231123203542
+185.223.152.62 1 1 15001 20231122111140
+140.228.157.66 3 58 13379663 20231124185424
+174.215.242.80 1 28 6997131 20231123185956
+5.133.192.87 1 1 15001 20231112050423
+34.106.164.86 3 3 45003 20231128094138
+113.82.248.5 1 1 15001 20231117115344
+167.71.67.178 2 2 30002 20231115194028
+35.80.15.239 1 1 15001 20231128222613
+174.228.33.53 2 71 2762565 20231122163748
+76.84.2.170 0 26 6975786 
+92.114.60.84 1 1 15001 20231127171800
+104.218.69.227 10 390 32761779 20231123194512
+104.218.71.253 2 56 8349257 20231121184321
+49.7.227.204 1 1 15001 20231120070803
+176.198.200.85 0 1 1333617 
+174.235.217.25 3 69 8403539 20231116204722
+3.79.155.156 1 1 15001 20231119020740
+154.119.226.2 1 41 1397751 20231115024122
+20.232.147.16 4 138 11144759 20231110120444
+36.111.67.189 1 1 15001 20231127133953
+66.249.70.165 1 1 56397 20231114063853
+85.203.15.42 1 1 15001 20231124001624
+119.13.200.91 1 1 15001 20231123221321
+122.163.3.143 2 2 30002 20231110013526
+20.150.151.8 3 3 45003 20231116011516
+3.15.45.211 1 42 1404095 20231122182455
+75.213.236.125 3 69 8444935 20231125152107
+174.235.211.161 2 122 4136856 20231107103341
+167.248.96.243 1 24 6003558 20231108212848
+185.180.143.140 2 2 30002 20231127134825
+108.167.1.33 2 69 8394882 20231125161314
+174.234.164.94 4 129 5479505 20231118195817
+172.59.78.61 1 29 1358470 20231125150749
+168.151.132.29 0 1 15514 
+104.218.69.57 4 164 18107466 20231119021752
+174.235.215.167 1 42 1404095 20231108012414
+35.91.29.202 2 2 15001 20231117173809
+141.246.2.80 2 45 8049612 20231129200817
+64.124.8.31 1 19 5014726 20231110230900
+204.137.100.11 0 1 1333617 
+180.149.21.65 0 1 21237 
+168.91.35.34 0 1 1784967 
+24.28.40.215 0 40 1341354 
+167.248.100.207 2 68 8388538 20231113183304
+167.248.97.92 1 41 1397751 20231106115555
+216.19.200.231 0 1 181341 
+147.182.154.33 2 2 30002 20231127232420
+174.213.244.235 3 149 11127643 20231114133406
+69.30.190.229 1 27 6990787 20231103182345
+54.71.136.47 1 1 15001 20231127122034
+54.242.190.220 5 40 678450 20231103180713
+69.63.189.8 0 1 21691 
+172.121.218.165 1 1 15001 20231118192640
+104.220.17.74 1 28 6997131 20231129112356
+47.254.16.187 1 1 15001 20231124043517
+54.204.177.77 1 27 6990787 20231123162850
+71.29.66.55 2 56 8349257 20231116174635
+76.84.34.146 1 41 1397751 20231129164406
+174.198.65.17 6 197 13601335 20231130125537
+20.127.42.16 1 1 15001 20231112130627
+102.88.34.83 0 7 381135 
+194.33.191.32 6 6 90006 20231109160231
+167.248.21.212 1 42 1404095 20231105133502
+174.235.212.168 5 146 12303164 20231106140849
+185.223.152.68 1 1 16811 20231122111140
+44.234.89.20 1 1 15001 20231103181012
+54.175.74.27 2 3 63570 20231126140306
+185.223.152.75 1 1 28080 20231122225846
+23.100.25.6 1 27 6990787 20231109160006
+86.111.229.28 7 7 155965 20231109034530
+18.246.36.34 1 1 15001 20231111024148
+35.151.199.4 1 81 2739105 20231125104427
+106.255.78.19 1 1 10719 20231109133329
+104.218.69.197 6 297 40423488 20231123102043
+128.14.136.78 1 1 15001 20231127064118
+174.198.64.199 2 19 5498253 20231104174646
+156.146.59.167 2 2 30002 20231104120546
+69.12.29.10 3 97 9747008 20231114110613
+159.65.145.2 2 2 30002 20231125210838
+172.59.73.179 1 27 6990787 20231119130316
+174.228.36.223 3 85 9694648 20231110164937
+47.28.183.154 2 69 8394882 20231117120433
+161.35.166.193 1 1 15001 20231105091718
+172.234.18.193 1 1 15001 20231120184052
+65.154.226.171 2 2 30002 20231126025830
+104.28.104.129 2 56 8349257 20231118175507
+60.188.10.162 0 2 201745 
+173.252.95.9 0 1 21691 
+154.202.125.117 1 1 16811 20231111171534
+98.19.45.60 1 41 1397751 20231120173725
+85.239.247.85 3 3 45003 20231123180419
+20.150.204.125 3 3 45003 20231111154637
+174.228.33.78 1 27 6990787 20231122194759
+104.28.104.131 3 110 8991570 20231104200530
+35.84.184.145 3 3 45003 20231105153053
+167.248.44.142 2 57 8355601 20231108233139
+52.38.170.16 1 1 15001 20231124164548
+199.45.154.51 1 2 21345 20231129224140
+76.85.156.204 2 56 8349257 20231108190652
+216.104.45.181 1 1 56397 20231110133619
+24.28.40.217 0 40 1341354 
+69.63.189.119 0 1 10567 
+3.80.52.29 4 4 56974 20231102200048
+167.248.8.247 1 41 1397751 20231124182638
+167.248.8.132 1 28 6997131 20231129192201
+54.196.21.156 1 1 15001 20231105211913
+149.56.150.240 1 27 6990787 20231125095450
+172.59.74.20 1 56 8340600 20231119161109
+140.228.169.190 1 41 1397751 20231123213449
+139.59.13.225 2 2 30002 20231119023255
+177.135.126.59 1 1 15001 20231109133318
+174.235.210.228 1 108 9721235 20231106180304
+167.248.22.182 6 160 30030497 20231105190311
+174.198.70.161 1 32 11682592 20231114215034
+120.92.72.197 0 1 5465 
+174.198.65.29 1 51 1555315 20231129171350
+107.178.207.148 0 1 1333617 
+174.235.213.144 2 68 8388538 20231119133837
+204.137.100.5 1 27 6990787 20231114111446
+104.28.55.228 0 5 214913 
+174.198.65.51 2 32 1548794 20231129143238
+174.228.34.50 2 68 8388538 20231126133438
+181.214.173.74 2 2 30002 20231110091112
+104.218.69.14 2 68 8388538 20231127130416
+199.244.88.224 2 2 30002 20231125025031
+185.180.143.13 1 1 15001 20231104151832
+45.141.215.138 1 1 15001 20231123152253
+108.167.3.155 2 71 8816384 20231101175659
+76.84.119.126 2 79 8554678 20231101215537
+104.218.69.152 15 392 49038590 20231130145738
+74.51.222.168 6 183 19188398 20231101175828
+108.147.197.4 1 20 6069509 20231130141052
+172.59.226.4 3 98 9753352 20231110112510
+143.244.52.3 1 1 15001 20231111000517
+198.74.55.128 1 1 15001 20231128172743
+69.160.160.57 6 32 7114940 20231128145355
+74.51.211.130 2 56 8349257 20231110112505
+45.5.65.229 1 27 6990787 20231117113117
+167.248.34.48 4 121 15750566 20231112171315
+103.108.44.46 1 1 15001 20231123104325
+23.95.23.210 8 8 169156 20231111075443
+76.84.44.103 2 70 2756221 20231129184730
+206.204.2.24 0 1 342651 
+149.5.4.67 1 1 15001 20231118052156
+159.89.164.140 2 2 30002 20231123024300
+167.248.25.156 2 68 8388538 20231118190329
+174.235.208.104 1 27 6990787 20231124073024
+174.198.70.142 2 37 7358414 20231124170500
+23.128.248.14 7 7 154155 20231108180517
+34.82.159.44 1 1 15001 20231106132930
+97.98.231.123 1 29 1358470 20231104182312
+46.232.209.123 1 13 1842148 20231124050312
+209.50.13.98 1 79 2708629 20231126175400
+208.82.105.25 1 41 1397751 20231110124527
+158.62.43.20 2 62 13222428 20231106114040
+64.124.8.24 1 15 5222358 20231120142921
+104.28.104.130 1 9 1825527 20231123160032
+39.173.107.30 1 2 17567 20231120153055
+64.233.172.97 0 1 7410 
+174.215.243.124 3 97 9747008 20231130112242
+104.28.50.110 3 84 19091072 20231123110941
+206.82.2.172 2 64 7590111 20231109031739
+104.218.69.17 3 69 8444935 20231122182348
+129.93.161.217 10 306 47482540 20231114104011
+174.198.66.218 2 55 13985910 20231101214443
+192.71.142.40 1 1 15001 20231130223035
+167.248.69.138 3 95 15379325 20231103192142
+110.166.71.39 1 1 15001 20231119232846
+116.31.129.164 1 1 13991 20231102134430
+40.131.182.50 5 86 3173261 20231130122542
+167.248.91.121 5 128 11311950 20231104225210
+154.91.138.18 1 1 15001 20231116084347
+172.59.229.122 2 56 8349257 20231119131757
+167.248.27.248 1 81 2739105 20231129174040
+42.83.147.55 2 2 30002 20231114002052
+42.83.147.54 1 1 15001 20231106015653
+193.186.4.86 1 1 56397 20231105014021
+39.173.107.31 0 2 245126 
+161.97.129.15 3 3 43958 20231123003704
+46.35.252.130 2 2 31812 20231122051831
+170.64.66.52 5 192 19476449 20231125170329
+110.44.115.158 1 24 5021913 20231108221059
+63.86.0.75 0 2 415483 
+104.218.69.25 2 56 8349257 20231113111845
+167.248.76.159 2 37 7358414 20231112214658
+174.235.209.39 0 40 1341354 
+104.218.69.153 2 44 1456600 20231124144040
+151.213.43.104 1 30 1364814 20231110123015
+174.228.32.238 1 27 6990787 20231103210315
+5.188.62.174 1 1 15001 20231114040919
+184.73.138.172 2 16 270447 20231118125020
+64.124.8.76 1 18 6775186 20231118071810
+167.248.3.202 1 42 1404095 20231130152149
+35.147.248.0 0 28 1330390 
+174.213.160.53 3 97 9747008 20231123191911
+193.186.4.212 1 1 15001 20231112150811
+76.84.40.134 1 42 1404095 20231103203035
+135.181.221.147 1 1 15001 20231114213726
+173.189.84.73 13 107 9906068 20231111181505
+174.198.66.22 2 108 9729892 20231118192545
+174.198.65.19 4 81 17495856 20231123180641
+107.174.115.161 1 1 15001 20231129123437
+75.117.25.95 1 30 1364814 20231117113239
+183.136.225.45 3 3 45003 20231118043644
+87.236.176.204 1 1 15001 20231120032239
+76.84.25.100 1 27 6990787 20231122173323
+104.218.69.122 1 27 6990787 20231126153547
+75.182.177.175 2 68 8388538 20231127152104
+159.65.58.104 2 2 30002 20231123162353
+167.248.17.216 3 97 9747008 20231104182626
+172.59.74.255 1 35 6231641 20231124202554
+209.50.24.185 1 1 15001 20231114204257
+47.181.117.233 3 46 8064613 20231123071804
+132.147.141.68 2 70 2756221 20231123101658
+172.59.75.169 1 1 15001 20231103191635
+104.218.69.40 2 68 8388538 20231123144324
+149.102.244.93 2 2 31812 20231112101916
+204.137.66.164 3 109 9786289 20231112185746
+108.167.36.31 3 44 1637440 20231117132418
+174.228.35.164 1 2 183292 20231121143928
+216.180.105.85 1 7 780824 20231127025006
+75.212.215.125 2 69 8394882 20231106115539
+101.67.49.161 0 2 45581 
+20.118.175.84 2 2 30002 20231118014107
+44.234.50.78 2 2 15001 20231105012946
+75.88.68.61 1 29 1358470 20231105231340
+185.196.10.72 1 1 15001 20231120034702
+209.92.189.114 5 179 18187515 20231128115226
+172.59.79.74 1 29 1358470 20231128142447
+15.204.206.70 2 2 28957 20231111085726
+209.99.146.108 1 1 15001 20231126025818
+174.210.162.179 2 83 2801846 20231130175711
+97.98.177.138 2 56 8349257 20231126105217
+71.28.132.179 2 56 8349257 20231117160910
+154.16.206.246 2 2 31812 20231120054132
+45.134.224.82 1 29 1358470 20231120070311
+104.250.238.173 1 1 15001 20231112124434
+198.133.244.253 4 126 11105478 20231110130555
+152.39.162.243 1 1 15001 20231128221520
+174.203.2.15 1 1 15001 20231114230114
+121.36.230.247 1 1 15001 20231129162501
+191.96.67.187 1 1 28080 20231107142419
+174.234.164.136 3 57 8364258 20231124170525
+38.242.250.246 1 1 15001 20231104160354
+166.181.85.201 1 27 6990787 20231122183309
+173.244.142.83 9 359 25041311 20231129172005
+76.84.22.150 2 82 2795502 20231108185457
+128.199.81.70 3 3 45003 20231113021509
+35.187.31.229 1 1 15001 20231113024316
+184.72.115.35 1 1 56397 20231124093326
+166.181.88.182 1 28 6997131 20231119140914
+206.189.108.77 2 2 30002 20231103213147
+45.94.31.49 1 1 15001 20231104124656
+35.93.154.50 1 1 15001 20231127111908
+34.139.12.96 7 7 154155 20231117232720
+98.19.45.161 1 27 6990787 20231105184007
+174.198.67.170 1 28 6996127 20231102134354
+69.63.189.6 0 2 19908 
+104.28.50.120 0 28 1330390 
+3.81.14.211 1 1 15001 20231112212612
+97.98.177.116 2 123 4143200 20231126203048
+174.228.34.188 1 1 15001 20231103180841
+174.198.66.53 4 159 10431238 20231105182205
+51.187.255.37 1 1 15001 20231123163143
+46.232.209.102 0 1 1011070 
+162.55.94.176 1 8 135746 20231129151450
+68.183.227.171 2 2 30002 20231109115306
+167.248.21.196 2 68 8388538 20231112112217
+213.226.101.234 1 1 15001 20231119030825
+68.169.41.59 1 1 56397 20231110133656
+104.218.69.228 3 95 15379325 20231118115356
+173.252.87.1 1 1 15001 20231125235826
+132.147.130.214 2 21 3003553 20231117233315
+108.167.1.114 0 28 1330390 
+129.93.161.224 2 54 13981574 20231129100322
+182.131.31.39 1 1 15001 20231107214550
+139.55.194.234 3 86 19222975 20231102121301
+124.237.181.12 1 1 13991 20231102144440
+167.248.109.57 5 165 18135546 20231123165742
+134.209.90.232 2 2 30002 20231107103409
+174.213.160.169 3 95 15379325 20231104132248
+69.63.189.120 1 1 28080 20231124152036
+157.245.78.114 2 2 30002 20231118111434
+98.158.184.190 1 1 28080 20231110133655
+107.77.209.93 2 108 9729892 20231123193608
+34.230.4.71 1 1 56397 20231108103331
+1.116.0.163 2 2 28957 20231130230443
+46.8.222.28 1 1 15001 20231125193157
+104.223.245.114 1 1 15001 20231115151222
+128.90.163.240 1 1 0 20231115000146
+172.178.77.213 1 1 15001 20231114144511
+76.84.40.74 2 70 8401226 20231116151412
+44.235.77.165 1 1 15001 20231130191019
+107.77.206.12 1 41 1397751 20231106153411
+3.79.24.233 7 7 154155 20231126204025
+188.126.94.100 1 1 13991 20231101122650
+174.228.35.246 1 1 15001 20231128165032
+83.149.106.225 1 1 13991 20231102134136
+104.237.245.161 1 1 0 20231121164425
+172.233.177.117 2 2 30002 20231111195829
+157.245.1.185 2 2 30002 20231105060509
+15.181.96.214 1 51 5464723 20231121212804
+91.92.240.93 1 1 15001 20231121220442
+20.150.199.33 6 6 90006 20231129124222
+174.198.66.99 3 57 8364258 20231116144932
+174.71.49.50 1 41 1397751 20231106122808
+64.42.179.43 2 2 31812 20231109115201
+185.223.152.61 1 1 28080 20231122111143
+174.228.34.167 0 2 809832 
+138.68.180.18 7 7 154155 20231127190803
+69.63.189.117 0 1 5910 
+167.248.4.124 2 82 8765746 20231122124430
+192.3.231.36 1 1 15001 20231107024210
+75.117.24.204 5 154 17835901 20231120181501
+46.101.119.163 2 2 30002 20231111211748
+167.248.73.231 4 151 11190384 20231111180725
+54.185.44.110 1 1 15001 20231127112500
+167.248.39.171 2 23 6904142 20231118224246
+139.144.96.150 2 2 30002 20231123162407
+40.77.167.28 0 2 21134 
+76.72.173.4 1 1 15001 20231114004934
+172.233.130.220 1 1 15001 20231111035547
+154.47.25.146 2 89 16532604 20231123155948
+76.84.20.28 2 72 2781201 20231121010647
+20.2.66.219 3 3 45003 20231128163011
+143.244.44.165 8 325 23604511 20231104182223
+166.199.99.81 2 28 7005788 20231111194717
+121.53.83.248 1 1 15001 20231129204820
+70.121.242.147 1 82 2745449 20231125115230
+103.199.42.104 0 1 1333617 
+104.218.69.65 2 58 2716940 20231128183701
+172.68.218.135 1 1 15001 20231117095822
+174.198.69.196 1 1 123805 20231111125454
+34.220.16.150 1 1 15001 20231126051449
+72.46.52.202 0 12 2768946 
+124.237.181.206 1 1 15001 20231127141019
+51.254.49.98 1 1 15001 20231124151202
+35.91.247.134 1 1 15001 20231108063403
+76.84.162.16 1 54 13972917 20231109222943
+34.123.240.126 1 1 15001 20231103043908
+76.84.18.61 4 149 5802464 20231105181609
+34.106.233.8 3 3 45003 20231119231229
+76.84.164.147 3 126 10788717 20231123114827
+46.188.243.222 0 33 1427147 
+167.248.27.51 3 123 4193253 20231103192939
+172.59.75.42 2 14 405916 20231118220136
+172.59.72.22 3 72 15040399 20231115213951
+209.50.25.170 1 27 6990787 20231124182948
+20.242.80.200 1 1 13991 20231101205525
+174.235.210.70 1 27 6990787 20231114193621
+130.51.129.90 2 54 13981574 20231105081012
+174.235.208.195 1 42 1404095 20231122141330
+39.173.107.32 0 2 42281 
+182.44.2.148 1 1 15001 20231129104735
+167.248.10.6 5 129 15261594 20231112211620
+166.181.86.167 0 40 1341354 
+98.97.9.107 4 124 16737795 20231128095829
+104.218.69.18 2 82 2795502 20231104165256
+172.121.217.116 1 1 0 20231117113059
+174.235.215.138 1 1 15001 20231110210803
+3.238.76.125 1 8 135746 20231103142324
+23.81.27.114 8 8 228613 20231117213820
+44.233.220.227 1 1 15001 20231108040554
+104.218.69.126 2 68 8388538 20231123115745
+79.124.49.174 7 16 301093 20231127100654
+35.91.232.102 1 1 15001 20231111110604
+173.252.127.11 1 1 56397 20231105083420
+174.235.215.63 1 41 1397751 20231125143711
+119.13.218.187 0 1 404916 
+104.165.105.190 8 8 169156 20231117173835
+213.188.66.75 0 1 23890 
+174.235.217.113 2 19 1073826 20231130180906
+140.228.169.223 4 75 8657743 20231129191117
+54.146.210.252 1 1 15001 20231126193531
+64.124.8.57 1 20 5036417 20231119150234
+104.218.69.67 1 27 6990787 20231118180247
+154.6.94.150 17 17 350458 20231105064707
+47.28.155.26 1 41 1397751 20231110171835
+174.228.35.100 3 95 15379325 20231110091750
+64.253.175.210 3 109 9786289 20231109162811
+20.84.63.27 6 6 90006 20231106051821
+52.34.185.141 1 1 15001 20231104073458
+174.198.67.181 2 56 8349257 20231110183459
+152.39.243.232 0 1 21691 
+166.181.82.235 2 70 2756221 20231119155910
+76.84.33.204 0 28 1330390 
+167.248.5.220 1 41 1397751 20231117112211
+67.202.48.39 0 1 1333617 
+34.77.72.105 1 1 13991 20231102033915
+72.14.201.207 9 9 148088 20231129165603
+172.104.61.195 1 1 15001 20231119175031
+167.248.12.110 8 65 3466114 20231104235814
+35.151.193.135 1 1 56397 20231116154702
+167.248.11.213 1 27 6990787 20231118164059
+147.182.233.140 1 1 12146 20231105031207
+182.44.9.147 1 1 15001 20231125004900
+35.211.10.21 1 1 15001 20231115212638
+5.133.192.108 1 1 15001 20231118094635
+173.252.111.1 0 1 21691 
+172.59.76.160 3 83 15340044 20231113190308
+191.96.227.112 1 1 15001 20231110092312
+104.218.69.187 2 56 8349257 20231117230804
+172.121.218.81 1 27 6990787 20231121164430
+69.63.189.2 1 1 28080 20231124152036
+185.223.152.78 1 1 16811 20231122111141
+76.84.32.147 2 83 2801846 20231126190731
+172.59.73.93 0 26 6975786 
+66.249.70.163 1 1 56397 20231114063506
+85.10.204.252 1 1 15001 20231127212822
+76.84.3.174 1 41 1397751 20231103171750
+64.124.8.98 0 2 410624 
+162.210.7.156 2 68 8388538 20231106130226
+44.234.114.218 2 2 30002 20231114041212
+141.95.172.149 1 1 0 20231103182546
+167.248.88.91 2 54 13981574 20231112184755
+76.84.17.80 6 150 29375900 20231114175225
+108.15.38.39 0 1 1333617 
+65.154.226.168 3 4 52035 20231127224048
+35.87.28.77 2 2 15001 20231117173809
+78.111.104.44 4 124 16737795 20231115212027
+69.63.189.4 0 1 3459 
+68.234.110.230 11 376 35922468 20231129172539
+172.59.74.249 0 28 7006040 
+69.63.189.9 0 1 6997 
+76.84.125.56 4 243 31166327 20231122191942
+97.98.184.237 1 27 6990787 20231123005957
+119.12.200.75 1 1 15001 20231128172234
+54.202.232.71 2 2 15001 20231117173809
+167.248.20.10 1 2 183292 20231110202638
+104.37.27.50 3 3 86399 20231129032419
+45.77.156.189 3 3 41973 20231102125126
+45.147.248.16 3 3 45003 20231104150706
+54.88.179.33 3 3 45003 20231129172045
+167.248.2.152 2 68 8388538 20231110135511
+172.59.78.77 2 68 8388538 20231112094940
+34.78.36.141 2 2 30002 20231130151933
+149.56.150.125 9 9 184157 20231125095428
+104.234.8.66 1 28 6997131 20231119131520
+137.190.104.89 0 2 423493 
+76.84.39.29 2 28 7005788 20231120164702
+170.64.68.164 4 131 16669019 20231123120654
+166.196.65.79 1 28 6997131 20231115171004
+34.205.92.223 1 1 15001 20231105081039
+87.236.176.67 1 1 15001 20231120032242
+24.206.77.85 3 97 9744030 20231102125531
+98.97.1.136 5 205 16593386 20231118194120
+174.213.162.253 3 109 9786289 20231123115523
+174.235.209.10 6 225 21481896 20231110142308
+79.137.248.15 2 2 30002 20231107204251
+76.84.32.30 1 42 1404095 20231104021521
+167.248.64.191 1 41 1397751 20231117112350
+39.173.105.214 0 1 52762 
+185.180.143.80 1 1 15001 20231106023216
+34.222.251.174 2 2 15001 20231129032401
+72.46.53.138 2 56 8349257 20231110120105
+104.28.50.112 0 4 1980600 
+44.208.23.219 1 2 21345 20231127145405
+172.59.73.167 4 112 16698514 20231111174221
+104.164.173.131 7 16 301093 20231123164037
+172.59.73.114 2 68 8388538 20231104092804
+174.235.216.139 1 2 183292 20231121170538
+52.58.169.177 3 3 45003 20231115091633
+185.180.143.18 1 1 15001 20231121223241
+167.248.86.140 3 69 8403539 20231109145803
+49.37.115.6 3 39 1171700 20231130065507
+101.67.29.69 0 1 3174 
+136.226.48.106 2 56 8347266 20231102172708
+94.156.64.216 1 1 15001 20231126090835
+93.180.236.12 0 2 962229 
+104.28.97.114 2 29 3156791 20231104231231
+45.134.224.47 2 56 8349257 20231122133934
+166.199.99.18 3 97 9747008 20231126172331
+113.219.218.197 1 1 15001 20231116045436
+24.28.40.238 2 42 1454148 20231120113234
+98.22.93.59 1 27 6990787 20231129105415
+72.14.201.212 1 1 15001 20231108204904
+174.198.66.173 0 32 7237299 
+64.226.102.36 2 2 27982 20231101220229
+34.77.176.45 1 1 15001 20231104081828
+60.188.11.51 0 1 23910 
+76.84.167.39 6 172 18894726 20231120175434
+54.213.142.216 1 1 15001 20231116082019
+164.90.233.191 2 2 30002 20231105202341
+35.160.246.245 1 1 15001 20231128084645
+162.43.240.133 0 1 63785 
+176.14.106.44 1 1 15001 20231130080333
+174.235.208.44 3 83 15340044 20231129174405
+207.182.28.34 0 3 213764 
+174.235.210.105 1 42 1404095 20231118091801
+174.198.66.46 2 68 8388538 20231129175718
+174.235.217.99 1 41 1397751 20231108132548
+34.214.104.114 2 2 15001 20231129032401
+185.15.210.114 1 1 15001 20231122102712
+166.199.115.16 1 2 183292 20231108105745
+103.114.201.84 1 1 56397 20231109133320
+167.248.12.195 5 163 23767863 20231130194022
+23.147.176.123 2 42 1412752 20231125095856
+63.230.40.238 1 1 15001 20231124040810
+174.198.69.242 2 112 11010037 20231128120021
+192.160.64.56 4 126 11105478 20231117173920
+129.93.161.226 2 56 8349257 20231121114749
+5.133.192.136 1 1 15001 20231124152127
+172.59.226.93 1 2 183292 20231119101724
+34.220.181.188 1 1 15001 20231128020431
+76.85.158.51 1 41 1397751 20231125192605
+104.165.105.131 1 1 0 20231117113100
+71.28.133.232 7 237 20904455 20231124124611
+154.12.229.247 2 2 27147 20231103215619
+142.93.242.194 2 2 30002 20231114051015
+104.218.69.1 3 109 9786289 20231114010454
+163.116.147.39 1 41 1397751 20231110121329
+162.210.6.4 1 27 6990787 20231110131001
+31.13.103.7 1 1 28080 20231124152038
+61.136.166.205 1 1 15001 20231130084243
+182.232.177.114 0 1 1333617 
+76.84.193.48 0 26 6975786 
+104.232.199.47 1 1 0 20231118192610
+167.248.124.92 1 41 1397751 20231109134243
+174.235.216.54 1 2 183292 20231117213128
+174.198.64.134 3 97 9747008 20231116142005
+165.227.114.85 1 1 16811 20231104204048
+180.102.134.69 1 1 15001 20231129230212
+209.50.19.46 2 80 8764452 20231126104346
+199.45.155.33 1 2 21345 20231120125117
+76.84.129.233 2 30 1482275 20231111084022
+174.215.242.1 4 136 16777076 20231116181429
+167.248.66.183 5 157 17854933 20231120151945
+199.48.10.66 5 155 12463948 20231123194815
+105.27.160.142 2 2 31812 20231128010529
+20.236.59.68 1 136 11099877 20231110133655
+24.188.7.116 1 1 15001 20231112133241
+74.125.214.66 0 6 3058572 
+199.244.88.221 1 1 15001 20231120141959
+75.117.107.23 7 205 25222011 20231113213753
+91.167.247.126 0 1 1333617 
+76.85.139.153 2 68 8388538 20231118201415
+188.165.87.110 1 1 15001 20231124111053
+192.63.168.246 1 42 1404095 20231115204606
+174.228.40.133 1 29 1358470 20231105183228
+166.181.82.173 1 56 8340600 20231103145009
+54.244.172.134 1 1 15001 20231127231111
+174.235.212.165 2 84 2808190 20231106165154
+76.84.208.30 5 180 12548854 20231112114721
+107.167.122.25 1 1 15001 20231124114140
+86.111.229.76 7 7 155965 20231107043804
+35.93.105.168 2 2 30002 20231105151458
+172.226.81.186 2 45 8049612 20231111125140
+108.167.7.30 9 335 41087866 20231112092419
+172.174.109.100 1 1 15001 20231128194524
+120.71.59.24 2 2 30002 20231118015613
+85.239.247.89 3 3 45003 20231129145016
+174.235.210.246 7 260 20976673 20231111201045
+13.80.72.233 2 2 30002 20231120041927
+159.223.206.37 1 1 10719 20231104221729
+172.121.218.54 1 1 0 20231117075613
+172.59.75.80 0 17 1042014 
+72.14.201.55 1 1 15001 20231125125213
+174.215.242.99 0 1 399664 
+116.212.189.26 0 3 1350421 
+167.248.82.186 1 30 1364814 20231116140639
+60.188.11.80 0 1 168291 
+167.248.5.63 2 68 8388538 20231117133237
+142.147.106.16 0 3 1350421 
+34.222.196.207 2 2 30002 20231121023450
+47.242.224.70 5 40 678730 20231124013853
+52.124.19.25 0 4 267398 
+185.223.152.84 1 1 12146 20231122111142
+185.223.152.65 1 1 16811 20231122225842
+89.32.132.213 1 1 15001 20231123221921
+107.151.182.58 2 2 30002 20231125235002
+166.199.99.101 0 26 6975786 
+207.241.233.121 1 1 15001 20231125161751
+176.9.105.236 3 3 45003 20231123200411
+40.131.128.98 2 82 2795502 20231117185454
+128.90.43.150 1 1 0 20231124131948
+174.235.213.195 1 27 6990787 20231124193335
+87.236.176.60 1 1 15001 20231113074219
+173.252.107.9 1 1 56397 20231120080315
+13.94.187.233 1 1 15001 20231117130744
+35.175.187.255 2 2 30002 20231113001732
+174.235.213.5 1 27 6990787 20231123120431
+154.91.138.8 1 1 15001 20231116140005
+40.77.167.60 0 1 280194 
+54.234.247.166 6 6 85101 20231102211500
+40.131.153.236 2 12 535710 20231105172012
+199.47.65.160 2 68 8388538 20231124171117
+195.181.162.186 3 73 19646167 20231120172524
+44.215.125.119 4 4 60004 20231105145933
+172.59.79.41 1 27 6990787 20231109122124
+75.213.216.156 2 68 8388538 20231110164954
+72.14.201.99 1 1 56397 20231118041643
+23.88.128.196 1 27 6990787 20231127095004
+108.147.94.107 1 1 12146 20231114184021
+152.39.133.77 0 1 404916 
+106.227.49.113 1 1 15001 20231124084035
+172.59.72.103 2 68 8388538 20231123170845
+64.124.8.43 0 3 3025806 
+172.59.79.189 2 71 2762565 20231128174915
+161.35.183.194 1 1 15001 20231130061948
+76.84.38.155 2 69 8394882 20231103150656
+163.116.147.30 5 205 6988755 20231110133604
+174.215.248.227 2 108 9727907 20231101115458
+72.46.51.167 3 91 14580898 20231130142551
+38.45.185.155 1 1 15001 20231116203854
+168.151.110.59 0 1 1784967 
+76.85.136.118 2 82 2795502 20231122174825
+78.38.64.195 1 1 15001 20231109133312
+15.204.182.106 2 2 30002 20231110202941
+168.151.111.174 0 1 14238 
+203.33.203.148 1 1 15001 20231119004135
+204.137.100.17 7 286 29236345 20231130154909
+60.188.10.160 0 4 1330666 
+60.188.10.158 0 2 356889 
+173.252.83.6 0 1 1333617 
+23.94.92.211 2 2 31812 20231112065656
+69.167.42.238 1 1 0 20231116152733
+74.51.211.66 2 56 8349257 20231128210752
+103.108.44.44 1 1 15001 20231127062050
+108.167.28.228 1 29 1358470 20231130165130
+172.233.211.225 7 7 105007 20231119172625
+172.59.225.157 0 40 1341354 
+170.106.183.198 1 1 15001 20231112165747
+45.131.108.84 3 3 45003 20231117205152
+174.198.65.178 1 2 183292 20231128215021
+182.131.31.33 1 1 15001 20231128190254
+167.248.23.74 2 69 8394882 20231104214533
+167.248.47.55 1 27 6990787 20231123192231
+68.234.101.31 1 29 1358470 20231105121707
+152.39.212.124 0 1 52762 
+167.248.86.68 6 246 8386506 20231113173827
+74.125.212.196 0 1 7410 
+103.218.26.155 1 24 5020909 20231102044148
+64.251.177.129 3 99 9771988 20231121104835
+140.228.154.69 2 68 8388538 20231102193001
+174.198.64.66 2 97 9738351 20231118131848
+47.28.147.36 2 56 8349257 20231111122448
+174.215.243.130 2 54 13981574 20231119135846
+23.100.235.96 6 177 24028261 20231106124545
+174.215.250.37 1 22 6475945 20231114120722
+174.215.241.232 1 27 6990787 20231124173754
+206.189.237.53 2 2 30002 20231107193225
+192.131.55.26 0 27 6982130 
+76.84.168.43 8 237 25314390 20231130104135
+85.239.247.93 3 3 45003 20231124091418
+45.142.98.122 1 1 15001 20231126221516
+140.228.181.20 0 42 1371608 
+37.19.217.88 2 2 31812 20231115012056
+76.84.79.190 2 54 13981574 20231120160823
+98.19.46.245 2 56 8349257 20231122231240
+209.58.133.172 1 1 15001 20231108115332
+45.156.128.2 1 1 15001 20231119134947
+74.125.214.67 0 2 1345908 
+209.99.158.149 1 1 10719 20231126025818
+173.252.95.6 0 1 21691 
+80.152.151.192 3 3 45003 20231126112614
+62.210.111.11 4 4 61814 20231109023919
+174.235.216.189 8 217 30196673 20231101191255
+18.209.140.208 1 1 15001 20231112063559
+74.125.214.68 2 9 269996 20231119093341
+159.89.188.100 2 2 30002 20231127213622
+45.79.51.14 1 1 15001 20231128053949
+180.163.28.109 1 5 82104 20231118153114
+120.208.110.45 1 1 13991 20231102063547
+65.39.123.15 2 56 8349257 20231107220557
+35.147.174.10 2 111 17962462 20231117174402
+172.59.78.225 1 27 6990787 20231125150708
+98.16.214.162 1 16 2757293 20231125231125
+40.131.179.41 4 86 9722728 20231130184305
+146.75.175.33 1 11 2401279 20231122193853
+198.252.62.206 1 1 56397 20231126025818
+60.188.11.43 0 1 3174 
+206.127.184.1 2 45 8049612 20231127184507
+104.218.69.243 1 24 1327698 20231118055849
+103.67.157.18 1 24 5020909 20231102090355
+152.39.240.46 0 4 2057681 
+161.35.174.168 1 1 15001 20231105064156
+152.39.182.21 1 1 15001 20231124050322
+174.198.75.209 3 92 14392096 20231116181122
+167.248.118.160 3 67 14749920 20231111152905
+104.28.50.77 3 112 16421339 20231125194133
+182.42.104.32 3 3 45003 20231118171100
+174.215.249.13 1 42 1404095 20231105162350
+4.210.97.83 2 2 30002 20231106201545
+108.147.94.43 1 27 6990787 20231105173605
+172.174.183.136 2 2 30002 20231107160302
+24.28.41.35 2 68 8388538 20231112142640
+172.232.5.197 1 1 15001 20231115062003
+40.131.156.205 3 99 4143008 20231117181903
+180.149.23.254 1 1 15001 20231125221447
+34.85.81.97 1 1 15001 20231109111842
+104.200.76.14 1 1 0 20231118192611
+5.164.29.116 1 1 15001 20231123171134
+87.236.176.135 1 1 15001 20231106023155
+148.59.213.165 0 26 6975786 
+104.218.70.10 14 494 43306544 20231130131709
+172.121.221.189 1 1 0 20231117075614
+199.195.52.114 2 82 2795502 20231119200054
+174.234.180.30 5 160 22780634 20231122142607
+182.42.111.213 2 2 30002 20231110120933
+167.248.109.183 1 2 183292 20231104102042
+75.117.110.210 2 70 2756221 20231130124213
+222.79.104.23 1 1 15001 20231123053633
+181.67.111.106 1 1 16811 20231109133315
+3.143.245.163 1 1 15001 20231126100722
+167.248.9.107 2 68 8388538 20231104144457
+40.131.140.248 1 42 1404095 20231123200855
+167.248.27.201 2 29 7012132 20231111152047
+121.89.208.237 1 13 390915 20231113054508
+172.59.224.245 1 27 6990787 20231120135848
+208.94.228.86 0 1 3585 
+154.6.13.49 17 17 350458 20231113125928
+185.229.59.159 1 16 2757293 20231119184836
+136.33.156.60 10 310 46688047 20231101180840
+101.67.29.65 0 1 168291 
+76.84.138.72 1 8 322500 20231118095611
+101.227.237.110 1 1 15001 20231104105026
+174.198.69.127 1 30 1364814 20231109180335
+204.217.254.240 1 1 15001 20231118112142
+24.144.89.19 2 2 30002 20231113201501
+76.84.116.179 7 233 14035939 20231103180533
+184.105.108.4 1 1 15001 20231122212134
+140.248.30.152 1 27 6990787 20231126083213
+104.218.69.21 1 41 1397751 20231129045415
+39.173.107.231 0 1 7032 
+184.169.191.245 1 1 15001 20231130133420
+65.26.53.17 1 1 15001 20231107131430
+107.165.134.249 2 2 30002 20231105013001
+196.196.53.110 1 1 13991 20231101123506
+166.199.152.122 1 7 285684 20231120133333
+166.181.85.156 3 109 9786289 20231122201527
+185.145.245.181 15 15 225015 20231107024747
+125.124.133.75 1 1 13991 20231101122418
+76.84.220.205 1 27 6990787 20231110183108
+184.94.240.88 3 3 83544 20231110102119
+174.235.211.94 3 110 9792633 20231122185316
+35.147.176.3 3 47 1659012 20231122180126
+174.228.37.79 2 68 8388538 20231113173138
+174.215.243.11 1 28 6997131 20231118130903
+199.47.65.174 1 1 28080 20231128195710
+82.145.210.129 1 41 1397751 20231119155116
+104.143.88.141 1 1 0 20231118192612
+51.15.17.105 3 3 43993 20231122031755
+167.248.99.245 3 110 9792633 20231125105206
+50.96.13.144 2 56 8349257 20231114164354
+66.228.61.127 6 6 90006 20231107093152
+38.44.31.203 1 1 15001 20231121233228
+76.84.41.85 0 80 2682714 
+104.218.69.76 1 1 13991 20231101191350
+20.244.122.79 6 6 90006 20231126181712
+164.119.5.133 3 106 13811414 20231128155715
+108.147.94.80 3 57 8364258 20231110181334
+39.173.107.212 0 1 52762 
+38.152.66.7 0 9 2948858 
+132.147.141.6 1 121 4080459 20231105182605
+64.140.141.122 1 1 16811 20231126025818
+170.64.79.180 5 137 16792077 20231104151707
+97.98.185.173 1 27 6990787 20231105184555
+62.141.44.236 3 3 45003 20231130132746
+129.93.161.231 4 138 15748831 20231130120054
+3.234.245.68 6 6 90006 20231112220019
+18.236.8.168 1 1 15001 20231109093445
+175.44.42.160 1 1 15001 20231122125019
+104.218.69.69 2 93 4540604 20231123151745
+40.131.131.169 2 57 8355601 20231130182503
+174.235.208.170 1 29 1358470 20231105193020
+52.12.133.220 1 1 15001 20231124085837
+107.115.203.49 2 68 8388538 20231127122446
+65.21.181.171 1 1 15001 20231123111713
+212.118.40.21 2 2 31812 20231120012056
+104.218.69.35 3 97 9747008 20231118122008
+104.218.69.134 3 74 9408082 20231110123152
+167.248.1.18 2 57 8353610 20231102171325
+94.172.217.198 1 1 15001 20231121040752
+166.181.84.240 1 42 1404095 20231108194707
+128.90.43.226 1 1 0 20231127035615
+185.253.162.13 1 1 15001 20231106075332
+107.115.9.22 0 2 2344687 
+162.210.6.129 6 166 18150547 20231124184312
+104.218.69.178 1 48 1515557 20231124122551
+166.199.99.58 6 238 25684408 20231109132414
+188.165.87.98 1 1 15001 20231124111104
+35.147.173.144 3 63 9108437 20231107232137
+84.17.58.6 12 12 180012 20231109075153
+76.79.3.142 5 71 8557729 20231121222012
+38.154.6.20 1 7 1314396 20231118165110
+174.235.216.154 2 108 9729892 20231110093745
+170.64.77.14 4 132 15978649 20231103160938
+140.228.172.60 6 180 25087052 20231103204747
+166.199.115.28 4 87 9927524 20231128184652
+211.136.195.50 1 1 15001 20231128122019
+40.131.188.131 4 150 11184040 20231107165152
+69.171.231.3 1 1 15001 20231130175003
+78.138.50.230 0 1 177835 
+3.19.58.18 1 1 13991 20231102065646
+174.235.208.246 3 110 10185514 20231103194903
+20.225.193.1 3 3 45003 20231125174107
+167.248.85.15 0 9 7562744 
+34.140.115.72 1 1 15001 20231108172603
+20.46.180.25 3 3 45003 20231122191756
+208.175.136.93 0 17 1042014 
+60.188.9.177 0 1 168291 
+86.111.229.71 14 14 311930 20231119032953
+174.213.161.66 2 82 2795502 20231107113547
+199.195.253.180 1 1 15001 20231103204449
+184.92.134.101 1 81 2738124 20231102120908
+101.67.49.189 0 1 52762 
+172.59.227.217 2 57 8353610 20231101191011
+174.234.162.67 1 28 6997131 20231105175759
+140.228.171.120 2 69 8394882 20231129220038
+185.223.152.83 1 1 10719 20231122111142
+18.237.87.220 1 1 15001 20231120083751
+174.215.245.74 1 41 1397751 20231127150602
+76.84.36.1 1 41 1397751 20231110194935
+40.131.131.110 1 18 4103201 20231110190613
+69.63.184.8 1 1 56397 20231105083448
+167.248.23.249 4 78 8749929 20231129093536
+174.198.81.10 1 27 6990787 20231117183034
+104.218.69.84 3 101 4127379 20231111162346
+209.160.120.74 1 1 0 20231106004448
+170.64.76.40 1 27 6990787 20231111150428
+34.78.128.92 1 1 15001 20231126060641
+167.248.25.21 1 27 6990787 20231116221100
+204.137.100.14 1 41 1397751 20231129154100
+147.182.224.75 1 1 15001 20231105005027
+69.63.184.5 1 1 56397 20231120094413
+40.131.145.247 2 30 1386550 20231115094956
+40.131.181.163 1 27 6990787 20231121111053
+192.71.12.181 1 1 15001 20231124190217
+74.125.215.228 0 2 1341027 
+167.248.10.189 1 27 6990787 20231125173652
+76.85.154.242 4 98 23910995 20231110111916
+172.59.225.25 1 13 390915 20231120134145
+185.223.152.71 1 1 10719 20231122225845
+213.188.95.3 1 1 15001 20231128171919
+162.43.236.220 0 1 168291 
+174.235.219.34 1 27 6990787 20231114171947
+174.215.250.53 1 27 6990787 20231107191847
+64.227.166.234 3 3 45003 20231126234542
+35.235.109.32 3 3 45003 20231130145540
+168.149.128.177 1 1 15001 20231104002258
+67.141.98.222 1 2 183292 20231119222954
+104.218.69.151 8 224 26239717 20231124151633
+167.248.25.230 4 135 16733114 20231130010501
+85.254.40.225 1 1 12146 20231126025828
+117.200.81.254 1 1 15001 20231122003723
+45.33.47.5 1 1 15001 20231113215655
+54.209.60.63 0 1 7410 
+174.228.36.66 6 237 12861918 20231118162843
+167.248.12.46 4 160 17556623 20231105203551
+172.59.185.209 3 99 4114691 20231103133433
+167.248.110.176 3 95 15379325 20231110180621
+174.228.34.51 0 30 7061976 
+167.248.108.159 1 27 6990787 20231108162715
+69.171.251.118 0 1 21691 
+104.218.69.23 4 108 15811905 20231127181553
+97.98.183.1 3 85 9707727 20231126235048
+66.240.236.119 1 1 15001 20231126030032
+180.97.183.160 1 1 15001 20231108174529
+76.84.142.229 1 17 3698285 20231110201757
+104.218.69.149 8 186 31760258 20231110190800
+40.131.190.51 1 11 3593054 20231119223636
+57.128.19.137 6 6 90006 20231109192943
+62.210.91.186 1 1 15001 20231120143856
+173.244.137.178 1 30 1364814 20231130131403
+76.84.160.179 1 11 373092 20231107211301
+207.154.232.106 1 1 56397 20231105185158
+174.235.217.163 3 109 9786289 20231116120706
+3.127.27.240 1 8 135746 20231126112936
+76.84.163.172 1 27 6990787 20231124164617
+71.95.241.91 0 1 1333617 
+188.211.25.139 1 1 15001 20231123222457
+174.235.208.183 1 29 1358470 20231118120412
+193.118.51.138 1 1 15001 20231126234254
+35.168.132.30 12 12 263419 20231109025907
+173.252.127.2 0 1 21691 
+138.199.120.42 1 15 4221841 20231108173148
+119.96.24.54 1 1 13991 20231102163707
+194.195.117.113 2 2 15001 20231116195335
+174.215.241.220 2 56 14182598 20231102153650
+34.222.207.168 1 1 15001 20231118105900
+125.167.56.254 4 4 60004 20231111061924
+167.71.185.196 1 1 16811 20231105010853
+97.98.234.140 1 42 1404095 20231128154143
+67.141.85.216 6 197 12737316 20231125162648
+52.3.229.214 1 1 15001 20231107005715
+54.162.64.36 1 1 15001 20231126212001
+167.248.24.185 1 53 13966573 20231123174949
+93.142.189.35 1 81 2739105 20231124114937
+167.71.185.99 1 1 15001 20231104183215
+167.248.76.17 4 139 7017954 20231104183126
+64.124.8.28 1 10 3583972 20231119012651
+216.230.228.85 2 2 31812 20231108220719
+117.33.163.216 1 1 15001 20231120154453
+72.46.53.179 1 41 1397751 20231128101510
+75.85.98.108 1 1 15001 20231122233050
+107.178.237.49 1 1 15001 20231113145052
+167.248.31.134 5 139 23689301 20231121120746
+216.194.167.226 1 27 6990787 20231118100440
+167.248.21.114 7 244 32903011 20231122191114
+182.42.111.156 1 1 15001 20231113025147
+101.91.148.219 2 2 30002 20231126123359
+182.42.105.85 1 1 15001 20231128111055
+98.19.51.208 0 11 7472807 
+174.228.37.68 3 86 9714071 20231104113252
+167.248.48.170 5 182 6916537 20231119173052
+44.234.47.136 2 2 30002 20231111061439
+85.214.227.110 3 3 45003 20231125020457
+154.91.138.19 1 1 15001 20231121050241
+174.215.244.67 1 27 6990787 20231130184247
+172.59.77.225 2 69 8394882 20231116170341
+128.90.89.31 1 1 0 20231123203229
+34.79.174.58 1 1 15001 20231119162406
+24.28.40.52 1 27 6990787 20231109115224
+165.22.193.22 2 2 30002 20231109211413
+76.84.100.151 1 28 6997131 20231106215211
+103.105.167.32 1 1 0 20231121164425
+98.16.215.165 2 56 8349257 20231108114025
+174.215.247.176 1 13 390915 20231117135617
+93.180.239.151 0 1 2566 
+104.28.97.115 2 95 13581004 20231127230136
+72.14.201.205 8 8 161404 20231122185135
+18.231.164.123 1 1 15001 20231121001501
+167.248.107.97 16 550 62764662 20231120124652
+38.18.12.115 1 1 15001 20231117125527
+185.190.42.200 2 2 31812 20231122070134
+76.84.39.99 2 75 8696037 20231122174845
+146.190.152.167 1 1 28080 20231105042012
+161.35.185.239 1 1 16811 20231105124929
+5.161.68.98 1 1 15001 20231109193950
+174.215.247.127 1 1 15001 20231108105343
+74.51.221.90 2 54 13981574 20231111182225
+217.182.193.41 3 3 45003 20231122135120
+174.215.240.230 7 7 157323 20231105115924
+107.77.83.48 1 27 6990787 20231119133654
+209.50.15.162 2 56 8349257 20231128164352
+40.131.180.201 3 124 22438795 20231127224612
+75.91.63.164 1 28 6997131 20231105174520
+173.252.79.8 0 1 21691 
+46.246.3.242 1 1 15001 20231109023236
+35.184.88.245 1 41 1397751 20231109134535
+34.219.92.76 1 1 15001 20231116082023
+165.225.57.39 5 156 21982207 20231106130021
+35.87.92.21 1 1 15001 20231127113008
+182.222.116.20 0 1 1333617 
+40.131.155.120 1 1 15001 20231118200258
+166.181.89.167 1 9 346390 20231126124315
+176.120.186.75 3 3 45003 20231110113608
+101.67.29.67 0 1 23910 
+167.248.20.39 3 97 9747008 20231110122119
+104.28.103.14 0 26 6975786 
+204.137.66.165 0 1 1333617 
+172.121.223.185 3 3 86399 20231129032415
+104.218.69.28 1 2 183292 20231117192037
+207.241.236.60 1 1 15001 20231125161747
+204.137.100.85 4 32 1429631 20231121092634
+34.78.171.236 3 3 45003 20231121205442
+167.248.64.198 2 56 8347266 20231101110658
+101.67.49.162 0 1 3174 
+74.51.213.129 2 50 5335233 20231101151736
+8.142.64.24 2 2 15001 20231113053544
+167.248.10.157 1 13 390915 20231122160922
+54.70.10.178 0 2 12688 
+167.248.99.78 1 56 8340600 20231115095702
+119.12.183.249 1 1 15001 20231130171907
+101.67.49.158 0 2 1124128 
+137.135.80.194 3 3 30002 20231123091021
+104.28.55.234 0 5 631156 
+39.173.105.211 0 1 7032 
+174.131.245.221 0 1 404916 
+173.252.79.119 1 1 28080 20231124152044
+167.248.10.139 2 28 7005788 20231111174732
+104.218.69.112 3 109 9786289 20231126184105
+132.147.130.177 2 108 9729892 20231108215322
+69.30.189.34 3 103 14620179 20231123180559
+35.91.74.2 1 1 15001 20231128084730
+34.94.15.185 3 3 45003 20231127190401
+104.218.70.60 1 27 6990787 20231129114949
+97.98.230.110 1 42 1404095 20231123123900
+45.5.65.106 1 1 0 20231117111248
+72.46.50.198 0 2 697803 
+166.199.99.143 1 41 1397751 20231126193046
+98.97.8.186 3 69 8512343 20231118203916
+107.189.13.253 1 1 15001 20231106182016
+76.84.78.43 3 98 3250798 20231117152358
+107.77.206.81 2 68 8388538 20231110193337
+101.67.50.79 0 1 3174 
+111.182.91.200 1 1 15001 20231108000735
+40.113.118.83 1 1 15001 20231123180250
+174.215.243.101 2 68 8388538 20231119120820
+40.131.191.25 1 27 6990787 20231110083326
+35.147.176.11 2 68 8388538 20231117221555
+174.228.32.164 1 33 1444660 20231103121027
+108.147.176.16 1 54 13972917 20231116130059
+104.218.69.7 4 99 15581305 20231130111132
+174.198.65.254 2 71 2762565 20231110224942
+35.147.185.132 4 84 10191158 20231121144440
+40.131.149.83 1 8 322500 20231105195322
+98.21.134.102 2 68 8386547 20231101213506
+35.147.165.120 2 56 8349257 20231128213753
+172.59.78.204 7 316 11092674 20231121193950
+172.59.75.15 1 41 1397751 20231124202639
+174.215.240.97 0 26 1239720 
+74.87.181.254 2 68 8388538 20231110112807
+54.81.164.23 1 8 135746 20231118113922
+174.228.32.55 2 68 8388538 20231111115837
+54.198.149.117 3 3 57037 20231109025704
+46.250.227.34 6 6 90006 20231130203445
+47.17.129.43 1 24 6002554 20231101224251
+125.75.66.97 2 2 30002 20231119154254
+174.235.214.185 4 74 3320036 20231116183556
+167.248.26.207 1 41 1397751 20231124101800
+67.44.8.30 1 41 1397751 20231118161127
+172.59.76.42 1 41 1397751 20231106222044
+5.133.192.135 1 1 15001 20231106004648
+45.94.31.48 1 1 15001 20231105122614
+45.63.78.156 1 1 15001 20231130214438
+174.198.67.36 1 36 6483598 20231105150837
+145.220.91.19 6 6 90006 20231129040523
+174.198.67.19 1 41 1397751 20231123141231
+167.248.3.66 1 27 6990787 20231125182525
+71.8.218.174 2 58 2716940 20231129124311
+76.79.44.3 2 68 8388538 20231111123314
+34.214.0.76 2 2 15001 20231117173809
+174.215.242.134 1 27 6990787 20231118143249
+174.235.208.217 4 57 14179867 20231127125505
+152.39.168.191 0 1 5465 
+104.218.69.41 1 24 6003558 20231114175034
+43.153.70.68 1 1 15001 20231112091346
+108.167.32.145 3 57 8364258 20231106185307
+154.91.138.28 1 1 15001 20231102211257
+104.165.105.120 2 2 30002 20231105013001
+209.60.138.58 1 41 1397751 20231122193641
+104.28.55.229 0 2 234103 
+76.84.36.234 4 144 16755070 20231114123011
+72.14.201.204 7 7 105007 20231123163214
+129.93.161.225 8 265 22254607 20231128125752
+40.127.110.255 6 6 90006 20231130120550
+174.234.185.45 4 160 19284285 20231107190636
+167.248.94.173 0 2 2667234 
+140.228.180.47 1 16 2757293 20231124031237
+163.116.147.33 3 109 9786289 20231110121159
+194.163.164.39 1 1 15001 20231115090500
+76.84.225.1 2 70 2756221 20231130190241
+167.248.3.186 3 81 20972361 20231113191209
+163.172.255.9 1 1 15001 20231109202257
+76.84.167.56 1 27 6990787 20231123183046
+45.142.107.181 15 15 225015 20231127071550
+172.59.231.74 3 97 9747008 20231107121429
+172.59.72.246 1 1 15001 20231126155107
+174.198.65.161 1 27 6990787 20231104104401
+24.28.40.243 0 40 1341354 
+34.220.254.118 2 2 15001 20231129032402
+101.67.49.159 0 2 1337202 
+87.236.176.42 1 1 15001 20231113074223
+172.59.74.230 3 97 9747008 20231109183658
+84.239.42.17 1 1 15001 20231120120218
+102.88.63.33 0 1 6344 
+216.218.147.202 1 1 15001 20231109160002
+67.217.42.246 1 1 15001 20231105052712
+35.171.144.152 3 3 45003 20231129172045
+76.84.209.204 3 109 9786289 20231116222944
+43.159.136.231 1 1 15001 20231130230300
+20.59.63.204 3 3 45003 20231122064316
+172.59.76.70 1 18 1058825 20231106222100
+174.215.248.66 2 68 8388538 20231126174205
+144.126.230.186 1 1 15001 20231121083836
+192.171.94.85 0 3 250591 
+174.228.34.210 1 21 6412160 20231127125801
+185.180.143.12 1 1 15001 20231123190700
+167.248.25.203 2 68 8388538 20231116123743
+174.228.37.9 1 29 6997131 20231126153526
+45.156.129.22 1 1 15001 20231110174023
+42.114.38.71 1 35 8445149 20231109042850
+69.171.251.1 0 1 21691 
+167.248.59.253 2 73 11100914 20231121182855
+218.233.3.127 0 2 2667234 
+167.248.6.182 4 136 16777076 20231126193017
+188.241.207.114 0 1 129614 
+174.235.216.13 5 125 16765875 20231123213408
+174.228.32.147 1 27 6990787 20231112163522
+174.228.34.216 3 73 11188717 20231109170128
+172.59.75.2 2 69 8394882 20231126193308
+174.131.244.216 6 171 25004633 20231126090131
+45.147.250.75 1 1 15001 20231122063739
+108.147.94.129 2 68 8388538 20231102184134
+98.16.148.209 2 150 11083934 20231105165831
+212.68.54.203 1 1 13991 20231102151617
+160.76.1.2 2 58 2716940 20231106164240
+174.198.68.212 0 40 1341354 
+199.244.88.230 1 1 15001 20231129130429
+174.213.242.86 6 195 19233652 20231111121140
+44.203.213.57 4 4 60004 20231112231951
+195.211.77.142 1 1 15001 20231124045749
+140.228.152.51 5 165 23780551 20231125160553
+174.235.215.224 1 29 5080378 20231123133838
+173.184.172.92 4 70 8418540 20231119084431
+172.59.229.186 2 68 8388538 20231125190704
+85.239.247.91 3 3 45003 20231123133542
+35.147.180.134 3 91 14580898 20231121183706
+104.28.55.232 1 22 244892 20231128203144
+35.87.225.65 1 1 15001 20231120143555
+86.111.229.15 7 7 155965 20231120161549
+85.254.43.59 1 1 15001 20231126025815
+97.119.197.142 12 245 34827268 20231110204134
+18.212.168.73 1 1 15001 20231120030655
+108.167.32.246 3 129 11099796 20231102170747
+46.19.136.74 1 1 15001 20231109185718
+157.230.9.232 2 2 30002 20231109085346
+188.126.94.41 1 1 15001 20231109110921
+42.83.147.56 1 1 15001 20231117123920
+45.141.215.136 3 3 45003 20231128162222
+40.131.132.62 1 24 5021913 20231122175422
+174.198.64.83 2 56 4063275 20231105170034
+107.77.85.97 7 165 23790859 20231101170102
+167.248.18.209 7 242 24594491 20231124172706
+4.2.186.50 4 133 15789847 20231106110045
+174.228.32.230 3 97 9747008 20231110122950
+132.147.130.71 4 65 8686758 20231107012636
+104.218.69.188 1 27 6990787 20231123111240
+172.56.12.7 1 3 58849 20231119225844
+166.181.82.15 4 98 9775088 20231123191614
+195.176.218.130 0 1 1333617 
+167.248.49.200 2 56 8349257 20231104120406
+174.235.209.11 2 68 8388538 20231108184937
+102.88.63.185 0 9 674319 
+40.131.190.30 2 85 9685991 20231127100259
+162.127.0.110 0 27 6982130 
+92.205.107.64 3 3 45003 20231102235253
+193.186.4.213 1 1 15001 20231112151028
+35.88.38.54 1 1 15001 20231108063523
+85.209.11.117 4 4 63624 20231126183353
+96.40.25.181 1 2 183292 20231126112333
+216.213.29.143 0 5 1126521 
+74.125.214.70 0 4 33287 
+184.170.75.80 1 27 6990787 20231119153418
+54.191.137.17 4 4 60004 20231125050325
+159.221.32.10 2 56 8349257 20231115152555
+174.234.187.83 2 68 8388538 20231122152600
+23.27.240.153 2 2 73208 20231114052041
+167.248.16.44 4 66 14316566 20231127224625
+102.85.230.85 1 42 1404095 20231126042519
+185.241.208.50 1 1 15001 20231108093132
+174.199.35.119 2 110 16233489 20231123132836
+172.59.225.82 5 178 18181171 20231117133459
+69.63.189.10 0 1 21691 
+174.243.54.192 2 68 8388538 20231125141205
+60.188.10.163 0 2 1837729 
+97.98.241.31 8 242 44114331 20231130104210
+41.121.125.233 0 1 1333617 
+170.64.76.134 1 30 1364814 20231109184452
+183.136.225.46 5 5 75005 20231120164746
+209.50.25.200 2 68 8388538 20231109201921
+206.189.110.186 2 2 27982 20231101075723
+119.13.222.103 0 4 373392 
+104.152.242.45 1 1 15001 20231114203149
+50.225.253.4 2 56 8349257 20231110121259
+174.198.69.113 4 112 16698514 20231103143555
+35.93.91.63 1 1 15001 20231111204457
+76.79.63.5 3 102 10261850 20231114121112
+161.35.174.183 1 1 15001 20231105164814
+172.104.210.61 1 1 13991 20231101023356
+140.82.164.2 1 42 1404095 20231109153003
+174.215.250.13 1 27 6990787 20231114133507
+104.194.192.39 8 8 169156 20231117173825
+128.90.43.142 2 2 0 20231109100127
+180.110.203.108 2 2 30002 20231115205112
+185.223.152.77 1 1 56397 20231122225845
+196.196.53.126 4 4 63624 20231127075333
+174.215.250.245 0 26 6975786 
+87.236.176.132 1 1 15001 20231127012232
+174.198.69.30 2 52 1770843 20231102200128
+35.200.99.39 2 2 15001 20231120135125
+111.172.249.49 5 5 75005 20231127041827
+76.79.17.100 1 30 1364814 20231110103322
+192.71.23.211 1 1 15001 20231110223439
+60.188.57.0 2 2 30002 20231112024729
+174.131.246.107 5 110 15728096 20231120102755
+104.28.91.116 2 56 8349257 20231104231545
+120.92.72.106 0 1 21237 
+74.51.222.14 6 163 22812949 20231120160019
+97.98.233.16 2 56 8349257 20231110175356
+107.77.87.48 1 27 6990787 20231107121410
+45.61.171.125 2 2 28957 20231125030904
+74.80.182.73 1 30 1364814 20231125104032
+68.183.32.41 2 2 30002 20231104153621
+159.223.83.162 1 1 28080 20231105071604
+76.84.34.215 2 82 2795502 20231129200021
+167.248.11.175 1 1 15001 20231125224638
+164.119.5.9 2 51 6000368 20231122174059
+209.50.19.11 0 28 1330390 
+72.46.57.49 1 27 6990787 20231122105316
+176.9.114.107 2 2 30002 20231125092122
+54.187.25.245 1 1 15001 20231119175250
+167.248.13.49 1 24 5021913 20231124175230
+152.39.129.184 1 1 15001 20231124221435
+172.59.230.26 1 41 1397751 20231112191041
+35.203.245.116 1 1 15001 20231119191158
+104.168.40.168 2 2 30002 20231105013000
+45.156.128.32 1 1 15001 20231111002513
+174.215.249.212 3 69 8403539 20231111142714
+75.213.231.89 1 28 6997131 20231107164921
+167.248.26.104 1 27 6990787 20231126182216
+18.212.143.47 1 1 15001 20231119212543
+182.42.105.144 2 2 30002 20231125105417
+185.223.152.33 1 1 15001 20231104034957
+172.59.225.34 3 95 14411128 20231103172932
+104.28.50.78 2 54 13981574 20231115193259
+174.198.64.206 1 27 6990787 20231129184518
+174.215.247.78 1 41 1397751 20231104133211
+52.35.20.1 14 14 294240 20231101221223
+174.202.164.254 6 223 8940770 20231119115624
+172.59.79.28 2 56 8349257 20231121111648
+166.181.82.232 2 68 8388538 20231123191536
+68.234.44.221 0 5 218095 
+104.218.69.4 3 95 15379325 20231114154414
+98.11.22.136 0 1 307409 
+104.218.69.2 1 17 3712531 20231118125218
+104.218.69.43 1 28 6997131 20231125122132
+185.192.71.1 2 2 30002 20231120062703
+34.76.146.130 1 1 15001 20231115072025
+174.228.33.142 2 59 2723284 20231126175903
+172.59.77.188 1 42 1404095 20231123200807
+40.134.8.54 2 70 2756221 20231114081211
+140.228.172.231 1 27 6990787 20231122184758
+167.248.106.77 2 28 7005788 20231121072457
+97.98.230.97 2 68 8388538 20231118203252
+172.59.75.138 1 1 15001 20231129113653
+68.113.178.191 4 113 16853726 20231127142038
+207.46.13.126 0 1 10567 
+35.147.171.128 2 70 2756221 20231130141614
+154.91.138.23 1 1 15001 20231116084323
+212.7.202.66 1 1 15001 20231127094537
+174.198.64.133 2 68 8388538 20231125180831
+173.252.127.8 0 1 21691 
+107.172.90.247 1 1 15001 20231111204448
+136.226.87.29 1 41 1397751 20231118185530
+163.116.147.49 2 82 2795502 20231110120349
+174.213.162.205 4 145 17873142 20231111153656
+104.218.71.0 3 136 16768419 20231123123249
+172.59.226.46 1 53 13966573 20231119153236
+104.28.103.22 1 27 6990787 20231110215036
+77.246.105.178 1 1 15001 20231120023620
+174.235.209.183 4 86 9735807 20231119125234
+64.124.8.40 1 15 1050830 20231110194741
+172.59.79.18 1 29 1358470 20231129122217
+87.236.176.47 1 1 15001 20231106023159
+71.235.13.102 0 2 2667234 
+173.252.95.19 0 1 21691 
+49.145.6.29 1 24 5021913 20231110044107
+76.84.162.213 5 151 23728582 20231111201739
+143.110.209.218 1 1 10719 20231105044241
+77.91.87.79 1 1 15001 20231105070739
+199.45.155.34 1 2 21345 20231120122232
+206.189.10.221 1 1 15001 20231105013554
+173.252.107.116 1 1 15001 20231124161448
+101.67.50.81 0 1 7032 
+104.218.69.9 1 29 1357483 20231101120218
+74.83.247.214 0 1 1333617 
+166.199.99.19 1 53 13966573 20231119195509
+174.235.212.10 2 71 2760591 20231101174547
+75.88.70.206 1 2 183292 20231103113433
+184.92.131.255 6 251 19128276 20231122232454
+129.93.161.227 4 175 36328028 20231128012739
+154.91.138.30 1 1 13991 20231102044129
+146.70.161.230 1 1 15001 20231107111325
+125.94.144.102 1 1 15001 20231111185729
+78.129.191.6 2 2 30002 20231123202226
+94.176.60.55 0 1 3174 
+104.218.69.136 2 68 8388538 20231120155618
+172.121.208.194 3 3 42148 20231129032415
+4.240.104.95 3 3 45003 20231102182421
+108.147.94.65 1 41 1397751 20231108163140
+174.228.36.120 1 27 6990787 20231123175843
+74.220.19.67 3 3 45003 20231126022629
+188.134.80.97 2 2 30002 20231126094929
+174.234.182.254 2 35 7321663 20231110134256
+34.79.246.102 1 1 15001 20231117115223
+104.28.91.180 1 41 1397751 20231105153208
+170.64.79.120 1 27 6990787 20231126115900
+173.252.79.10 0 1 21691 
+75.163.65.238 3 32 7360545 20231108221600
+136.22.18.102 11 350 19460925 20231119185517
+157.245.131.143 2 2 30002 20231123205506
+97.98.240.240 1 19 939315 20231118125808
+159.65.164.230 1 1 15001 20231103201624
+174.215.244.79 1 28 6997131 20231108212013
+76.84.43.144 6 195 19500360 20231120232949
+172.59.228.72 2 56 8349257 20231110184058
+35.147.174.2 3 95 15379325 20231130202015
+167.248.78.6 2 53 13977000 20231102131540
+154.91.138.6 1 1 15001 20231102211742
+167.248.34.29 3 83 15340044 20231103142722
+172.232.5.239 1 1 15001 20231112053634
+45.92.177.159 1 1 0 20231115063242
+104.218.69.160 1 41 1396764 20231101200829
+140.228.170.84 1 42 1404095 20231123172116
+93.180.238.49 0 1 36816 
+174.198.67.241 2 82 15325043 20231126130902
+120.92.72.2 0 1 15514 
+76.84.45.105 0 2 423493 
+172.121.219.39 9 35 7159943 20231117173842
+128.199.78.149 1 1 0 20231119035010
+104.222.46.57 1 27 6990787 20231118192630
+194.26.192.116 1 1 15001 20231109073536
+162.127.23.4 8 250 33488278 20231130131738
+72.14.201.54 7 7 157323 20231125133641
+104.194.196.166 1 1 0 20231117111249
+107.77.206.157 1 41 1397751 20231118115830
+69.63.189.1 0 1 10567 
+209.50.24.106 12 523 97194758 20231130050150
+167.248.13.206 2 69 8394882 20231104160517
+18.217.239.34 1 1 15001 20231130181907
+144.126.131.216 2 2 31812 20231105150457
+182.43.70.143 1 1 15001 20231116121622
+89.76.208.12 1 1 15001 20231119175253
+128.90.144.190 1 1 0 20231121015423
+209.200.24.7 3 3 45003 20231125032652
+164.119.5.47 1 41 1397751 20231130150549
+72.46.49.108 1 27 6990787 20231120171323
+76.84.125.246 2 68 8388538 20231120191707
+177.106.0.135 1 1 28080 20231109133325
+45.33.113.61 1 1 15001 20231127151658
+143.110.213.54 1 1 12146 20231106011657
+174.215.245.24 1 42 1404095 20231106121400
+174.235.216.74 0 40 1341354 
+167.248.91.248 2 56 8349257 20231129180700
+41.115.0.139 1 8 328030 20231117104837
+98.97.14.8 1 42 1404095 20231103075927
+20.232.212.30 2 2 30002 20231120064027
+34.209.250.169 1 1 15001 20231104073416
+72.46.48.177 1 27 6990787 20231109213159
+72.46.48.134 3 97 9747008 20231108114949
+97.98.224.91 2 52 13000689 20231123132505
+76.84.135.82 2 68 8388538 20231112191420
+195.211.77.140 1 1 0 20231124045739
+85.91.19.41 1 1 12146 20231109133314
+47.114.46.31 3 3 45003 20231117072425
+173.236.209.78 3 3 45003 20231103073249
+72.14.201.206 10 10 217564 20231112151116
+95.216.27.171 1 1 12146 20231118132335
+104.218.69.238 5 173 17376400 20231124021012
+198.58.117.76 1 1 15001 20231118151646
+85.203.15.92 1 1 15001 20231125180331
+40.131.152.184 2 68 8388538 20231129211237
+174.228.32.198 1 28 6997131 20231106101549
+104.28.97.85 2 42 1454148 20231104212645
+108.167.18.169 2 55 13987918 20231111213239
+69.63.189.118 1 1 15001 20231124152050
+174.198.70.225 0 5 837310 
+104.28.103.128 2 69 8395570 20231125143647
+174.198.66.168 2 122 4136856 20231130180133
+42.83.147.53 3 3 45003 20231127022310
+103.195.7.214 1 1 15001 20231125133825
+104.28.97.88 3 89 21669445 20231124180739
+34.78.102.4 1 1 15001 20231128104431
+174.198.64.177 1 41 1397751 20231106124928
+104.218.69.193 4 98 9762009 20231127181047
+172.225.24.168 2 70 2756221 20231110133950
+84.239.17.4 3 3 45003 20231106050506
+167.248.5.52 1 41 1397751 20231104194421
+97.98.232.37 2 60 2462920 20231123004617
+185.229.59.218 1 27 6990787 20231104165801
+65.154.226.167 1 1 15001 20231121093939
+174.228.32.43 2 69 8394882 20231103191149
+24.144.94.43 1 1 15001 20231104160450
+174.228.36.105 2 70 2756221 20231126160415
+172.225.12.142 2 68 8388538 20231118173809
+174.235.210.152 1 27 6990787 20231107182708
+174.131.244.236 1 41 1397751 20231118190156
+167.248.27.209 7 233 26524084 20231110205142
+167.248.74.123 3 71 2784301 20231105084742
+35.88.60.222 2 2 15001 20231129032401
+161.35.177.56 2 2 28957 20231106043941
+69.63.189.3 0 2 13887 
+104.218.69.61 2 68 8388538 20231128170755
+143.244.54.136 1 1 15001 20231116180447
+167.248.6.236 1 68 8378900 20231102172806
+106.119.167.146 1 1 15001 20231121181717
+174.235.216.203 2 68 8388538 20231108195923
+45.5.65.233 2 2 30002 20231105013000
+68.13.125.142 1 1 15001 20231107125010
+69.12.29.11 2 68 8388538 20231110171703
+54.160.160.187 1 1 15001 20231111183653
+167.248.38.150 1 28 6997131 20231119092847
+182.44.10.67 2 2 30002 20231117103906
+98.21.133.59 2 42 1454148 20231109213058
+104.28.50.113 0 12 2608908 
+71.57.218.64 0 1 1333617 
+174.215.244.114 2 56 8349257 20231126184130
+174.213.162.249 2 69 8394882 20231116182138
+212.15.177.20 1 42 1404095 20231113172053
+185.180.143.74 1 1 15001 20231128083716
+174.228.35.210 3 83 15343822 20231106182523
+174.198.64.224 4 112 16698514 20231107192946
+129.93.161.229 0 51 13949006 
+88.99.244.11 2 2 27147 20231124162856
+159.65.29.104 2 2 30002 20231117205330
+172.121.223.68 3 3 86399 20231129032414
+104.218.69.10 8 209 31831472 20231116191000
+54.219.40.17 2 2 27982 20231102060231
+174.235.214.106 2 56 8349257 20231118184210
+173.252.95.27 0 1 21691 
+168.151.109.142 0 1 7032 
+146.190.76.44 2 2 30002 20231119200332
+174.215.248.136 3 100 4121035 20231114120808
+174.215.243.53 4 158 11471380 20231123175146
+34.222.241.213 1 1 15001 20231104073338
+198.209.25.17 0 1 1333617 
+179.43.191.18 1 1 15001 20231127090615
+174.198.64.242 1 1 28080 20231103214030
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20231101 101 2149 270021598 43
+20231102 155 3358 439521135 65
+20231103 128 2199 228457287 69
+20231104 139 2876 326392631 76
+20231105 161 1969 193771332 94
+20231106 102 2267 242236703 60
+20231107 96 1716 204138383 50
+20231108 112 2024 210324082 71
+20231109 133 1644 192375469 75
+20231110 178 4390 496828062 90
+20231111 157 2677 348766046 72
+20231112 113 1724 197348813 69
+20231113 75 931 116632975 40
+20231114 79 1552 189909048 51
+20231115 67 1283 163097816 36
+20231116 75 1625 203073803 41
+20231117 233 2386 246308134 82
+20231118 179 3047 353816851 91
+20231119 139 2738 313959560 76
+20231120 113 2067 247954984 66
+20231121 105 2214 248285212 52
+20231122 129 2326 277495134 73
+20231123 210 4240 531647164 109
+20231124 166 2279 263523469 77
+20231125 132 2534 269987355 76
+20231126 121 1842 212460071 80
+20231127 108 1306 189493929 62
+20231128 96 1669 186832222 57
+20231129 132 2734 293194165 72
+20231130 115 3102 310198886 62
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 72
+2mn-5mn 69
+30s-2mn 147
+15mn-30mn 33
+0s-30s 1664
+30mn-1h 41
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 44
+/ 2178 31877319 1589 1226
+/ourmenu.html 781 44011365 267 450
+/allyoucaneatmenu.html 411 11522013 107 224
+/contact.html 143 2393873 31 68
+/about.html 92 1109306 24 34
+/gallery.html 73 775424 13 27
+/asianfusion-allyoucaneat-menu.pdf 19 2352295 4 5
+/sass/utils/_variables.scss 14 31374 0 0
+/sass/utils/_mixins.scss 14 12110 0 0
+/css/components.css.map 5 168000 0 0
+/sass/components/_imageboxes.scss 4 23048 0 0
+/sass/components/_pricing.scss 4 11360 0 0
+/sass/pages/_homepage.scss 3 26967 0 0
+/sass/layout/_hero-title.scss 4 3792 0 0
+/takeoutdeal.pdf 1 74458 0 1
+/sass/pages/_reservation.scss 3 10053 0 0
+/sass/base/_typography.scss 3 19686 0 0
+/sass/pages/_about.scss 3 11397 0 0
+/css/layout.css.map 4 8024 0 0
+/sass/components/_tabs.scss 4 16348 0 0
+/css/vendor.css.map 1 90442 0 0
+/sass/pages/_menu.scss 3 8955 0 0
+/sass/layout/_header.scss 4 3868 0 0
+/css/base.css.map 4 20936 0 0
+/sass/base/_helpers.scss 3 5649 0 0
+/sass/components/_messages.scss 4 7596 0 0
+/sass/components/_iconboxes.scss 4 26868 0 0
+/sass/base/_base.scss 3 3249 0 0
+/sass/components/_testimonials.scss 4 17132 0 0
+/blog/robots.txt 4 0 2 2
+/sass/components/_navbar.scss 4 22516 0 0
+/sass/components/_cta.scss 4 7628 0 0
+/sass/components/_progress.scss 4 25888 0 0
+/sass/pages/_contact.scss 3 7152 0 0
+/sass/layout/_footer.scss 4 7012 0 0
+/sass/components/_buttons.scss 4 12384 0 0
+/css/pages.css.map 3 43467 0 0
+/sass/components/_alerts.scss 4 8552 0 0
+/sass/components/_teams.scss 4 31124 0 0
+/sass/pages/_news-read.scss 3 12699 0 0
+/sass/pages/_news.scss 3 19866 0 0
+/sass/components/_forms.scss 4 15260 0 0
+/sass/components/_accordions.scss 4 21448 0 0
+/sass/components/_galleries.scss 4 20048 0 0
+END_SIDER

@@ -1,0 +1,401 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202306 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2520                
+POS_VISITOR 8782                
+POS_DAY 11311               
+POS_DOMAIN 3243                
+POS_LOGIN 3475                
+POS_ROBOT 3630                
+POS_WORMS 4015                
+POS_EMAILSENDER 4146                
+POS_EMAILRECEIVER 4289                
+POS_SESSION 11397               
+POS_SIDER 11587               
+POS_FILETYPES 4424                
+POS_OS 4574                
+POS_BROWSER 4679                
+POS_SCREENSIZE 4809                
+POS_UNKNOWNREFERER 4883                
+POS_UNKNOWNREFERERBROWSER 5127                
+POS_ORIGIN 5287                
+POS_SEREFERRALS 5425                
+POS_PAGEREFS 5593                
+POS_SEARCHWORDS 5741                
+POS_KEYWORDS 5893                
+POS_MISC 2184                
+POS_ERRORS 5952                
+POS_CLUSTER 3331                
+POS_SIDER_404 6051                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230801141505 1 0 68381425112
+FirstTime 0
+LastTime 20230601234453
+LastUpdate 20230805021103 1 0 0 0 0
+TotalVisits 54                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 64                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 9 24 4736577
+1 0 56 2660792 3 16 406908
+2 0 0 0 9 9 19976
+3 3 3 41721 3 3 23533
+4 0 0 0 2 2 14774
+5 0 0 0 5 22 5111668
+6 5 5 66680 13 32 409880
+7 1 41 1396741 3 3 15641
+8 0 0 0 4 5 53155
+9 3 44 9759811 11 11 73003
+10 4 70 8400347 15 38 4584926
+11 3 3 40676 1 1 13907
+12 5 34 2746644 4 12 10404
+13 9 93 9062356 14 20 251695
+14 5 111 9810995 2 15 13005
+15 2 96 9716836 2 23 5001223
+16 9 9 174407 0 0 0
+17 2 122 4134842 0 1 5821
+18 11 424 39039989 4 4 42588
+19 5 128 10854825 6 6 5202
+20 2 35 7311111 2 3 21118
+21 6 135 11249797 0 0 0
+22 4 98 9757746 6 8 1031809
+23 11 37 7178013 1 18 15606
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 90 1544 143404329
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+robot 76 18225382 20230602005505 3
+bot[+:,\.\;\/\\-] 56 3174035 20230602004301 6
+googlebot 13 157677 20230601224358 1
+crawl 7 146593 20230601130713 0
+no_user_agent 4 55628 20230601135306 0
+cfnetwork 4 12688 20230601200709 0
+unknown 2 0 20230601034714 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 269 11995397 0 0
+png 702 24677239 0 0
+html 90 2117755 0 0
+js 353 5846121 0 0
+jpg 130 98767817 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 1099
+winxp 1
+unix 41
+winnt 388
+Unknown 9
+linux 5
+win2008 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 7
+firefox28.0 3
+mozilla 1
+chrome 477
+Unknown 8
+safari 1052
+firefox111.0 2
+opera 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Qwantify/1.0;__https://www.qwant.com/) 20230601132003
+YelpBot_(https://www.yelp.com/) 20230601160359
+Validator.nu/LV 20230601064636
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+YelpBot_(https://www.yelp.com/) 20230601160359
+Validator.nu/LV 20230601064636
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 54
+From1 0 0
+From2 18 19
+From3 0 0
+From4 21 1471
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 17 18
+search 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+405 1 248
+404 113 90168
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 78
+/blog/wp-includes/wlwmanifest.xml 3 -
+/wordpress/ 1 -
+/.well-known/traffic-advice 1 -
+/Admin/Ueditor/index 1 -
+/2021/wp-includes/wlwmanifest.xml 1 -
+/feed/ 1 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/admin/controller/extension/extension/ 1 binance.com
+/admin/includes/general.js 1 -
+/wp-content/plugins/wp-task-scheduler/scheduler.php 1 -
+/zms/admin/index.php 1 https://asianfusionlnk.com/zms/admin/index.php
+/666.php 1 http://asianfusionlnk.com/666.php
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/uploads/ 1 binance.com
+/2019/wp-includes/wlwmanifest.xml 3 -
+/sites/default/files/ 1 binance.com
+/wordpress 1 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/wp-content/themes/seotheme/db.php 5 -
+/bc 1 -
+/index/login.cgi 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/web/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/inputs.php 1 -
+/wp-includes/js/jquery/jquery.js 1 -
+/wp-content/plugins/mstore-api/assets/js/mstore-inspireui.js 2 -
+/wp-content/plugins/wp-cache/index.php 1 -
+/STATE_ID/123/agentLogUploader 1 -
+/news/wp-includes/wlwmanifest.xml 2 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/old 1 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/main 1 -
+/home 1 -
+/misc/ajax.js 1 -
+/js/header-rollup-554.js 1 -
+/wp-includes/ID3/license.txt 1 -
+/menus/sashimi-regular/ 1 -
+/wp-content/plugins/ultra-cache/index.php 1 -
+/.well-known/ 1 binance.com
+/website/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/inputs.php 1 -
+/wp-admin/css/ 1 binance.com
+/cgi-bin/broker 1 -
+/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/task-controller/index.php 1 -
+/.env 3 -
+/z.php 1 http://asianfusionlnk.com/z.php
+/wp-content/plugins/core-builder/index.php 1 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/2018/wp-includes/wlwmanifest.xml 2 -
+/new 1 -
+/images/ 1 binance.com
+/ads.txt 1 -
+/images/editor/separator.gif 1 -
+/admin/assets/fileupload/index.php 1 -
+/admin/view/javascript/common.js 1 -
+/wp-content/plugins/formidable/css/formidableforms.css 1 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/bk 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/sito/wp-includes/wlwmanifest.xml 2 -
+/install 1 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/inputs.php 1 -
+/wp 1 -
+/repeater.php 1 -
+/plugins/system/debug/debug.xml 1 -
+/portal/login 1 -
+/index.php 1 -
+/tag/broccoli-w-chicken/ 1 -
+/wp-sale.js 1 -
+/files/ 1 binance.com
+/menu-2/ 2 https://www.tripadvisor.com/
+/backup 1 -
+/hms/admin/ 1 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 64
+52.35.20.1 7 7 146593 20230601160359
+65.109.155.176 6 6 132686 20230601234453
+137.184.226.51 4 4 55628 20230601130305
+40.131.147.46 3 85 9704497 20230601212449
+96.47.102.56 3 97 9743839 20230601225047
+162.250.116.227 3 109 9783181 20230601193402
+20.213.240.186 3 3 41721 20230601123001
+43.134.130.133 3 3 41721 20230601232152
+167.248.16.154 3 121 22351931 20230601183058
+184.169.124.161 2 3 196105 20230601130032
+63.86.0.76 1 16 454286 20230601183031
+205.185.116.25 0 1 23890 
+72.14.201.205 1 1 13907 20230601192531
+174.198.70.152 2 68 8386440 20230601141542
+173.244.142.83 1 16 2756205 20230601093511
+105.209.230.144 2 2 26769 20230601111137
+104.218.65.120 1 41 1396741 20230601070847
+174.198.64.238 1 27 6989699 20230601133100
+54.88.40.16 1 1 13907 20230601065635
+205.185.127.30 1 1 13907 20230601210526
+14.238.239.137 1 1 13907 20230601094404
+74.87.187.170 1 41 1396741 20230601140846
+167.248.110.44 1 27 6989699 20230601192732
+212.102.49.86 1 1 13907 20230601145439
+5.42.64.62 1 1 13907 20230601231921
+104.218.66.85 0 1 1333617 
+167.248.2.50 1 41 1396741 20230601173717
+209.141.33.65 0 1 15514 
+140.228.175.139 2 111 9746832 20230601180946
+174.228.39.5 1 1 13907 20230601125411
+168.245.155.60 1 27 6989699 20230601091857
+65.109.146.33 1 1 13907 20230601232826
+72.46.51.69 1 41 1396741 20230601170922
+174.228.40.137 0 40 1341360 
+179.182.137.54 1 27 6989699 20230601200657
+167.248.70.22 1 41 1396741 20230601190023
+3.80.100.217 1 1 13907 20230601030156
+174.228.36.208 0 56 2660792 
+15.235.50.228 1 1 11052 20230601065351
+209.141.34.187 0 1 21237 
+18.157.80.104 1 1 13907 20230601034714
+34.229.157.96 1 1 13907 20230601111859
+110.164.214.172 1 41 1396741 20230601215649
+174.198.67.12 2 93 3679551 20230601183105
+171.25.193.80 1 1 13907 20230601223037
+104.218.65.69 1 57 2687795 20230601123913
+174.198.68.58 2 68 8386440 20230601103014
+167.248.28.102 2 59 2454478 20230601191233
+209.141.41.193 0 1 5465 
+88.230.15.25 1 1 13907 20230601032049
+209.141.32.227 0 1 36816 
+174.215.242.26 0 40 1341360 
+95.174.64.254 2 2 27814 20230601060503
+194.187.171.96 1 1 13907 20230601132003
+45.76.160.146 1 1 13907 20230601142859
+43.156.173.94 1 1 13907 20230601105640
+172.58.12.157 1 8 321412 20230601205728
+174.138.178.58 1 1 13907 20230601064636
+192.64.4.25 1 1 0 20230601105729
+167.248.57.190 2 68 8386440 20230601150636
+205.185.122.184 1 2 28145 20230601210521
+34.211.236.95 2 2 27814 20230601162858
+209.141.48.154 0 1 3585 
+104.28.97.88 1 18 465657 20230601130517
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20230601 90 1544 143404329 54
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+0s-30s 49
+30s-2mn 2
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 53 723164 39 32
+/ourmenu.html 19 1052239 8 14
+/allyoucaneatmenu.html 8 216024 3 4
+/about.html 4 44208 2 2
+/contact.html 4 62868 2 2
+/gallery.html 2 19252 0 0
+END_SIDER

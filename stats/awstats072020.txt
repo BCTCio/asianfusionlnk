@@ -1,0 +1,1241 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202007 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2551                
+POS_VISITOR 35576               
+POS_DAY 44103               
+POS_DOMAIN 3425                
+POS_LOGIN 3658                
+POS_ROBOT 3813                
+POS_WORMS 4346                
+POS_EMAILSENDER 4477                
+POS_EMAILRECEIVER 4620                
+POS_SESSION 44386               
+POS_SIDER 44576               
+POS_FILETYPES 4755                
+POS_OS 4910                
+POS_BROWSER 5030                
+POS_SCREENSIZE 5305                
+POS_UNKNOWNREFERER 5379                
+POS_UNKNOWNREFERERBROWSER 5601                
+POS_ORIGIN 5977                
+POS_SEREFERRALS 6120                
+POS_PAGEREFS 6277                
+POS_SEARCHWORDS 6881                
+POS_KEYWORDS 7033                
+POS_MISC 2215                
+POS_ERRORS 7092                
+POS_CLUSTER 3514                
+POS_SIDER_404 7218                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200801000057 6909 1671630 32225983696
+FirstTime 20200724111621
+LastTime 20200731231248
+LastUpdate 20200802021039 6909 5817 1091 0 0
+TotalVisits 224                 
+TotalUnique 194                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 216                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 33 5154414 59 70 1031199
+1 4 9 309897 104 141 5598319
+2 6 6 65105 58 75 1169653
+3 1 1 13021 65 70 100636
+4 11 19 452818 56 63 403357
+5 7 85 14825647 65 72 377835
+6 6 7 1091834 56 113 1632763
+7 10 80 16491317 66 83 5109657
+8 5 57 6056759 65 70 117125
+9 9 81 15411416 72 112 1510879
+10 12 92 17921782 96 103 192701
+11 22 151 29433260 59 68 1463157
+12 20 388 65726769 74 85 588446
+13 18 299 51177590 77 96 1580301
+14 20 215 27981992 66 87 1625228
+15 14 169 30131421 78 108 2151672
+16 12 141 26723480 88 94 1372999
+17 44 674 116731994 57 96 9126101
+18 39 664 113036202 60 76 220106
+19 21 235 34992385 81 127 8489624
+20 30 544 82346664 51 150 414769
+21 6 134 22558646 58 85 1070205
+22 18 271 44513686 83 128 991744
+23 10 163 26195620 69 86 163124
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 355 4518 749343719
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 190 17413843 20200731235145 13
+bot[+:,\.\;\/\\-] 178 18685257 20200731194347 67
+infobot 66 880485 20200731121702 17
+yandex 54 654404 20200730175906 25
+baiduspider 26 6885279 20200731192953 0
+mail\.ru 19 0 20200731212605 19
+python 18 52084 20200731184600 0
+unknown 8 0 20200731072820 8
+spider 6 78126 20200731104717 0
+no_user_agent 5 67743 20200730223049 0
+cfnetwork 3 6344 20200729184906 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 596 27105041 0 0
+png 1989 144134370 0 0
+html 355 7018270 0 0
+jpg 780 558181213 0 0
+js 798 12904825 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 2865
+winxp 49
+unix 28
+winnt 810
+Unknown 9
+winvista 1
+linux 666
+win2008 90
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 17
+firefox70.0 2
+msie8.0 1
+firefox28.0 6
+msie6.0 28
+firefox61.0 2
+mozilla 318
+chrome 1472
+firefox40.1 2
+firefox60.0 5
+firefox77.0 16
+firefox9.0.1 8
+firefox76.0 29
+msie9.0 12
+Unknown 11
+safari 2363
+firefox31.0 4
+firefox78.0 239
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Go-http-client/1.1 20200730025705
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20200728062312
+OS-Scrapy/0.0.5 20200730024632
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Dalvik/2.1.0_(Linux;_U;_Android_8.0.0;_SM-G935V_Build/R16NW) 20200724181357
+Go-http-client/1.1 20200730025705
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20200728062312
+Dalvik/2.1.0_(Linux;_U;_Android_10;_SM-N975U_Build/QP1A.190711.020) 20200724180155
+OS-Scrapy/0.0.5 20200730024632
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 108 169
+From1 2 2
+From2 64 64
+From3 29 29
+From4 152 4254
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 64 64
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://anti-crisis-seo.com 13 13
+https://m.yelp.com 4 4
+https://lm.facebook.com 1 1
+https://www.yelp.com 1 1
+http://www.leejan.net/easy-ways-to-drive-traffic-to-your-website/5191273/view/ 1 1
+https://www.yelp.com 1 1
+http://www.bing.com/search 1 1
+https://duckduckgo.com 1 1
+http://l.facebook.com/l.php 1 1
+https://freeburgsalesandservice.com 1 1
+https://www.facebook.com 1 1
+https://l.facebook.com 1 1
+https://m.yelp.com 1 1
+https://www.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+206 29 364588
+406 1 274
+407 2 830
+404 1653 1412343
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 727
+/menus/chirashi-sushi/ 1 -
+/blog/wp-includes/wlwmanifest.xml 2 -
+/wp-config.good 1 asianfusionlnk.com
+/menus/pad-thai-noodle-w-pork-chicken-beef-shrimp-house-special 2 -
+/about-us 10 -
+/htaccess/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/mango-hawaii-roll/ 2 -
+/tag/shrimp-pad-thai-noodle 2 -
+/menus/volcano-roll-6-pc/ 3 -
+/wp-content/uploads/2013/07/Dancing-Dragon-Roll-Calif-Roll.jpg 2 -
+/id/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/themes/mataam/js/jquery.tools.min.js 2 https://mail.asianfusionlnk.com/
+/menus/spicy-shrimp-roll 1 -
+/tag/red-bean/ 1 -
+/desserts/ 3 -
+/menus/sushi-sashimi-combo 1 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/xmlrpc.php 1 -
+/menus/salmon-skin-roll 1 -
+/tag/broccoli-w-chicken/feed/ 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/07/White-Tiger-Roll-Salmon-Roll-Tuna-Roll.jpg 4 -
+/tag/avocado 1 -
+/menus/white-tuna-roll 1 -
+/menus/gyoza-6 1 -
+/wp-content/plugins/real3d-flipbook/css/flipbook-admin.css 4 -
+/menus/spring-egg-roll-2 2 -
+/wp-content/themes/mataam/timthumb.php 99 -
+/menus/yellowtail-jalapeno-roll/ 1 -
+/tag/salmon 1 -
+/html/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/spicy/feed/ 2 -
+/tag/web-feature/feed/ 2 -
+/wp-content/themes/mataam/images/separator.png 1 -
+/menus/wonton-soup 1 -
+/template/default/common/common.css 1 http://asianfusionlnk.com/template/default/common/common.css
+/shop/wp-includes/wlwmanifest.xml 1 -
+/menus/4-steamed-sweet-pea 3 -
+/menus/avocado-roll/ 2 -
+/administrator/ 3 -
+/tag/shrimp-pad-thai-noodle/ 1 -
+/wp-content/uploads/2013/04/spicy_salmon_roll-300x200.jpg 3 -
+/menus/vegetable-roll-combo 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/tag/pork-pad-thai-noodle/feed/ 1 -
+/wp-content/plugins/gravityforms/ 1 -
+/chinese-cuisine/ 3 -
+/soup 3 -
+/myadmin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/js/common.js 1 http://asianfusionlnk.com/js/common.js
+/wp-content/uploads/2013/07/Mango-Hawaii-Roll.jpg 2 -
+/menus/salmon-avocado-roll/ 1 -
+/admin/_user/_Admin/AspCms_AdminAdd.asp 1 http://asianfusionlnk.com/admin/_user/_Admin/AspCms_AdminAdd.asp
+/tag/lobster/ 1 -
+/tag/strawberry 2 -
+/tag/deep-fried 1 -
+/menus/eel 2 -
+/menu 1 -
+/wp-content/themes/mataam/css/shortcodes.css 3 https://mail.asianfusionlnk.com/
+/wp-content/uploads/2013/07/Bomb-Roll.jpg 1 -
+/tag/cream-cheese/ 3 -
+/tag/tempura 1 -
+/menus/spicy-salmon-roll/ 2 -
+/menus/spicy-girl/ 4 -
+/tag/bean-curd 1 -
+/tag/pork 1 -
+/menus/kung-pao-chicken 3 -
+/menus/asian-curry-chicken-beef-shrimp 1 -
+/tag/sesame-chicken 2 -
+/menus/sesame-chicken/ 1 -
+/menus/godzilla-roll/ 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_23.jpg 1 -
+/admin/view/javascript/common.js 3 -
+/wp-json/oembed/1.0/embed 1 -
+/menus/tuna-or-salmon-avocado-salad 2 -
+/menus/miso-soup 2 -
+/salad 2 -
+/menus/snow-pea-w-chicken-beef-shrimp 3 -
+/wp-includes/js/jquery/jquery-migrate.min.js 3 https://mail.asianfusionlnk.com/
+/menus/rainbow-roll 1 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/jobs/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/sweet-sour 2 -
+/wp-content/themes/mataam/css/mailchimp.css 2 https://mail.asianfusionlnk.com/
+/menus/5-steamed-chicken-shrimp-w-vegetable/ 1 -
+/tag/hunan-w-shrimp/ 1 -
+/menus/1-steamed-mixed-vegetables 2 -
+/photo-gallery 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/tag/sesame-shrimp 2 -
+/v2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_04.jpg 2 https://www.bing.com/
+/manager/login.php 2 -
+/menus/combo-a 1 -
+/menus/eel-avocado-roll 2 -
+/tag/snow-pea-w-shrimp 1 -
+/rss/catalog/notifystock/ 1 -
+/menu-2/ 29 -
+/menus/sesame-chicken-beef-shrimp 1 -
+/wp-content/uploads/2013/11/wine-bottle.png 1 -
+/wp-content/uploads/2013/12/softopenphoto-07.jpg 5 https://mail.asianfusionlnk.com/
+/menus/crazy-house-roll/ 1 -
+/tag/chicken-pad-thai-noodle 3 -
+/menus/california-roll/ 3 -
+/wp-content/uploads/2013/07/White-Tiger-Roll-Salmon-Roll-Tuna-Roll-300x199.jpg 1 -
+/menus/sushi-for-two/ 4 -
+/dede/login.php 3 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/cucumber/ 1 -
+/menus/tuna-avocado-roll/ 1 -
+/menus/crab-tempura-roll 1 -
+/menus/crazy-house-roll 2 -
+/downloader/ 1 -
+/slider-sitemap.xml 3 -
+/55index.php 2 http://site.ru
+/wp-admin/ 4 asianfusionlnk.com
+/menus/special-pizza 2 -
+/comments/feed/ 1 -
+/wp-content/plugins/contact-form-7/modules/file.php 1 -
+/tag/tuna 3 -
+/tag/yellowtail 1 -
+/tag/mackerel 1 -
+/menus/mango-hawaii-roll 2 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/tag/vegetables 1 -
+/about-us/ 6 https://asianfusionlnk.com/
+/menus/butterfly-roll 2 -
+/tag/lunch 2 -
+/wp-content/uploads/2013/07/Spicy-Twin-Salmon-Roll.jpg 3 -
+/desserts 1 -
+/tag/snow-pea 2 -
+/wp-content/uploads/2012/09/iStock_000015105090Medium_1020x500px.jpg 2 https://mail.asianfusionlnk.com/
+/menus/sweet-sour-chicken-2/ 1 -
+/menus/sweet-sour-delight 1 -
+/category/uncategorized 2 -
+/table-sitemap.xml 1 -
+/menus/octopus/ 6 -
+/lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/wp-content/themes/mataam/js/superfish.js 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/combo-a/ 1 -
+/menus/kani-salad/ 3 -
+/wp-includes/wp-caches.php 4 http://site.ru
+/menus/vegetable-roll 2 -
+/menus/passion-roll 2 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/tag/mackerel/ 1 -
+/wp-content/uploads/2013/07/Momoya-Spicy-Tuna-Roll.jpg 2 -
+/roll-or-hand-roll/ 8 -
+/tag/sweet-potato 3 -
+/menus/sweet-shrimp/ 2 -
+/adminer-4.6.5.php 1 -
+/a-blog-post-without-featured-image 2 -
+/my/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/crab-tempura-roll/ 3 -
+/newsite/wp-includes/wlwmanifest.xml 1 -
+/tag/white-fish 2 -
+/menus/avocado-salad/ 2 -
+/sushi-entree/ 16 -
+/wp-content/uploads/2013/05/Screen-shot-2014-09-16-at-5.29.00-PM.png 2 -
+/tag/fluke 3 -
+/menus/eel/ 2 -
+/wp-content/uploads/2013/07/mongolian-beef.jpg 3 -
+/menus/spicy-avocado-salad/ 2 -
+/menus/mongolian-beef/ 1 -
+/contact-us/ 26 -
+/e/admin/index.php 1 http://asianfusionlnk.com/e/admin/index.php
+/menus/chirashi-sushi 2 -
+/wp-content/themes/mataam/framework/admin/css/datepicker.css 5 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/cms/wp-includes/wlwmanifest.xml 3 -
+/wp-load.php 1 https://asianfusionlnk.com/
+/2018/wp-includes/wlwmanifest.xml 2 -
+/tag/soup-2 1 -
+/administrator/help/en-GB/toc.json 3 -
+/wp-admin/includes/helpers.php 1 asianfusionlnk.com
+/menus/godzilla-roll 1 -
+/wp-content/uploads/2013/12/softopenphoto-09.jpg 4 https://mail.asianfusionlnk.com/
+/menus/oshinko-roll 1 -
+/tag/teriyaki-w-salmon 2 -
+/libweb/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2013/07/Chicken-Pad-Thai.jpg 1 -
+/tag/mango 2 -
+/slider/the-pleasure-of-the-chefs-special 2 -
+/menus/peanut-butter-chicken 1 -
+/p4/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/contus-hd-flv-player/uploadVideo.php 1 http://www.google.com/
+/media/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/05/2014-09-28-14.22.40-e1412123516602.jpg 1 -
+/wp-config.php.swp 1 asianfusionlnk.com
+/menus/indian-pancake/ 1 -
+/appetizers 1 -
+/menus/spicy-scallop-avocado-roll 1 -
+/menus/striped-bass 1 -
+/menus/albacore-tuna 2 -
+/wp-content/plugins/mailchimp//js/scrollTo.js 3 https://mail.asianfusionlnk.com/
+/tag/vanilla 1 -
+/wp-includes/js/jquery/jquery.form.min.js 3 https://mail.asianfusionlnk.com/
+/menus/hunan-combo 2 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/07/Combo-B.jpg 1 -
+/slider/amazing-dishes 1 -
+/menus/japanese-shrimp 2 -
+/larabus/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backup/wp-admin/ 1 http://asianfusionlnk.com/
+/tag/chicken-fried-rice 1 -
+/wp-content/uploads/2013/07/Volcano.jpg 1 -
+/menus/sushi-for-two 1 -
+/admindede/login.php 2 -
+/storage/.env 2 -
+/menus/momoya-spicy-tuna-roll/ 7 -
+/wp-includes/class-wp-xmlrpc-server.php 1 http://site.ru
+/wp-content/uploads/2013/04/Spicy-Tuna-Roll.jpg 2 http://animalia-life.club/other/spicy-salmon-sushi-roll.html
+//wp/wp-content/plugins/plugins/GreenGo.php 1 -
+/wp-content/uploads/2013/05/menu1-960px.jpg 1 https://image.baidu.com/search/detail
+/wp-config.php.old 1 asianfusionlnk.com
+/1/wp-includes/wlwmanifest.xml 1 -
+/tag/teriyaki-w-chicken 1 -
+/wp-content/uploads/2013/11/chinese-Asian-Fusion-Restaurant.jpg 3 https://mail.asianfusionlnk.com/
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 2 https://mail.asianfusionlnk.com/
+/sushi-sashimi-a-la-carte/ 3 -
+/moodalmahdi/nbdsye/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/themes/mataam/js/jquery.flexslider-min.js 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/mochi-ice-cream/ 3 -
+/wp-content/uploads/2013/04/volcano_roll-150x150.jpg 2 https://mail.asianfusionlnk.com/
+/tag/beef-lo-mein 2 -
+/menus/tempura-ice-cream 2 -
+/wp-content/uploads/2013/05/artistic-flair-Asian-Fusion-Restaurant-Lincoln-NE.jpg 4 https://mail.asianfusionlnk.com/
+/testimonials/ 8 -
+/misc/ajax.js 3 -
+/payment/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/3-steamed-bean-curd-w-vegetables 1 -
+/menus/twin-roll 2 -
+/tag/cucumber/feed/ 2 -
+/menus/white-tuna 2 -
+/menus/combo-b 2 -
+/menus/general-tsos-chicken-beef-shrimp 2 -
+/tag/hunan-w-beef 1 -
+/post_tag-sitemap.xml 1 -
+/wp-content/plugins/revslider/rs-plugin/css/settings.css 1 https://mail.asianfusionlnk.com/
+/menus/spicy-twin-salmon-roll/ 5 -
+/menus/twin-roll/ 3 -
+/the-blog-post-with-featured-image 2 -
+/wp-includes/js/jquery/ui/datepicker.min.js 4 https://mail.asianfusionlnk.com/
+/menus/california-roll 2 -
+/menus/cucumber-roll/ 1 -
+/wp-content/themes/mataam/js/jquery.eislideshow.js 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/wp-admin/admin-ajax.php 2 -
+/menus/squid/ 1 -
+/menus/sushi-and-sashimi/ 4 -
+/modules/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2013/07/Sesame-Chicken.jpg 2 -
+/tag/appetizers/ 2 -
+/slider/flame-grilled-chicken/ 1 -
+//wordpress/wp-content/plugins/plugins/GreenGo.php 1 -
+/menus/shrimp-w-lobster-sauce 2 -
+/tag/sweet-sour-pork 1 -
+/wp-content/themes/mataam/js/jquery.preloadify.min.js 4 https://mail.asianfusionlnk.com/
+/menus/bomb-roll 2 -
+/wp-includes/Requests/Cookie/helpers.php 1 asianfusionlnk.com
+/menus/four-seasons/ 1 -
+/tag/vegetables/ 1 -
+/tag/spicy 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 5 -
+/tag/green-tea/ 2 -
+/js/comm.js 1 http://asianfusionlnk.com/js/comm.js
+/sito/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/2013/07/Snow-Mountain-150x150.jpg 6 https://mail.asianfusionlnk.com/
+/a-blog-post-without-featured-image/ 1 -
+/menus/kung-po-chicken-beef-shrimp 2 -
+/wordpress/wp-admin/ 2 http://asianfusionlnk.com/
+/wp-content/themes/mataam/js/sys_custom.js 3 https://mail.asianfusionlnk.com/
+/wp-content/wp-img.php 2 http://site.ru
+/wp-content/uploads/2013/07/Shrimp-Tempura.jpg 1 -
+/tag/snow-pea-w-chicken/ 1 -
+/wp-content/themes/mataam/css/flexslider.css 2 https://mail.asianfusionlnk.com/
+/menus/ice-cream/ 1 -
+/menus/beef-negimaki-2 2 -
+/wp-admin/maint/helpers.php 1 asianfusionlnk.com
+/menus/salmon-avocado-roll 1 -
+/tag/chicken-lo-mein 2 -
+/menus/wonton-soup/ 3 -
+/menus/edamame 2 -
+/menus/chicken-w-garlic-sauce/ 1 -
+/tag/tobiko 1 -
+/menus/happy-family 3 -
+/menus/crab-rangoon-6 3 -
+/tag/squid 2 -
+/tag/caviar 2 -
+/tag/snow-pea-w-chicken 1 -
+/hello-world-2 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_02.jpg 1 -
+/menus/kung-po-chicken-beef-shrimp/ 3 -
+/wp-content/uploads/2013/07/Spicy-Girl.jpg 1 -
+/menus/mixed-green-salad/ 2 -
+/wp-includes/js/jquery/ui/core.min.js 4 https://mail.asianfusionlnk.com/
+/menus/spicy-twin-salmon-roll-2 2 -
+/menus/hot-sour-soup/ 2 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/07/Sesame-Chicken-150x150.jpg 3 https://mail.asianfusionlnk.com/
+/tag/pad-thai-noodle 1 -
+/menus/chicken-tempura-roll 2 -
+/wp-content/uploads/2012/09/ASIAN_FUSION_LOGO_REV1-WHITE.png 4 -
+/css/album.css 1 -
+/tag/crab 2 -
+/tag/beef-fried-rice 1 -
+/menus/garlic-sauce-chicken-beef-shrimp/ 3 -
+/menus/sashimi-entree 1 -
+/wp-content/uploads/2013/07/avacado-ball.jpg 3 https://cn.bing.com/
+/menu-2 18 -
+/wp-content/gallery/may2013_gallery/thumbs/thumbs_softopenphotos_07.jpg 1 -
+/menus/spicy-mango-shrimp-roll 1 -
+/menus/fried-cheese-cake 2 -
+/web/wp-includes/wlwmanifest.xml 2 -
+/utility/convert/source/d7.2_x1.5/readme.txt 3 -
+/wp-content/uploads/2013/07/Crab-Rangoon.jpg 1 -
+/patronus.sfiec.org.br/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/tuna-roll/ 2 -
+/news/wp-includes/wlwmanifest.xml 3 -
+/page-sitemap.xml 2 -
+/menus/sesame-chicken-beef-shrimp/ 4 -
+/ei-slider/ 1 -
+/wp-content/themes/mataam/css/prettyPhoto.css 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/momoya-spicy-tuna-roll 2 -
+/wp-content/uploads/2011/12/Onion-chili-salad.jpg 1 -
+/tag/broccoli 2 -
+/wp-content/uploads/2012/09/facebook_50x50.png 4 -
+/wp-content/uploads/2013/07/Kung-Pao-Shrimp.jpg 2 -
+/menus/shrimp 1 -
+/menus/indian-pancake 2 -
+/menus/egg-custard 2 -
+/humans.txt 1 -
+/tag/flying-fish 2 -
+/menus/2-steamed-chicken-broccoli 1 -
+/tag/spicy/ 2 -
+/old/wp-admin/ 1 http://asianfusionlnk.com/
+/wp-content/uploads/2013/04/volcano_roll-300x134.jpg 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_09.jpg 1 -
+/wp-content/uploads/2013/07/avacado.salad_.jpg 1 -
+/modules/autoupgrade/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/contact-us 9 -
+/menus/5-steamed-chicken-shrimp-w-vegetable 1 -
+/menus/crab-stick 1 -
+/config/AspCms_config.asp 1 -
+/local/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/mongolian-triple-delight 1 -
+/.env 7 -
+/wp-config-samsples.php 1 http://site.ru
+/menus/kani-salad 3 -
+/photo-gallery/nggallery/thumbnails 2 -
+/menus/4-steamed-sweet-pea/ 3 -
+/tag/hunan-w-shrimp 2 -
+/tag/striped-bass 2 -
+/menus/avocado-roll 2 -
+/menus/6-steamed-shrimp-w-mixed-vegetables 1 -
+/menus/eel-avocado-roll/ 1 -
+/tag/low-fat 2 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/menus/boston-roll/ 1 -
+/newsite/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/public/router.php 1 -
+/menus/tuna-roll 2 -
+/wp-content/uploads/wpcf7_captcha/2498755080.png 1 -
+/menus/momoya-spicy-tuna-roll-2/ 4 -
+/wp-content/themes/mataam/colors/default.css 3 https://mail.asianfusionlnk.com/
+/wp-includes/js/mediaelement/ix.php.PhP 3 http://site.ru
+/menus/yellowtail-jalapeno-roll 3 -
+/index.php 3 -
+/menus/white-tiger-roll 1 -
+/tag/teriyaki-w-beef 1 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+//test/vendor/phpunit/phpunit/phpunit.xsd 2 -
+/menus/salmon/ 1 -
+/wp-includes/formatting.php 1 http://site.ru
+/html2pdf-master/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/smoked-salmon 2 -
+/menus/spicy-crab-roll/ 3 -
+/wp-content/uploads/2013/07/Sesame-Chicken-300x199.jpg 2 -
+/.conf 1 -
+/menus/house-special-soup/ 2 -
+/site/wp-includes/wlwmanifest.xml 2 -
+/tag/tamago 1 -
+/tag/web-feature 2 -
+/wp-config-good 1 asianfusionlnk.com
+/menus/triple-delight/ 1 -
+/tag/shrimp-lo-mein 1 -
+/wp-content/uploads/wpcf7_captcha/2479204031.png 1 -
+/menus/sashimi-for-two 1 -
+/menus/bento-box-lunch 1 -
+/menus/garlic-sauce-chicken-beef-shrimp 1 -
+/tag/cucumber 1 -
+//wp-includes/css/css.php 1 -
+/live/compareip/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/shrimp 1 -
+/kitchen-entree-special/ 3 -
+/wp-content/uploads/2013/07/rain-ball.jpg 1 -
+/menus/salmon-roll 2 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/egg-custard 1 -
+/menus/sushi-sashimi-for-two/ 2 -
+/wp-includes/css/cokraimu.php 1 http://site.ru
+/wp-config.php.bak 1 asianfusionlnk.com
+/tag/vanilla/ 1 -
+/menus/shrimp-w-lobster-sauce-2/ 1 -
+/wp-login.php 11 http://asianfusionlnk.com/wp-login.php
+/menus/teriyaki-w-chicken-beef-salmon-shrimp 1 -
+/menus/broccoli-w-chicken-beef-shrimp 2 -
+/menus/fluke 1 -
+/menus/seaweed-salad 2 -
+/menus/sashimi-for-two/ 5 -
+/wp-content/gallery/may2013_gallery/softopenphotos_26.jpg 1 -
+/lunch-special 1 -
+/wp-includes/deprecated.php 2 http://site.ru
+/wp-includes/customize/class-wp-widget-form-customize-control.php 1 http://site.ru
+/a,c.defer=c.type= 1 https://asianfusionlnk.com/
+/tag/snow-pea-w-beef 1 -
+/menus/spicy-crab-roll 2 -
+/tag/fried-rice 2 -
+/soup/ 4 -
+/menus/shrimp-tempura-roll 2 -
+/menus/kung-pao-chicken/ 2 -
+/menus/lo-mein-w-pork-chicken-beef-shrimp-house-special 2 -
+/mtosapp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/lunch-special/ 5 -
+/menus/yellowtail 2 -
+/tag/pork-fried-rice 1 -
+/menus/spicy-maki-combo 2 -
+/menus/spicy-salmon-roll 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_25.jpg 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_18.jpg 1 -
+/menus/cucumber-roll 2 -
+/ads.txt 16 -
+/laetv-laravel-respaldo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 2 -
+/wp-content/uploads/2013/07/Seaweed-Salad.jpg 1 -
+/kids-menu/ 1 -
+/tag/beef/ 2 -
+/menus/tempura-banana 1 -
+/roll-or-hand-roll 1 -
+/tag/eel 2 -
+/menus/sushi-regular 2 -
+/tag/shrimp/ 2 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_20.jpg 1 -
+/tag/bean-curd/ 1 -
+/tag/cilantro/ 1 -
+/wp-content/plugins/category-page-icons/css/menu.css 2 -
+/rss/order/new/ 1 -
+/wp-content/plugins/facebook-button-plugin/css/style.css 5 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/wp-content/themes/mataam/css/skin.css 3 https://mail.asianfusionlnk.com/
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg2-sm.jpg 1 -
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menu/ 8 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/menus/salmon-roe 2 -
+/menus/shumai 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_15.jpg 1 -
+/menus/volcano-roll-6-pc 1 -
+/tag/pork-lo-mein 1 -
+/menus/shumai/ 1 -
+/menus/sashimi-entree/ 5 -
+/tag/lobster 2 -
+/feed/ 48 -
+/menus/boston-roll 2 -
+/menus/spicy-avocado-salad 1 -
+/include/calendar/calendar-cn.js 1 http://asianfusionlnk.com/include/calendar/calendar-cn.js
+/tag/beef-lo-mein/ 2 -
+/menus/fried-rice-w-pork-chicken-beef-shrimp-house-special 3 -
+/menus/chicken-tempura-roll/ 1 -
+/wp-content/uploads/2013/07/Spicy-Crab-Cucumber-Thunder-Roll.jpg 1 -
+/menus/flying-fish-roe/ 3 -
+/menus/yellowtail-scallion-roll 2 -
+/menus/thunder-roll/ 5 -
+/author/af-admin 2 -
+/wp-includes/js/jquery/jquery.js 5 -
+/wp-content/uploads/2013/07/Shrimp-Tempura-300x199.jpg 1 https://www.bing.com/
+//wp-content/plugins/plugins/GreenGo.php 1 -
+/wp-content/themes/mataam/js/hoverIntent.js 6 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/c29-shrimp-w-mixed-vegetables/ 1 -
+/menus/spicy-yellowtail-roll 2 -
+/tag/cream-cheese 2 -
+/wp-config.php.backup 1 asianfusionlnk.com
+/.s3cfg 1 -
+/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-mu-backend.js 2 -
+/menus/butterfly-roll/ 1 -
+/menus/asparagus-roll 2 -
+/tag/chicken 2 -
+/wp-content/uploads/2013/04/spicy_salmon_roll-150x150.jpg 6 https://mail.asianfusionlnk.com/
+/menus/combo-b/ 2 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/menus/spicy-girl 2 -
+/menus/sashimi-regular/ 3 -
+/menus/avocado-ball 3 -
+/menus/pad-thai-noodle-w-pork-chicken-beef-shrimp-house-special/ 2 -
+/admin/ 1 -
+/menus/mackerel/ 1 -
+/menus/a-a-c-roll 2 -
+/tag/crabstick 2 -
+/mpbackoffice/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/sesame-beef/ 3 -
+/menus/snow-mountain-roll/ 2 -
+/include/dialog/select_soft_post.php 1 -
+/tag/teriyaki-w-shrimp 1 -
+/menus/volcano-roll-6-pcs 1 -
+/menus/momoya-spicy-tuna-roll-2 2 -
+/sushi-sashimi-a-la-carte 1 -
+/menus/king-crab 1 -
+/blog/ 1 -
+//wp-1ogin_bak.php 1 -
+/tag/red-bean 2 -
+/menus/spicy-maki-combo/ 4 -
+/menus/mackerel 1 -
+/menus/white-tuna-roll/ 1 -
+/tag/roe 2 -
+/menus/fluke/ 1 -
+/wp-includes/js/wp-emoji-release.min.js 1 -
+/wp-content/themes/mataam/style.css 1 https://mail.asianfusionlnk.com/
+/menus/sashimi-appetizer-9-pcs 1 -
+/tag/green-tea 1 -
+/wp-config_good 1 asianfusionlnk.com
+/menus/orange-chicken 2 -
+/menus/ice-cream 2 -
+/tag/steak 2 -
+/menus/asian-curry-chicken-beef-shrimp/ 3 -
+/menus/tuna-avocado-roll 3 -
+/tag/roe/ 1 -
+/menus/volcano-roll-6-pcs/ 3 -
+/tag/octopus 1 -
+/menus/salmon-skin-roll/ 1 -
+/menus/maki-roll-lunch/ 2 -
+/wp-content/uploads/2013/04/volcano_roll.jpg 2 -
+/menus/yellowtail-jalapeno 1 -
+/tag/pork-pad-thai-noodle 2 -
+/htadmin/login.php 2 -
+/tag/sushi-entree 2 -
+/tag/pork-fried-rice/ 2 -
+/tag/tempura/ 2 -
+/laravel_web/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/themes/mataam/css/eislideshow.css 3 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/2019/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/05/Menu1-960px.jpg 1 https://image.baidu.com/search/detail
+/menus/sweet-sour-chicken-pork-shrimp 2 -
+/wp-content/uploads/2013/07/Snow-Mountain.jpg 2 -
+/tag/salmon/ 2 -
+/menus/tempura-roll-combo/ 3 -
+/menus/spicy-twin-salmon-roll-2/ 2 -
+/menus/thunder-roll 1 -
+/menus/spanish-mackerel 1 -
+/wp-includes/feed-atom-comments.php 3 http://site.ru
+/slider/beautiful-decor 1 -
+/tag/salad-2 1 -
+/menus/white-tiger-roll/ 2 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1.jpg 8 http://asianfusionlnk.com/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1.jpg
+/menus/spider-roll/ 2 -
+/menus/pepper-steak-w-onion 3 -
+/menus/avocado-salad 2 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg2.jpg 21 -
+/tag/sweet-peas 2 -
+/slider/mothers-day 1 -
+/lab/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/special-pizza/ 1 -
+/tag/broccoli-w-chicken 2 -
+/menus/octopus 1 -
+/wp-content/uploads/2013/05/Screen-shot-2014-09-16-at-5.29.09-PM.png 1 -
+/wp-includes/customize/class-wp-customize-theme-control.php 1 http://site.ru
+/tag/curry 1 -
+/menus/tempura-roll-combo 1 -
+/menus/flying-fish-roe 2 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1-sm.jpg 4 -
+/menus/spicy-cucumber-crab-roll 1 -
+/wp-includes/js/wp-embed.min.js 9 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/seaweed-salad/ 2 -
+/sushi-entree 2 -
+/administrator/language/en-GB/install.xml 3 -
+/menus/sushi-sashimi-combo/ 1 -
+/menus/pepper-steak/ 1 -
+/menus/maki-roll-lunch 2 -
+/menus/rock-shrimp 1 -
+/salad/ 6 -
+/menus/mochi-ice-cream 4 -
+/wp-content/uploads/2013/04/kung_pao_chicken-150x150.jpg 3 https://mail.asianfusionlnk.com/
+/menus/tuna 2 -
+/assets/plugins/jquery-file-upload/server/php/index.php 1 http://asianfusionlnk.com/assets/plugins/jquery-file-upload/server/php/index.php
+/menus/moo-goo-gai-pan/ 1 -
+/slider/edamame 2 -
+/menus/spicy-tuna-roll 2 -
+/wp-includes/include.php 1 http://site.ru
+/data/admin/ver.txt 1 -
+/tag/sweet-sour-shrimp/ 1 -
+/menus/edamame/ 2 -
+/menus/squid 3 -
+/menus/sweet-shrimp 1 -
+/wp-includes/wlwmanifest.xml 3 -
+/public/js/wind.js 1 http://asianfusionlnk.com/public/js/wind.js
+/shortcodes/ 1 -
+/menus/tempura 3 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/wp-content/uploads/2013/12/softopenphoto-07-300x147.jpg 1 -
+/wp-content/plugins/wpdiscuz/ 1 -
+/wp-content/themes/mataam/js/jquery.easing.1.3.js 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/menus/almond-chicken 1 -
+/photo-gallery/ 6 -
+/menus/fried-rice-w-pork-chicken-beef-shrimp-house-special/ 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js 3 https://mail.asianfusionlnk.com/
+/menus/sushi-sashimi-for-two 1 -
+/menus/hot-sour-soup 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/orange-chicken/ 1 -
+/tag/cilantro 2 -
+/jobs/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/cheese-cake 1 -
+/tag/masago 1 -
+/manage/login.php 1 -
+/menus/sushi-regular/ 2 -
+/menus/shrimp-asparagus-roll 1 -
+/wp-content/app-locatlon.php 2 http://site.ru
+/menus/asian-mango-chicken-beef-shrimp 2 -
+/wp-content/uploads/2013/07/Butterfly-Roll-Salmon-Roll.jpg 4 -
+/wp-cron.php 19 http://asianfusionlnk.com/wp-cron.php
+/photo-gallery/nggallery/slideshow 2 -
+/passtastic/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2013/07/Spicy-Twin-Salmon-Roll-300x199.jpg 1 -
+/tag/vanilla/feed/ 1 -
+/wp-content/gallery/may2013_gallery/thumbs/thumbs_softopenphotos_25.jpg 1 -
+/menus/shrimp-tempura-roll/ 2 -
+/wp-content/uploads/2013/05/chefs-special-Asian-Fusion-Restaurant-Lincoln-NE-300x147.jpg 1 -
+/menus/snow-mountain-roll 2 -
+/jobs/htaccess/workspace/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/triple-delight 1 -
+/libraries/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tag/broccoli-w-shrimp 1 -
+/vendor/.env 2 -
+//wp-admin/admin-ajax.php 2 -
+/menus/mongolian-chicken-beef-shrimp 3 -
+/wp-content/themes/mataam/css/responsive.css 1 https://mail.asianfusionlnk.com/
+/admin/login.php 4 -
+/tag/fluke/feed/ 1 -
+/tag/sweet-sour-shrimp 1 -
+/wp1/wp-includes/wlwmanifest.xml 2 -
+/wp-content/uploads/2013/07/avacado-ball-300x225.jpg 1 -
+/ourmenu.html%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20 1 http://asianfusionlnk.com/about.html
+/tag/broccoli-w-beef 2 -
+/menus/teriyaki-w-chicken-beef-salmon-shrimp/ 1 -
+/tag/scallion 1 -
+/menus/bento-box-lunch/ 3 -
+/tag/beef-pad-thai-noodle 2 -
+/wp-content/uploads/2019/03/wp-console.php 1 http://site.ru
+/wp-content/uploads/2013/05/chefs-special-Asian-Fusion-Restaurant-Lincoln-NE.jpg 5 -
+/e/data/js/ajax.js 1 -
+/adminer.php 1 -
+/feed 3 -
+/menus/scallop 2 -
+/ncufresh15/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/slider/artistic-flair 1 -
+/menus/philadelphia-roll 1 -
+/wp-content/uploads/2013/04/Spicy-Tuna-Roll-150x150.jpg 3 https://mail.asianfusionlnk.com/
+/menus/sweet-potato-roll 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_16.jpg 1 -
+/wp-includes/Text/Diff/Engine/embed.php 1 http://site.ru
+/hello-world 2 -
+//.env 1 -
+/kitchen-entree-special 2 -
+/menus/dancing-eel-dragon-roll 2 -
+/chefs-special-roll/ 4 -
+/menus/scallop/ 1 -
+/tag/appetizers 1 -
+/menus/sushi-entree 1 -
+/slider/amazing-dishes/ 2 -
+/public/.env 2 -
+/tag/scallop 1 -
+/tag/lo-mein 1 -
+/wp-config.php 6 -
+/live/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/shrimp-avocado-roll 2 -
+/website/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 5 -
+/menus/sushi-sashimi-combo-2/ 1 -
+/menus/sushi-and-sashimi 1 -
+/menus/sashimi-regular 1 -
+/isu.php 2 http://site.ru
+/menus/mixed-green-salad 2 -
+/tag/sesame-beef 2 -
+/menus-sitemap.xml 1 -
+/menus/unicorn-roll 3 -
+/testimonials 2 -
+/menus/salmon 1 -
+/author-sitemap.xml 2 -
+/wp-content/uploads/wpcf7_captcha/2930796398.png 2 -
+/wp-content/themes/mataam/js/jquery.prettyPhoto.js 3 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/laravel-sites/dev_grupo_total/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/facebook-button-plugin/images/standard-facebook-ico.png 4 https://mail.asianfusionlnk.com/
+/tag/hunan-w-beef/ 1 -
+/data/admin/allowurl.txt 2 -
+/menus/hunan-w-chicken-beef-shrimp 2 -
+/menus/house-special-soup 3 -
+/appetizers/ 3 https://asianfusionlnk.com/
+/laetv-laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/spider-roll 1 -
+/menus/chicken-w-mushroom 1 -
+/tag/asparagus 2 -
+/chefs-special-roll 3 -
+/menus/spicy-twin-salmon-roll 1 -
+/tag/sweet-sour-chicken 1 -
+/s.w.org 1 -
+/wp-content/plugins/mailchimp//js/mailchimp.js 3 https://mail.asianfusionlnk.com/
+/menus/four-seasons 1 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/wp-config.php.1 1 asianfusionlnk.com
+/wp-content/uploads/2013/05/Menu2-960px.jpg 2 https://image.baidu.com/search/detail
+/tag/shrimp-fried-rice 3 -
+//laravel/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/menus/dancing-eel-dragon-roll/ 1 -
+/wp-content/plugins/facebook-button-plugin/js/script.js 4 https://asianfusionlnk.com/menus/6-steamed-shrimp-w-mixed-vegetables/
+/slider/flame-grilled-chicken 1 -
+/plugins/system/debug/debug.xml 3 -
+/author/af-admin/ 3 -
+/menus/shrimp-asparagus-roll/ 1 -
+/wp-content/uploads/2013/07/Chicken-Tempura.jpg 1 -
+/menus/vegetable-roll-combo/ 1 -
+/tag/hunan 2 -
+/slider/artistic-flair/ 1 -
+/tag/beef 2 -
+/tag/jalapeno 3 -
+/wp2/wp-includes/wlwmanifest.xml 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 216
+104.218.65.22 7 109 15585492 20200730122030
+99.10.217.26 7 9 129058 20200727045425
+72.46.58.97 6 78 16933402 20200728115123
+18.234.16.132 6 6 78126 20200730025705
+54.176.153.201 5 5 95412 20200725004810
+173.198.140.94 5 76 16478932 20200728150713
+72.46.61.25 5 78 16926725 20200726200856
+142.93.184.133 5 20 499650 20200731072823
+174.217.7.229 5 8 3586572 20200728173511
+76.84.116.19 5 79 13962526 20200725180545
+104.218.65.199 3 102 9439071 20200725180320
+40.77.189.106 0 1 950 
+97.119.204.191 2 53 7778406 20200730051919
+34.71.63.236 1 1 13021 20200726134424
+108.167.0.250 2 53 7778406 20200725220528
+174.217.12.156 1 28 6995157 20200730220000
+65.154.226.100 1 8 133766 20200726123906
+203.187.204.180 1 1 13021 20200725083039
+40.77.188.196 0 1 4763 
+119.155.102.254 4 4 53071 20200730164054
+171.13.14.76 0 1 3174 
+184.154.76.23 2 2 26042 20200731104718
+157.55.39.149 0 1 15514 
+137.116.91.83 1 1 13021 20200725005634
+14.192.212.67 1 7 283710 20200725041029
+76.85.170.66 1 1 45818 20200730174343
+40.77.188.175 0 2 12497 
+212.119.46.84 1 1 13021 20200729002844
+13.64.107.162 1 1 13021 20200727184309
+204.137.100.1 2 54 7784750 20200729131240
+192.71.225.127 1 1 13021 20200730002010
+104.218.69.205 3 54 7794065 20200728190408
+217.171.147.164 2 2 28680 20200731062405
+66.246.224.12 4 4 52084 20200729151455
+104.218.65.90 2 28 1244063 20200731195946
+113.21.116.82 1 1 13021 20200728081511
+104.218.66.28 2 2 58839 20200726191256
+174.217.17.3 2 52 7595270 20200727203347
+107.77.89.87 2 4 85903 20200730131938
+104.218.66.0 2 53 7778406 20200730214606
+40.77.190.243 0 1 21237 
+107.77.89.120 2 53 7778406 20200729185207
+40.131.184.21 1 20 4507663 20200729094530
+76.85.184.244 3 53 7424132 20200727175811
+174.243.83.42 1 27 6988813 20200725184609
+40.77.189.127 0 2 17412 
+166.182.80.72 1 27 6988813 20200730133936
+163.172.182.111 1 1 13021 20200730045928
+110.54.200.114 1 1 13021 20200729153254
+40.131.187.22 2 53 7778406 20200731132129
+107.77.89.90 2 53 7778406 20200726182146
+171.13.14.8 0 1 23910 
+34.105.81.97 1 1 13021 20200727090841
+113.190.234.34 1 1 13021 20200728081809
+52.191.131.73 1 1 13021 20200730172443
+171.13.14.75 0 1 15514 
+104.218.65.55 1 19 5627263 20200729181003
+209.95.163.84 1 16 2376940 20200730071957
+174.243.112.227 3 55 16046817 20200728120719
+174.131.242.49 4 54 9920966 20200731223525
+52.138.81.3 1 1 13021 20200724235740
+209.50.29.147 1 27 6988813 20200731184532
+104.218.69.187 2 53 7778406 20200731182325
+70.106.252.188 2 42 9121166 20200729151957
+104.218.69.237 3 57 10844992 20200729175035
+107.175.94.144 1 1 13021 20200728141617
+67.44.240.143 1 28 7084805 20200730175846
+66.102.6.199 1 1 13021 20200726112043
+171.13.14.13 0 1 52768 
+88.252.244.129 1 1 13021 20200729113039
+174.217.8.165 3 56 10838648 20200728095617
+47.27.168.220 2 53 7778406 20200728200456
+104.218.65.92 1 27 6988813 20200729184831
+200.175.104.103 1 1 13021 20200725074621
+91.221.67.62 1 1 13021 20200726093652
+40.77.167.130 0 1 36816 
+172.58.60.92 1 26 789593 20200730140147
+116.62.49.141 1 1 13021 20200728135848
+104.218.69.253 3 4 513309 20200726185456
+40.131.164.42 1 65 8639966 20200727131837
+162.202.40.151 2 53 7778406 20200725132156
+34.207.212.138 2 2 26042 20200727093549
+27.255.221.20 1 1 13021 20200725090341
+104.218.65.156 2 43 13595029 20200731075543
+40.77.191.49 0 1 23910 
+98.16.209.8 3 57 17037868 20200728231720
+99.203.29.85 1 27 6988813 20200724211403
+168.151.138.129 1 1 13021 20200729041231
+52.229.49.21 1 1 13021 20200728182157
+104.218.67.68 2 2 58839 20200731205203
+104.218.65.168 2 53 7778406 20200731202159
+35.187.132.136 1 1 13021 20200726112043
+208.87.233.140 1 8 133766 20200726112043
+69.80.114.2 2 2 58839 20200728193938
+104.218.66.255 1 1 13021 20200724181357
+89.200.138.159 1 1 13021 20200726173936
+80.95.44.188 1 1 13021 20200725143636
+167.172.126.57 0 1 1011070 
+5.196.23.219 1 1 13021 20200730233745
+51.143.41.70 1 1 13021 20200731203020
+118.184.173.75 1 1 13021 20200730024632
+182.1.229.210 1 1 13021 20200724230759
+174.217.10.48 1 42 1392802 20200727084030
+98.16.211.138 2 54 7784750 20200730170527
+171.13.14.18 1 3 41744 20200724140914
+45.67.177.12 2 2 58839 20200731111847
+93.100.132.97 1 1 13021 20200726110211
+174.243.81.199 3 29 854776 20200731140046
+174.217.11.42 1 27 6988813 20200727184407
+40.77.189.80 0 2 183805 
+104.218.66.211 1 1 45818 20200731183510
+34.216.231.65 1 27 6988813 20200730070326
+174.243.113.181 1 25 5956052 20200731131029
+166.182.83.107 3 54 7791427 20200728183636
+171.13.14.10 0 1 168291 
+76.85.155.165 1 1 13021 20200724180155
+159.89.230.208 1 1 13021 20200727015507
+99.203.92.86 3 71 11879633 20200724222306
+174.243.64.44 0 26 6975792 
+54.149.164.146 1 1 13021 20200724205557
+104.218.66.6 4 57 10851669 20200729124247
+70.121.254.172 2 25 5019939 20200728110203
+107.77.111.122 2 53 7778406 20200726173929
+51.143.179.159 1 1 13021 20200731062955
+76.84.50.73 1 1 13021 20200731140324
+173.244.142.83 2 54 7784750 20200728160953
+174.217.23.150 2 54 7784750 20200729142611
+104.218.65.74 2 53 7778406 20200726180759
+166.182.81.18 2 53 7778406 20200724211508
+31.206.89.228 1 8 320526 20200729150509
+141.246.2.80 1 24 5019939 20200730123113
+69.80.118.130 1 4 1981895 20200729164901
+209.50.30.186 3 81 14760542 20200731101707
+35.239.152.102 1 1 13021 20200724170944
+34.222.32.239 1 1 0 20200726165949
+13.77.173.32 1 1 13021 20200729171518
+174.217.8.129 2 53 7778406 20200725141350
+40.131.162.61 1 2 52162 20200726191444
+104.222.46.22 2 2 26042 20200728051050
+40.131.172.222 3 56 10838648 20200731104034
+47.12.94.255 1 24 5019939 20200730111324
+166.181.82.199 2 54 7784750 20200731231248
+40.77.190.211 0 2 78617 
+76.79.20.170 1 1 13021 20200730093601
+176.42.168.104 1 8 320526 20200726165007
+83.28.162.236 2 7 114063 20200727023127
+208.87.237.140 1 8 133766 20200727123555
+72.46.53.179 4 57 10851669 20200731142142
+76.84.27.135 2 59 7901905 20200725170114
+154.30.145.252 1 1 15659 20200729041232
+40.77.167.47 0 1 3585 
+184.176.166.10 1 1 13021 20200731030204
+192.69.82.248 2 3 500288 20200728162006
+83.28.74.237 3 5 45745 20200727023128
+76.84.20.176 1 42 1392802 20200730202217
+164.119.71.150 1 24 5019939 20200729175303
+70.42.131.189 1 27 6988813 20200726122730
+151.138.13.148 1 1 13021 20200727193231
+70.106.237.35 1 28 6995157 20200727205312
+82.132.223.35 1 12 4624894 20200730082151
+34.212.170.115 1 1 13021 20200725114402
+209.50.31.69 1 27 6975792 20200731114600
+104.218.66.94 1 24 5019939 20200727125504
+162.250.116.208 1 28 7430262 20200729122310
+40.78.88.39 1 1 13021 20200726153440
+134.255.243.222 2 2 28680 20200731010651
+104.218.71.101 4 57 10851669 20200726180828
+54.191.137.17 1 1 13021 20200730112023
+76.84.228.110 3 31 10062076 20200724175216
+104.218.67.115 1 27 6988813 20200726173033
+209.50.14.66 2 31 1024525 20200729200811
+201.16.128.66 1 6 268196 20200729012021
+13.82.44.165 1 1 13021 20200725021303
+194.33.45.139 1 1 13021 20200727045143
+162.210.7.52 2 53 7778406 20200728173911
+108.167.45.230 2 53 7778406 20200730233252
+104.218.65.128 3 56 10838648 20200725203410
+51.143.95.21 1 1 13021 20200725162929
+183.253.80.96 1 1 13021 20200730063902
+62.210.83.78 1 1 13021 20200726041203
+51.79.185.60 1 27 6988813 20200727164449
+107.172.255.226 2 2 28680 20200725193242
+40.77.188.177 0 1 23890 
+68.183.175.94 1 1 13021 20200725134909
+103.3.220.139 1 1 13021 20200726055409
+172.58.63.3 4 56 8245897 20200726202415
+114.31.182.249 1 1 13021 20200731065809
+184.154.139.48 4 4 52084 20200729105640
+85.203.44.181 4 4 52084 20200727174452
+184.154.139.24 2 2 26042 20200730105548
+40.77.190.146 0 1 344 
+207.102.138.19 2 26 777882 20200729223707
+107.77.111.94 2 53 7778406 20200727204333
+40.77.188.173 0 2 40401 
+104.218.66.27 1 2 64395 20200726192630
+203.113.152.125 1 1 13021 20200727233936
+40.78.91.214 1 1 13021 20200724173535
+222.254.30.35 1 1 13021 20200724111621
+174.131.241.201 1 52 7765385 20200730223244
+181.214.111.198 1 1 11370 20200729041232
+174.217.12.113 2 53 7778406 20200729122346
+104.218.66.162 0 1 3174 
+174.243.65.223 3 31 2784509 20200731184300
+40.131.163.175 1 24 5019939 20200731171559
+107.77.87.99 3 5 518002 20200731150011
+104.218.69.204 1 27 6988813 20200725182000
+118.172.181.236 1 1 13021 20200731023813
+24.243.195.62 2 53 7778406 20200731174243
+97.98.210.150 3 54 7791427 20200726185553
+34.215.80.213 1 1 13021 20200726200051
+172.58.62.144 3 54 7791427 20200726124541
+5.27.192.119 1 7 283710 20200729145804
+71.29.65.190 3 55 7797771 20200731193103
+209.50.30.37 1 24 5019939 20200726203741
+52.37.202.175 1 28 6995157 20200728051058
+88.242.240.219 1 2 181312 20200728111811
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 8
+20200724 24 232 37980369 18
+20200725 42 536 80032069 24
+20200726 54 593 95519730 33
+20200727 35 444 75385963 27
+20200728 58 711 135586001 29
+20200729 39 563 92703444 28
+20200730 41 674 109043537 32
+20200731 62 765 123092606 33
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 5
+0s-30s 189
+30s-2mn 20
+2mn-5mn 9
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 228 2877641 201 147
+/ourmenu.html 78 3527986 13 57
+/about.html 22 238770 4 7
+/contact.html 19 297521 4 11
+/gallery.html 8 76352 2 2
+END_SIDER

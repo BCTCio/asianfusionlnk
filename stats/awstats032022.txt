@@ -1,0 +1,3649 @@
+AWSTATS DATA FILE 6.9 (build 1.925)
+# If you remove this file, all statistics for date 202203 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2555                
+POS_VISITOR 59935               
+POS_DAY 135567              
+POS_DOMAIN 3573                
+POS_LOGIN 3810                
+POS_ROBOT 3965                
+POS_WORMS 4946                
+POS_EMAILSENDER 5077                
+POS_EMAILRECEIVER 5220                
+POS_SESSION 136586              
+POS_SIDER 136801              
+POS_FILETYPES 5355                
+POS_OS 5557                
+POS_BROWSER 5761                
+POS_SCREENSIZE 6619                
+POS_UNKNOWNREFERER 6693                
+POS_UNKNOWNREFERERBROWSER 8537                
+POS_ORIGIN 10156               
+POS_SEREFERRALS 10309               
+POS_PAGEREFS 10490               
+POS_SEARCHWORDS 11369               
+POS_KEYWORDS 11521               
+POS_MISC 2219                
+POS_ERRORS 11580               
+POS_CLUSTER 3666                
+POS_SIDER_404 11697               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220401000212 88482 22265473 34966761185
+FirstTime 20220301002921
+LastTime 20220331231712
+LastUpdate 20220401020942 88482 85493 2988 0 0
+TotalVisits 2357                
+TotalUnique 1683                
+MonthHostsKnown 0                   
+MonthHostsUnknown 1913                
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 117 652 72108748 612 925 5211984
+1 99 854 122416924 168 400 2159106
+2 66 331 62277753 186 373 2887030
+3 137 521 62184179 323 477 8372746
+4 120 317 27803769 296 436 7129457
+5 74 169 16410000 199 339 2618135
+6 106 377 58400575 192 297 5389436
+7 110 449 67628299 231 359 2118655
+8 127 681 112673317 201 539 5880792
+9 153 1633 258543569 223 487 2721789
+10 159 2066 297397590 432 619 7238461
+11 252 4257 586560423 280 528 4743991
+12 286 4932 683787487 285 464 4160708
+13 302 6443 900106137 274 351 6886342
+14 242 4359 601434672 162 391 5955365
+15 225 3981 591309634 204 484 19050163
+16 212 4284 526540291 353 610 18249438
+17 402 8653 1110860258 223 450 15135470
+18 436 10335 1378003678 386 584 7928768
+19 324 7891 1021372360 274 559 35362909
+20 268 5365 720406002 173 365 4058816
+21 191 3809 543815677 150 315 12906560
+22 182 2664 399074346 234 342 3127216
+23 98 1263 191373631 198 354 4054045
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 4688 76286 10412489319
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+googlebot 1162 44178552 20220331232207 33
+bot[+:,\.\;\/\\-] 835 45356756 20220331232647 212
+robot 552 28398530 20220331223724 76
+baiduspider 177 36988925 20220330173318 0
+spider 158 4498648 20220328015018 3
+no_user_agent 105 1730939 20220331234015 0
+motor 96 15381503 20220322195150 0
+python 86 1164656 20220331120234 0
+java 63 841920 20220322200957 1
+yandex 58 2816641 20220331152517 23
+mediapartners\-google 1 14032 20220328200034 0
+mojeekbot 6 14032 20220330064510 5
+mail\.ru 21 110295 20220329162554 10
+slurp 1 15659 20220305072317 0
+infobot 14 236870 20220325135548 2
+unknown 49 0 20220329210156 49
+custo 41 575312 20220331151331 0
+wordpress 2 0 20220310082506 0
+archive\.org_bot 26 3372182 20220331021226 6
+bbot 22 383369 20220330194810 2
+cfnetwork 35 31720 20220325201254 0
+netcraft 1 14032 20220310014631 0
+crawl 36 648303 20220331162034 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 12991 619036596 0 0
+png 31302 1790405615 0 0
+html 4446 100071341 0 0
+jpg 9816 7254475321 0 0
+pdf 235 360487342 0 0
+js 17489 288013104 0 0
+txt 7 0 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 14
+winlong 32
+winxp 147
+unix 570
+win2000 1
+winnt 14990
+linuxubuntu 21
+winvista 133
+linux 10758
+macosx 48496
+win95 17
+win2003 28
+linuxdebian 17
+Unknown 392
+win2008 684
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 59
+firefox57.0 27
+msie6.0 4
+firefox28.0 16
+firefox5.0 1
+firefox3.0.7 1
+firefox60.0.2 2
+chrome 28674
+firefox26.0 1
+firefox4.0 7
+firefox98.0 609
+curl 7
+firefox24.0 68
+msie8.0 1
+netscape4.76 17
+firefox73.0 4
+firefox43.0 12
+firefox6.0.1 1
+firefox59.0 3
+firefox3.6.1 1
+msie7.0 4
+firefox3.6.32 1
+firefox40.1 7
+firefox97.0 270
+msie9.0 90
+Unknown 275
+netscape 4
+firefox50.0 19
+firefox17.0 73
+firefox89.0 1
+firefox72.0 24
+opera 2
+firefox21.0 1
+firefox91.0 149
+firefox58.0 1
+firefox46.0 18
+k\-meleon 53
+firefox67.0 1
+firefox47.0 1
+firefox45.0 1
+firefox83.0 1
+firefox33.0 3
+konqueror 5
+firefox3.5.5 3
+firefox25.0 1
+mozilla 3071
+netscape5.0 16
+firefox92.0 139
+firefox81.0 3
+msie10.0 5
+firefox60.0 3
+firefox96.0 11
+firefox3.5.9 20
+firefox3.6.3 20
+firebird 1
+firefox 1
+firefox93.0 99
+firefox3.5 1
+firefox35.0 2
+safari 42430
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 34
+Mozilla/5.0_(Android_12;_Mobile;_rv:68.0)_Gecko/68.0_Firefox/96.0 20220320203059
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220326085815
+curl/7.64.0 20220316081642
+axios/0.21.4 20220314110504
+ZaldomoSearchBot(www.zaldamo.com/search.html) 20220325053802
+axios/0.19.2 20220301162622
+Mozilla/5.0_Firefox/35.0 20220330152942
+curl/7.38.0 20220319173620
+Mozilla 20220323072852
+Mozilla/5.0_(Android_12;_Mobile;_rv:97.0)_Gecko/97.0_Firefox/97.0 20220308174743
+facebookexternalhit/1.1 20220302142619
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20220314184411
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220328130114
+Go-http-client/1.1 20220328123614
+wp_is_mobile 20220307101853
+curl/7.68.0 20220304140017
+curl/7.29.0 20220307064234
+\\\ 20220323125036
+Mozilla/5.0_(compatible;_Qwantify/1.0;__https://www.qwant.com/) 20220330122212
+Scrapy/2.5.1_(_https://scrapy.org) 20220304154741
+Ruby 20220320125022
+GRequests/0.10 20220330025600
+Mozilla/5.0_zgrab/0.x 20220328065109
+okhttp/3.12.13 20220315124816
+Mozilla/5.0_(Android_12;_Mobile;_rv:98.0)_Gecko/98.0_Firefox/98.0 20220326200458
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220313101139
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20220331104635
+KauaiSlowBot 20220329195204
+Mozilla/5.0_(Android_11;_Mobile;_rv:97.0)_Gecko/97.0_Firefox/97.0 20220306151218
+Mozilla/5.0_(Android_11;_Mobile;_rv:98.0)_Gecko/98.0_Firefox/98.0 20220323202731
+Mozilla/5.0_(compatible;_ips-agent) 20220326002108
+Photon/1.0 20220308091225
+Mozilla/5.0_(compatible;_Qwantify/2.4w;__https://www.qwant.com/) 20220326002001
+YelpBot_(https://www.yelp.com/) 20220302200806
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 26
+\\\ 20220323125036
+Dalvik/2.1.0_(Linux;_U;_Android_12;_SM-G998U_Build/SP1A.210812.016) 20220325164414
+Scrapy/2.5.1_(_https://scrapy.org) 20220304154741
+Ruby 20220320125022
+Dalvik/2.1.0_(Linux;_U;_Android_9.0;_ZTE_BA520_Build/MRA58K) 20220302135000
+Dalvik/2.1.0_(Linux;_U;_Android_11;_SM-A125U1_Build/RP1A.200720.012) 20220306121147
+GRequests/0.10 20220330025600
+axios/0.21.4 20220314110504
+ZaldomoSearchBot(www.zaldamo.com/search.html) 20220325053802
+axios/0.19.2 20220301162622
+Dalvik/2.1.0_(Linux;_U;_Android_12;_SM-G970U_Build/SP1A.210812.016) 20220329134731
+okhttp/3.12.13 20220315124816
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~snapchat-proxy) 20220331104635
+Dalvik/2.1.0_(Linux;_U;_Android_12;_SM-G986U1_Build/SP1A.210812.016) 20220331231710
+facebookexternalhit/1.1 20220302142619
+Dalvik/2.1.0_(Linux;_U;_Android_12;_SM-G973U_Build/SP1A.210812.016) 20220309202615
+KauaiSlowBot 20220329195204
+Dalvik/2.1.0_(Linux;_U;_Android_10;_SM-N960U_Build/QP1A.190711.020) 20220331140844
+Dalvik/2.1.0_(Linux;_U;_Android_10;_SM-G960U_Build/QP1A.190711.020) 20220327125031
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220328130114
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20220314184411
+Photon/1.0 20220308091225
+Go-http-client/1.1 20220328123614
+Dalvik/2.1.0_(Linux;_U;_Android_11;_Pixel_2_XL_Build/RP1A.201005.004.A1) 20220301184842
+YelpBot_(https://www.yelp.com/) 20220302200806
+wp_is_mobile 20220307101853
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2443 2853
+From1 13 13
+From2 831 993
+From3 166 180
+From4 1235 72247
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 816 977
+baidu 1 1
+yahoo 14 15
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 22
+https://duckduckgo.com 44 44
+https://www.bing.com 26 29
+https://m.yelp.com 26 26
+https://l.facebook.com 22 22
+http://baidu.com 9 9
+https://www.tripadvisor.com 6 6
+http://www.entcog.org 5 5
+https://freeburgsalesandservice.com 5 5
+https://webtechsurvey.com/website/asianfusionlnk.com 4 4
+https://m.yelp.com 4 4
+https://www.yelp.com 3 3
+https://l.facebook.com 1 1
+https://www.glktfw.net 1 1
+https://bizr.tendata.cn 0 2
+http://l.facebook.com 1 1
+http://projectmanagementdoctor.com/career-life-skills-coaching/ 1 1
+https://lm.facebook.com 3 3
+https://www.whole-search.com/cache/Google/asianfusionlnk.com 2 2
+http://tendata.mailsou.com 0 8
+https://www.bing.com/search 1 1
+http://anjnaglobal.com 2 2
+https://yandex.com/images/search 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 31 238544
+407 4 1660
+404 7466 6334302
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 1287
+/menus/chirashi-sushi/ 1 -
+/.well-known/acme-challenge/97S_KCQPJM8H3OCLOAAM4AET4W94HM2N 1 -
+/wp-content/upload.php 4 -
+/.well-known/wp-content/ALFA_DATA/alfacgiapi/ 4 -
+/xx.php 2 -
+/wp-content/themes/class.enhanced.php 1 asianfusionlnk.com
+/locally/.env 1 -
+/wp-admin/install.php 5 -
+/0.php 1 -
+/WP/wp-admin/setup-config.php 3 -
+/Old/wp-admin/install.php 3 -
+/sites/default/files/ 31 binance.com
+/desserts/ 4 -
+/.well-known/acme-challenge/9ITV14O-8X6-VZHRWUUT8S160DIEVTUF 1 -
+/test/wp-includes/wlwmanifest.xml 204 -
+/.well-known/acme-challenge/O89YDSEGED1A3KS3IIFZWWXQCIZTX9ZP 1 -
+/menus/peanut-butter-chicken/ 1 -
+/menus/rainbow-roll/ 1 -
+/.well-known/wp-content/ALFA_DATA/perl.alfa 2 -
+/wp/wp-content/themes/sketch/content-sample.php 1 -
+/doc.php 9 www.bing.com
+/.well-known/slicemap.php 1 -
+/admin/kindeditor/themes/default/default.css 1 http://asianfusionlnk.com/admin/kindeditor/themes/default/default.css
+/tag/beef-fried-rice/ 1 -
+/backup.rar 1 http://asianfusionlnk.com/backup.rar
+/assets/filemanager/dialog.php 12 -
+/xo.php 1 -
+/style.php 12 www.bing.com
+/cpanel 1 www.google.com
+/.well-known/acme-challenge/L1FLIP5A2NO0MGDPXTE0SBMIS_TIBI9T 1 -
+/.well-known/acme-challenge/G-DR-H-_4F1B71K--7_4K_2DB3U3ZG8G 1 -
+/xindex.php 7 www.bing.com
+/main 4 -
+/wwwroot.rar 1 http://asianfusionlnk.com/wwwroot.rar
+/d/txt/test.txt 1 http://asianfusionlnk.com/d/txt/test.txt
+/wp-content/plugins/ioptimization/IOptimize.php 3 www.google.com
+/.well-known/acme-challenge/82OIFU6-QBCGAWQP0EG9H95O_IFE6L9C 1 -
+/.well-known/acme-challenge/5IVEK9H44NA5MNC2IF_GCL6D8Z55_8P6 1 -
+/.aws/credentials 2 -
+/backend/.env 8 -
+/.well-known/acme-challenge/C677ERNZ6_KNR-WRJH5QDRAKV_F3JOWG 1 -
+/alexusmailer%202.0.php 1 -
+/web.tar.gz 1 http://asianfusionlnk.com/web.tar.gz
+/template/admin/assets/img/logo2.png 2 -
+/js/varien/js.js 2 -
+/2020/wp-admin/install.php 3 -
+/ALFA_DATA/alfacgiapi/perl.alfa 4 -
+/www/.env 8 -
+/wp-admin/css/colors/blue/blue.php 1 -
+/.well-known/acme-challenge/T5Q7P1YIGODWBYOOL6EJNDX53W87B430 1 -
+/wp-content/themes/mataam/css/shortcodes.css 1 -
+/.well-known/acme-challenge/OWVI4Y7ZZMH0LI3MFW7V4WM9_R9T5MYG 1 -
+/blog/mt-xmlrpc.cgi 30 -
+/old/wp-admin/install.php 5 -
+/backup.sql 1 http://asianfusionlnk.com/backup.sql
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/8Q85KB4RMDVXUG9EQV2KWLD2UCVY-I3W 1 -
+/aws/.credentials 4 -
+/.well-known/acme-challenge/15SAFDF6M-I9XELT97VTF6GXK6ONKUON 1 -
+/admin/view/javascript/common.js 6 -
+/reservation/ 1 -
+/payload3.php 1 -
+/wp-content/uploads/small.php 1 -
+/wp-admin/includes/class-wp-media-list-data.php 1 -
+/contact.html/js/main.js 1 -
+/.well-known/acme-challenge/ITXEL2YWZVLULIB9JKQ_4H-OGKR4HMU5 1 -
+/2016/wp-includes/wlwmanifest.xml 16 -
+/if.php 1 -
+/test.zip 1 http://asianfusionlnk.com/test.zip
+/wp-content/themes/mataam/css/mailchimp.css 1 -
+/blog/.env 8 -
+/.well-known/wp-content/ALFA_DATA 4 -
+/asianfusionlnk.tar.gz 1 http://asianfusionlnk.com/asianfusionlnk.tar.gz
+/menus/5-steamed-chicken-shrimp-w-vegetable/ 1 -
+/.well-known/acme-challenge/B49J76OA0M79BG8D2MAQBSJ42WN-FJJW 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 28 -
+/.well-known/acme-challenge/R9CK_4NGGAZZE26QGZQAMVA24_LKXHXJ 1 -
+/8.php 1 -
+/.well-known/acme-challenge/WQH6YKF9XQUWC1W5FTYHEM7U99O24WX9 1 -
+/site/wp-admin/includes/ 2 www.google.com
+/WSO.php 1 -
+/wp-bmta.php 1 asianfusionlnk.com
+/.well-known/acme-challenge/S4740REEH5J9RANWDFKXOYU3J5F9OPDZ 1 -
+/backup 11 www.google.com
+/menu-2/ 63 -
+/media-admin.php 12 www.bing.com
+/wp-content/uploads/2013/12/softopenphoto-07.jpg 2 -
+/alfacgiapi/perl.alfa 4 -
+/.well-known/acme-challenge/0YQKZ3EQT51LC94L8PN_FUBLGBIRDRX7 1 -
+/kk.php 1 -
+/2019 8 www.google.com
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/ALFA_DATA 6 www.bing.com
+/menus/tuna-avocado-roll/ 1 -
+/site/wp-class.php 1 -
+/about.html/js/vendor/jquery.grid-a-licious.min.js 1 -
+/.well-known/acme-challenge/8VCUCA854K75MEJBCTGVG9LPOP8VCY47 1 -
+/wp-includes/wp-includes.php 1 -
+/alfacgiapi 6 www.bing.com
+/wp-xyiaw.php 1 asianfusionlnk.com
+/403.php 1 -
+/forum 9 www.google.com
+/.well-known/acme-challenge/E7ZKGL24YYHW3HA4M5SS7ONHVHK1ZNX1 1 -
+/wp-content/themes/config.bak.php 8 www.bing.com
+/xlet.php 1 -
+/Test 1 -
+/dev/.env 1 -
+/menus/octopus/ 2 -
+/webdisk 1 www.google.com
+/wp-content/themes/mataam/js/superfish.js 1 -
+/.well-known/acme-challenge/FBUD912JXREPQ8ROJNT57QBCJ_LO6QEI 1 -
+/database.rar 1 http://asianfusionlnk.com/database.rar
+/menus/combo-a/ 3 -
+/menus/kani-salad/ 2 -
+/dodo.zip 1 http://asianfusionlnk.com/dodo.zip
+/kiss.php 1 -
+/ALFA_DATA/alfacgiapiperl.alfa 2 -
+/roll-or-hand-roll/ 2 -
+/wp-content/mu-plugins-old/index.php 9 www.bing.com
+/.well-known/acme-challenge/XDMVPZYEYFB2_WI49-PBOJH464BGLHMI 1 -
+/wp-content/plugins/easy-adsense-lite/wz_tooltip.js 1 http://asianfusionlnk.com
+/wp-content/logo.jpg 2 asianfusionlnk.com
+/js/header-rollup-554.js 2 -
+/user.tgz 1 http://asianfusionlnk.com/user.tgz
+/wikindex.php 17 www.bing.com
+/.well-known/acme-challenge/SITJRJKH7YLY_SBM7HH8T46QQ_8BVS7M 1 -
+/alexuse.php 1 -
+/well-known/acme-challenge/a/a/a/a/a.php 1 -
+/.well-known/acme-challenge/-YS0MKM3RQUFDI26IJ92-QYVQZLYEL64 1 -
+/sushi-entree/ 2 -
+/wp-content/themes/izo/inc/customizer/body.php 1 asianfusionlnk.com
+/blog/wp-class.php 1 -
+/menus/sashimi-appetizer-9-pcs/ 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2012 7 www.google.com
+/wp-admin/includes/block-line.php 1 -
+/wp-includes/SimplePie/index.php 1 asianfusionlnk.com
+/contact-us/ 32 -
+/wp-fiter.php 1 asianfusionlnk.com
+/store 9 www.google.com
+/developer/.env 1 -
+/uploads/up.php 4 -
+/.well-known/ALFA_DATA/alfacgiapi/perl.alfa 2 -
+/wp-content/uploads/readindex.php 1 -
+/wp-content/plugins/wpconfig.bak.php 10 www.bing.com
+/.well-known/acme-challenge/H1TIN5OMQVW8MCSH8KC4_T7_EH43O3MR 1 -
+/.well-known/acme-challenge/UTS_FSTLCOMWL-EP1FPTT2YAWJKA0NWD 1 -
+/wordpress/wp-content/themes/sketch/content-sample.php 1 -
+/wp-load.php 26 asianfusionlnk.com
+/2018/wp-includes/wlwmanifest.xml 125 -
+/ourmenu.html/dist/script.js 5 -
+/.well-known/acme-challenge/Q43Y-KQHLR4N2JMHG7F2WWUYP844F7NC 1 -
+/index.html/js/vendor/bootstrap.min.js 1 -
+/ontact.html 1 http://google.com
+/wp-content/langar.php 2 -
+/wp-content/uploads/2013/05/Menu1.jpg 1 -
+/mini.php 1 -
+/test 10 www.google.com
+/catalog/view/theme/default/stylesheet/stylesheet.css 2 -
+/menus/general-tsos-chicken-beef-shrimp/ 1 -
+/protected/.env 8 -
+/uc_server/admin.php 1 -
+/hello.php 1 -
+/old/.env 8 -
+/wp-admin/wp-class.php 1 -
+/localhost/.env 1 -
+/sitemap_index.xml 2 -
+/wp 13 www.google.com
+/wp-includes/alfacgiapi 6 www.bing.com
+/menus/indian-pancake/ 1 -
+/installer.php 2 -
+/.well-known/acme-challenge/8Y726OE45AKK4KH_6GU4BEWLM7VB48SE 1 -
+/database.tar.gz 1 http://asianfusionlnk.com/database.tar.gz
+/.well-known/acme-challenge/WVN7DTYTIOJD9K_U06Z-O0KMCLOKN6CT 1 -
+/core/CHANGELOG.txt 2 -
+/b.php 1 -
+/wp-content/plugins/mailchimp//js/scrollTo.js 1 -
+/.well-known/acme-challenge/T__UEMWINMKC7X3JPCEHK_3U-YHH-CY7 1 -
+/code.sql 1 http://asianfusionlnk.com/code.sql
+/audio/.env 8 -
+/wp-includes/js/jquery/jquery.form.min.js 1 -
+/.well-known/traffic-advice 137 -
+/www.asianfusionlnk.com/.env 1 -
+/site/wp-content/themes/sketch/content-sample.php 1 -
+/m/d/txt/test.txt 1 http://asianfusionlnk.com/m/d/txt/test.txt
+/mar.php 1 -
+/dodo.tgz 1 http://asianfusionlnk.com/dodo.tgz
+/n.php 1 -
+/kindex.php 1 -
+/paypal/transparent/requestSecureToken/ 1 -
+/haders.php 2 -
+/storage/.env 8 -
+/www.sql 1 http://asianfusionlnk.com/www.sql
+/wp-content/uploads/2013/04/Spicy-Tuna-Roll.jpg 1 -
+/menus/smoked-salmon/ 1 -
+/.well-known/acme-challenge/QEXJT7C977B63SLFQNWYZKH4PVV5SP0W 1 -
+/css/grabbing.png 3 https://asianfusionlnk.com/css/vendor.css
+/.well-known/acme-challenge/1UK-AAOWQI77NT-V7JK44WOFM06KEFTW 1 -
+/.well-known/acme-challenge/SB-IBIA1_Z1WNEFE238BR06JA4QWMFCR 1 -
+/.well-known/acme-challenge/HTU5T5TGX3E535V0HFKV24_BWCDLYVKM 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js 1 -
+/wp-content/uploads/2013/11/chinese-Asian-Fusion-Restaurant.jpg 9 -
+/log.php 5 -
+/www.tgz 1 http://asianfusionlnk.com/www.tgz
+/sites/default/files/ALFA_DATA 6 www.bing.com
+/sushi-sashimi-a-la-carte/ 4 -
+/.well-known/alfacgiapi/ 4 -
+/wp-content/themes/mataam/js/jquery.flexslider-min.js 1 -
+/themes/Frontend/Responsive/frontend/_public/src/fonts/shopware.woff2 2 -
+/misc/ajax.js 2 -
+/WORDPRESS 9 www.google.com
+/src/.env 8 -
+/upload.php 11 www.bing.com
+/menus/spicy-twin-salmon-roll/ 1 -
+/q.php 1 -
+/menus/twin-roll/ 2 -
+/wp-admin/ALFA_DATA 6 www.bing.com
+/database/.env 8 -
+/alfa123.php 1 -
+/menus/cucumber-roll/ 1 -
+/cms.php 1 -
+/2021/wp-admin/setup-config.php 3 -
+/autoload_classmap.php 4 -
+/7.php 1 -
+/.well-known/acme-challenge/6U9DPUACSDEF2K5M9P5Y4R-7GX3H4HYY 1 -
+/slider/flame-grilled-chicken/ 1 -
+/ALFA_DATA/ 4 -
+/blog/wp-content/themes/sketch/content-sample.php 1 -
+/database.zip 1 http://asianfusionlnk.com/database.zip
+/.well-known/acme-challenge/9T09ZYY-_W3Y54D4TBUFI0X9BCLUR0H7 1 -
+/wp-content/themes/mataam/js/jquery.preloadify.min.js 1 -
+/New 8 www.google.com
+/menus/striped-bass/ 1 -
+/menus/four-seasons/ 2 -
+/mrjn.php 1 -
+/.well-known/acme-challenge/UQ_Y7E743CQPABZDJ4G4HRC9QDAA22_G 1 -
+/a.php 9 www.bing.com
+/root.php 1 -
+/sito/wp-includes/wlwmanifest.xml 189 -
+/archives.php 6 www.bing.com
+/wi.php 1 -
+/shx.php 1 -
+/.well-known/acme-challenge/IA-V004TL7I2D900Q4735R9CAYS5WZ6O 1 -
+/k.php 1 -
+/menus/pepper-steak-w-onion/ 1 -
+/wp-json/wp/v2/users/ 1 -
+/.well-known/acme-challenge/RGNCSFV0OD3T8LQEMVCBGG1KAS-1MX1R 1 -
+/sitemap.xml 8 -
+/stag/.env 1 -
+/s_e.php 14 www.bing.com
+/.well-known/acme-challenge/BRCG7IE62UHTEGPDRC_0FJ4TO6C7NVD3 1 -
+/wp-offseta.php 1 asianfusionlnk.com
+/wso.php 11 www.bing.com
+/testing/.env 1 -
+/wp-content/plugins/t_file_wp/t_file_wp.php 2 -
+/www.tar.gz 1 http://asianfusionlnk.com/www.tar.gz
+/menus/kung-po-chicken-beef-shrimp/ 1 -
+/jindex.php 2 -
+/srx.php 1 -
+/2010 7 www.google.com
+/oldsite 1 -
+/wp-includes/js/jquery/ui/core.min.js 1 -
+/dup-installer/main.installer.php 1 -
+/uploads/ 31 binance.com
+/1index.php 16 www.bing.com
+/config.js 2 -
+/wp-content/uploads/2012/09/ASIAN_FUSION_LOGO_REV1-WHITE.png 3 -
+/.well-known/acme-challenge/SF9ZILXHSLUD995N4G1GT42VZS455RJE 1 -
+/wp-content/.env 8 -
+/wp-content/ 18 -
+/lol.php 1 -
+/contact.html/js/vendor/jquery.magnific-popup.min.js 1 -
+/menus/white-tuna/ 1 -
+/new-index.php 6 -
+/about.html/js/vendor/circle-progress.js 1 -
+/wordpress/license.txt 3 -
+/content.php 1 -
+/wp-includes/cgialfa 6 www.bing.com
+/templates/beez3/cgialfa 6 www.bing.com
+/.well-known/acme-challenge/RNY52B_G8FJDZBIGE2LH01C32R_XVYL5 1 -
+/sym403.php 1 -
+/.well-known/acme-challenge/LQ7KQTA5TX-D4K4XR8D8IIEDHCM9VQ-5 1 -
+/crm/.env 8 -
+/news/wp-includes/wlwmanifest.xml 189 -
+/uploads/contexmini.php 1 -
+/autodiscover.asianfusionlnk.com/.env 1 -
+/autodiscover 1 www.google.com
+/tag/curry/ 1 -
+/home 8 www.google.com
+/wordpress/wp-admin/setup-config.php 5 -
+/wp-includes/sistem.php 1 -
+/_profiler/empty/search/results 1 -
+/misc/drupal.js 2 -
+/laravel/_ignition/health-check/ 1 -
+/tag/sesame-chicken/ 1 -
+/content/pages/home.php 1 -
+/conf/.env 8 -
+/wp-includes/sys.php 1 -
+/.well-known/acme-challenge/X3ZQEMBLY5NTVFN5K2HN62W87R1TE2O_ 1 -
+/2017/wp-includes/wlwmanifest.xml 16 -
+/js/navi.js 2 -
+/.well-known/wp-content/alfacgiapi/alfacgiapiperl.alfa 2 -
+/.well-known/acme-challenge/D0PE5U2_9A4JWWTT89W0-B53EDXYVID5 1 -
+/web.sql 1 http://asianfusionlnk.com/web.sql
+/photo-gallery/nggallery/thumbnails 1 -
+/slicemap.php 1 -
+/search.php 1 -
+/js/mage/adminhtml/sales.js 2 -
+/wp-cla.php 1 asianfusionlnk.com
+/wp/wp-includes/wlwmanifest.xml 204 -
+/order/catalog/view/theme/default/stylesheet/stylesheet.css 2 -
+/.well-known/acme-challenge/O-UE4AL-HFM9VR2DFLD7W55J67_N8PH7 1 -
+/.well-known/acme-challenge/_L2AFVXU33O-4-N9YNET6YL1QMOBE3NN 1 -
+/_ignition/execute-solution 36 -
+/.well-known/acme-challenge/E6LAAB6M4RAJ6D8HQ94IMAN7S_T5O95X 1 -
+/.asianfusionlnk.com.zip 1 http://asianfusionlnk.com/.asianfusionlnk.com.zip
+/index.php 25 www.bing.com
+/config.bak.php 8 www.bing.com
+/about.html/js/vendor/owl.carousel.min.js 1 -
+/INSTALL.txt 2 -
+/files/ 31 binance.com
+/wp-admin/wp-admin.php 1 -
+/menus/spicy-crab-roll/ 2 -
+/.well-known/acme-challenge/4QLK831NLDL4ULLT2RLA27D9K6NC-T3N 1 -
+/js/mage/translate_inline.js 2 -
+/.well-known/acme-challenge/B7LQRW6V89YKCVT-JNB3KFD8K-ZIBJSQ 1 -
+/menus/house-special-soup/ 2 -
+/site/wp-includes/wlwmanifest.xml 204 -
+/public/_ignition/health-check/ 1 -
+/.well-known/acme-challenge/YZBL7LIKUW7RD2N8WR9VNET_OZS4-7-R 1 -
+/2015/wp-includes/wlwmanifest.xml 16 -
+/wp-admin/includes/readindex.php 1 -
+/asianfusionlnk.tgz 1 http://asianfusionlnk.com/asianfusionlnk.tgz
+/bc 2 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/.well-known/acme-challenge/QWMV73WV5C31QI_GC2D_SF1YSW8E4II3 1 -
+/menus/bento-box-lunch 1 -
+/.well-known/acme-challenge/3ES75H3LW-VCXOLRPI7QMTV3B8MLICSD 1 -
+/wp-content/plugins/ubh/up.php 6 www.bing.com
+/.well-known/acme-challenge/5BV79F4SVS-XRYAU0F0WHFRS61FTP7LL 1 -
+/p.php 1 -
+/alwso.php 1 -
+/.well-known/acme-challenge/M_MYAXK0DHERQLMP7EHAE-AWCR2UYV86 1 -
+/admin.sql 1 http://asianfusionlnk.com/admin.sql
+/dodo.rar 1 http://asianfusionlnk.com/dodo.rar
+/old 12 www.google.com
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.asianfusionlnk.com.sql 1 http://asianfusionlnk.com/.asianfusionlnk.com.sql
+/Demo 7 www.google.com
+/menus/sushi-sashimi-for-two/ 2 -
+/wp-booking.php 12 www.bing.com
+/error.php 8 www.bing.com
+/lf.php 2 -
+/wp-stream.php 2 asianfusionlnk.com
+/menus/shrimp-w-lobster-sauce-2/ 1 -
+/ourmenu.html/js/vendor/bootstrap.min.js 6 -
+/.well-known/ 31 binance.com
+/.well-known/acme-challenge/WCNH6EI7DT8U-RFXE011YZ840V5JIZDR 1 -
+/img/icons-bg.jpg 1 -
+/mi.php 1 -
+/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 4 -
+/.well-known/acme-challenge/32NLDKTLSEW3JSYXIX-BOJRTY89N01NL 1 -
+/.well-known/acme-challenge/QP5JA5R5O6YNZACFZ5OFL9XRYGGUNO4M 1 -
+/wp-admin/sistem.php 1 -
+/soup/ 5 -
+/wp-content/plugins/backup_index.php 8 www.bing.com
+/wp-content/uploads/alfacgiapi 6 www.bing.com
+/wp-includes/css/wp-config.php 6 www.bing.com
+/wp-admin 4 -
+/wp-content/plugins/wpcargo/includes/barcode.php 1 -
+/lunch-special/ 2 -
+/staging/.env 1 -
+/about.html/js/vendor/modernizr-2.8.3.min.js 1 -
+/license.php 1 -
+/new 12 www.google.com
+/tag/beef/ 1 -
+/!.php 1 -
+/up.php 11 www.bing.com
+/wp/wp-admin/setup-config.php 2 -
+/wp/wp-includes/wp-class.php 1 -
+/blog/wp-admin/install.php 5 -
+/.well-known/acme-challenge/4P8AB3-OSB6VR8HKAA-1I0Z-8JMCGF9U 1 -
+/tag/cilantro/ 1 -
+/wp-info.php 3 -
+/wp-content/plugins/facebook-button-plugin/css/style.css 1 -
+/wp-content/uploads/ 1 -
+/.well-known/acme-challenge/X_RNDCEB8MSNEXR6KPRPXRPDK2SSL2E2 1 -
+/test/.env 1 -
+/2016 7 www.google.com
+/index.html/js/vendor/owl.carousel.min.js 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_19.jpg 1 http://go.mail.ru/search_images
+/sindex.php 6 -
+/100.php 1 -
+/the-blog-post-with-featured-image/ 2 -
+/.well-known/acme-challenge/MGACWFHK0276QGJ4CKCZ-KY8OD0O_SJA 1 -
+/admin.tar.gz 1 http://asianfusionlnk.com/admin.tar.gz
+/manager/ 1 -
+/.well-known/acme-challenge/HY372VCF6I2EDU1Y8VS4NDXES23IYL8V 1 -
+/SHOP 9 www.google.com
+/feed/ 35 -
+/sistem.php 1 -
+/code.tgz 1 http://asianfusionlnk.com/code.tgz
+/tag/striped-bass/ 1 -
+/.well-known/acme-challenge/BGZOP4M9Q6PYONEW55PVO15_GK1BMF_D 1 -
+/2020 8 www.google.com
+/css/load.php 5 asianfusionlnk.com
+/wordpress 13 www.google.com
+/user_data/css/common.css 2 -
+/system_log.php 10 www.bing.com
+/menus/thunder-roll/ 2 -
+/wp-content/wp-content.php 1 -
+/fa.php 1 -
+/.well-known/acme-challenge/AEMEU12MPWS8RA6HXWPN08FTOPZ_HPKE 1 -
+/wp-includes/js/jquery/jquery.js 4 -
+/misc/druplicon.png 2 -
+/legion.php 14 www.bing.com
+/about.html/js/vendor/jquery.magnific-popup.min.js 1 -
+/menus/c29-shrimp-w-mixed-vegetables/ 1 -
+/wp-content/outcms.php 10 www.bing.com
+/wp-content/plugins/press-elements/package.json 2 -
+/.well-known/acme-challenge/6929EXNULQCJIT144ZLTOZJWCVJ16OFD 1 -
+/menus/egg-custard/ 1 -
+/menus/fried-cheese-cake/ 1 -
+/menus/combo-b/ 2 -
+/vendor/phpunit/phpunit/phpunit.xml 4 -
+/mailer.php 2 -
+/stindex.php 1 -
+/.well-known/acme-challenge/IIDCM3OHYSHDDEZD6NM5KJ9XA8TJA_RZ 1 -
+/xleet-shell.php 2 -
+/.well-known/acme-challenge/O-RCO0JK5KMPIGV1S699V22E1C849WE_ 1 -
+/sh3ll.php 1 -
+/menus/pad-thai-noodle-w-pork-chicken-beef-shrimp-house-special/ 1 -
+/x.php 8 www.bing.com
+/index.html/js/vendor/jquery.magnific-popup.min.js 1 -
+/.well-known/acme-challenge/O9R__XBY6PE5N_UW3PMLG7LWUJOEIR9B 1 -
+/ucenter/admin.php 1 -
+/.well-known/acme-challenge/IPO_AJS9FDDKNFQJKWF2MOOD-LI9WQYL 1 -
+/wp-content/ALFA_DATA/alfacgiapi 4 -
+/404.php 2 -
+/menus/snow-mountain-roll/ 1 -
+/site/wp-admin/setup-config.php 5 -
+/ourmenu.html/js/vendor/owl.carousel.min.js 7 -
+/wp-admin/css/ 31 binance.com
+/base/.env 8 -
+/wp-admin/css/colors/blue/ 1 -
+/wp-content/uploads/cgialfa 6 www.bing.com
+/.well-known/acme-challenge/_A4Z1VF7F_Z8-3A6N_QF7LWKU60XJTVV 1 -
+/asianfusionlnk.rar 1 http://asianfusionlnk.com/asianfusionlnk.rar
+/menus/spicy-cucumber-crab-roll/ 1 -
+/menus/spicy-maki-combo/ 1 -
+/wp-content/themes/sketch/404.php 2 -
+/wp-content/themes/mataam/style.css 1 -
+/wp-includes/js/wp-emoji-release.min.js 1 -
+/tag/teriyaki-w-chicken/feed/ 1 -
+/.well-known/acme-challenge/3DWNXKNJO-9J87POC6HLK8T_WX0UA_PB 1 -
+/.well-known/acme-challenge/2UDTW0NF766PXQJRJ4AHYVI7YBWG8S2Q 1 -
+/.well-known/acme-challenge/J-XHA04XQ6EK95HR1V7GDZJ_IG7-RXNP 1 -
+/.well-known/acme-challenge/VTFWWYJ51UM9Z683DP9_6CPFB9ACMK40 1 -
+/asus.php 2 -
+/images/editor/separator.gif 2 -
+/.well-known/wp-content/alfacgiapi/perl.alfa 2 -
+/.well-known/acme-challenge/IJR4S5TLXE39YY01O9176W0O1634TL2A 1 -
+/.well-known/acme-challenge/L963GOSZRW3R51XYTYX_APH7Z72W6VCK 1 -
+/wp-plugins.php 6 www.bing.com
+/.well-known/acme-challenge/N5H6DLNJYI5A5N9E26B2STGNPSEX9JS7 1 -
+/menus/crab-stick/ 1 -
+/menus/asian-curry-chicken-beef-shrimp/ 1 -
+/.well-known/acme-challenge/Z8ZYC0807UPV6EMFFR-OEZ3YA4HAMM_E 1 -
+/.well-known/acme-challenge/2TIXCJJH1ONHGMEHO4WV5U6JT6ZT1-PU 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/menus/snow-pea-w-chicken-beef-shrimp/ 2 -
+/admin/content/sitetree/ 1 -
+/sito 1 -
+/menus/maki-roll-lunch/ 2 -
+/.well-known/acme-challenge/M2S70YFL4YG4JDM5N5SHYR-PTSFMGPAH 1 -
+/tag/sweet-sour-chicken/ 1 -
+/.well-known/acme-challenge/8Y3FPHTH_-63V4MJN824DWA38G4-LWC4 1 -
+/.well-known/acme-challenge/NN-XZBD91D5KNRG1DVTS-4PQ4-FIU5UZ 1 -
+/d.php 1 -
+/.well-known/acme-challenge/XC0A_VB6_M_4OW92SJAB3D8OX3L0CG5D 1 -
+/WORDPRESS/wp-admin/install.php 3 -
+/ALFA_DATA/alfacgiapi/ 4 -
+/admin.rar 1 http://asianfusionlnk.com/admin.rar
+/.well-known/acme-challenge/K8FCZ8WH_ME3C1_8X5Q66M6J_GIH7Z65 1 -
+/13.php 1 -
+/blog/wp-admin/setup-config.php 5 -
+/menus/beef-negimaki-2/ 1 -
+/js/mage/adminhtml/product.js 2 -
+/wp-content/themes/mataam/css/eislideshow.css 1 -
+/2019/wp-includes/wlwmanifest.xml 186 -
+/wp-content/uploads/2013/05/Menu1-960px.jpg 1 -
+/.well-known/acme-challenge/APIC8QRV9S85_ZQT4JOYPHDJQRYTVMT8 1 -
+/Webdisk 1 www.google.com
+/tag/salmon/ 1 -
+/.well-known/acme-challenge/DOKDT5ZIOS2SLAK7E922-G0J9C3CABPT 1 -
+/sitio 1 -
+/blog 11 www.google.com
+/menus/spicy-twin-salmon-roll-2/ 1 -
+/87.php 1 -
+/data.rar 1 http://asianfusionlnk.com/data.rar
+/web.rar 1 http://asianfusionlnk.com/web.rar
+/data.zip 1 http://asianfusionlnk.com/data.zip
+/wp-content/plugins/erro.zip 2 asianfusionlnk.com
+/WP/wp-admin/install.php 3 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/FKESZOFCRLPB7_FPLD3D6WYL1ELEKXHB 1 -
+/Wp 1 -
+/user.sql 1 http://asianfusionlnk.com/user.sql
+/.aws/.credentials.swp 2 -
+/bac 1 -
+/wp-includes/ALFA_DATA 6 www.bing.com
+/.well-known/acme-challenge/35WDXX_W3CV-30YGG-D-DY5DY2TE64-4 1 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg2.jpg 2 -
+/wp-content/alfacgiapi/alfacgiapi/ 4 -
+/js/js.js 2 -
+/web/wp-admin/install.php 2 -
+/wordpress/wp-content/themes/sketch/404.php 1 -
+/wp-content/ALFA_DATA/ 4 -
+/test.tgz 1 http://asianfusionlnk.com/test.tgz
+/.well-known/acme-challenge/3_9E7OU7XUX6GZXBLVU7QQ6_MNAW69CL 1 -
+/export.php 8 www.bing.com
+/a/j/volusion.js 2 -
+/db.rar 1 http://asianfusionlnk.com/db.rar
+/wp-includes/js/wp-embed.min.js 1 -
+/menus/seaweed-salad/ 1 -
+/.well-known/acme-challenge/W-9DR-3UO10PAPXFKUC8U_F3PNOSA2VG 1 -
+/wp-admin/includes/media-site.php 1 -
+/Blog 8 www.google.com
+/wp-content/plugins/ad-inserter/ad-inserter.php 1 -
+/.well-known/acme-challenge/YS7RE9EPHROTMZVX8F4QPDT3O6D-GJK9 1 -
+/wp-admin/radio.php 1 -
+/cp.php 1 -
+/wwwroot.zip 1 http://asianfusionlnk.com/wwwroot.zip
+/development/.env 1 -
+/new.php 1 -
+/js/eccube.js 2 -
+/5.php 1 -
+/prod/.env 1 -
+/WordPress/wp-admin/install.php 3 -
+/moduless.php 8 www.bing.com
+/wp-content/plugins/wp-striplple/striplple.php 2 asianfusionlnk.com
+/js/lib/flex.js 2 -
+/backup.tgz 1 http://asianfusionlnk.com/backup.tgz
+/photo-gallery/ 1 -
+/filemanager/dialog.php 12 -
+/menus/peanut-butter-chicken-2/ 1 -
+/wso1337.php 1 -
+/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js 1 -
+/.well-known/acme-challenge/BDH70QJLP0TMBE7GIK2WMG8H2607GEW6 1 -
+/.well-known/acme-challenge/5ONXHHU2IRPITV-CHREBJ9S40TBR6SFI 1 -
+/2014 7 www.google.com
+/demo/wp-admin/install.php 3 -
+/1.php 10 www.bing.com
+/2013 7 www.google.com
+/user.zip 1 http://asianfusionlnk.com/user.zip
+/ups.php 12 www.bing.com
+/data.tgz 1 http://asianfusionlnk.com/data.tgz
+/Wordpress 1 -
+/web.zip 1 http://asianfusionlnk.com/web.zip
+/.well-known/acme-challenge/R_EUKCHFVAJ-N0SN1-PN75MTRQ_D42R8 1 -
+/wp-cruz.php 1 asianfusionlnk.com
+/menus/sushi-regular/ 2 -
+/0byte.php 1 -
+/wp-content/plugins/gtranslate/url_addon/rewrite.txt 1 -
+/mt/pekok.php 1 -
+/asianfusionlnk.com.tar.gz 1 http://asianfusionlnk.com/asianfusionlnk.com.tar.gz
+/assets/admin/js/filemanager/dialog.php 2 -
+/wp.php 8 www.bing.com
+/nivo-slider/ 1 -
+/leafmailer.php 1 -
+/nc_assets/img/featured/600/600.php 1 -
+/www 1 -
+/vendor/.env 8 -
+/.well-known/acme-challenge/91HOPDCBDSIUC3C5G-E5J1AB9IH91PZ8 1 -
+/user.rar 1 http://asianfusionlnk.com/user.rar
+/.well-known/acme-challenge/BERKMYX9_N7-H4RUB4M67W3FVF-SWP1W 1 -
+/.well-known/acme-challenge/NU153S42WFICEDT2IKBV65IR8RW-8C20 1 -
+/FoxWSOv1.php 1 -
+/menus/bento-box-lunch/ 5 -
+/wp-content/uploads/2013/05/chefs-special-Asian-Fusion-Restaurant-Lincoln-NE.jpg 2 -
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/AIHPLAFD8DR-ZD9YW-WVE_53RS4E4UBG 1 -
+/.well-known/acme-challenge/KSVM3DAQNHB5AIX7RQMX6XCGF_LX93BM 1 -
+/apps/.env 8 -
+/magento_version 3 -
+/menus/mongolian-chicken-beef-shrimp/ 3 -
+/.well-known/acme-challenge/72UJU76O0ONIUK4-4OFUQQBXY8G7V92L 1 -
+/edit-form.php 1 -
+/chefs-special-roll/ 6 -
+/menus/scallop/ 3 -
+/wordpress/wp-includes/wp-class.php 1 -
+/public/.env 11 -
+/web.tgz 1 http://asianfusionlnk.com/web.tgz
+/owl.php 1 -
+/home/wp-admin/setup-config.php 3 -
+/TEST 1 -
+/README.md 2 -
+/bout.html 1 http://google.com
+/.well-known/acme-challenge/S3A5VI7I-QO3YVM-6LMJ-KDRVGFKONP6 1 -
+/.well-known/wp-content/ALFA_DATAperl.alfa 2 -
+/js/eccube.legacy.js 2 -
+/blog/wp-admin/includes/ 2 www.google.com
+/.well-known/acme-challenge/QAKEM89MESYDWSLBX-H08F9V28ZDZM20 1 -
+/menus/sushi-entree/ 1 -
+/oldsite/wp-admin/install.php 1 -
+/.well-known/wp-content/alfacgiapi/ 4 -
+/.well-known/wp-content/alfacgiapi/alfacgiapi/perl.alfa 2 -
+/js/prototype/validation.js 2 -
+/production/.env 1 -
+/newsite 2 -
+/wp-content/themes/mataam/js/jquery.prettyPhoto.js 1 -
+/dodo.tar.gz 1 http://asianfusionlnk.com/dodo.tar.gz
+/nasgor.php 1 -
+/.well-known/acme-challenge/538_KYIES_88367K34RB-7MQH3HOJZ1U 1 -
+/appetizers/ 2 -
+/config.php 6 www.bing.com
+/.well-known/acme-challenge/W_CO3YYC5LK_M6AN13UQ0S-MFWQ5F031 1 -
+/.well-known/acme-challenge/QPXUS1FKQ_9P_-TQNVA7LCCRNE7RBTPP 1 -
+/templates/beez3/index.php 6 www.bing.com
+/wp-content/cgialfa 6 www.bing.com
+/readme.php 1 -
+/xmlrpcs.php 6 www.bing.com
+/.well-known/acme-challenge/KR7-BHS1RJ0608N3KZA7G5FM8J31HP-B 1 -
+/wp-content/wp-admin.php 1 -
+/test/wp-admin/setup-config.php 5 -
+/.well-known/ALFA_DATA/perl.alfa 2 -
+/.well-known/acme-challenge/BISB72ZIG-Q3BOGO9SH0XG3Q9QHSZ__M 1 -
+/c.php 1 -
+/Site 1 -
+/.well-known/acme-challenge/5PL0HBNBU-RJMNSV3-ZNVINB1BX9TPIW 1 -
+/dev 2 -
+/user.php 1 -
+/menus/hunan-w-chicken-beef-shrimp/ 1 -
+/plugins/system/debug/debug.xml 2 -
+/wp-admin/setup-config.php 11 -
+/author/af-admin/ 2 -
+/wp-admin/.env 8 -
+/ws.php 1 -
+/2index.php 10 -
+/blog/wp-includes/wlwmanifest.xml 205 -
+/vendor/laravel/.env 8 -
+/about-us 2 -
+/.aws/.env 2 -
+/menus/mango-hawaii-roll/ 1 -
+/menus/volcano-roll-6-pc/ 13 -
+/.well-known/acme-challenge/D6YMI59EI-OS4NWE3QI8RTLP1547SV_P 1 -
+/wp-admin/includes/maint/wp-readindex.php 1 -
+/Shop 1 -
+/tag/web-feature/ 1 -
+/o.php 1 -
+/ourmenu.html/js/vendor/modernizr-2.8.3.min.js 1 -
+/wp-content/themes/mataam/js/jquery.tools.min.js 1 -
+/tag/red-bean/ 1 -
+/radio.php 8 www.bing.com
+/4price.php 1 -
+/.well-known/acme-challenge/6Z3IOI5HAS0_RMATN2H1A4P94DFPLMB9 1 -
+/user.tar.gz 1 http://asianfusionlnk.com/user.tar.gz
+/sys-cache/index.php 1 -
+/backup/wp-admin/setup-config.php 3 -
+/wp-includes/wpconfig.bak.php 2 -
+/.well-known/acme-challenge/H8L_CDLYYBYU1HGULGEDOZ4N4_36N96O 1 -
+/wp-json/wp/v2/posts 2 asianfusionlnk.com/wp-json/wp/v2/posts
+/BACKUP 8 www.google.com
+/admin/controller/extension/extension/alfacgiapi 5 www.bing.com
+/kindeditor/themes/default/default.css 1 http://asianfusionlnk.com/kindeditor/themes/default/default.css
+/shop/wp-includes/wlwmanifest.xml 202 -
+/Sendemail.php 1 -
+/.well-known/acme-challenge/CU17YG9L2S-CTP6C12KXEWBBYYK8LRF8 1 -
+/.well-known/acme-challenge/9XRZKSPF-BVN1CDSD8IYX0QSHIAXP21N 1 -
+/.well-known/wp-content/alfacgiapi/alfacgiapi/ 4 -
+/ourmenu.html/js/vendor/jquery.magnific-popup.min.js 7 -
+/sites/default/files/alfacgiapi 6 www.bing.com
+/.well-known/acme-challenge/77068AZJJW7PW44LP_EBSK8PWZZBL5IE 1 -
+/menu-with-boxes/ 2 -
+/.well-known/acme-challenge/RF8A2-LZF_2-NOIKQTBMC12D3213ND7F 1 -
+/haxor.php 1 -
+/cpanel.php 1 -
+/chinese-cuisine/ 4 -
+/BACKUP/wp-admin/install.php 3 -
+/category-sitemap.xml 1 -
+/uc/admin.php 1 -
+/js/common.js 1 http://www.asianfusionlnk.com/js/common.js
+/menus/salmon-avocado-roll/ 1 -
+/cms 2 -
+/wp-admin/style.php 8 www.bing.com
+/local/.env 8 -
+/longer.php 2 -
+/.well-known/alfacgiapi 6 www.bing.com
+/.well-known/acme-challenge/OMKZG322MSUGGJ5HJWFHNI2Y7494I952 1 -
+/.well-known/acme-challenge/1XY_8QM39VNW43I7ATV663WUNQ7MKN8H 1 -
+/.well-known/acme-challenge/JWNF14ESTUS9FXGE8SZ13-T3_S512C3L 1 -
+/license.txt 1 -
+/777.php 1 -
+/.well-known/acme-challenge/A8EWAWHH-C6C1786YALKE61ZEW5GEYB6 1 -
+/catalog/view/javascript/common.js 2 -
+/Backup/wp-admin/install.php 3 -
+/.asianfusionlnk.com.tar.gz 1 http://asianfusionlnk.com/.asianfusionlnk.com.tar.gz
+/.well-known/acme-challenge/A1963A1JU5S1IHVQ2RK9BNABDY426-RQ 1 -
+/w.php 1 -
+/menus/spicy-salmon-roll/ 1 -
+/wp-content/gallery/may2013_gallery/softopenphotos_12.jpg 1 -
+/menus/spicy-girl/ 2 -
+/ALFA_DATA/alfacgiapi 4 -
+/www.zip 1 http://asianfusionlnk.com/www.zip
+/test.sql 1 http://asianfusionlnk.com/test.sql
+/wp-content/alfacgiapi/alfacgiapiperl.alfa 2 -
+/old-index.php 26 asianfusionlnk.com
+/menus/godzilla-roll/ 2 -
+/BLOG 8 www.google.com
+/wp-json/oembed/1.0/embed 1 -
+/41.php 1 -
+/1646633446558600372 1 -
+/.well-known/acme-challenge/J7GK3LCH2I3005BV57-VQX1O10IGZ11A 1 -
+/wp-includes/js/jquery/jquery-migrate.min.js 1 -
+/wordpress/wp-includes/wlwmanifest.xml 204 -
+/simpla/ 1 -
+/wwwroot.tar.gz 1 http://asianfusionlnk.com/wwwroot.tar.gz
+/code.tar.gz 1 http://asianfusionlnk.com/code.tar.gz
+/site 8 www.google.com
+/.well-known/acme-challenge/8SMWTV5NQUIG4-QKAC90YDGASXEM4C7K 1 -
+/s.php 1 -
+/portal/support.php 2 -
+/WWW 1 -
+/h.php 1 -
+/menus/california-roll/ 1 -
+/protal 2 -
+/tag/cucumber/ 1 -
+/admin/includes/general.js 2 -
+/shop 10 www.google.com
+/code.zip 1 http://asianfusionlnk.com/code.zip
+/.well-known/acme-challenge/PDC-JV60HR3E1CHJFKKSDAG0FH2FS49_ 1 -
+/NEW 8 www.google.com
+/marijuana.php 1 -
+/shell.php 11 www.bing.com
+/.well-known/acme-challenge/5XXNB-SS0O4LT9VFF4KA383QEJ0OHWVM 1 -
+/comments/feed/ 1 -
+/Backup/wp-admin/setup-config.php 3 -
+/wordpress/wp-admin/includes/ 2 www.google.com
+/wp-vola.php 1 asianfusionlnk.com
+/402.php 1 -
+/.well-known/wp-content/ALFA_DATA/ 4 -
+/.asianfusionlnk.com.rar 1 http://asianfusionlnk.com/.asianfusionlnk.com.rar
+/about-us/ 4 -
+/takeout.php 2 -
+/desserts 1 -
+/11index.php 2 -
+/wp-admin/css/colors/colors.php 1 -
+/tag/snow-pea/ 1 -
+/backup.zip 1 http://asianfusionlnk.com/backup.zip
+/sh3llx.php 1 -
+/sendmail.php 1 -
+/.well-known/acme-challenge/DQMK1K5LDQSKUDIK9O2XNK3ONU_DREHD 1 -
+/FORUM 9 www.google.com
+/wp2.php 1 -
+/blog.php 1 -
+/e.php 1 -
+/xleet.php 10 www.bing.com
+/wp-uploads.php 1 -
+/ALFA_DATA/perl.alfa 2 -
+/.well-known/acme-challenge/LO532TB5LJ2ELPFDFLPW7XQEBZGB108D 1 -
+/menus/eel/ 1 -
+/wp-content/uploads/2013/07/mongolian-beef.jpg 2 -
+/wp-xxav.php 1 asianfusionlnk.com
+/menus/spicy-avocado-salad/ 1 -
+/sites/all/libraries/elfinder/elfinder.php.html 4 -
+/newsite/.env 8 -
+/data.tar.gz 1 http://asianfusionlnk.com/data.tar.gz
+/m.php 2 -
+/wp_wrong_datlib.php 10 www.bing.com
+/z.php 7 www.bing.com
+/wp/ 10 -
+/test/wp-admin/install.php 5 -
+/wp-content/themes/mataam/framework/admin/css/datepicker.css 1 -
+/cms/wp-includes/wlwmanifest.xml 204 -
+/db.tgz 1 http://asianfusionlnk.com/db.tgz
+/images/wso.php 1 -
+/wp-includes/wp-class.php 10 www.bing.com
+/images/ 31 binance.com
+/shells.php 6 www.bing.com
+/menus/1-steamed-mixed-vegetables/ 2 -
+/alexus.php 1 -
+/wp-content/uploads/2013/07/Chicken-Pad-Thai.jpg 2 -
+/user/admin.php 1 -
+/2020/wp-includes/wlwmanifest.xml 77 -
+/admin 2 -
+/media/wp-includes/wlwmanifest.xml 125 -
+/.well-known/acme-challenge/DJ-M0HV-8FAAIC-43Z2LDJQJ_V-P7DAV 1 -
+/.well-known/acme-challenge/J_FICCUJTDQHCX40OLFSDKABJQYCCSSF 1 -
+/anone.php 1 -
+/.well-known/acme-challenge/V-DHHF08K40M0CRCFCPM92JD2_LMD8ZD 1 -
+/demo/wp-admin/setup-config.php 3 -
+/.well-known/acme-challenge/KNX7_VBX87-812JU14TVDC24HGIH4_Q5 1 -
+/6.php 1 -
+/images/vuln.php 6 -
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 -
+/center/admin.php 1 -
+/wso1.php 1 -
+/.well-known/alfacgiapi/alfacgiapi/perl.alfa 2 -
+/wp-admin/includes/ 3 www.google.com
+/router.php 2 -
+/site/wp-content/themes/sketch/404.php 1 -
+/laravel/.env 8 -
+/.well-known/acme-challenge/ON01OGUBETZM-2MGL-P0TA1GJ_-FAYJ0 1 -
+/wp-content/themes/sketch/content-sample.php 1 -
+/vita.php 1 -
+/Gel.php 1 -
+/cgialfa/ 2 -
+/.well-known/acme-challenge/E998OLL7LPN38GA-7XQXLG6I7I4S-W61 1 -
+/wp-includes/lfx.php 2 -
+/.well-known/acme-challenge/U54GT2NP0NKQCV4ISBYEP9X607BTM5FE 1 -
+/ccaef.txt 1 -
+/tag/mango/ 2 -
+/bb.php 2 -
+/wp-admin/includes/wp-class.php 1 -
+/alf.php 1 -
+/wp-content/alfacgiapi/alfacgiapi 4 -
+/menus/mochi-ice-cream/ 1 https://asianfusionlnk.com/
+/.well-known/acme-challenge/W6T8MM972SQFL3ITJIXXJRE_5GBLJ9_M 1 -
+/wp-includes/shell20211028.php 2 -
+/.well-known/acme-challenge/MRQSK4R_G4UTOGC9BYBWD1UBGYVUPBAX 1 -
+/wp-content/uploads/2013/05/artistic-flair-Asian-Fusion-Restaurant-Lincoln-NE.jpg 2 -
+/testimonials/ 2 -
+/cgialfa 6 www.bing.com
+/.well-known/acme-challenge/QFQKKEXORA7HJ_XINQRW-_WBQQ1C8C-- 1 -
+/.well-known/acme-challenge/J03S1V2KEE2JO0Q8R1KV-SVD-PWCFXLN 1 -
+/menus/king-crab/ 2 -
+/wp-content/plugins/revslider/rs-plugin/css/settings.css 1 -
+/menus/hunan-combo/ 1 -
+/new/wp-admin/install.php 5 -
+/data.sql 1 http://asianfusionlnk.com/data.sql
+/FCKeditor/fckconfig.js 2 http://asianfusionlnk.com/FCKeditor/fckconfig.js
+/wp-includes/js/jquery/ui/datepicker.min.js 1 -
+/blog/mt-atom.cgi 10 -
+/wp-admin/css/modern/colors.css.php 1 -
+/wp-content/themes/mataam/js/jquery.eislideshow.js 1 -
+/wp-admin/alfacgiapi 6 www.bing.com
+/.well-known/ALFA_DATA 6 www.bing.com
+/menus/sushi-and-sashimi/ 2 -
+/menus/squid/ 2 -
+/app/.env 11 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/QTCEHX1OIXA0FX3GEXN9LZSSGMV0YM88 1 -
+/wp-confirm.php 1 -
+/js/mage/cookies.js 3 -
+/sym.php 1 -
+/.well-known/acme-challenge/WTTHCEN_8_ZAFEFC3AN3HWRQQDHE1OOF 1 -
+/ourmenu.html/js/vendor/circle-progress.js 1 -
+/.well-known/ALFA_DATA/alfacgiapi/ 4 -
+/gank.php.PhP 8 www.bing.com
+/js/ckfinder/core/connector/php/connector.php 1 -
+/.well-known/acme-challenge/RTFWV2JEAL_NIVXNTG0JPB5DW44RFAX4 1 -
+/menus/asian-mango-chicken-beef-shrimp/ 4 -
+/.well-known/acme-challenge/K89J91VZOXP9GGQGO1NEPXKLYM5X4ORR 1 -
+/test.php 8 www.bing.com
+/.well-known/cgialfa 6 www.bing.com
+/.well-known/acme-challenge/S05BR9BB4ZP6K2PV1R4HA7ETLLTIWX2- 1 -
+/tag/green-tea/ 1 -
+/nee.php 1 -
+/MARIJUANA.php 1 -
+/users/admin.php 1 -
+/tag/teriyaki-w-chicken/ 1 -
+/wp-content/themes/mataam/js/sys_custom.js 1 -
+/.well-known/acme-challenge/-C4X-QYDDRL3XB3OA84278SB8I4_JW1A 1 -
+/.well-known/acme-challenge/4LR2EBD2A9_RITIFN44P552E5T-6R9ZB 1 -
+/menus/tempura-ice-cream/ 1 -
+/wp-content/themes/mataam/css/flexslider.css 1 -
+/menus/ice-cream/ 1 -
+/alfacgiapi/ 4 -
+/menus/wonton-soup/ 2 -
+/admin.zip 1 http://asianfusionlnk.com/admin.zip
+/dodo.sql 1 http://asianfusionlnk.com/dodo.sql
+/wp-content/ALFA_DATA/perl.alfa 2 -
+/Cpcalendars 1 www.google.com
+/.well-known/acme-challenge/YKOJA1_N5LPCF3862SD7RXXRHX_ZY4EK 1 -
+/contact.html/js/vendor/jquery.grid-a-licious.min.js 3 -
+/admin/controller/extension/extension/ 31 binance.com
+/menus/mixed-green-salad/ 2 -
+/menus/hot-sour-soup/ 1 -
+/3.php 2 -
+/STORE 9 www.google.com
+/.well-known/acme-challenge/00R99_TLB8DH79UDDS_7MR1UZT5C8ZTO 1 -
+/menu-2 9 https://www.yelp.com/
+/wp-includes/images/css.php 8 www.bing.com
+/.well-known/acme-challenge/C8455LTHVI4AS0SB53-HIA28-0CHLP-5 1 -
+/web/wp-includes/wlwmanifest.xml 204 -
+/menus/salmon-roll/ 1 -
+/cgi-bin/.env 8 -
+/.well-known/acme-challenge/Q37MK4OFHNFBXKFRA27G3ZDB82EMUE9I 1 -
+/menus/tuna-roll/ 1 -
+/wp-class.php 3 -
+/wp-ad.php 1 -
+/.aws/config 2 -
+/wp-includes/wp-atom.php 10 www.bing.com
+/menus/sesame-chicken-beef-shrimp/ 2 -
+/ei-slider/ 1 -
+/t.php 1 -
+/wp-content/themes/mataam/css/prettyPhoto.css 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/contact.html/js/vendor/bootstrap.min.js 1 -
+/Autodiscover 1 www.google.com
+/cms/wp-admin/install.php 2 -
+/.well-known/acme-challenge/NBFDWVHEW0PUT7N958RWQG9UIWEC16WJ 1 -
+/wp-includes/css/css.php 8 www.bing.com
+/wwwroot.sql 1 http://asianfusionlnk.com/wwwroot.sql
+/images/ALEX_US.php 1 -
+/vuln.php 1 -
+/.well-known/acme-challenge/6SFWTHTSWDNEFFWJGP90OA-HPF-KMATQ 1 -
+/menus/shrimp-w-lobster-sauce/ 1 -
+/humans.txt 4 -
+/menus/tuna-or-salmon-avocado-salad/ 1 -
+/wp-includes/css/wp-class.php 1 -
+/wp/wp-admin/includes/ 2 www.google.com
+/database.tgz 1 http://asianfusionlnk.com/database.tgz
+/wso2.php 1 -
+/static/admin/css/base.css 2 -
+/.well-known/acme-challenge/TXNABOA-5G7AHOFBZ_9NN9FZ4BS_3-LV 1 -
+/.env 259 -
+/Cpanel 1 www.google.com
+/wp-blog.php 1 -
+/sitemap.html 1 -
+/wp-admin/includes/mar.php 1 -
+/tag/sesame-shrimp/ 2 -
+/.well-known/acme-challenge/8GXWNXTJN8_N7NMBPZ61Y5LLXW_NOG5T 1 -
+/info.php 3 -
+/img/cta-splash.jpg 1 -
+/.well-known/acme-challenge/STKVMUBR5M95--G0P172H5ZKDD3IR7_6 1 -
+/CHANGELOG.txt 2 -
+/wp-content/ALFA_DATA/alfacgiapiperl.alfa 2 -
+/contact.html/js/vendor/modernizr-2.8.3.min.js 2 -
+/xxx.php 1 -
+/2.php 2 -
+/wp-content/includes/uploads/Va.php 1 -
+/2018 8 www.google.com
+/wp-content/alfacgiapi 6 www.bing.com
+/sites/default/files/cgialfa 6 www.bing.com
+/.well-known/acme-challenge/J02YLW3EMDH9EQ3MDZ7V0EIZ_ORKGQA- 1 -
+/wp-admin/includes/maint/repair-bak.php 1 -
+/demo 9 www.google.com
+/assets/images/images.php 1 -
+/menus/momoya-spicy-tuna-roll-2/ 5 -
+/wp-content/themes/mataam/colors/default.css 1 -
+/.aws/.credentials 2 -
+/.well-known/wp-content/alfacgiapi/alfacgiapi 4 -
+/alfa.php 9 www.bing.com
+/tag/hunan/ 1 -
+/menus/salmon/ 1 -
+/index.html/js/vendor/jquery.grid-a-licious.min.js 1 -
+/wp-json 1 -
+/wordpress/ 27 -
+/priv8.php 1 -
+/api/.env 9 -
+/menus/2-steamed-chicken-broccoli/ 1 -
+/admin.php 13 asianfusionlnk.com
+/.well-known/acme-challenge/TNA7-Y7FRFV50FFVRRVARHWISOSRDWYY 1 -
+/.well-known/acme-challenge/SF7CKYYUPVAJ8JF6Q22B14B3HGSQXZL0 1 -
+/menus/triple-delight/ 2 -
+/.well-known/acme-challenge/K-74IL55J8FQXI8TLMHD_93IT3UFUQ2K 1 -
+/tag/tempura/feed/ 1 -
+/BACKUP/wp-admin/setup-config.php 3 -
+/olux.php 6 www.bing.com
+/menus/oshinko-roll/ 1 -
+/.well-known/acme-challenge/CCZ3EWVOPBY_YSVD4TL_FR3Y8UIICU_G 1 -
+/.well-known/alfacgiapi/perl.alfa 2 -
+/wp-signin.php 9 www.bing.com
+/wp/wp-admin/install.php 2 -
+/.well-known/acme-challenge/M19--Y8P4UI6W_BHFC2V9IN8EMJEXYQ1 1 -
+/th1s_1s_a_4o4.html 19 http://www.google.com/url
+/assets/plugins/filemanager/dialog.php 2 -
+/contact.html/js/vendor/circle-progress.js 2 -
+/WORDPRESS/wp-admin/setup-config.php 3 -
+/XxX.php 2 -
+/wp-adminincludesclass-wp-media-list-data.php 1 -
+/admin.tgz 1 http://asianfusionlnk.com/admin.tgz
+/kitchen-entree-special/ 1 -
+/wp-content/alfacgiapi/ 4 -
+/.well-known/acme-challenge/55BV2DXS_8JWE_KSJZP297ARWFAZIQPU 1 -
+/wp-content/sistem.php 1 -
+/js/locale.js 2 -
+/www.php 1 -
+/2009 7 www.google.com
+/tag/vanilla/ 1 -
+/y.php 1 -
+/wp-includes/SimplePie/font-editor.php 1 asianfusionlnk.com
+/.well-known/acme-challenge/P1N3FNH1H4B3JCF3ZNYA8-4--BWG-L7I 1 -
+/menus/sashimi-for-two/ 1 -
+/old-site 1 -
+/it.php 1 -
+/.well-known/acme-challenge/J02PZFO2R2LS6Q5S3NDV9PD_D450MXMV 1 -
+/wp-content/db-cache.php 6 www.bing.com
+/Asianfusionlnk 4 www.google.com
+/test.rar 1 http://asianfusionlnk.com/test.rar
+/Www 1 -
+/.well-known/acme-challenge/_PLBX8R8D6A0KB0S-QBDTYAH83ESW3BA 1 -
+/assets/colors/accesson.php 1 -
+/.well-known/acme-challenge/7JUHL3W0FWBBL3643WJJRYWT7-BILH_A 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/Z1DZ2Z9_XRDHBZKQNTVE08DN1ONFEXKW 1 -
+/wp-content/plugins/php-everywhere/block/editor/css/editor.css 1 http://asianfusionlnk.com
+/menus/crab-rangoon-6/ 1 -
+/wp-content/plugins/contact-form-7/includes/css/styles.css 1 -
+/ads.txt 53 -
+/kids-menu/ 1 -
+/tag/steak/ 1 -
+/defau1t.php 7 www.bing.com
+/_ignition/health-check/ 1 -
+/FoxWSO.php 1 -
+/.well-known/acme-challenge/49C8U2MSXDEOQF3AYYXILQMH25Y6EBL3 1 -
+/css.php 6 www.bing.com
+/wp-content/export.php 8 www.bing.com
+/bk 2 -
+/.well-known/acme-challenge/7X6QW6CW9Y6I08_K2F88SZA3JFI_M5IN 1 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/app/config/.env 8 -
+/9.php 1 -
+/site/wp-admin/install.php 4 -
+/.well-known/acme-challenge/7WEW5RBOJ9WG-UE_285PZAYZ8FAI23JX 1 -
+/.well-known/acme-challenge/9-JEL-2D7IGKJ1JN_WEAIROYRO-K7E8L 1 -
+/wp-content/ALFA_DATA 6 www.bing.com
+/wp-content/wp-class.php 1 -
+/wp-content/themes/mataam/css/skin.css 1 -
+/u.php 1 -
+/cpcalendars 1 www.google.com
+/.well-known/acme-challenge/34ZHEQ-RIYMN5YJ36JNEDZVUF1DZ1S2T 1 -
+/ccaef.php 1 -
+/uccenter/admin.php 1 -
+/ourmenu.html/js/vendor/jquery.grid-a-licious.min.js 7 -
+/.well-known/acme-challenge/QICMZY5I7WMF8UO7MUQ0F7YP4EY4KCO6 1 -
+/1337.php 1 -
+/menus/sashimi-entree/ 1 -
+/img/devices-bg.jpg 2 http://asianfusionlnk.com/css/components.css
+/wp-admin.php 13 www.bing.com
+/.well-known/acme-challenge/7PW2P7Y5V1HI-RVW6PWVSI_HTUMRSA8J 1 -
+/library/.env 8 -
+/.well-known/acme-challenge/2VCEEJ76C63SCEG4URU9QURMZL1K7JJ9 1 -
+/Cpanel.php 1 -
+/backup/wp-admin/install.php 5 -
+/js/css.js 2 -
+/kn.php 1 -
+/xox.php 1 -
+/contact.html/js/vendor/owl.carousel.min.js 2 -
+/asianfusionlnk.com/.env 6 -
+/.git/config 8 -
+/.well-known/acme-challenge/VE2FG5BO5QTD8XJ3CBNLE1NBQZXAVVIN 1 -
+/wp-admin/cgialfa 6 www.bing.com
+/tag/flying-fish/ 1 -
+/g.php 1 -
+/.well-known/acme-challenge/24VWDMQ-M5UONFVOWQ9SDCZIKQRD9VCZ 1 -
+/symlink.php 1 -
+/about.php 6 www.bing.com
+/website-sitemap.xml 1 -
+/wordpress/wp-class.php 1 -
+/tag/sweet-sour/ 1 -
+/wp-content/themes/mataam/js/hoverIntent.js 1 -
+/fonts/glyphicons-halflings-regular.woff2 1 http://asianfusionlnk.com/css/vendor.css
+/asianfusionlnk.sql 1 http://asianfusionlnk.com/asianfusionlnk.sql
+/menus/butterfly-roll/ 1 -
+/7yn.php 1 -
+/wp-content/plugins/tatsu/public/js/vendor/tilt.min.js 1 -
+/.well-known/wp-content/ALFA_DATA/alfacgiapi/perl.alfa 2 -
+/public/.aws/credentials 2 -
+/backup.tar.gz 1 http://asianfusionlnk.com/backup.tar.gz
+/WordPress/wp-admin/setup-config.php 3 -
+/admin/images/cal_date_over.gif 1 -
+/wp-22.php 2 -
+/alfacgiapi/alfacgiapi/ 4 -
+/core/.env 11 -
+/ALEX_US.php 1 -
+/baindex.php 6 -
+/data.php 1 -
+/admin/ 5 -
+/menus/mackerel/ 2 -
+/asianfusionlnk.com.tgz 1 http://asianfusionlnk.com/asianfusionlnk.com.tgz
+/.well-known/acme-challenge/AGF61UYR7WXKLXJXWK2RZ4V_73FEB8TU 1 -
+/skin/adminhtml/default/default/boxes.css 2 -
+/js/win_op.js 2 -
+/wp-content/gallery/may2013_gallery/softopenphotos_14.jpg 1 -
+/olu.php 1 -
+/database.sql 1 http://asianfusionlnk.com/database.sql
+/home/wp-admin/install.php 3 -
+/wp-rss.php 1 -
+/wp-admin/includes/maint/wp-cron.php 1 -
+/2017 7 www.google.com
+/alexus-mailer.php 1 -
+/sitemap 1 -
+/admin/.env 8 -
+/.well-known/acme-challenge/HT8IV0BIZCC6VH1Z7WF-E4PYZ1IT_G5K 1 -
+/blog/ 8 -
+/.git/index 1 -
+/.well-known/acme-challenge/2281TGE-FBO-X_V0EZ_7N66-XF7VBHJJ 1 -
+/admin/FCKeditor/fckconfig.js 1 http://asianfusionlnk.com/admin/FCKeditor/fckconfig.js
+/.well-known/acme-challenge/GWEDIXZCU_JNNBV1WYRICCXULOAZS6XX 1 -
+/.well-known/acme-challenge/2NIEGNT23-DCNMOW9KSS7FGS_LEZZSN9 1 -
+/.well-known/acme-challenge/WQTEX_P-QV_W1DM7O084MSXYUM0IQHRB 1 -
+/images/wlw/wp-icon.png 2 -
+/alex.php 1 -
+/.well-known/acme-challenge/2NJEF1-_4IGH4NA3NWPELKG7F1K2H4AI 1 -
+/menus/shrimp/ 2 -
+/Old 1 -
+/3index.php 18 www.bing.com
+/.well-known/acme-challenge/XXAUG6C0BHWOUDVVFFBQK2VXPCR1L7A3 1 -
+/alfacgiapi/alfacgiapi/perl.alfa 2 -
+/s_ne.php 14 www.bing.com
+/.well-known/acme-challenge/_K1GZETB0ISPG86JUL5SBR0Y4XEBSZS9 1 -
+/menus/chicken-w-mushroom/ 1 -
+/menus/spicy-yellowtail-roll/ 1 -
+/asianfusionlnk.com.zip 1 http://asianfusionlnk.com/asianfusionlnk.com.zip
+/code.rar 1 http://asianfusionlnk.com/code.rar
+/SITE 1 -
+/sites/all/libraries/mailchimp/.env 8 -
+/wp-content/wp-logins.php 1 -
+/menus/volcano-roll-6-pcs/ 2 -
+/bypass.php 1 -
+/wp-content/uploads/2013/04/volcano_roll.jpg 2 -
+/menus/mongolian-triple-delight/ 2 -
+/.git/HEAD 2 -
+/2021/wp-admin/install.php 3 -
+/2021/wp-includes/wlwmanifest.xml 15 -
+/tag/tempura/ 1 -
+/.well-known/acme-challenge/LXFSX7SCX26KNSWPQ6AEKA273QIUXNP8 1 -
+/xmrlpc.php 8 www.bing.com
+/ok.php 1 -
+/fonts/glyphicons-halflings-regular.woff 1 http://asianfusionlnk.com/css/vendor.css
+/asianfusionlnk.zip 1 http://asianfusionlnk.com/asianfusionlnk.zip
+/.well-known/acme-challenge/MMZ5ANT87JCGLY2I826NTBABU02NLO6Z 1 -
+/dr.php 1 -
+/2021 1 -
+/wp-file.php 1 -
+/j.php 1 -
+/admin/controller/extension/extension/ALFA_DATA 6 www.bing.com
+/ourmenu.html/js/main.js 7 -
+/send.php 1 -
+/menus/white-tiger-roll/ 1 -
+/wp-content/uploads/2016/04/AsianFusionMenu2016-pg1.jpg 7 -
+/_profiler/phpinfo 7 -
+/wp-content/mu-plugins/db-safe-mode.php 6 www.bing.com
+/WP 10 www.google.com
+/wp-includes/js/jquery/jquery.min.js 1 -
+/WordPress 9 www.google.com
+/bak 1 -
+/wp-content/plugins/woo-product-table/assets/js/custom.js 1 -
+/.well-known/acme-challenge/SV9GK-IT0RIKN3UDG71GC6RA_JO2VDJ_ 1 -
+/.well-known/ALFA_DATA/ 4 -
+/wp-admin/includes/edit-tag-menu.php 1 -
+/www.rar 1 http://asianfusionlnk.com/www.rar
+/.well-known/acme-challenge/SM0BNQD8I0-KVRKEMP0OB6EK3NMGSP7R 1 -
+/lock360.php 6 www.bing.com
+/Backup 8 www.google.com
+/.well-known/acme-challenge/GAHZKWODDC90JAM3WUL23ZP0R8DYHZFH 1 -
+/db.zip 1 http://asianfusionlnk.com/db.zip
+/.well-known/acme-challenge/CJ-OBPXBEY3RHBJJOIK3EL2_QW9LSQKV 1 -
+/2020/wp-admin/setup-config.php 3 -
+/platform/.env 1 -
+/images/a.php 1 -
+/new/.env 8 -
+/beence.php 5 www.bing.com
+/phpinfo.php 2 -
+/wp/wp-content/themes/sketch/404.php 1 -
+/wordpress/wp-admin/install.php 5 -
+/wp/rahma.php 1 -
+/salad/ 1 -
+/Old/wp-admin/setup-config.php 3 -
+/l.php 1 -
+/tag/sweet-sour-pork/ 1 -
+/menus/edamame/ 1 -
+/.well-known/acme-challenge/629BP82XWJ962EJ_ZDA8SKIQSMOE2PD5 1 -
+/wp-admin/includes/tablepress_controllers.php 1 -
+/wp-old 1 -
+/wp-includes/wlwmanifest.xml 186 -
+/.well-known/acme-challenge/PY0_J2_ET1N-VL8NXCP0J8LKN_RPOLJR 1 -
+/index.html/js/vendor/circle-progress.js 1 -
+/wp-content/themes/mataam/js/jquery.easing.1.3.js 1 -
+/menus/fried-rice-w-pork-chicken-beef-shrimp-house-special/ 2 -
+/ckfinder/core/connector/php/connector.php 1 -
+/wp-backup-sql-302.php 6 www.bing.com
+/.well-known/acme-challenge/G5UDMJRS1PSV6USMXTUV4IUGRTH-BZLX 1 -
+/.well-known/acme-challenge/RLM94OPO_O7PNX999W_79B7MFLXL_JT0 1 -
+/blog/wp-content/themes/sketch/404.php 1 -
+/ALFA_DATA 6 www.bing.com
+/.well-known/acme-challenge/490-3PA9RXNIT9E214-F4U80Z9QUTE0E 1 -
+/.fk.php 1 -
+/.well-known/acme-challenge/-IWYTYW5LIQ0OP3MDGZ0AB9-ZL_4L-8S 1 -
+/.well-known/acme-challenge/23AEKDSQAT44W824UF187A70D64Z95MG 1 -
+/dz.php 1 -
+/js/mage/adminhtml/tools.js 2 -
+/wp-cron.php 1 asianfusionlnk.com
+/db.tar.gz 1 http://asianfusionlnk.com/db.tar.gz
+/.asianfusionlnk.com.tgz 1 http://asianfusionlnk.com/.asianfusionlnk.com.tgz
+/.well-known/acme-challenge/9C3GASO_2L__MVTYYY5IIBMR3-8R-AHO 1 -
+/asianfusionlnk.com.sql 1 http://asianfusionlnk.com/asianfusionlnk.com.sql
+/wwwroot.tgz 1 http://asianfusionlnk.com/wwwroot.tgz
+/.well-known/acme-challenge/2Y3O5-2EF2PVYB-J1OVY06NNV995E54M 1 -
+/cgi-bin/slicemap.php 1 -
+/menus/shrimp-tempura-roll/ 1 -
+/menus/broccoli-w-chicken-beef-shrimp/ 1 -
+/.well-known/acme-challenge/BI6G4X8IHQQUWMQM0JFLBGOUUKITOIUJ 1 -
+/defau11.php 8 www.bing.com
+/asianfusionlnk.com.rar 1 http://asianfusionlnk.com/asianfusionlnk.com.rar
+/c99.php 1 -
+/menus/unicorn-roll/ 3 -
+/.well-known/acme-challenge/2RXUACSW06R6GZ94PGE5JG05GE815LJL 1 -
+/admin/controller/extension/extension/cgialfa 6 www.bing.com
+/index.html/js/vendor/modernizr-2.8.3.min.js 1 -
+/test.tar.gz 1 http://asianfusionlnk.com/test.tar.gz
+/.well-known/acme-challenge/ZZI1BPHFJM6PVZ6S_0YBD52O2E9AOCX- 1 -
+/wp-content/themes/mataam/css/responsive.css 1 -
+/public/kindeditor/themes/default/default.css 1 http://asianfusionlnk.com/public/kindeditor/themes/default/default.css
+/wp1/wp-includes/wlwmanifest.xml 204 -
+/wp-one.php 1 -
+/.wp-cache.php 1 -
+/tag/scallion/ 1 -
+/r.php 1 -
+/xxxss 5 -
+/menus/asparagus-roll/ 1 -
+/contents.php 2 asianfusionlnk.com
+/.well-known/acme-challenge/4V2HQ0RLW8DM2Y5YJ31KSX5J69SHZ3_0 1 -
+/.well-known/acme-challenge/0F--QWETBFW6KTW8P1IF0-9BORX9T35V 1 -
+/.well-known/acme-challenge/OV_T1BSFGSK32WMBNYS8GKBEBW6O51Y- 1 -
+/fw.php 2 -
+/e/data/js/ajax.js 11 -
+/tag/salad-2/ 1 -
+/feed 1 -
+/.well-known/acme-challenge/IJKFTFJY_UEBCSU54R3-Y5N5WC2HBBH_ 1 -
+/alfav4.1-tesla.php 1 -
+/.well-known/acme-challenge/FVFD61EO_DV_LQ2M2SJDZAT_WL_JTKEF 1 -
+/.well-known/acme-challenge/XULFAUJDLQX_13WM3F143NHEYW8RUI-P 1 -
+/qindex.php 6 www.bing.com
+/i.php 1 -
+/OLD 1 -
+/menus/chicken-w-mixed-vegetables/ 1 -
+/wp-content/ALFA_DATA/alfacgiapi/ 4 -
+/wp-content/index.php 1 -
+/wp-content/themes/logs.txt 2 asianfusionlnk.com
+/.well-known/acme-challenge/JR-31EUF5F78K9X9C1RFUY3848FW6LNS 1 -
+/menus/spanish-mackerel/ 1 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/cgi-bin/cgi-bin.php 1 -
+/4.php 1 -
+/menus/passion-roll/ 3 -
+/1648783026736639905 1 -
+/templates/beez3/alfacgiapi 6 www.bing.com
+/rss.php 1 -
+/DEMO 7 www.google.com
+/website/wp-includes/wlwmanifest.xml 189 -
+/menus/sushi-sashimi-combo-2/ 1 -
+/wp-content/plugins/contact-form-7/includes/js/scripts.js 1 -
+/wp-content/alfacgiapi/alfacgiapi/perl.alfa 2 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/.well-known/acme-challenge/UJQK9K26Q3TOYR3235HY0WMT2K5HKM86 1 -
+/.well-known/acme-challenge/0YJFIVX96YEYM677F6WV633ZMH3KDWXC 1 -
+/menus/almond-chicken/ 1 -
+/v.php 1 -
+/new/wp-admin/setup-config.php 3 -
+/wp-activate.php 1 -
+/leaf.php 2 -
+/data/admin/allowurl.txt 12 -
+/old/wp-admin/setup-config.php 3 -
+/menus/albacore-tuna/ 1 -
+/.well-known/acme-challenge/KVZHPTH7RE0MRGTCUXIZ4XLMIO8X68FU 1 -
+/.well-known/acme-challenge/PE8GX-M1QR4RT5IENM2D5Q_T81IIXEQ3 1 -
+/u/admin.php 1 -
+/class-wp-widget-archives.php 1 -
+/.well-known/acme-challenge/8ZBRV806JIZZF4HCUKN4B8H2TPM-MQOY 1 -
+/.well-known/alfacgiapi/alfacgiapi/ 4 -
+/Fox1x.php 1 -
+/.well-known/acme-challenge/FS4D_1FK3I6YIEHPI-ICC_UH2ADVPBPH 1 -
+/chefs-special-roll 1 -
+/wp-theme.php 1 -
+/.well-known/acme-challenge/TS6Q7AC_BL60FW732193DKAB3TF4H8P8 1 -
+/wp-content/plugins/mailchimp//js/mailchimp.js 1 -
+/wp-configer.php 1 -
+/2015 7 www.google.com
+/.well-known/acme-challenge/0WF2UGYD9OG_03U1NYRSHC-KFV7ZMNQC 1 -
+/RELEASE_NOTES.txt 2 -
+/db.sql 1 http://asianfusionlnk.com/db.sql
+/f.php 1 -
+/wp-content/plugins/facebook-button-plugin/js/script.js 1 -
+/menus/dancing-eel-dragon-roll/ 1 -
+/js/site.js 2 -
+/rahma.php 1 -
+/templates/beez3/ALFA_DATA 6 www.bing.com
+/asianfusionlnk 5 www.google.com
+/menus/bomb-roll/ 1 -
+/leafmailer2.8.php 3 -
+/wp-content/alfacgiapi/perl.alfa 4 -
+/debug/default/view 2 -
+/ohayo.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 189 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1913
+178.62.19.18 51 51 715632 20220312122641
+71.60.215.75 44 44 617408 20220307131218
+103.253.146.61 36 36 505152 20220330004606
+20.24.99.247 36 36 505152 20220326010136
+76.84.126.167 32 32 449024 20220313104234
+131.220.6.152 31 31 434992 20220331032330
+20.112.27.11 31 31 434992 20220330002020
+20.106.242.133 31 31 434992 20220331094407
+135.84.220.105 28 28 392896 20220324122908
+34.98.143.50 27 27 1462077 20220327101552
+20.214.105.231 2 2 28064 20220320121036
+35.188.75.247 1 1 11017 20220319173614
+97.98.134.249 0 1 1333617 
+40.77.190.221 0 1 21237 
+104.218.66.32 2 68 8385335 20220326221408
+40.77.189.218 0 1 21237 
+208.184.162.131 1 28 6996168 20220319112621
+98.19.45.116 2 68 8385335 20220330180421
+104.237.245.62 1 1 0 20220322005729
+174.198.68.156 0 12 375920 
+108.167.57.88 1 8 321537 20220303131252
+54.186.173.32 1 1 14032 20220318043303
+73.209.142.247 1 24 5020950 20220307131737
+76.84.34.162 0 2 2022140 
+167.248.75.59 1 41 1395511 20220322102520
+34.71.139.116 0 2 3092452 
+70.126.40.184 1 1 14032 20220319231931
+34.221.20.33 1 1 14032 20220323042022
+174.198.72.85 4 119 21377594 20220326182414
+111.7.100.21 0 13 548809 
+185.181.61.24 1 1 14032 20220316140524
+174.255.0.81 1 27 6989824 20220327141436
+76.85.169.121 1 2 182323 20220303220139
+45.132.227.118 1 1 14032 20220325235633
+35.240.28.86 1 1 14032 20220301113553
+209.99.148.222 1 17 5881690 20220319060751
+104.218.65.70 3 96 16907697 20220322115613
+76.84.113.196 1 24 5020950 20220326132015
+20.58.189.235 3 3 42096 20220307034752
+174.198.80.105 2 34 7274545 20220314164448
+98.22.95.240 5 220 24338365 20220304162954
+76.84.30.136 1 41 1395511 20220302183515
+69.30.186.198 2 68 8385335 20220307194349
+167.248.27.213 2 68 8385335 20220311210754
+97.98.169.164 3 109 9780846 20220312123417
+82.145.56.109 1 1 14032 20220305012958
+104.218.65.1 6 72 14546239 20220312161447
+167.248.92.254 5 120 22917820 20220319212605
+92.118.160.13 2 2 28064 20220314120023
+107.77.83.94 1 1 14032 20220311005651
+166.181.81.228 1 27 6989824 20220313144700
+167.248.2.34 5 120 22917820 20220312152928
+154.208.100.159 26 26 364832 20220331095625
+40.131.170.249 2 69 8391679 20220311154102
+167.248.76.200 3 110 9787190 20220319182231
+67.205.152.51 6 6 84192 20220306061859
+172.58.59.84 3 109 9780846 20220331163935
+76.84.193.215 6 141 19870154 20220326212314
+172.58.30.220 3 55 10651230 20220312175526
+174.198.83.187 3 53 11999749 20220304170155
+213.246.45.63 1 13 389952 20220301025559
+72.46.51.163 14 342 66330274 20220321114644
+34.212.195.111 2 55 13985992 20220324221603
+174.198.74.103 0 26 6975792 
+107.127.35.65 4 230 15345152 20220305194505
+113.163.8.38 2 45 8047503 20220311220137
+107.173.202.98 0 12 1776544 
+104.218.65.55 1 2 182323 20220322223919
+20.70.186.21 6 6 84192 20220315083918
+37.187.28.140 1 1 14032 20220301094626
+107.155.108.120 1 1 14032 20220318031053
+97.98.244.130 0 26 6975792 
+172.58.160.23 2 68 8385335 20220315184658
+12.190.236.78 1 12 408077 20220312181555
+167.248.117.10 4 42 7565340 20220315194630
+54.191.224.19 1 1 14032 20220318043141
+208.82.104.130 1 24 5020950 20220322182137
+167.248.55.47 1 27 6989824 20220307183224
+23.94.108.97 2 2 29691 20220322024634
+167.248.112.107 2 70 8398023 20220306190320
+174.215.246.108 4 147 10188968 20220326113115
+104.232.39.27 1 1 0 20220324221554
+97.98.130.0 3 109 9780846 20220307152206
+172.58.136.76 2 54 13979648 20220316214328
+167.248.91.229 0 40 1341360 
+174.210.161.38 1 27 6989824 20220321115511
+34.221.41.103 1 1 14032 20220331041539
+174.215.246.2 0 16 2923639 
+174.215.231.246 0 40 1341360 
+35.88.116.218 1 1 14032 20220316041913
+72.13.62.27 3 3 40708 20220326002108
+34.140.71.192 1 1 14032 20220312202748
+24.243.195.53 0 26 6975792 
+117.251.114.197 1 1 14032 20220312004052
+159.196.178.154 3 3 40708 20220324185249
+76.84.32.130 3 149 11082087 20220318082836
+40.77.191.245 0 1 52768 
+174.210.74.51 2 68 8385335 20220329150349
+172.58.141.142 1 41 1395511 20220331163911
+217.138.21.110 4 93 15927996 20220302171243
+14.241.133.30 1 1 14032 20220325170409
+64.37.249.230 1 24 5020950 20220311120633
+167.172.143.20 4 4 56128 20220320183820
+98.19.44.21 3 113 14851492 20220328133257
+172.121.219.166 1 1 14032 20220319061721
+76.84.120.174 2 68 8385335 20220314183911
+97.98.170.13 1 24 5020950 20220312191719
+76.84.118.146 3 95 15375159 20220318192503
+193.56.29.187 4 4 56128 20220310205524
+103.39.223.219 3 3 42096 20220316153018
+191.96.5.144 2 2 29691 20220316214009
+172.58.136.18 5 200 24114465 20220307132924
+104.227.208.8 1 1 14032 20220320235228
+107.77.206.140 1 41 1395511 20220314204105
+76.84.38.134 1 27 6989824 20220313191652
+174.215.240.17 2 28 7003856 20220312162444
+167.248.67.216 1 41 1395511 20220309121926
+108.167.33.99 1 1 14032 20220326152033
+167.248.95.73 1 27 6989824 20220317132206
+76.79.30.210 3 89 11437411 20220321130147
+177.183.215.90 0 1 1333617 
+2.56.56.48 7 7 98224 20220306005056
+144.76.57.175 2 2 28064 20220304123015
+76.84.50.45 0 40 1341360 
+104.227.30.137 6 6 120062 20220303071711
+184.96.75.81 1 41 1395511 20220310100524
+167.248.85.28 1 27 6989824 20220323185305
+174.198.83.146 5 193 13339752 20220331174601
+167.248.8.129 2 68 8385335 20220305163614
+166.181.85.30 5 185 13276056 20220322194458
+172.58.56.193 0 52 13951584 
+97.98.202.58 5 111 18660645 20220308211037
+164.92.74.95 2 2 28064 20220319063238
+34.98.143.52 22 22 1191322 20220324213644
+172.58.145.175 1 14 4025549 20220305113813
+35.187.132.210 2 2 108302 20220329223915
+54.87.199.74 1 27 6989824 20220326194113
+174.210.166.235 1 53 13965616 20220320130108
+174.198.73.110 3 73 18424537 20220327180747
+3.108.221.154 1 27 6989824 20220325173858
+104.218.66.8 0 1 0 
+104.218.65.39 2 48 11023385 20220316123154
+174.198.77.56 0 1 6344 
+132.147.130.154 1 27 6989824 20220305170859
+76.85.153.195 2 110 9739383 20220320132058
+209.50.25.81 1 41 1395511 20220312182646
+104.218.66.21 3 29 10070276 20220330185158
+40.131.145.198 2 148 11068055 20220330145338
+174.215.227.152 0 6 38064 
+167.248.72.246 3 110 9787190 20220326191126
+174.215.246.111 1 7 284721 20220305144924
+40.77.190.233 0 1 23890 
+108.167.6.17 1 41 1395511 20220325192732
+54.153.80.133 1 1 14032 20220323125036
+112.5.37.160 13 13 182416 20220330095859
+36.99.136.131 0 2 1788141 
+104.218.66.104 2 82 2791022 20220328224734
+94.140.112.62 2 2 29691 20220312045729
+76.85.173.77 1 21 6259908 20220308084528
+104.218.65.34 1 27 6989824 20220319190452
+104.40.30.170 1 1 14032 20220329061209
+37.115.144.99 2 2 29691 20220303224145
+174.198.77.217 1 41 1395511 20220321150853
+204.137.100.18 0 2 2344687 
+167.248.30.127 6 189 39040532 20220331142412
+172.121.223.194 1 1 0 20220322005729
+97.98.133.152 0 1 6344 
+107.77.161.54 1 2 21064 20220324135009
+154.6.21.219 2 30 8560304 20220312145723
+35.165.235.184 1 1 14032 20220304034019
+76.84.40.88 2 82 2791022 20220307100108
+174.215.247.240 1 27 6989824 20220312155542
+93.158.90.68 1 1 14032 20220306102717
+199.47.67.55 2 19 5642464 20220304212245
+167.248.32.125 1 53 13965616 20220326145823
+124.222.108.160 1 1 14032 20220327165058
+192.0.100.83 0 1 1011070 
+174.198.70.227 4 136 16770670 20220302141207
+174.198.74.164 1 79 20941408 20220308220432
+144.217.135.192 1 27 6989824 20220313101138
+103.129.2.135 6 6 203161 20220316225817
+76.79.39.174 4 133 14801796 20220319152231
+172.58.140.244 0 40 1341360 
+75.86.132.169 1 41 1395511 20220330184705
+76.84.139.28 1 27 6989824 20220325184341
+98.19.43.206 2 69 8391679 20220312182619
+76.79.0.226 4 110 15445449 20220325143606
+69.20.200.31 4 99 16934417 20220328120620
+104.200.76.61 1 1 14032 20220320065717
+172.58.59.70 1 41 1395511 20220331165044
+172.121.216.229 1 1 14032 20220306031811
+174.198.69.47 1 27 6989824 20220323165806
+174.198.69.110 2 28 8530050 20220326211434
+151.138.13.148 10 10 140320 20220330025350
+104.218.66.50 6 390 37497237 20220320171152
+72.46.58.70 2 28 8530050 20220309134142
+123.174.202.150 3 3 42096 20220327195710
+172.58.59.209 0 40 1341360 
+144.168.162.250 1 1 14032 20220315014435
+40.77.188.4 0 1 168291 
+73.3.220.161 1 41 1395511 20220322210555
+207.32.146.18 1 20 6869079 20220319060731
+36.99.136.138 1 19 2795404 20220321031519
+172.225.130.142 1 20 4508674 20220305200025
+77.247.127.236 3 3 42096 20220313202619
+193.218.118.95 1 1 14032 20220306043516
+174.206.42.170 0 1 1333617 
+174.198.82.68 2 69 8391679 20220320205050
+174.198.65.82 2 69 8391679 20220325150319
+49.69.195.115 1 1 14032 20220331003420
+164.119.14.169 2 68 8385335 20220303151909
+92.118.160.41 2 2 28064 20220321002901
+24.243.198.216 2 28 8530050 20220329191856
+128.199.210.21 6 6 84192 20220307131833
+209.50.14.66 5 145 11896204 20220326191347
+58.214.239.53 3 3 45350 20220302134731
+167.248.29.87 3 29 10070276 20220313103518
+103.31.104.41 3 3 42096 20220331072102
+163.123.142.197 1 1 14032 20220309184242
+172.58.193.227 1 1 1540226 20220330130552
+20.109.114.55 6 6 84192 20220322231323
+174.215.243.143 1 27 6989824 20220302112809
+172.56.13.229 2 28 8530050 20220315200419
+36.99.136.134 0 5 2338334 
+162.210.6.242 3 95 15375159 20220327201407
+174.243.112.187 2 68 8385335 20220320222314
+104.218.66.37 7 225 30171051 20220316222915
+76.84.140.99 1 27 6989824 20220313083203
+54.218.11.143 1 1 14032 20220331041601
+167.248.85.121 2 94 15361127 20220317180645
+209.50.12.89 2 28 8530050 20220307105445
+172.58.141.254 3 109 9780846 20220327135819
+174.198.65.168 2 42 2935737 20220330174458
+97.98.224.197 3 64 12798230 20220325201251
+93.158.91.43 5 5 107418 20220311100209
+76.84.98.95 6 160 20012101 20220325184955
+104.218.65.6 5 85 16069228 20220308235815
+174.250.210.135 3 29 10070276 20220327144859
+132.147.130.1 5 160 22773105 20220331125643
+24.243.192.201 2 82 2791022 20220324111937
+138.128.74.220 1 1 9544 20220309095605
+20.197.180.8 4 4 56128 20220319075746
+23.83.132.162 2 2 29691 20220304041935
+167.248.17.162 14 386 63413025 20220307231651
+47.28.179.126 8 188 26942010 20220323161456
+174.198.72.221 2 85 13093941 20220318111531
+174.198.75.164 1 13 389952 20220321115524
+76.84.232.138 1 1 14032 20220310114811
+54.86.66.252 1 1 54151 20220309134812
+38.128.156.215 1 1 14032 20220320065716
+174.235.193.139 2 68 8385335 20220331212019
+45.114.49.171 2 2 14032 20220330042209
+20.150.144.225 3 3 42096 20220314043942
+180.191.245.68 1 1 14032 20220302053852
+98.21.132.196 0 54 13964272 
+92.249.44.199 1 1 14032 20220312180616
+174.198.73.244 3 109 9780846 20220302143238
+174.198.68.103 2 68 8385335 20220301220409
+221.130.37.213 1 1 14032 20220309051621
+72.46.51.199 3 52 13551000 20220302172433
+40.86.82.250 1 24 5020950 20220331151820
+174.198.69.203 2 68 8385335 20220306142007
+74.215.0.159 1 21 8008317 20220320010439
+108.167.49.166 3 96 15381503 20220310180357
+174.198.73.23 8 272 33541340 20220314190446
+69.160.160.61 5 31 7080195 20220309093154
+97.98.208.31 1 41 1395511 20220307164617
+20.113.168.141 1 1 14032 20220329124550
+172.58.192.4 2 29 8536394 20220313223130
+43.255.113.232 1 1 0 20220330152529
+72.46.48.59 11 343 39246696 20220315135334
+174.198.74.85 2 108 9726695 20220312174650
+104.218.66.34 2 68 8385335 20220326170106
+94.247.172.129 2 2 28064 20220326111448
+174.242.225.64 2 69 8391679 20220312142001
+34.213.187.43 1 1 14032 20220322104324
+205.213.108.196 1 27 6989824 20220331181139
+52.154.172.2 1 1 14032 20220311175442
+98.28.234.244 1 1 14032 20220320095526
+167.248.24.217 15 477 61763765 20220326182449
+154.219.166.252 9 9 126288 20220310013922
+35.88.161.112 1 1 14032 20220324044252
+114.122.21.142 0 1 5910 
+154.39.191.42 4 4 56128 20220324075534
+154.6.25.42 1 41 1395511 20220310001748
+128.199.184.35 15 15 210480 20220308124144
+209.50.27.74 3 69 9925561 20220308170749
+154.6.25.167 2 59 2453190 20220314133303
+166.181.83.66 0 17 1042020 
+34.207.198.190 7 7 132467 20220314110504
+104.218.67.14 4 97 16921729 20220307215248
+174.215.2.57 1 81 2736871 20220324173948
+172.121.220.170 7 7 132467 20220320065724
+104.218.66.10 1 24 5020950 20220328012747
+76.84.26.31 5 123 23905209 20220326132138
+107.127.39.32 0 1 21691 
+116.206.228.180 12 12 126288 20220310194822
+18.144.13.122 1 13 389952 20220320125023
+167.248.5.209 1 13 389952 20220327071626
+98.16.213.115 2 29 8536394 20220306083253
+167.248.0.153 0 40 1341360 
+108.92.166.9 2 68 8385335 20220326212537
+92.249.44.196 1 1 14032 20220312180612
+174.198.65.203 0 80 2682720 
+52.41.102.203 1 1 14032 20220317043346
+140.82.165.82 1 41 1395511 20220321150626
+174.198.85.148 4 127 10838525 20220319191844
+180.163.220.68 1 4 972436 20220302133557
+54.190.108.5 1 1 14032 20220319042548
+174.198.135.176 1 41 1395511 20220326195357
+76.85.161.10 1 24 5020950 20220306163642
+107.77.83.55 4 110 15445449 20220328135317
+104.222.162.240 7 7 132467 20220320065726
+73.182.83.151 1 41 1395511 20220329160149
+173.189.84.116 4 57 17066444 20220326160643
+174.198.82.184 0 26 6975792 
+63.246.128.143 1 27 6083878 20220319060750
+198.46.159.142 1 4 257955 20220305115213
+35.194.54.241 1 1 14032 20220325054252
+174.215.246.194 3 109 9780846 20220326141612
+172.58.235.162 0 1 0 
+172.56.13.167 1 41 1395511 20220320165122
+20.231.197.137 1 1 1540226 20220325153547
+216.251.130.74 5 125 34033486 20220328231241
+95.181.216.207 2 2 29691 20220321081155
+104.28.97.16 2 28 8530050 20220322193216
+200.175.104.103 2 2 26676 20220321020754
+47.28.186.199 0 26 6975792 
+66.249.91.23 0 3 1214748 
+167.248.28.92 2 69 8391679 20220303184326
+167.248.70.212 2 108 9726695 20220308163341
+162.210.6.212 2 48 10041900 20220318173149
+188.166.224.241 15 15 210480 20220323102604
+65.29.178.107 0 1 1333617 
+20.104.194.78 8 8 112256 20220326044906
+76.84.124.170 2 68 8385335 20220311194901
+166.70.75.40 2 2 28064 20220309115439
+52.163.83.239 9 9 126288 20220304201900
+174.215.240.73 1 82 2743215 20220312164506
+125.124.198.163 17 17 238544 20220328232259
+167.248.20.142 0 1 6344 
+184.53.16.219 1 1 14032 20220321162342
+104.218.67.3 2 37 5410902 20220327211654
+104.218.66.45 2 65 6416461 20220331134010
+76.84.241.134 2 69 8391679 20220313184432
+167.248.12.94 3 95 15375159 20220324124734
+104.218.70.15 9 281 37465106 20220325174717
+167.248.84.139 1 49 1686787 20220331081714
+34.211.50.166 1 1 14032 20220317043342
+164.119.5.159 5 120 22917820 20220309134943
+167.248.10.5 1 27 6989824 20220325180714
+167.248.0.103 2 69 8391679 20220327221408
+104.218.66.19 4 97 18447923 20220328131751
+104.218.66.139 6 201 24168616 20220328184137
+34.78.228.185 3 3 42096 20220326145215
+24.243.218.103 1 41 1395511 20220317140853
+76.84.139.245 1 28 6996168 20220328145024
+35.88.195.169 1 1 14032 20220315043145
+104.192.108.9 1 8 317928 20220325022934
+107.1.254.7 1 41 1395511 20220325130857
+51.140.68.179 1 1 14032 20220311211444
+35.87.199.184 1 1 14032 20220312031156
+76.84.32.160 1 81 2736871 20220315181745
+174.198.67.199 0 26 6975792 
+35.232.145.46 1 1 0 20220307172515
+97.98.245.117 1 24 5020950 20220317124839
+104.218.66.73 1 24 5020950 20220323144944
+104.28.97.110 1 1 14032 20220319113032
+54.187.243.154 1 1 14032 20220305032211
+92.118.160.57 5 5 70160 20220321021021
+1.192.192.6 1 1 14032 20220328071516
+174.198.78.183 1 27 6989824 20220318211144
+36.99.136.142 2 10 2466684 20220321031511
+167.248.9.226 2 68 8385335 20220322203035
+195.201.85.126 7 7 132467 20220304154751
+144.168.242.73 0 11 5243411 
+38.128.156.213 1 1 14032 20220306031811
+54.201.103.24 1 1 14032 20220301105942
+122.241.3.51 2 2 28064 20220329205826
+174.198.72.114 0 1 168291 
+128.199.13.166 1 1 14032 20220312191231
+51.15.209.146 1 1 14032 20220320070753
+172.225.66.142 3 95 15375159 20220318085118
+174.208.230.41 2 68 8385335 20220319122651
+89.187.164.244 6 6 84192 20220318225011
+52.154.170.113 1 1 14032 20220321211804
+111.77.114.16 1 1 14032 20220307083159
+52.37.87.138 1 1 14032 20220325041634
+217.138.206.115 2 69 8391679 20220319205958
+75.91.60.57 2 54 15505842 20220319202723
+174.198.68.162 1 41 1395511 20220307190343
+72.213.34.7 1 24 5020950 20220323093515
+107.115.147.64 3 110 9787190 20220331183420
+107.77.208.54 2 68 8385335 20220324181021
+92.118.160.9 6 6 84192 20220328130114
+196.196.164.87 2 2 29691 20220309063744
+76.85.152.82 1 44 1478533 20220324093444
+3.250.154.247 1 1 14032 20220304212255
+108.167.6.128 6 201 24168616 20220325231722
+174.198.81.100 2 68 8385335 20220330204047
+173.189.84.103 2 68 8385335 20220318192856
+199.244.57.223 2 2 28064 20220316201331
+69.30.184.100 0 26 6975792 
+172.58.59.186 2 68 8385335 20220311192738
+104.218.66.23 1 8 321537 20220327174417
+107.127.35.26 2 28 8530050 20220327202702
+76.84.99.119 3 78 19179373 20220328201200
+174.198.69.201 1 42 1401855 20220313142930
+117.93.26.149 1 1 14032 20220331003249
+167.248.8.138 2 68 8385335 20220324194657
+162.202.41.9 1 31 7174665 20220322184532
+172.226.66.226 1 41 1395511 20220306141455
+20.124.116.18 3 3 42096 20220320082256
+104.218.65.215 6 137 15179492 20220321203220
+76.84.243.186 6 203 18464508 20220318113719
+64.140.135.115 1 11 936934 20220319060750
+45.132.1.41 2 2 29691 20220301154508
+76.85.153.200 2 68 8385335 20220330171220
+163.116.147.34 1 24 5020950 20220322152333
+49.69.195.226 1 1 14032 20220331003336
+162.210.4.89 5 135 26984956 20220301184758
+97.98.198.143 2 69 8391679 20220305182021
+167.248.30.112 1 24 5020950 20220324182532
+104.218.66.81 2 45 8047503 20220304181901
+192.252.220.35 2 2 29691 20220304164532
+166.181.87.18 2 69 8391679 20220306143231
+34.135.17.127 0 1 940992 
+174.198.75.210 7 191 32290544 20220325181311
+167.248.5.239 4 127 10838525 20220304114900
+76.84.52.42 3 95 15375159 20220328131332
+162.142.125.221 2 2 28064 20220303014619
+3.239.44.168 1 8 134777 20220307095542
+212.103.48.197 1 42 1401855 20220318130436
+74.125.214.83 1 7 80002 20220302140910
+174.198.75.215 2 45 8047503 20220305175844
+44.197.186.97 2 16 268166 20220321122256
+61.147.15.67 4 4 56128 20220302135000
+13.82.59.213 1 1 14032 20220304140017
+216.229.9.112 0 17 1042020 
+104.222.46.141 1 1 0 20220322005730
+40.77.189.83 0 2 221059 
+104.218.67.9 2 68 8385335 20220309191318
+13.67.134.117 1 1 14032 20220304142553
+45.129.18.118 1 1 0 20220331010005
+76.84.112.135 3 70 9931905 20220327131825
+34.216.64.49 1 1 14032 20220309031909
+42.236.10.117 0 10 3889498 
+174.198.74.249 1 17 3697322 20220324164300
+174.210.134.250 4 176 18112030 20220327181433
+76.84.219.251 2 80 20955440 20220324111647
+185.223.30.112 2 2 29691 20220304114723
+132.148.156.30 2 2 28064 20220307101853
+76.84.17.64 8 214 27477105 20220320114137
+18.237.23.148 1 1 14032 20220301033303
+162.250.116.123 24 780 61211170 20220329110326
+76.84.37.95 6 172 24541368 20220316190535
+5.62.57.15 3 3 42096 20220318021310
+106.11.152.48 0 2 76678 
+167.248.78.179 2 68 8385335 20220315171107
+104.218.65.21 7 85 27130376 20220325174900
+173.240.93.245 2 28 8530050 20220329174956
+20.231.196.155 1 3 632458 20220325151928
+172.58.62.159 2 68 8385335 20220313110645
+167.248.8.136 1 24 5020950 20220327181803
+71.28.134.117 2 2 3080452 20220331160133
+78.129.221.84 8 34 7045952 20220331231712
+174.198.73.45 2 68 8385335 20220324181002
+174.198.75.86 1 41 1395511 20220319192206
+42.236.10.125 1 15 5644012 20220328055657
+54.193.50.253 2 2 28064 20220314050033
+209.14.137.113 1 1 14032 20220313163842
+52.165.180.239 14 14 196448 20220308113016
+129.93.205.161 3 69 9925561 20220315190912
+167.248.8.106 7 200 25882196 20220310152029
+204.137.100.5 2 37 7356488 20220315094934
+174.198.79.71 1 27 6989824 20220325210328
+202.47.46.181 2 45 8047503 20220302084001
+76.85.141.49 2 54 13979648 20220308152548
+51.195.34.242 1 27 6989824 20220313071211
+167.248.4.149 4 78 8889195 20220307112402
+40.77.189.137 0 1 95992 
+134.195.73.212 1 6 282113 20220329075421
+76.84.20.57 4 133 20412248 20220328110555
+40.79.38.1 4 4 56128 20220315051326
+172.58.141.54 1 41 1395511 20220327135900
+20.231.228.40 0 2 681999 
+174.215.244.122 5 137 16784702 20220312163637
+34.136.47.98 0 1 342651 
+76.122.84.61 1 24 5020950 20220325123717
+111.193.234.213 1 1 14032 20220325015159
+174.198.73.147 1 25 6965567 20220319195501
+20.98.203.171 10 10 140320 20220321130632
+97.98.224.196 1 27 6989824 20220318105842
+167.248.93.127 1 24 5020950 20220330142356
+34.71.211.109 14 14 196448 20220305144833
+87.247.143.252 2 2 29691 20220306120041
+35.225.159.149 0 1 342651 
+209.163.118.13 1 6 1391422 20220328031510
+1.192.195.8 1 1 14032 20220315104832
+109.239.58.107 1 1 14032 20220313084408
+97.98.243.98 1 27 6989824 20220302180234
+34.221.127.30 1 1 14032 20220320043639
+170.49.113.17 9 238 37603917 20220304094649
+92.255.196.35 1 1 9544 20220331023944
+192.182.103.240 0 4 5334468 
+198.240.90.229 2 2 29691 20220319214543
+172.58.192.40 1 50 11996742 20220305120454
+104.218.65.7 1 28 6996168 20220307161030
+47.42.14.51 3 92 14387770 20220324193849
+104.218.66.175 5 130 12391439 20220320164829
+104.144.240.99 6 6 120062 20220316054331
+70.121.242.122 2 13 554452 20220303182941
+34.132.59.174 0 1 2687536 
+174.215.244.223 1 3 189355 20220312151306
+76.85.176.212 1 27 6989824 20220306152923
+172.58.143.197 0 40 1341360 
+20.25.213.249 6 6 84192 20220319000818
+167.248.116.83 2 55 13985992 20220307201717
+74.51.222.162 9 219 41143809 20220331181848
+204.234.22.241 2 48 10041900 20220315105236
+36.99.136.140 0 24 4763744 
+40.77.190.2 0 1 15514 
+157.55.39.99 1 5 145885 20220308120049
+174.243.112.247 2 28 8530050 20220307212834
+167.248.68.100 4 34 10139641 20220312110154
+64.69.216.78 2 2 28064 20220309154158
+40.83.39.195 3 3 42096 20220330022400
+64.233.172.149 2 12 178557 20220306171230
+40.131.181.227 2 28 8530050 20220305160746
+15.237.143.90 5 5 70160 20220311104133
+104.218.65.27 3 95 15375159 20220326004121
+172.121.216.201 2 2 28064 20220306031816
+5.248.164.127 4 4 59382 20220320194534
+75.91.60.114 2 59 2453190 20220309215538
+40.77.188.23 0 1 21237 
+108.167.1.205 1 69 14446249 20220306192158
+204.137.100.13 0 1 1011070 
+177.170.163.203 1 27 6989824 20220321223421
+190.120.252.208 1 27 6989824 20220328104713
+192.203.98.46 1 24 5020950 20220318123701
+42.236.10.114 1 11 3580886 20220325021139
+205.202.41.33 1 27 6989824 20220315194247
+209.58.149.66 24 24 336768 20220312002249
+174.215.229.77 3 69 13068453 20220327153045
+40.135.14.54 1 53 13965616 20220302174811
+173.189.85.236 2 69 8391679 20220326193534
+20.117.67.142 1 1 14032 20220316041505
+174.215.228.19 2 10 359459 20220301173726
+173.252.87.116 0 1 21691 
+174.198.73.232 4 150 19299893 20220309014208
+31.134.187.83 1 1 14032 20220325073056
+104.218.66.4 5 146 28367418 20220313142105
+52.34.253.52 1 1 14032 20220308135938
+104.143.88.147 1 1 14032 20220324221613
+174.198.137.47 1 1 1540226 20220323090220
+104.40.23.67 1 1 14032 20220322015446
+172.58.83.205 3 46 9587729 20220326171858
+2.56.56.192 2 2 28064 20220327191305
+54.148.218.95 1 1 14032 20220308034036
+116.206.228.179 6 6 42096 20220326220702
+195.123.240.173 1 1 14032 20220315124816
+107.127.39.18 1 42 1395511 20220301184837
+129.176.151.19 1 41 1395511 20220309155926
+66.249.91.21 0 3 3355757 
+18.217.159.140 5 31 7045952 20220323084541
+20.231.228.117 1 2 321441 20220325083743
+162.142.125.210 2 2 28064 20220326085815
+174.198.66.196 2 46 8053847 20220312180443
+5.62.43.104 4 4 59382 20220329085537
+180.126.156.167 1 1 54151 20220331003251
+164.92.86.38 2 2 28064 20220314040415
+104.218.65.164 2 42 1449662 20220327214256
+23.236.233.137 6 6 120062 20220307102134
+104.218.66.3 4 77 15133768 20220316150904
+167.248.80.6 1 24 5020950 20220311190550
+204.137.100.53 0 1 1333617 
+167.248.73.153 2 68 8385335 20220312140640
+167.248.53.236 0 160 5365440 
+107.77.206.58 1 19 4444889 20220319194021
+209.50.19.25 1 41 1395511 20220308174830
+168.91.13.185 1 8 814243 20220328031453
+54.200.36.194 1 1 14032 20220323041954
+51.159.187.80 1 27 6989824 20220301203354
+50.96.6.29 0 1 1333617 
+40.77.189.234 0 1 95992 
+209.107.196.177 1 1 14032 20220321081102
+40.131.152.35 1 27 6989824 20220328085715
+172.58.59.113 0 4 989187 
+173.244.142.83 3 87 9449358 20220304203215
+174.198.74.118 1 27 6989824 20220331194640
+167.248.29.63 3 6 220593 20220324174055
+184.154.139.27 2 10 176833 20220312104955
+174.198.79.79 0 26 6975792 
+167.248.0.24 2 30 7175321 20220325192126
+50.84.48.178 1 1 14032 20220325053802
+184.72.115.35 1 1 54151 20220315085801
+43.130.56.16 3 3 40708 20220311075609
+97.98.130.40 2 68 8385335 20220324010514
+23.229.104.2 2 2 25049 20220303075910
+199.123.1.71 4 117 19760852 20220325105900
+198.37.123.209 5 5 70160 20220315063445
+174.215.244.216 2 68 8385335 20220309194333
+172.58.203.181 4 137 16777014 20220308143430
+76.84.1.20 2 68 8385335 20220311192006
+219.133.249.14 1 36 10870228 20220326030831
+212.192.246.86 1 1 14032 20220322084346
+193.169.255.130 2 2 28064 20220319223714
+174.235.209.252 0 2 37154 
+34.219.83.13 1 1 14032 20220305032231
+204.234.247.205 1 24 5020950 20220316112731
+40.131.173.170 1 41 1395511 20220323190035
+122.53.147.2 1 1 14032 20220304050534
+173.252.107.19 0 1 21691 
+76.84.21.225 1 24 5020950 20220330110644
+107.23.35.148 1 1 14032 20220312144938
+173.208.131.98 0 1 18577 
+35.192.207.153 1 1 15659 20220319173613
+174.198.65.204 2 69 8391679 20220330210938
+54.218.65.233 1 1 54151 20220319205708
+116.255.248.99 2 2 28064 20220320223154
+174.215.249.77 4 110 10791057 20220316203223
+111.7.100.25 1 3 38205 20220321031507
+107.77.207.81 0 17 1042020 
+75.91.202.96 1 13 389952 20220306100420
+64.69.216.67 1 1 14032 20220319183159
+174.198.76.97 0 1 404916 
+40.77.190.148 0 1 23890 
+107.178.194.53 1 4 54972 20220313060742
+172.58.173.12 2 26 779904 20220325155452
+174.198.68.34 2 68 8385335 20220304164319
+119.29.168.209 1 1 14032 20220313222632
+174.215.242.168 3 3 42096 20220331002655
+207.46.13.213 0 1 3585 
+76.84.209.175 8 233 39342970 20220306182009
+107.77.83.30 3 61 14264369 20220325194842
+160.178.77.102 1 1 14032 20220329201524
+35.226.130.222 0 9 1830697 
+98.23.130.51 2 59 2453190 20220313122825
+167.248.21.230 1 27 6989824 20220314200746
+174.215.247.159 1 1 14032 20220321092822
+40.77.190.29 0 1 5465 
+46.183.220.236 2 2 29691 20220324220432
+108.167.6.44 5 177 12470234 20220326122039
+54.203.189.149 1 1 14032 20220302033712
+20.22.202.85 2 2 28064 20220310111620
+35.85.49.40 1 1 14032 20220311133250
+104.218.65.170 3 103 14615807 20220325130151
+104.165.105.153 1 1 14032 20220322005742
+66.249.91.19 0 2 1738533 
+206.204.32.9 2 2 28064 20220326210122
+64.225.25.212 7 7 1658661 20220324175136
+54.245.187.119 1 1 14032 20220331042216
+107.152.140.116 2 2 29691 20220331072339
+172.56.21.71 0 13 2964275 
+176.100.8.204 1 1 14032 20220311022332
+172.58.63.142 1 32 1220533 20220313131323
+40.77.188.182 0 1 52768 
+104.218.67.136 3 55 17046068 20220319224029
+76.84.142.1 2 65 7397946 20220310210817
+164.119.5.18 1 24 5020950 20220311125908
+74.125.214.85 0 6 253150 
+147.182.164.95 1 1 14032 20220316170421
+167.248.31.231 2 68 8385335 20220306184702
+199.48.10.80 0 2 404916 
+173.190.220.22 10 315 41227872 20220321173106
+174.209.204.41 1 81 2736871 20220309174628
+54.212.102.45 1 1 14032 20220313042830
+167.94.138.63 2 2 28064 20220325110210
+174.198.65.54 1 23 6652817 20220306171230
+174.215.226.136 1 31 8941410 20220323143706
+174.255.7.185 5 54 16083728 20220326105113
+104.218.65.13 7 60 14056152 20220309201927
+34.90.133.108 1 1 14032 20220301100050
+35.88.233.147 1 1 14032 20220306032425
+35.87.0.172 1 1 14032 20220328042934
+34.215.86.180 1 1 14032 20220327045531
+107.115.239.136 1 27 6989824 20220312205658
+1.14.17.89 2 2 28064 20220326165902
+221.130.37.141 3 3 42096 20220322110608
+192.245.1.4 1 41 1395511 20220308203405
+76.84.206.110 1 30 1319518 20220310214720
+34.72.201.218 9 9 126288 20220304222407
+180.163.220.67 0 19 5094082 
+98.18.229.56 1 28 6996168 20220308204550
+76.84.35.175 2 3 196355 20220301183502
+172.58.63.90 1 42 1401855 20220323093328
+54.186.213.178 1 1 14032 20220307032340
+37.235.48.83 2 2 29691 20220316055316
+64.140.134.92 1 1 1540226 20220319060750
+40.131.155.0 0 40 1341360 
+34.68.86.167 0 1 2687536 
+107.19.24.134 2 28 8530050 20220302135032
+24.228.158.54 1 41 1395511 20220318142544
+8.218.53.140 1 1 14032 20220321230716
+104.218.66.129 1 28 6996168 20220321145450
+174.198.73.86 0 130 34550283 
+173.231.60.196 6 6 118435 20220323072649
+102.165.48.50 1 1 14032 20220316205200
+76.84.21.206 2 60 2621481 20220317200608
+167.248.11.225 2 68 8385335 20220305132034
+166.181.86.50 3 92 14387770 20220318221143
+174.198.65.59 1 27 6989824 20220320183401
+36.99.136.130 1 8 1112301 20220321031446
+167.248.113.190 7 254 26084863 20220304132046
+13.69.129.194 9 9 126288 20220309022910
+20.63.222.45 9 9 126288 20220324154434
+52.89.114.110 1 1 14032 20220322042939
+34.212.180.53 1 1 14032 20220318043359
+34.134.74.79 0 1 1011070 
+162.127.52.2 5 145 21675921 20220328151135
+40.77.190.7 0 1 15514 
+104.218.66.192 2 28 8530050 20220319122645
+114.119.128.27 1 1 14032 20220309103131
+174.198.70.206 3 109 9780846 20220320201156
+40.131.175.245 2 82 2791022 20220325184043
+98.16.215.141 3 55 15519874 20220309201356
+49.12.126.16 1 1 14032 20220328123430
+107.189.28.253 1 1 0 20220324160628
+172.58.143.154 1 27 6989824 20220327135842
+108.167.58.15 3 109 9780846 20220326145016
+167.248.86.30 3 71 8574690 20220327145053
+167.248.94.65 1 41 1395511 20220315030232
+40.77.190.71 0 1 23910 
+167.248.18.58 3 109 9780846 20220322171251
+72.46.48.32 2 51 5997159 20220310215042
+174.198.68.224 6 147 29907644 20220316175418
+117.15.125.103 3 3 42096 20220310011915
+3.145.206.252 8 56 1614548 20220316093103
+65.21.206.42 1 1 14032 20220328012545
+40.131.149.97 5 126 29016975 20220310211700
+104.218.66.173 4 199 24060314 20220305151611
+184.154.76.23 2 12 156135 20220308104858
+213.152.187.200 3 3 42096 20220314172441
+122.241.115.9 1 1 14032 20220306204037
+194.187.171.143 1 1 14032 20220330122212
+174.242.225.48 1 46 12645766 20220309180720
+172.58.192.108 1 27 6989824 20220303170813
+24.194.149.99 1 42 1401855 20220311100510
+157.245.52.229 3 3 42096 20220301180638
+153.127.38.32 1 1 0 20220316171455
+172.58.99.164 3 110 9787190 20220318141050
+108.167.2.4 2 68 8385335 20220325175853
+40.77.139.42 0 1 21237 
+167.248.54.2 1 27 6989824 20220321172953
+104.218.65.139 4 96 16915385 20220307003812
+76.85.168.215 7 236 43794656 20220310162552
+72.46.51.135 4 96 16915385 20220310171932
+174.215.244.134 1 41 1395511 20220315135046
+155.94.254.5 2 2 28064 20220323093721
+50.225.253.5 3 132 17215205 20220308152219
+104.218.66.41 11 229 55958875 20220330223350
+151.55.220.144 1 1 14032 20220330152337
+34.70.207.213 0 1 404916 
+40.77.188.125 0 1 5465 
+98.227.94.132 1 41 1395511 20220326172411
+104.218.65.23 9 175 18186140 20220313174615
+97.98.196.253 4 87 10983240 20220308171604
+50.96.216.19 17 463 58430128 20220331230109
+75.91.246.82 4 96 16915385 20220323160938
+76.84.114.118 2 108 9726695 20220328181200
+64.246.165.210 1 1 14032 20220315053252
+167.172.66.112 3 3 42096 20220324155156
+34.123.238.5 3 3 40708 20220316081642
+72.46.49.250 18 589 76137191 20220330135549
+152.39.242.104 2 2 28064 20220330212209
+194.127.167.120 1 1 14032 20220301123700
+104.28.57.91 1 36 1344611 20220301141632
+46.246.122.40 1 1 14032 20220310010146
+34.222.127.23 1 28 6996168 20220322005733
+174.198.81.177 1 27 6989824 20220308112841
+76.84.136.51 5 99 18882675 20220319192827
+47.28.185.232 2 68 8385335 20220331183449
+104.218.65.144 1 24 5020950 20220326154953
+204.9.73.209 3 3 40708 20220325072407
+108.167.2.31 9 324 33965601 20220320172523
+40.88.130.55 3 3 42096 20220305094430
+37.229.199.38 2 2 29691 20220324163547
+173.244.130.174 5 57 18600326 20220331135505
+76.84.53.74 2 68 8385335 20220311132202
+209.50.5.211 1 41 1395511 20220325164726
+221.130.37.205 2 2 28064 20220322111905
+20.106.121.160 2 2 29691 20220315103512
+174.198.79.13 2 28 8530050 20220320220752
+143.198.121.164 6 6 84192 20220324110237
+34.212.20.217 1 1 14032 20220310032612
+54.176.22.97 12 12 118435 20220320125038
+47.241.17.164 1 1 14032 20220309213548
+40.83.239.12 1 1 14032 20220311102146
+114.119.128.202 2 2 28064 20220308084207
+165.161.16.217 0 1 1333617 
+42.83.147.34 5 5 70160 20220329081357
+40.77.190.213 0 6 303725 
+167.248.28.30 4 104 10500693 20220304234608
+174.198.71.111 2 55 13985992 20220303181354
+167.248.45.248 1 27 6989824 20220313191927
+52.25.71.61 1 1 14032 20220318043356
+167.248.10.9 3 86 9443014 20220330182021
+172.58.192.99 1 27 6989824 20220330130535
+173.252.107.26 0 1 21691 
+174.215.245.179 1 18 4102238 20220314123747
+159.122.157.29 1 18 1057679 20220331173042
+71.248.188.49 3 3 42096 20220311215558
+64.233.172.147 1 16 497241 20220306171230
+103.103.70.187 4 4 56128 20220323225413
+174.215.227.217 1 41 1395511 20220331174441
+76.84.117.10 1 41 1395511 20220302123536
+34.78.36.141 1 1 14032 20220303180730
+174.215.228.33 3 110 9787190 20220319223724
+136.226.55.14 0 1 8785 
+174.243.114.249 0 3 19032 
+204.137.100.15 0 1 1333617 
+64.233.172.151 1 10 642520 20220304112953
+91.242.162.78 1 1 14032 20220326002001
+167.160.52.196 3 3 42096 20220320203059
+73.25.101.173 6 198 30754949 20220314204848
+174.215.240.38 3 38 8896714 20220319233658
+97.98.167.219 3 88 8884493 20220315212939
+76.84.124.83 2 82 2791022 20220301165455
+8.41.25.2 1 24 5020950 20220330110049
+104.218.67.17 2 68 8385335 20220303204158
+76.79.33.36 3 92 13406285 20220304132139
+174.198.68.226 1 28 6996168 20220328204541
+107.77.226.34 1 24 5020950 20220322164723
+172.121.220.220 7 7 132467 20220320065725
+76.84.19.112 2 69 8391679 20220315070553
+40.131.148.145 1 81 2736871 20220329195008
+174.198.82.39 6 138 19851122 20220330173212
+3.239.104.57 3 3 42096 20220310014009
+111.7.100.23 5 11 480559 20220321031513
+166.181.83.133 0 40 1341360 
+194.110.84.80 1 1 14032 20220316183001
+76.84.117.99 3 95 15375159 20220309140225
+104.218.66.78 5 160 22773105 20220303222944
+166.182.86.6 4 190 12517717 20220326131554
+76.84.26.209 0 2 2022140 
+78.138.50.237 1 1 14032 20220324205231
+194.76.139.92 1 1 14032 20220309203411
+54.84.163.71 1 1 14032 20220310004606
+104.218.66.6 5 191 12571868 20220330174705
+20.127.91.64 1 2 334345 20220325134937
+98.19.49.130 1 24 5020950 20220304163928
+105.155.79.57 4 4 56128 20220318110820
+104.218.66.22 1 53 13965616 20220308024553
+35.160.35.96 1 1 14032 20220326044647
+167.248.1.142 2 68 8385335 20220326212055
+188.166.215.179 6 6 84192 20220318005856
+40.77.189.167 0 1 52768 
+40.77.190.236 0 1 23910 
+18.234.160.217 2 16 268166 20220314135547
+194.36.98.45 2 2 29691 20220307092443
+174.215.243.251 2 83 2797366 20220325174038
+5.9.143.215 1 1 14032 20220318150713
+174.215.244.40 2 69 8391679 20220312183623
+194.233.68.252 1 1 14032 20220305005447
+104.218.66.15 4 182 12578790 20220324154023
+167.172.73.91 2 2 28064 20220330190910
+42.194.145.117 1 1 14032 20220314014907
+174.198.82.150 4 4 56128 20220302141637
+72.55.136.154 1 1 14032 20220319041228
+3.128.198.27 1 1 14032 20220331145232
+174.213.160.182 1 16 2756330 20220320204430
+50.96.6.217 2 83 2797366 20220311173643
+104.218.65.32 1 9 359632 20220329202009
+108.167.0.92 5 177 18166181 20220320144648
+167.248.24.74 1 27 6989824 20220301182243
+76.84.37.7 3 95 15375159 20220306215322
+78.129.237.56 7 33 7031920 20220307011050
+97.98.202.199 2 69 8391679 20220328184957
+173.244.141.242 3 92 13406285 20220324084938
+174.215.229.228 1 41 1395511 20220322175738
+185.203.185.21 1 1 14032 20220326070148
+45.132.227.194 2 59 2453190 20220306190920
+172.58.61.172 1 11 372129 20220319150441
+174.198.68.36 6 209 35854452 20220319201033
+174.215.226.255 7 303 35028549 20220315174218
+92.118.160.5 4 4 56128 20220322003922
+172.58.173.194 0 1 1333617 
+34.220.58.42 1 1 14032 20220331042941
+147.0.120.62 2 76 3495210 20220311081832
+167.248.12.108 5 71 13006013 20220301231310
+174.213.161.162 1 27 6989824 20220327181113
+104.51.59.98 6 91 9539544 20220303194622
+174.243.112.26 3 110 21376833 20220326134839
+75.87.175.101 1 24 5020950 20220324163841
+143.0.34.157 1 27 6989824 20220301074723
+71.28.18.197 2 68 8385335 20220304113012
+174.131.244.56 1 27 6989824 20220321181007
+40.77.188.91 0 2 39404 
+74.51.134.56 2 68 8385335 20220331161617
+24.106.13.218 4 123 23229611 20220302121512
+180.163.220.4 1 12 4778442 20220327090834
+174.198.75.236 2 28 8530050 20220305194535
+50.112.50.35 1 1 14032 20220315043100
+31.170.22.27 1 1 14032 20220309053650
+209.50.17.228 5 191 12571868 20220304233730
+75.75.105.2 1 52 5468827 20220323183522
+39.106.98.188 2 2 28064 20220318030803
+139.180.224.59 0 2 52330 
+34.211.146.36 1 1 14032 20220326044649
+72.46.50.173 2 28 8530050 20220327141246
+186.249.152.81 1 1 14032 20220330195607
+162.219.193.230 1 1 14032 20220307073733
+23.229.113.138 2 2 25049 20220330175032
+98.22.95.148 2 68 8385335 20220327182910
+174.198.77.249 1 41 1395511 20220307234244
+36.99.136.132 1 9 1763859 20220321031439
+5.248.239.92 1 1 14032 20220330110009
+76.84.20.234 2 68 8385335 20220327120132
+34.213.226.110 1 1 14032 20220302033804
+104.218.65.0 7 203 32290544 20220320233246
+18.210.122.49 1 1 14032 20220331202615
+174.198.71.37 5 131 11043394 20220316200126
+167.248.44.245 1 1 14032 20220318225350
+174.215.245.155 2 68 8385335 20220315160316
+174.209.39.65 2 108 9726695 20220331131452
+209.163.181.85 3 109 9780846 20220309131637
+185.181.60.12 1 1 14032 20220322113904
+174.198.67.116 3 93 14394114 20220318184953
+40.131.184.142 12 374 30659039 20220310190752
+5.180.97.2 4 4 56128 20220310101538
+104.218.65.75 2 68 8385335 20220305190326
+174.198.64.101 2 36 8861445 20220319132829
+34.221.104.177 1 1 14032 20220312031130
+199.48.10.66 11 306 34869775 20220311112451
+75.91.62.154 1 55 13978304 20220329084851
+172.225.19.229 1 27 6989824 20220318195211
+104.218.67.40 1 24 5020950 20220314192242
+20.121.120.254 3 3 42096 20220326055424
+62.212.89.186 1 1 14032 20220302142619
+68.13.4.107 2 28 8530050 20220301104935
+208.77.208.66 1 41 1395511 20220322142933
+40.77.189.159 0 1 3174 
+193.186.4.43 1 1 14032 20220313201532
+167.248.95.68 4 56 17060100 20220315100724
+72.15.169.107 2 68 8385335 20220327195132
+64.233.172.85 0 1 18577 
+174.198.64.2 1 27 6989824 20220320190807
+72.46.48.104 2 54 13979648 20220313211726
+107.77.111.59 1 1 14032 20220306171326
+54.71.73.185 1 1 14032 20220320043643
+209.50.13.41 1 24 5020950 20220303181218
+216.131.116.201 1 1 14032 20220326072229
+173.231.60.195 6 6 118435 20220323072801
+92.205.59.185 1 1 14032 20220315070209
+107.178.194.51 0 1 36816 
+76.84.208.30 2 29 8536394 20220319112900
+45.132.1.154 2 2 29691 20220305205834
+40.132.57.180 3 92 13406285 20220318133014
+35.160.126.60 1 1 14032 20220311031425
+146.148.58.158 1 1 14032 20220319173613
+209.34.203.66 3 92 9783115 20220310160603
+107.203.210.47 1 1 1540226 20220313143054
+209.127.17.160 2 2 29691 20220312110907
+54.213.41.32 1 1 14032 20220329040545
+106.52.90.78 1 1 14032 20220309031536
+193.186.4.32 1 1 14032 20220315185244
+192.94.109.1 2 68 8385335 20220318102243
+167.248.27.166 3 41 7564596 20220319172155
+106.11.158.49 0 3 178497 
+174.215.248.60 3 55 8549084 20220305182417
+209.50.11.243 7 174 21179481 20220328134247
+174.243.112.64 1 28 6996168 20220302193023
+174.198.70.102 1 27 6989824 20220324190052
+185.85.163.242 2 2 29691 20220304022843
+216.131.121.34 1 1 14032 20220305091803
+174.212.166.182 1 27 6989824 20220315213916
+107.77.87.50 1 27 6989824 20220326220756
+111.7.100.27 2 7 1856796 20220321031516
+40.77.188.73 0 4 93708 
+98.18.228.158 1 42 1401855 20220317220229
+23.229.30.113 6 6 120062 20220303085856
+194.190.90.64 1 1 14032 20220310152903
+42.236.10.106 0 21 3211097 
+209.50.12.20 4 144 16011318 20220303122431
+93.158.90.67 1 1 14032 20220314064441
+167.248.90.110 0 1 168291 
+107.77.161.45 1 13 389952 20220316212605
+76.84.136.138 2 59 2453190 20220303221618
+96.63.177.129 2 69 8391679 20220308174020
+184.154.76.14 2 11 87726 20220306104722
+168.151.136.105 4 4 56128 20220326210125
+196.242.115.136 4 4 59382 20220306174025
+174.243.112.110 0 2 12688 
+204.137.100.12 4 96 16915385 20220328095056
+174.198.73.142 1 27 6989824 20220315202732
+103.39.223.208 3 3 42096 20220313233632
+76.84.139.27 5 162 17068997 20220312172155
+20.25.53.6 0 2 681754 
+34.76.153.197 1 1 14032 20220312214750
+76.85.185.83 2 82 2791022 20220326141811
+41.60.10.31 3 3 45350 20220329172539
+222.247.106.63 1 13 389952 20220317113352
+18.218.172.34 1 1 54151 20220327010019
+74.51.222.99 3 86 12227631 20220319093230
+172.58.143.178 2 28 8530050 20220317125110
+172.58.141.136 0 9 174978 
+134.96.225.236 2 2 28064 20220328005827
+204.137.100.6 4 144 19025565 20220302113902
+54.186.141.43 1 1 14032 20220311132213
+78.24.220.1 3 3 14032 20220307064234
+104.218.67.18 8 219 25691608 20220327184315
+174.215.244.27 1 7 284721 20220302184203
+107.178.232.185 1 8 134777 20220303221933
+35.80.32.158 1 27 6989824 20220316165950
+166.181.80.196 3 75 7889045 20220312115151
+45.95.39.134 2 2 29691 20220313120608
+44.197.245.25 2 16 268166 20220328100709
+142.93.199.104 6 6 84192 20220324195937
+174.198.71.80 1 23 6420107 20220315145307
+54.151.8.253 0 3 19032 
+174.243.114.144 4 4 56128 20220318161351
+172.58.56.211 12 12 168384 20220329134731
+204.137.100.17 0 1 1333617 
+156.146.50.144 1 1 14032 20220326004736
+167.248.127.5 2 28 7003856 20220326210648
+174.198.67.238 1 27 6989824 20220322085122
+47.243.129.38 1 1 14032 20220322060506
+103.153.68.244 1 1 0 20220322044610
+20.117.103.124 2 2 28064 20220330163107
+97.98.225.152 0 40 1341360 
+174.198.67.173 1 27 6989824 20220321141928
+178.128.144.195 1 1 14032 20220301162622
+144.168.227.116 2 2 29691 20220326221221
+35.187.132.214 4 4 216604 20220331104635
+75.138.210.105 3 84 8461969 20220312215214
+68.234.170.28 2 28 8530050 20220329003428
+185.147.214.117 1 1 14032 20220309083642
+198.244.181.230 1 1 14032 20220303124245
+204.26.80.211 3 99 18950983 20220324130201
+23.254.59.11 6 6 120062 20220307082531
+76.84.108.231 1 27 6989824 20220310230352
+159.223.32.42 6 6 84192 20220307010848
+172.121.216.142 1 1 14032 20220306031811
+110.159.103.205 5 5 70160 20220317033924
+76.84.135.63 3 117 10072122 20220315182434
+167.172.69.62 4 4 56128 20220323072852
+40.77.188.229 0 4 139605 
+108.62.177.110 1 1 14032 20220323063141
+172.58.59.223 3 95 15375159 20220330185541
+148.66.14.10 3 3 42096 20220324195226
+47.28.182.151 3 44 9098499 20220331094539
+167.248.102.231 2 29 7172147 20220322195039
+104.218.65.88 2 28 8530050 20220315162215
+51.158.123.153 1 1 14032 20220303034653
+104.28.97.87 2 29 7172147 20220312193459
+173.252.111.5 0 1 21691 
+40.77.139.119 0 1 5465 
+75.115.136.37 1 41 1395511 20220305164906
+104.218.65.41 1 28 6996168 20220303182027
+174.198.76.159 4 100 27220870 20220311193353
+174.198.78.145 2 5 1753491 20220309181335
+104.218.65.20 2 68 8385335 20220316212025
+180.163.220.5 0 7 2269784 
+167.248.36.20 1 26 6968133 20220318190317
+174.242.226.11 0 29 183976 
+198.47.241.126 1 35 15671790 20220311141543
+166.137.83.19 3 100 3848701 20220324183038
+70.184.196.109 1 24 5020950 20220304111416
+54.88.30.161 1 1 14032 20220305025637
+104.28.57.90 0 2 21270 
+38.15.195.146 2 54 13979648 20220325164440
+174.198.77.69 3 42 8941693 20220313120352
+174.215.244.255 4 133 15783281 20220310183124
+213.239.193.124 1 1 14032 20220313131944
+174.198.75.67 1 41 1395511 20220303153145
+174.215.247.227 0 22 6638785 
+37.46.121.241 2 2 29691 20220329172639
+104.218.65.36 1 2 182323 20220306193039
+167.248.6.243 2 68 8385335 20220303171130
+167.248.65.193 2 82 2791022 20220301171911
+174.215.240.4 1 41 1395511 20220309120526
+91.92.23.37 3 3 42096 20220314200512
+174.215.246.30 1 21 6411197 20220312215903
+167.71.216.229 9 9 126288 20220327184249
+192.226.159.164 3 86 9443014 20220325121303
+104.218.65.222 4 127 20618242 20220302122354
+35.89.57.106 1 1 14032 20220303033716
+23.236.238.145 6 6 120062 20220308104237
+184.154.139.46 4 24 338944 20220309104859
+91.121.218.77 1 1 1540226 20220322072503
+167.248.3.141 0 21 455876 
+92.118.160.1 3 3 42096 20220319145058
+34.77.190.237 1 1 14032 20220322035346
+209.99.148.149 1 17 6715208 20220324100157
+209.126.82.150 1 1 14032 20220303194741
+108.167.3.237 2 82 2791022 20220306174139
+54.202.62.49 1 1 14032 20220313042835
+68.190.101.206 1 41 1395511 20220312212719
+104.218.66.31 5 122 25585054 20220308181443
+149.19.255.211 3 3 42096 20220322204222
+111.7.100.20 2 10 1414883 20220321031506
+98.168.195.15 2 54 15505842 20220326172652
+104.42.101.143 1 1 14032 20220302232529
+167.248.2.38 2 108 9726695 20220310130354
+174.215.228.129 1 27 6989824 20220326202555
+83.136.82.89 1 1 14032 20220326064947
+47.243.187.15 1 1 14032 20220321232631
+76.84.44.251 1 20 6068546 20220315091028
+40.131.179.189 3 70 8567658 20220314133837
+174.198.79.237 1 25 6008779 20220330145303
+174.198.71.124 1 20 5666196 20220326181031
+37.30.40.253 1 1 14032 20220301221116
+174.215.246.150 1 26 6987258 20220317111928
+184.64.35.148 0 5 5700444 
+35.89.19.154 1 1 14032 20220303033721
+35.226.101.222 1 1 9544 20220319173613
+35.133.99.228 1 24 5020950 20220330041331
+174.198.83.73 0 26 6975792 
+68.134.6.191 1 27 6989824 20220301161223
+98.18.229.87 3 86 9443014 20220317171345
+128.84.126.244 1 41 1395511 20220311184754
+191.96.150.243 1 1 14032 20220331094730
+104.218.65.25 1 27 6989824 20220319164050
+172.58.193.1 2 68 8385335 20220308225825
+123.174.201.169 2 2 28064 20220331210514
+76.84.127.135 1 27 6989824 20220330174355
+112.47.58.175 12 12 168384 20220330050939
+8.225.96.43 1 1 14032 20220309095557
+154.6.20.202 2 68 8385335 20220309231252
+172.121.220.145 7 7 132467 20220320065725
+37.123.115.236 1 1 1540226 20220322042240
+174.198.70.203 2 2 28064 20220312233032
+34.136.247.161 0 1 1011070 
+181.215.199.98 1 1 11017 20220309095557
+143.231.249.139 1 24 5020950 20220321182211
+23.236.217.172 6 6 120062 20220308120900
+20.110.233.255 1 1 14032 20220301002921
+44.198.170.83 2 16 268166 20220307184132
+107.77.85.50 2 68 8385335 20220330141458
+24.243.199.204 2 68 8385335 20220306150934
+52.249.177.5 15 15 210480 20220331030850
+174.215.245.165 0 40 1341360 
+89.187.171.158 1 41 1395511 20220329193823
+167.248.56.94 1 24 5020950 20220329100626
+174.213.144.190 2 69 8391679 20220330203957
+52.138.80.45 11 11 154352 20220314005356
+172.121.222.103 1 1 14032 20220306031811
+209.50.17.59 4 96 16915385 20220305205150
+65.154.226.170 1 27 6989824 20220328111748
+172.121.220.255 2 2 28064 20220306031816
+52.25.221.126 1 1 14032 20220316041910
+40.77.189.126 0 1 3174 
+204.137.100.20 0 1 1333617 
+209.99.148.123 1 1 1540226 20220319060752
+76.73.218.154 0 1 1333617 
+174.215.242.190 3 87 14048965 20220327185015
+174.215.224.62 1 1 1540226 20220329160352
+174.215.244.124 0 17 1042020 
+107.126.28.11 1 27 6989824 20220301175253
+167.248.16.90 4 4 56128 20220309202615
+108.167.1.47 0 17 4708606 
+108.167.7.117 2 68 8385335 20220324233358
+24.51.43.72 1 2 182323 20220312161830
+23.83.131.118 1 1 14032 20220316094752
+104.223.69.220 2 2 29691 20220325200322
+107.77.210.51 1 41 1395511 20220316204102
+216.166.174.79 2 63 13226640 20220302112554
+76.84.139.38 1 53 1755781 20220319191115
+185.28.180.199 2 2 29691 20220315044408
+46.101.164.72 1 1 14032 20220313071630
+202.168.86.135 1 1 14032 20220314151903
+174.255.5.189 1 27 6989824 20220313170110
+72.46.51.182 5 146 24553865 20220307222128
+76.84.241.187 3 95 16901353 20220319123233
+174.215.227.193 1 1 1540226 20220309180620
+209.251.16.21 0 8 585108 
+174.255.1.142 1 20 4508674 20220302170411
+52.42.208.189 1 1 14032 20220308033624
+216.83.55.14 2 2 14032 20220310121659
+20.231.88.255 10 10 140320 20220324164938
+172.58.136.70 6 33 7066328 20220311134941
+97.98.129.118 1 27 6989824 20220308221145
+174.198.79.131 0 40 1341360 
+174.198.64.175 2 68 8385335 20220316181709
+69.76.203.11 0 1 1333617 
+34.132.232.252 0 1 1333617 
+69.30.188.251 1 41 1395511 20220327190725
+174.198.66.171 3 53 14538829 20220319115801
+185.181.60.189 1 1 14032 20220308113939
+174.215.249.70 2 30 8542738 20220315122448
+38.128.156.49 2 2 28064 20220306031816
+2.56.59.200 2 2 28064 20220326190906
+174.235.209.81 1 41 1395511 20220324044714
+216.151.183.64 1 1 14032 20220317061004
+3.11.9.51 1 1 0 20220309200209
+72.46.57.203 3 129 17069365 20220312103759
+71.28.19.43 2 51 12010774 20220314181609
+174.198.77.30 2 68 8385335 20220320120953
+174.255.1.102 2 45 8047503 20220313172257
+20.25.47.13 1 1 9544 20220325134715
+136.179.21.68 1 42 1401855 20220324115631
+149.56.150.156 8 8 146499 20220313094831
+104.218.65.63 9 147 30046968 20220326215221
+104.218.65.19 1 13 389952 20220325182144
+3.239.254.201 1 8 134777 20220314034317
+69.247.247.69 1 41 1395511 20220309160416
+18.236.8.168 1 1 14032 20220316112731
+75.117.107.81 1 41 1395511 20220325200111
+167.248.65.58 0 52 13951584 
+66.119.110.145 1 1 14032 20220322155827
+76.84.113.226 0 8 331395 
+204.9.73.220 1 1 14032 20220323134118
+68.13.136.17 2 68 8385335 20220315135538
+46.161.11.144 3 3 43723 20220315054416
+108.167.3.35 2 68 8385335 20220301225454
+76.85.169.46 1 28 6996168 20220304200150
+174.198.79.245 1 27 6989824 20220308223941
+167.248.63.77 2 54 13979648 20220322193505
+51.79.190.93 1 1 0 20220309121242
+212.156.131.82 1 1 14032 20220307072322
+40.77.189.106 0 1 52768 
+42.236.10.78 2 33 4787299 20220308162928
+172.121.219.233 1 1 14032 20220320065716
+172.56.21.130 1 1 1540226 20220305113908
+76.84.101.70 2 28 8530050 20220301194114
+174.198.77.132 2 68 8385335 20220312183905
+167.248.25.88 5 134 17323507 20220314203643
+209.50.0.190 5 169 12240380 20220305202142
+70.121.242.4 1 1 14032 20220321120446
+174.198.66.90 5 123 22419134 20220303122221
+167.248.23.253 18 602 87666513 20220324181057
+40.77.190.239 0 1 5465 
+94.140.8.96 1 27 6989824 20220310012326
+92.118.160.61 6 6 84192 20220326045155
+47.28.180.82 1 27 6989824 20220330173605
+97.98.137.103 2 82 2791022 20220309173325
+174.215.248.232 2 68 8385335 20220319115049
+74.51.211.46 1 27 6989824 20220327014705
+54.149.207.148 1 1 14032 20220328043201
+76.84.52.41 1 27 6989824 20220322133445
+174.198.140.98 1 21 486117 20220312170446
+113.24.59.203 7 7 98224 20220328181024
+173.69.211.121 0 2 2667234 
+167.248.29.172 2 68 8385335 20220307190118
+35.185.18.140 1 8 134777 20220313152039
+174.199.35.186 1 8 292659 20220326112426
+174.213.160.43 1 22 4869645 20220305141614
+173.198.134.98 1 13 389952 20220313184517
+172.56.12.83 1 3 57880 20220330134012
+202.128.25.18 0 1 18577 
+40.77.188.15 0 3 79470 
+174.215.246.202 0 40 1341360 
+178.158.65.110 1 1 14032 20220326004900
+188.94.84.69 3 3 42096 20220322204218
+174.198.70.149 1 25 6965567 20220323130250
+52.33.21.221 1 1 14032 20220302033815
+54.189.12.30 13 13 243399 20220329195204
+69.12.31.10 1 24 5020950 20220328122048
+167.248.36.138 3 80 22473975 20220327152623
+38.128.156.224 1 1 14032 20220306031814
+76.84.230.14 1 41 1395511 20220312172050
+35.133.102.121 2 28 8530050 20220305195921
+40.77.139.30 0 6 214866 
+5.161.86.143 1 1 14032 20220307162507
+76.85.184.49 4 137 16777014 20220319174417
+36.99.136.139 1 11 500494 20220321031524
+167.248.16.51 1 1 1540226 20220331083937
+104.222.46.34 2 2 28064 20220306031816
+72.196.28.99 0 18 5649598 
+66.146.248.31 1 42 1401855 20220306185314
+204.137.100.2 0 2 2344687 
+120.77.62.147 1 1 14032 20220329183901
+37.115.218.62 2 2 29691 20220319151142
+172.58.193.186 1 1 14032 20220305122539
+24.183.238.56 1 41 1395511 20220311051734
+92.205.62.99 6 6 84192 20220326072016
+24.243.193.222 3 55 15519874 20220327115420
+76.79.33.10 6 138 16838853 20220311132054
+97.119.201.62 11 261 52005085 20220331194621
+167.248.65.237 1 1 1540226 20220312133753
+72.46.48.119 1 27 6989824 20220319144957
+107.77.206.5 1 41 1395511 20220315164403
+40.131.171.228 0 24 6951535 
+24.246.203.40 2 69 8391679 20220306112741
+172.69.39.11 1 1 14032 20220309144444
+167.248.10.189 2 73 13462325 20220322155651
+76.79.56.146 1 1 54151 20220319110909
+103.152.212.222 0 1 6755 
+167.248.29.216 1 1 14032 20220303210259
+108.167.1.49 3 91 9680623 20220308182206
+192.132.7.13 2 54 15505842 20220319150906
+104.222.162.134 1 1 14032 20220320065717
+167.248.83.92 1 41 1395511 20220326125142
+107.77.196.13 1 19 5663630 20220323205757
+45.5.65.209 1 1 0 20220322005730
+204.96.180.103 2 67 15583957 20220323171152
+138.128.38.35 2 2 29691 20220312141358
+54.209.60.63 1 1 54151 20220313042455
+69.80.112.154 3 92 14387770 20220308215414
+76.84.46.184 1 27 6989824 20220325184011
+167.248.1.3 1 27 6989824 20220313144344
+20.112.125.110 1 1 14032 20220324123741
+104.28.104.88 1 27 6989824 20220316155557
+66.249.87.211 0 2 2667234 
+174.198.65.252 6 110 17319369 20220302190709
+174.198.79.144 3 70 9931905 20220310211810
+104.144.229.201 0 2 47800 
+172.58.137.180 2 68 8385335 20220329201050
+37.115.197.44 2 2 29691 20220328221005
+172.58.137.143 1 27 6989824 20220309114434
+40.77.188.158 0 1 23910 
+174.243.112.229 3 70 9931905 20220320194419
+176.34.139.4 2 2 14032 20220312221254
+76.84.119.215 4 167 18043898 20220318164135
+121.5.147.119 1 1 14032 20220307080445
+167.248.15.72 5 145 11896204 20220312192815
+43.204.19.235 1 27 6989824 20220325005833
+92.118.160.37 5 5 70160 20220321145155
+104.218.65.122 2 51 5997159 20220319195121
+74.125.214.87 1 6 326007 20220302140910
+18.144.18.44 1 1 14032 20220314234824
+98.23.141.67 2 71 8398023 20220301154732
+174.242.224.109 1 41 1395511 20220325184136
+174.198.70.10 2 33 5366377 20220319193329
+40.77.189.44 0 1 21237 
+40.131.143.199 2 82 2791022 20220320171118
+193.111.199.113 1 1 14032 20220325061651
+167.160.37.138 2 2 28064 20220324205234
+174.215.245.1 2 68 8385335 20220327194158
+195.246.120.101 2 2 29691 20220320170151
+24.119.141.87 2 28 8530050 20220323223538
+37.113.46.20 1 1 14032 20220314213356
+86.138.42.92 3 46 9587729 20220329100144
+209.99.152.159 1 20 6869079 20220324100020
+157.245.243.223 4 4 56128 20220329120904
+124.120.67.20 0 1 399664 
+174.215.248.97 2 83 2797366 20220305134136
+136.243.176.240 10 10 140320 20220331060305
+173.198.142.84 2 68 8385335 20220309142934
+18.216.112.127 1 1 14032 20220324160547
+13.76.97.26 2 2 28064 20220313195434
+72.46.53.179 2 48 10041900 20220330140555
+174.198.71.122 3 96 15381503 20220326200115
+66.81.179.76 1 1 14032 20220314044317
+164.119.5.103 3 69 9925561 20220309092027
+76.79.10.27 3 117 9021494 20220301142336
+207.46.13.171 0 1 36816 
+174.215.248.238 2 28 8530050 20220327141004
+24.243.192.149 2 68 8385335 20220329182013
+172.58.141.146 1 41 1395511 20220306185421
+40.131.165.68 0 1 399664 
+50.28.9.109 4 4 94859 20220327045640
+167.248.87.93 2 69 8391679 20220317170937
+40.77.188.142 0 1 95992 
+76.84.137.145 2 80 10137887 20220305175523
+37.115.216.247 4 4 59382 20220328011418
+107.77.111.76 0 26 6975792 
+168.62.198.209 1 1 14032 20220308134336
+174.215.246.199 7 184 32895460 20220330211458
+104.144.239.21 2 2 29691 20220306165647
+174.243.112.80 1 42 1401855 20220318204222
+40.131.180.155 2 82 2791022 20220329170239
+34.135.74.15 0 1 342651 
+34.214.129.161 1 1 14032 20220311031417
+148.75.57.128 0 1 1333617 
+75.135.62.132 1 27 6989824 20220326180024
+172.56.13.106 1 1 1540226 20220327173754
+104.218.66.44 1 27 6989824 20220321095815
+164.119.5.126 2 68 8385335 20220309134907
+167.248.22.231 1 41 1395511 20220330202605
+40.77.188.188 0 2 101457 
+174.198.68.136 4 129 15447042 20220312185715
+167.248.41.204 0 2 2667234 
+174.215.242.142 1 29 6996168 20220327125024
+104.154.244.86 0 1 18577 
+172.58.141.2 4 88 10989584 20220308181229
+209.50.24.246 3 70 9931905 20220305124144
+167.248.21.157 2 29 8536394 20220320190202
+76.84.161.107 3 109 9780846 20220301180439
+146.70.25.189 0 26 6975792 
+2.58.149.173 6 6 84192 20220324105125
+174.243.113.255 1 27 6989824 20220319094705
+143.92.56.239 1 1 14032 20220316172534
+42.236.10.93 0 8 2458325 
+104.218.69.247 0 27 6982136 
+152.39.197.59 2 2 28064 20220328211347
+76.84.17.209 1 28 6996168 20220330001243
+162.134.164.64 1 24 5020950 20220324104558
+104.218.65.91 2 108 9726695 20220307180337
+138.199.36.150 1 1 14032 20220316110039
+69.30.189.193 0 4 25376 
+204.137.100.150 5 134 21447884 20220325091943
+74.87.170.162 1 53 13965616 20220331144201
+69.30.186.130 0 14 1731228 
+35.166.182.93 1 1 14032 20220305032218
+35.238.37.48 0 1 18577 
+174.243.113.141 1 18 1057679 20220306091715
+130.255.166.24 1 1 14032 20220329210157
+172.58.61.41 2 50 1740938 20220331173021
+42.236.10.84 2 17 3030113 20220311182353
+167.248.47.47 1 41 1395511 20220304222312
+104.218.66.27 2 51 12992259 20220328132909
+76.84.126.150 8 220 28722389 20220316172215
+98.23.132.116 2 46 11715028 20220312194228
+67.218.93.5 1 27 6989824 20220326200118
+174.212.177.209 1 1 14032 20220316122528
+154.16.49.70 1 1 14032 20220313130150
+212.102.57.4 2 2 29691 20220327031527
+128.84.127.79 1 41 1395511 20220316133210
+167.248.113.24 1 24 5020950 20220327194415
+113.190.226.176 3 3 45350 20220320032358
+174.198.75.107 2 54 13983426 20220326131955
+174.235.192.253 2 29 8698341 20220326172734
+107.77.89.56 2 68 8385335 20220305165146
+174.242.224.217 2 68 8385335 20220319132345
+35.89.50.28 1 1 14032 20220325041636
+207.46.13.184 0 1 5465 
+169.226.15.108 0 1 1333617 
+104.218.67.100 2 50 11386084 20220303170044
+162.210.4.130 1 41 1395511 20220318130401
+104.218.65.135 2 29 8536394 20220320194034
+104.42.178.243 1 1 14032 20220320100422
+174.255.4.19 1 41 1395511 20220324191226
+54.212.153.247 2 56 13992336 20220319061712
+98.239.124.158 1 29 8329785 20220319155715
+104.42.172.91 1 1 14032 20220315012026
+167.248.76.109 5 101 31225716 20220327190848
+45.131.192.239 2 69 8391679 20220319024701
+146.70.54.30 1 1 14032 20220331070858
+58.27.136.131 1 41 1395511 20220315060456
+132.147.130.76 2 68 8385335 20220311122657
+172.58.56.14 3 75 8670056 20220307202443
+166.181.83.92 1 27 6989824 20220303181050
+192.16.112.21 0 7 5609864 
+104.218.65.109 6 120 26144719 20220307203738
+180.190.128.114 2 2 28064 20220309230319
+164.119.5.211 2 51 5997159 20220301141821
+34.135.178.224 1 1 54151 20220319173614
+183.253.80.71 1 1 14032 20220301143822
+76.85.162.58 2 82 2791022 20220315155143
+216.151.180.4 1 1 14032 20220302005651
+136.144.41.14 2 2 28064 20220309115410
+104.28.97.17 2 68 8385335 20220317184729
+104.218.66.200 3 92 14387770 20220307175923
+71.29.209.189 2 82 2791022 20220305141152
+93.159.230.88 1 1 14032 20220317015547
+69.247.184.143 0 1 1333617 
+174.198.74.51 2 28 8530050 20220319173558
+172.225.198.58 2 68 8385335 20220318191252
+174.215.247.45 2 82 2791022 20220321235301
+98.19.44.139 3 89 9462046 20220316185320
+174.215.247.236 1 7 284721 20220311201513
+174.198.80.94 1 28 6996168 20220301180010
+209.50.2.62 2 108 9726695 20220311135015
+205.161.26.250 2 29 8536394 20220313094420
+54.203.51.112 6 6 84192 20220330145239
+107.136.248.79 1 41 1395511 20220303222413
+76.84.52.21 2 82 2791022 20220324195018
+76.85.173.222 2 69 8391679 20220331194639
+34.209.136.89 1 1 14032 20220322042936
+143.55.62.51 3 31 10076620 20220331140920
+54.219.144.19 1 2 20376 20220320125019
+76.84.141.154 2 100 8400501 20220303184505
+81.169.136.222 1 1 14032 20220302122345
+139.162.89.4 1 1 14032 20220321111516
+167.248.114.202 3 30 10076620 20220322185731
+76.85.187.244 8 289 9875496 20220312222220
+174.243.118.202 2 82 2791022 20220304190528
+52.162.90.62 3 3 42096 20220313064833
+174.198.78.242 3 7 273361 20220325134717
+40.131.183.59 4 144 16011318 20220311192315
+174.198.64.72 2 68 8385335 20220310165733
+174.198.73.204 3 150 11129238 20220313104752
+109.162.70.100 4 4 59382 20220313162430
+104.218.71.7 1 41 1395511 20220305130233
+91.197.235.177 1 1 14032 20220324231658
+128.199.92.15 4 4 56128 20220313083257
+191.54.92.26 0 1 8785 
+192.252.214.20 1 1 14032 20220305023337
+185.220.100.250 1 1 14032 20220308201032
+180.163.220.66 1 20 4580229 20220302154725
+167.248.73.201 1 41 1395511 20220322121150
+167.248.17.223 1 1 14032 20220301231940
+167.248.19.4 4 73 16577553 20220319103636
+97.98.138.193 2 83 2797366 20220310173802
+167.248.69.70 4 119 21377594 20220308171404
+94.154.190.216 2 2 29691 20220318121045
+17.58.56.4 1 1 14032 20220311132549
+174.198.69.190 1 27 6989824 20220325170809
+104.218.65.131 3 69 9925561 20220328174015
+74.125.213.5 1 1 1540226 20220302111422
+92.118.160.17 1 1 14032 20220313145441
+34.72.89.200 10 25 6735276 20220318120902
+178.128.61.123 15 15 210480 20220323140302
+162.43.232.183 3 3 82215 20220320203056
+198.240.91.156 2 2 29691 20220314173031
+68.226.61.147 1 27 6989824 20220316210722
+174.198.69.121 5 191 12571868 20220312180350
+104.218.65.10 10 245 34641532 20220326183729
+172.225.4.18 4 147 10188968 20220324192001
+52.168.149.131 21 21 294672 20220326224151
+98.253.79.139 1 27 6989824 20220315111613
+164.92.86.42 2 2 28064 20220313195356
+40.77.188.236 0 1 23910 
+174.215.247.238 1 10 2651099 20220330205642
+167.160.53.180 2 2 28064 20220330212206
+173.231.60.197 6 6 118435 20220323072649
+35.194.16.135 0 1 1333617 
+86.107.55.26 0 26 6975792 
+172.58.63.158 2 68 8385335 20220314180512
+174.198.68.168 1 41 1395511 20220307220743
+108.167.2.171 1 41 1395511 20220322152355
+108.167.58.232 0 19 4494642 
+174.215.224.76 2 42 12064305 20220317112648
+211.21.3.218 0 2 15010 
+172.58.193.94 1 1 1540226 20220305113935
+167.248.124.169 2 109 9733039 20220319174209
+5.161.86.138 1 1 14032 20220322093050
+147.160.146.194 1 8 321537 20220313111335
+40.131.154.149 2 68 8385335 20220329222644
+76.85.169.52 6 204 25156005 20220331175931
+174.235.209.239 2 68 8385335 20220328184435
+174.213.161.136 2 55 15512186 20220328172048
+166.182.85.162 1 27 6989824 20220305161853
+129.222.3.113 1 28 6996168 20220312114043
+111.7.100.24 0 2 27084 
+34.216.18.110 1 1 14032 20220324041547
+207.32.139.30 1 33 1274422 20220319060750
+167.248.2.194 3 69 9925561 20220327125734
+35.234.116.210 8 8 112256 20220329150728
+147.182.206.46 3 3 45350 20220327004658
+76.85.184.194 4 261 9268292 20220308150131
+174.198.67.77 3 95 15375159 20220313171133
+76.85.168.195 5 120 22917820 20220314015229
+174.208.234.234 1 44 1408199 20220325164235
+54.189.105.199 1 1 14032 20220314041944
+76.84.23.80 1 41 1395511 20220302112844
+95.46.176.97 1 1 14032 20220313123457
+97.98.161.146 3 98 15394191 20220312201524
+108.167.5.136 2 68 8385335 20220328125516
+166.181.81.31 2 68 8385335 20220312135142
+195.209.151.194 3 3 45350 20220306080621
+103.232.215.194 1 1 0 20220302064658
+40.77.189.96 0 1 21237 
+174.198.71.7 5 171 18870369 20220313132910
+198.20.67.198 2 12 324950 20220310105040
+167.248.76.50 1 27 6989824 20220309175746
+35.217.92.253 1 1 14032 20220307152537
+167.248.6.182 8 289 34544868 20220318203859
+147.160.48.29 2 85 2797366 20220302175630
+52.12.179.43 2 2 28064 20220327044546
+34.219.144.217 1 1 14032 20220304034017
+36.99.136.133 0 11 1999519 
+45.72.48.130 3 3 39081 20220315055226
+174.215.247.194 1 1 14032 20220302235058
+40.131.162.153 1 41 1395511 20220323151616
+174.215.243.146 1 28 6996168 20220301185846
+154.21.23.76 1 1 14032 20220321010734
+86.102.209.23 1 1 14032 20220325234403
+97.98.195.204 2 56 15518530 20220320131044
+174.198.70.68 1 41 1395511 20220331000052
+157.55.39.161 0 4 64226 
+45.166.31.15 1 1 14032 20220324152307
+167.248.45.124 4 119 21377594 20220325115634
+37.115.118.227 2 2 29691 20220315161614
+54.179.86.236 3 3 42096 20220302144631
+167.248.57.162 2 68 8385335 20220304185244
+104.218.65.14 7 212 20258586 20220319190429
+75.91.60.52 5 134 17323507 20220313170913
+174.215.248.4 0 40 1341360 
+66.84.88.147 0 6 3181531 
+76.84.24.231 2 89 9003082 20220310184705
+51.79.16.44 2 2 28064 20220328065109
+167.248.11.76 4 166 5594732 20220310174043
+172.56.13.42 1 81 2736871 20220329192227
+167.1.173.21 2 42 6078629 20220328171933
+18.236.72.186 1 1 14032 20220308033620
+67.202.52.10 5 41 712960 20220321033109
+161.11.160.100 1 41 1395511 20220311081719
+40.77.190.207 0 1 52768 
+220.181.51.85 0 1 342651 
+174.198.68.47 0 40 1341360 
+104.218.65.24 2 68 8385335 20220305172734
+167.248.64.20 2 62 9089523 20220325114418
+167.248.24.31 1 41 1395511 20220326182440
+34.221.150.6 1 1 14032 20220301033259
+124.42.68.14 2 2 26676 20220313114613
+210.56.53.5 1 1 14032 20220315052212
+172.121.216.59 1 1 14032 20220306031811
+104.218.66.60 2 68 8385335 20220311131102
+76.85.153.181 5 179 18178869 20220321174654
+174.213.160.27 3 49 13372503 20220313191635
+104.218.65.15 4 136 16770670 20220303200935
+104.218.69.188 1 27 6989824 20220324214146
+54.184.253.216 1 1 14032 20220319042545
+204.145.8.199 4 56 17060100 20220309123336
+20.231.228.85 0 2 758884 
+167.1.179.21 4 93 19070888 20220329103902
+172.121.219.199 1 1 14032 20220306031816
+52.26.182.251 1 1 14032 20220309032844
+194.190.90.22 2 2 29691 20220301221609
+164.92.75.21 1 1 14032 20220316055612
+69.30.184.174 1 41 1395511 20220321220325
+90.11.94.71 0 2 2344687 
+101.43.118.245 24 24 336768 20220330165017
+174.215.243.79 2 68 8385335 20220305190102
+3.222.189.136 1 8 134777 20220321064553
+13.68.129.201 1 1 14032 20220302041920
+174.198.65.213 9 230 31186504 20220307195518
+40.77.188.57 0 1 5465 
+89.46.223.134 1 1 14032 20220326212205
+104.218.65.28 4 136 16770670 20220322193402
+194.61.28.220 1 1 0 20220313065951
+5.62.19.40 2 2 29691 20220305163233
+40.131.174.22 1 41 1395511 20220311133721
+173.26.153.49 2 45 8047503 20220312173929
+35.205.158.171 1 1 14032 20220331043405
+174.213.160.39 2 39 7376191 20220308161651
+208.109.188.131 1 1 14032 20220329164941
+20.200.210.253 20 20 280640 20220331155421
+172.58.192.157 3 37 8856184 20220312144911
+69.162.89.188 8 8 1733119 20220322182712
+167.248.56.105 1 27 6989824 20220309164540
+54.191.137.17 4 4 56128 20220325214023
+167.248.47.191 2 68 8385335 20220306110250
+174.215.228.100 1 24 5020950 20220302144835
+148.163.53.144 12 12 168384 20220314115321
+164.119.5.227 1 24 5020950 20220302085728
+174.250.44.4 4 31 11616846 20220306122918
+34.219.249.55 1 1 14032 20220318043238
+139.177.201.181 1 1 14032 20220310071404
+167.248.113.219 2 28 7003856 20220314160306
+34.218.66.134 1 1 54151 20220319211235
+107.77.224.166 2 51 12992259 20220304214607
+20.200.48.16 3 3 42096 20220302042723
+104.218.65.67 3 95 15375159 20220313214457
+34.67.190.118 0 6 2378366 
+167.248.23.133 2 68 8385335 20220304180533
+174.215.248.167 2 20 5658537 20220326193233
+104.232.199.117 1 1 14032 20220320065716
+97.98.139.202 8 182 29169605 20220304185623
+104.28.57.92 0 3 29630 
+40.77.202.26 0 3 79470 
+162.210.7.121 1 24 5020950 20220325185845
+45.132.1.42 2 2 29691 20220301150249
+42.236.17.38 1 14 485944 20220303115222
+113.172.222.86 3 3 45350 20220316122635
+162.255.45.135 2 60 7059141 20220311190217
+104.218.65.46 0 2 2344687 
+24.246.220.177 3 52 14532485 20220324222441
+172.58.56.65 2 28 8530050 20220327215235
+167.248.18.250 1 13 389952 20220323062716
+104.218.65.31 3 69 9925561 20220327170332
+20.231.228.67 1 2 265989 20220325134753
+205.185.209.136 1 1 14032 20220310075234
+69.80.118.63 3 22 3151918 20220327180938
+115.226.129.188 1 1 14032 20220316201043
+34.135.25.172 1 12 2780761 20220329154155
+76.84.34.235 0 26 6975792 
+172.225.4.19 1 27 6989824 20220304194024
+18.237.51.99 1 1 14032 20220318043045
+204.137.100.3 0 1 1333617 
+167.248.23.233 1 16 2756330 20220301200425
+114.99.8.216 1 1 14032 20220317134244
+35.87.89.22 1 1 14032 20220319224543
+66.249.87.215 0 2 2667234 
+167.172.74.247 4 4 56128 20220327074705
+65.254.6.134 0 2 43382 
+174.242.226.90 1 1 14032 20220312132518
+167.248.12.87 4 104 10500693 20220326211842
+104.218.66.2 3 95 15375159 20220317000546
+34.219.106.243 1 1 14032 20220307032339
+34.78.37.150 1 1 14032 20220319055908
+23.236.217.189 6 6 120062 20220316071111
+40.83.183.14 1 1 14032 20220305155301
+167.248.85.243 3 123 4186533 20220318173049
+184.72.168.41 2 2 28064 20220323180206
+185.119.81.104 6 6 118435 20220304135958
+40.131.142.89 4 96 16915385 20220328123751
+54.226.63.54 1 1 14032 20220325153603
+35.133.111.4 2 28 8530050 20220314170137
+171.13.14.23 1 1 14032 20220325022929
+93.124.115.199 2 2 29691 20220304222015
+24.243.218.102 1 41 1395511 20220331213642
+138.199.13.150 1 1 14032 20220331004913
+35.189.215.79 2 2 28064 20220315052400
+35.187.20.26 1 1 14032 20220317120411
+82.207.175.52 1 1 14032 20220320004901
+178.128.107.26 3 3 42096 20220331135449
+173.252.83.116 0 1 21691 
+42.236.10.75 1 32 2362791 20220302141616
+76.85.153.138 1 24 5020950 20220308182625
+122.170.51.76 1 1 14032 20220303055308
+112.5.37.136 11 11 154352 20220329024636
+20.96.2.106 9 9 126288 20220319015942
+174.255.0.49 2 28 8530050 20220307234405
+206.189.31.80 2 2 14032 20220325055324
+76.84.52.30 1 24 5020950 20220318122559
+165.225.59.95 2 59 2453190 20220323190230
+40.131.160.33 3 69 9925561 20220306195655
+36.99.136.143 2 22 2690917 20220321031517
+167.248.80.171 2 68 8385335 20220323181444
+20.77.49.95 2 2 0 20220323145317
+58.8.255.169 3 3 45350 20220309035747
+97.82.238.75 1 24 5020950 20220316091706
+50.96.2.182 1 24 5020950 20220306154031
+104.222.46.68 1 1 0 20220319061703
+192.171.84.85 0 1 3585 
+54.219.93.172 1 1 0 20220303221932
+107.178.194.49 1 4 57021 20220313060741
+73.26.203.15 1 42 1401855 20220323202730
+72.46.48.133 2 68 8385335 20220311120157
+167.248.1.203 2 69 8391679 20220326174655
+172.58.206.159 1 28 6996168 20220324131255
+174.198.72.179 0 40 1341360 
+180.163.220.3 1 24 7033308 20220323150934
+174.215.249.12 4 119 21377594 20220317154634
+20.115.42.35 6 6 84192 20220319032337
+119.13.205.6 2 2 29691 20220309095559
+35.187.132.212 4 4 216604 20220330205040
+76.85.158.153 0 2 697803 
+104.222.162.28 7 7 132467 20220320065725
+54.185.246.217 1 1 14032 20220314041939
+104.218.65.66 4 150 11176357 20220319190825
+52.35.20.1 6 6 118435 20220302200806
+124.206.180.138 1 2 20376 20220330152942
+174.198.64.10 1 81 2736871 20220311190041
+174.198.71.172 2 68 8385335 20220309184649
+89.163.249.192 3 3 80827 20220306043518
+174.215.245.106 3 166 12125734 20220317011036
+164.119.5.179 2 48 10041900 20220314183440
+35.223.148.225 1 1 14032 20220319173614
+50.96.216.223 1 45 12639422 20220316211047
+138.128.6.254 0 2 17412 
+34.140.107.62 1 1 14032 20220310151240
+172.58.143.166 0 40 1341360 
+174.198.68.251 1 41 1395511 20220307194700
+174.198.71.82 0 40 1341360 
+104.218.67.81 0 18 5649598 
+40.131.159.70 5 134 17323507 20220305160509
+69.80.118.35 2 82 2791022 20220306132921
+178.67.38.193 4 4 59382 20220313075502
+72.46.55.18 2 108 9726695 20220318163602
+40.117.86.197 12 12 168384 20220328152034
+99.73.208.83 1 28 6996168 20220318024048
+89.175.184.250 1 1 14032 20220328111737
+159.69.58.136 7 7 1658661 20220310022058
+174.198.71.15 1 27 6989824 20220319151853
+108.167.3.251 6 166 25313408 20220305185350
+174.198.67.6 2 68 8385335 20220306195107
+108.167.25.86 5 182 6639723 20220301172935
+163.116.147.49 6 172 21670645 20220310130013
+174.198.67.34 2 83 2797366 20220331183113
+49.69.195.98 1 1 54151 20220331003335
+72.46.48.244 1 24 5020950 20220329105412
+174.248.224.21 3 38 8881821 20220322124656
+71.28.134.153 4 75 10194768 20220315203502
+40.131.177.187 2 29 8536394 20220312132840
+8.218.43.179 1 1 14032 20220321163033
+174.215.247.64 2 28 8530050 20220325230723
+5.62.57.14 1 1 14032 20220317155253
+54.191.229.247 1 1 14032 20220315042933
+76.84.34.207 2 29 8536394 20220303203836
+174.198.73.173 2 68 8385335 20220330154542
+104.218.66.7 3 30 8550426 20220308140703
+109.102.111.39 2 2 29691 20220326134248
+76.84.243.3 5 121 22924164 20220317113434
+173.171.48.51 1 42 1401855 20220310101332
+174.255.0.88 1 6 269207 20220303125248
+40.77.190.75 0 1 21237 
+35.233.122.106 1 1 14032 20220304182843
+20.232.168.81 3 3 42096 20220330115430
+174.198.77.133 3 118 4897065 20220321191532
+23.229.42.138 1 1 14032 20220301132430
+36.99.136.135 1 11 2724340 20220321031438
+152.22.52.25 0 1 1333617 
+174.198.75.30 1 42 1401855 20220318152109
+181.221.126.167 1 1 14032 20220310150937
+167.248.1.54 1 28 6996168 20220325190355
+165.225.57.79 3 69 9925561 20220322103209
+35.171.133.46 1 8 134777 20220328000415
+34.69.57.52 0 3 2363264 
+35.87.14.31 1 1 14032 20220324044222
+104.233.61.113 1 1 0 20220324221554
+20.231.197.116 0 1 320022 
+20.231.228.105 1 4 1066280 20220325135307
+97.98.164.30 1 24 5020950 20220304154220
+174.215.245.169 2 68 8385335 20220301131221
+174.198.67.213 1 13 389952 20220310201944
+134.195.74.66 7 140 21397692 20220308202611
+40.131.139.187 4 49 13157262 20220327150216
+174.215.226.123 7 206 12997543 20220324003625
+108.167.36.222 2 68 8385335 20220328180825
+72.46.48.170 2 68 8385335 20220301121452
+34.215.188.54 1 1 14032 20220312031059
+52.168.13.213 14 14 196448 20220311042121
+111.7.100.26 1 5 243312 20220321031509
+35.205.52.43 1 1 14032 20220328214402
+174.198.139.103 3 22 9148998 20220322100053
+137.184.61.74 3 3 42096 20220322082920
+104.192.108.10 0 8 2438402 
+174.215.247.198 1 28 6996168 20220317204632
+72.46.48.243 1 24 5020950 20220315132501
+154.6.25.23 3 69 14049938 20220310010903
+167.248.23.123 2 69 8391679 20220303185002
+198.51.51.13 2 28 8530050 20220331225407
+52.13.175.61 1 1 14032 20220318041727
+167.248.96.107 2 82 2750903 20220308191304
+162.127.23.4 0 1 1333617 
+167.248.5.21 4 121 11542713 20220305183529
+98.18.228.45 4 150 11176357 20220331183525
+185.27.99.137 1 1 14032 20220322013243
+104.218.66.84 3 70 9931905 20220323193959
+167.248.0.238 6 102 10426825 20220313181354
+104.218.70.235 1 24 5020950 20220315161455
+172.58.83.12 2 69 8391679 20220304134726
+98.22.95.42 2 68 8385335 20220328204913
+167.248.105.245 2 68 8385335 20220327170023
+37.76.57.109 1 27 6989824 20220329121114
+91.242.162.8 2 2 1555885 20220311112938
+172.58.230.147 3 93 14394114 20220310192744
+98.21.132.2 1 41 1395511 20220316212647
+67.227.38.188 1 1 14032 20220315072706
+174.243.112.85 1 41 1395511 20220326175256
+132.147.130.61 3 103 14615807 20220310212233
+141.101.77.66 1 1 14032 20220323090433
+174.215.224.6 1 1 1540226 20220309131638
+173.244.142.130 4 119 21377594 20220324164615
+65.154.226.220 2 35 7124601 20220313070819
+174.215.249.85 1 41 1395511 20220313155237
+62.228.64.20 0 1 1333617 
+76.84.140.50 2 59 2453190 20220314203634
+34.67.94.145 0 2 1345908 
+104.218.67.19 3 29 10070276 20220308200633
+104.218.65.181 1 27 6989824 20220320183312
+166.181.81.17 1 41 1395511 20220327144827
+76.84.16.154 4 82 22509698 20220329163752
+17.58.56.6 1 1 14032 20220326212351
+76.84.8.243 0 1 404916 
+174.198.65.77 2 28 8530050 20220331134351
+40.131.155.147 2 55 15512186 20220312192332
+69.30.185.122 2 69 8391679 20220325140410
+207.91.52.131 2 51 5997159 20220314155351
+36.99.136.141 0 6 709677 
+167.248.27.190 5 72 6790686 20220304202301
+172.56.13.159 1 21 5648040 20220327181427
+167.248.2.199 3 69 8399367 20220306090931
+35.232.217.201 0 1 940992 
+101.95.60.32 1 1 0 20220330152604
+20.212.196.247 18 18 252576 20220309205948
+47.216.36.54 1 41 1395511 20220318143050
+205.169.39.131 2 35 7124601 20220305100210
+164.92.70.104 2 2 28064 20220309093601
+76.84.44.127 3 109 9780846 20220322175953
+34.98.143.54 23 23 1205354 20220327161047
+40.77.189.245 0 1 52768 
+104.144.7.225 0 2 12497 
+34.72.14.0 13 109 25420078 20220319173707
+167.248.75.75 3 56 15688165 20220312180230
+104.232.199.218 1 1 0 20220319061703
+37.209.161.226 1 1 14032 20220322174324
+104.28.97.88 1 27 6989824 20220312153606
+172.58.60.6 5 115 22579015 20220327141333
+54.165.69.195 3 3 42096 20220307160022
+216.165.226.242 0 2 2344687 
+69.63.111.66 2 68 8385335 20220310122020
+174.215.226.194 1 1 14032 20220309100747
+156.146.36.66 2 2 29691 20220329105422
+76.84.242.122 4 136 16770670 20220330095212
+167.248.104.28 1 3 189355 20220313164831
+59.175.144.15 5 5 70160 20220330025600
+111.7.100.22 2 25 2009754 20220321031517
+76.85.154.153 1 41 1395511 20220309123930
+76.78.92.175 3 3 42096 20220315223142
+97.98.205.70 1 24 5020950 20220307164949
+174.215.246.39 1 24 6655383 20220304183528
+65.154.226.167 2 54 13979648 20220313070824
+76.84.54.99 4 165 5588388 20220324193706
+54.176.205.175 0 2 12688 
+174.198.77.152 1 1 14032 20220305125212
+112.5.37.153 12 12 168384 20220330092137
+49.204.223.133 9 211 49497213 20220311132748
+172.58.62.177 1 41 1395511 20220331163023
+40.131.166.4 2 68 8385335 20220325041034
+174.215.243.190 2 28 8530050 20220326215809
+174.215.246.57 1 28 6996168 20220326200358
+76.84.109.46 1 24 5020950 20220323143840
+97.119.108.197 4 96 21039762 20220304151905
+209.50.31.34 2 68 8385335 20220308154119
+76.85.169.98 4 96 16915385 20220308183540
+103.97.200.246 1 1 0 20220310031933
+192.40.218.6 4 136 16770670 20220329162826
+136.243.22.189 12 12 168384 20220316140011
+192.104.218.218 2 28 8530050 20220318143302
+167.248.64.163 5 140 23422662 20220331195200
+107.77.206.195 1 42 1401855 20220305162814
+167.248.106.251 3 90 3082087 20220327165416
+194.187.171.113 1 1 14032 20220330122211
+120.197.221.179 1 1 14032 20220310063615
+97.98.224.182 7 163 11724717 20220320173240
+40.131.172.87 8 280 32781988 20220311141527
+20.230.3.19 12 12 168384 20220327040027
+172.58.192.236 2 29 8536394 20220314152452
+40.77.190.104 0 1 14238 
+172.58.61.246 0 14 377214 
+107.77.161.9 1 28 6996168 20220318180440
+76.84.120.55 1 27 6989824 20220325193135
+76.85.138.142 3 109 9780846 20220323010216
+104.218.65.49 1 24 5020950 20220322171707
+76.84.113.51 5 65 17405527 20220319200032
+104.218.66.110 6 40 7373833 20220322173334
+209.50.6.50 4 127 20618242 20220311112630
+209.99.152.0 1 20 6869079 20220319060750
+104.218.66.77 9 290 34599019 20220329181545
+211.181.124.77 1 1 14032 20220318004003
+222.186.43.58 1 1 14032 20220322152510
+163.182.232.202 1 1 14032 20220329064457
+5.95.133.95 2 2 28064 20220330205724
+174.208.233.187 2 68 8385335 20220319122640
+46.161.11.4 4 4 136366 20220323064846
+34.79.22.16 1 1 14032 20220322012208
+104.218.66.181 2 109 9733039 20220312202601
+103.240.34.130 2 2 0 20220331144936
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220301 133 2291 292328610 73
+20220302 135 2334 327658334 76
+20220303 129 2221 304084702 69
+20220304 167 2716 352519899 82
+20220305 152 3199 428426974 71
+20220306 138 2026 242857483 71
+20220307 171 2562 324454145 73
+20220308 174 2888 417724266 84
+20220309 148 2118 274136259 79
+20220310 168 2601 314469226 73
+20220311 186 2951 405120349 78
+20220312 188 3668 442560819 104
+20220313 160 1983 300058503 90
+20220314 141 2462 349451655 66
+20220315 135 2124 271617102 72
+20220316 139 1780 256444007 73
+20220317 57 1205 153294719 35
+20220318 146 2880 346077523 77
+20220319 199 3406 555944137 101
+20220320 184 2181 293943118 74
+20220321 118 1521 185640959 72
+20220322 155 1705 247363545 89
+20220323 122 1705 255783378 63
+20220324 171 3183 363398083 81
+20220325 156 2962 413482955 82
+20220326 216 3547 523847660 97
+20220327 159 2596 404703739 72
+20220328 134 2870 439482262 68
+20220329 122 1783 246527827 65
+20220330 141 2133 329588594 74
+20220331 144 2685 349498487 73
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 87
+30s-2mn 186
+15mn-30mn 35
+2mn-5mn 91
+0s-30s 1906
+30mn-1h 41
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 8
+/ 3035 42053904 1931 1403
+/ourmenu.html 964 52147413 331 602
+/asianfusion-allyoucaneat-menu.pdf 234 360412884 31 151
+/contact.html 234 3648547 33 131
+/about.html 142 1553397 19 42
+/gallery.html 71 668080 11 24
+/blog/robots.txt 7 0 1 4
+/takeoutdeal.pdf 1 74458 0 0
+END_SIDER

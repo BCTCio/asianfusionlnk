@@ -1,0 +1,60 @@
+/**
+ * Tabs
+ */
+.tabs {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabs label {
+  -webkit-box-ordinal-group: 2;
+  order: 1;
+  display: block;
+padding: 1rem 1.5rem;
+
+  cursor: pointer;
+  background: #333;
+  font-weight: bold;
+  -webkit-transition: background ease 0.2s;
+  transition: background ease 0.2s;
+  color: #fff;
+}
+
+.tabs .tab {
+  -webkit-box-ordinal-group: 100;
+          order: 99;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff;
+}
+
+.tabs input[type="radio"] {
+  display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+  background: #e51e25;
+  color: #fff;
+}
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    -webkit-box-ordinal-group: initial;
+            order: initial;
+  }
+
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem;
+  }
+}
